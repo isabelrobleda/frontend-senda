@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function SixCardHome() {
   return (
@@ -14,9 +15,10 @@ function SixCardHome() {
           eiusmod tempor ipsum dolor sit amet incididunt.
         </div>
         <div className="mt-6">
-          <button className="px-6 py-3 bg-[#b0cb4f] rounded-2xl text-neutral-100 text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+          <Link to="/reconocimientos-certificaciones"><button className="px-6 py-3 bg-[#b0cb4f] rounded-2xl text-neutral-100 text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
             Descubre más
           </button>
+          </Link>
         </div>
       </div>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">

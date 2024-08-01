@@ -3,19 +3,18 @@ import React from "react";
 function Mision() {
   return (
     <>
-      <div className="h-[642px] w-full p-16 bg-[#f9f9fe] flex-col justify-center items-start gap-12 inline-flex">
-        <div className="self-stretch h-[291px] px-16 flex-col justify-start items-start gap-12 flex">
-          <div className="w-[523px] text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+      <div className="w-full h-[645px] p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-start gap-12">
+        <div className="w-full flex flex-col justify-start items-start gap-12">
+          <div className="w-full text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
             Mision y Vision
           </div>
-          <div className="self-stretch justify-start items-start gap-10 inline-flex">
-            <div className="w-[523px] flex-col justify-start items-start gap-4 inline-flex">
-              <div className="self-stretch text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">
+          <div className="w-full flex flex-col md:flex-row justify-start items-start gap-10">
+            <div className="w-full md:w-[50%] flex flex-col justify-start items-start gap-4">
+              <div className="text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">
                 Misión
               </div>
-              <div className="self-stretch text-[#757575] text-base font-normal font-['Inter'] leading-snug ">
+              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
                 <b>"Ser una Comunidad que educa para trascender"</b>
-                
                 <br />
                 Somos una comunidad educativa inmersa en la cultura de
                 pensamiento, comprometida con el bienestar emocional de cada
@@ -23,11 +22,11 @@ function Mision() {
                 resilientes.
               </div>
             </div>
-            <div className="w-[523px] flex-col justify-start items-start gap-4 inline-flex">
-              <div className="self-stretch text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">
+            <div className="w-full md:w-[50%] flex flex-col justify-start items-start gap-4">
+              <div className="text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">
                 Visión
               </div>
-              <div className="self-stretch text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
                 Ser una escuela reconocida por la calidad y la innovación
                 educativa. La excelencia de sus educadores competentes,
                 capacitados y comprometidos en vivir y transmitir valores
@@ -41,27 +40,27 @@ function Mision() {
           </div>
         </div>
       </div>
-      <div className="h-[487px] px-16 py-32 flex-col justify-center items-center gap-20 inline-flex">
-        <div className="self-stretch justify-center items-start gap-8 inline-flex">
-          <div className="w-[415.51px] h-[340px] relative">
-            <div className="w-[415.51px] h-[340px] left-0 top-0 absolute" />
+      <div className="w-full px-8 md:px-16 py-16 md:py-32 flex flex-col justify-center items-center gap-8 md:gap-20">
+        <div className="w-full flex flex-col md:flex-row justify-center items-start gap-8 md:gap-8">
+          <div className="w-full md:w-[30%] h-auto relative">
             <img
-              className="w-[628.16px] h-auto left-[-67.21px] top-0 absolute"
+              className="w-full h-72 rounded-lg"
               src="src/assets/Mision.jpeg"
+              alt="Mision"
             />
           </div>
-          <div className="w-[415.51px] h-auto relative">
-            <div className="w-[415.51px] h-[340px] left-0 top-0 absolute " />
+          <div className="w-full md:w-[30%] h-72 relative">
             <img
-              className="w-[628.16px] h-auto left-[-67.21px] top-0 absolute"
+              className="w-full h-auto rounded-lg"
               src="src/assets/mision02.png"
+              alt="Mision 02"
             />
           </div>
-          <div className="w-[415.51px] h-[340px] relative">
-            <div className="w-[415.51px] h-[340px] left-0 top-0 absolute " />
+          <div className="w-full md:w-[30%] h-72 relative">
             <img
-              className="w-[628.16px] h-auto left-[-67.21px] top-0 absolute"
+              className="w-full h-72 rounded-lg"
               src="src/assets/mision01.jpeg"
+              alt="Mision 01"
             />
           </div>
         </div>

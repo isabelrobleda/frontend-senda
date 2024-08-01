@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function MainHome() {
   return (
@@ -22,14 +23,16 @@ function MainHome() {
           </div>
           <div className="self-stretch justify-start items-center gap-4 inline-flex">
             <div className="px-6 py-3 bg-[#009bce] rounded-2xl justify-center items-center gap-2 flex">
-              <button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+              <Link to="/aplica-al-senda"><button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                 Unete al Colegio Senda
               </button>
+              </Link>
             </div>
             <div className="px-6 py-3 bg-[#b0cb4f] rounded-2xl justify-center items-center gap-2 flex">
-              <button className="text-neutral-100 text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+              <Link to="/misionyvision"><button className="text-neutral-100 text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                 Descubre más
               </button>
+              </Link>
             </div>
           </div>
         </div>
