@@ -6,98 +6,97 @@ function SixCardHome() {
     <div className="w-full bg-white py-16 px-4 md:px-16 flex flex-col justify-center items-center gap-12">
       <div className="w-full text-left">
         <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-          ¿Qué nos hace la mejor escuela
+          ¿Qué hace al Colegio Senda
           <br />
-          de la Ciudad de México?
+          la mejor opción?
         </div>
         <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug mt-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor ipsum dolor sit amet incididunt.
+          Nos caracterizamos por ser una escuela reconocida por la calidad y la
+          innovación educativa.
         </div>
         <div className="mt-6">
-          <Link to="/reconocimientos-certificaciones"><button className="px-6 py-3 bg-[#b0cb4f] rounded-2xl text-neutral-100 text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
-            Descubre más
-          </button>
+          <Link to="/reconocimientos-certificaciones">
+            <button className="px-6 py-3 bg-[#b0cb4f] rounded-2xl text-neutral-100 text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+              Descubre más
+            </button>
           </Link>
         </div>
       </div>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
-          <div className="w-12 h-12 relative" />
+          <img
+            className="w-20 h-20 relative"
+            src="src/assets/icon-teacher.png"
+          />
           <div className="w-full">
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-              “Quote”
+              Educadores que inspiran
             </div>
           </div>
           <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam.
+            Educadores comprometidos con los alumnos y sus familias para
+            trabajar juntos por un mundo mejor.
           </div>
         </div>
         <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
-          <div className="w-12 h-12 relative" />
+          <img
+            className="w-20 h-20 relative"
+            src="src/assets/icon-innovation.png"
+          />
           <div className="w-full">
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-              “Quote”
+              Colegio Innovador
             </div>
           </div>
           <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam.
+            Somos una de las 15 escuelas más innovadoras de México y
+            proporcionamos nuestros las herramientas digitales del siglo XXI.
           </div>
         </div>
         <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
-          <div className="w-12 h-12 relative" />
+          <img
+            className="w-20 h-20 relative"
+            src="src/assets/icon-excellence.png"
+          />
           <div className="w-full">
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-              “Quote”
+              Alto Nivel de Inglés
             </div>
           </div>
           <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam.
+            Los alumnos aprenden inglés desde pequeños lo que asegura que lo
+            lleguen a dominar y puedan aprender de forma bilingüe.
           </div>
         </div>
         <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
-          <div className="w-12 h-12 relative" />
+          <img
+            className="w-20 h-20 relative"
+            src="src/assets/icon-english.png"
+          />
           <div className="w-full">
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-              “Quote”
+              Educación de Excelencia
             </div>
           </div>
           <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam.
+            Nuestro objetivo es lograr los más altos estándares de nivel
+            académico, calidad de enseñanza y resultados educativos. Promovemos
+            el pensamiento crítico, la inteligencia emocional, la adaptabilidad,
+            las competencias tecnológicas, y la colaboración.
           </div>
         </div>
         <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
-          <div className="w-12 h-12 relative" />
+          <img className="w-20 h-20 relative" src="src/assets/icon-model.png" />
           <div className="w-full">
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-              “Quote”
+              Modelo Senda
             </div>
           </div>
           <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam.
-          </div>
-        </div>
-        <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
-          <div className="w-12 h-12 relative" />
-          <div className="w-full">
-            <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-              “Quote”
-            </div>
-          </div>
-          <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam.
+            Humanista. Constructivista. Basado en la Cultura del Pensamiento.
+            Bilingüe. Incluyente. Personalizado. Promueve el pensamiento ético y
+            resolución de conflictos, el trabajo por proyectos, colaborativo y
+            personal.
           </div>
         </div>
       </div>

@@ -38,7 +38,7 @@ function App() {
           <Route path="/nuestra-historia" element={<Historia />} />
           <Route path="/inspiracion-conviccion" element={<Inspiracion />} />
           <Route
-            path="/reconocimientos-certificaciones"
+            path="/Schöningstraße 9, Mitte"
             element={<Reconocimientos />}
           />
           <Route path="/casos-de-exito" element={<CasosExito />} />

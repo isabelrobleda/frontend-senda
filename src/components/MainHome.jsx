@@ -11,14 +11,14 @@ function MainHome() {
         <div className="grow shrink basis-0 flex-col justify-start items-center gap-8 inline-flex">
           <div className="self-stretch flex-col justify-start items-start gap-6 flex">
             <div className="self-stretch text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold text-pangea leading-tight md:leading-[68.40px]">
-              Getting the best quality
+            Ser una Comunidad que 
               <br />
-              education is now more easy
+              educa para trascender.
             </div>
             <div className="self-stretch text-[#757575] text-lg md:text-2xl font-semibold font-['Inter'] leading-snug md:leading-[28.80px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing
+            Somos una comunidad educativa inmersa en la cultura de pensamiento, comprometida con el bienestar emocional
               <br />
-              elit, sed do eiusmod tempor ipsum dolor sit amet incididunt.
+                 de cada alumno.
             </div>
           </div>
           <div className="self-stretch justify-start items-center gap-4 inline-flex">
