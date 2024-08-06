@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function TestimonialsHome() {
   return (
-    <div className="w-full h-auto p-8 md:p-16 bg-white flex flex-col justify-center items-center gap-12 ">
+    <div className="w-full md:h-screen h-auto p-8 md:p-16 bg-white flex flex-col justify-center items-center gap-12 ">
       <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-12">
         <div className="w-full lg:w-1/2 flex flex-col justify-center items-start gap-4">
           <div className="text-[#1e1e1e] text-3xl md:text-5xl font-bold font-['Inter'] leading-tight md:leading-[57.60px] md:pt-24">

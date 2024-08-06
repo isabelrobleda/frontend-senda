@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 function SixCardHome() {
   return (
     <div className="w-full bg-white py-16 px-4 md:px-16 flex flex-col justify-center items-center gap-12">
+    
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
       <div className="w-full text-left">
         <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
           ¿Qué hace al Colegio Senda
@@ -22,7 +24,6 @@ function SixCardHome() {
           </Link>
         </div>
       </div>
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
           <img
             className="w-20 h-20 relative"
@@ -34,7 +35,7 @@ function SixCardHome() {
             </div>
           </div>
           <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
-            Educadores comprometidos con los alumnos y sus familias para
+            Todos nuestros educadores están comprometidos con los alumnos y sus familias para
             trabajar juntos por un mundo mejor.
           </div>
         </div>
@@ -80,9 +81,7 @@ function SixCardHome() {
           </div>
           <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
             Nuestro objetivo es lograr los más altos estándares de nivel
-            académico, calidad de enseñanza y resultados educativos. Promovemos
-            el pensamiento crítico, la inteligencia emocional, la adaptabilidad,
-            las competencias tecnológicas, y la colaboración.
+            académico, calidad de enseñanza y resultados educativos. 
           </div>
         </div>
         <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
@@ -94,9 +93,7 @@ function SixCardHome() {
           </div>
           <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
             Humanista. Constructivista. Basado en la Cultura del Pensamiento.
-            Bilingüe. Incluyente. Personalizado. Promueve el pensamiento ético y
-            resolución de conflictos, el trabajo por proyectos, colaborativo y
-            personal.
+            Bilingüe. Incluyente. Personalizado. Promueve el pensamiento ético.
           </div>
         </div>
       </div>

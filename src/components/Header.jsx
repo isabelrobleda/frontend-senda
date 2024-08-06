@@ -141,7 +141,7 @@ function Header() {
           <div className="px-4 py-2 bg-[#009bce] rounded-2xl flex items-center hover:cursor-pointer">
             <Link to="/">
             <div className="text-white text-base font-normal font-['Inter'] leading-none">
-              Log in
+              Comunidad Senda
             </div>
             </Link>
           </div>
@@ -279,7 +279,7 @@ function Header() {
           </div>
           <button className="px-4 py-2 mt-4 bg-[#009bce] rounded-2xl flex justify-center items-center w-full hover:cursor-pointer ">
             <p className="text-white text-base font-normal font-['Inter'] leading-none">
-              Log in
+            Comunidad Senda
             </p>
           </button>
         </div>

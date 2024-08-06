@@ -1,8 +1,31 @@
 @font-face {
-    font-family: 'Pangea';
-    src: url('/fonts/Pangea-Regular.woff2') format('woff2'),
-         url('/fonts/Pangea-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+     font-family: 'Pangea';
+     src: url('src/assets/fonts/FwTRIAL-Pangea-Bold.otf') format('truetype');
+     font-weight: bold;
+     font-style: normal;
+   }
+
+     @font-face {
+           font-family: 'Pangea';
+           src: url('src/assets/fonts/FwTRIAL-Pangea-SemiBold.otf') format('truetype');
+           font-weight: 600;
+           font-style: normal;
+       }
+
+   
+     @font-face {
+       font-family: 'Pangea';
+       src: url('src/assets/fonts/FwTRIAL-Pangea-Regular.otf') format('truetype');
+       font-weight: normal;
+       font-style: normal;
+     }
+
+
+body {
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     font-family: 'Pangea', sans-serif;
+}
+
+
   

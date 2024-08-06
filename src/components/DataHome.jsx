@@ -10,7 +10,7 @@ function DataHome() {
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="w-full md:w-80 grow shrink basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6"
+            className="w-full md:w-80 grow shrink basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md"
             style={{ height: '400px' }}
           >
             <div className="relative w-28 h-28 flex justify-center items-center">
@@ -21,12 +21,12 @@ function DataHome() {
                 style={{ top: '-40px' }}
               />
             </div>
-            <div className="self-stretch flex flex-col justify-start items-center gap-4 mt-12">
+            <div className="self-stretch flex flex-col justify-start items-center gap-4">
               <div className="self-stretch flex flex-col justify-start items-center gap-2">
                 <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   {card.title}
                 </div>
-                <div className="self-stretch text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                <div className="self-stretch text-center text-[#757575] text-base font-light font-inter leading-[22.40px]">
                   {card.description}
                 </div>
               </div>
@@ -49,18 +49,18 @@ const cardsData = [
     image: "src/assets/brain02.png",
     alt: "Placeholder",
     title: "Top 100 mejores escuelas",
-    description: "De acuerdo con tres criterios: certificaciones internacionales, compromiso con el bienestar de la comunidad educativa y la felicidad de los alumnos, e innovación."
+    description: "Somos reconocidos por: Certificaciones internacionales, compromiso con el bienestar y la felicidad de la comunidad educativa, e innovación."
   },
   {
     image: "src/assets/brain04.png",
     alt: "Placeholder",
-    title: "100% de nuestros maestros son Apple Teacher",
-    description: "Un programa de aprendizaje profesional diseñado para apoyar y reconocer a los maestros que usan productos Apple en la enseñanza."
+    title: "100% de maestros son Apple Teacher",
+    description: "Un programa de aprendizaje diseñado para apoyar y reconocer a los maestros que usan productos Apple en la enseñanza."
   },
   {
     image: "src/assets/brain03.png",
     alt: "Placeholder",
-    title: "Bicultural",
+    title: "Colegio Bicultural y Bilingüe",
     description: "El Colegio Senda hace que el alumno adquiera el inglés de manera natural a través de programas integrados e interdisciplinarios."
   }
 ];
