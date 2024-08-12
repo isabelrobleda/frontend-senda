@@ -83,55 +83,58 @@ function Reconocimientos() {
         <div className="w-full flex flex-col justify-start items-start gap-6">
           <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
             <div className="w-full md:w-[700px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <div className="w-12 h-12 relative" />
+              <img className=" h-12 relative py-2" src="src/assets/reconocimientos/canva-logo-png.png"/>
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                  “Quote”
+                  Top 15 de escuelas innovadoras en México
                 </div>
               </div>
               <div className="self-stretch text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
+                Gracias a nuestras instalaciones y equipamiento, uso de tecnologías educativas y
+                metodologías innovadoras para
+                desarrollar el potencial creativo, sensible e intelectual de nuestros
+                alumnos. Promovemos la práctica de innovaciones educativas y propuestas pedagógicas de vanguardia.
               </div>
             </div>
             <div className="w-full md:w-[350px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <div className="w-12 h-12 relative" />
+              <img className=" h-12 relative" src="src/assets/reconocimientos/knotion.png"/>
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                  “Quote”
+                  Insignias Knotion
                 </div>
               </div>
               <div className="self-stretch text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
+                Sharing talents. Creating Bonds. Kn-Saving our Planet. Impact
+                journey. We Make It Ours. Knotion Talks. Knotion Academy.
               </div>
             </div>
           </div>
           <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
             <div className="w-full md:w-[350px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <div className="w-12 h-12 relative" />
+              <img className=" h-12 relative" src="src/assets/reconocimientos/APPLE-TEACHER.jpeg" />
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                  “Quote”
+                  100% de profesores Apple Teacher
                 </div>
               </div>
               <div className="self-stretch text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
+                Nuestros profesores usan tecnología de Apple para ampliar las
+                posibilidades de aprendizaje.
               </div>
             </div>
             <div className="w-full md:w-[700px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <div className="w-12 h-12 relative" />
+              <img className=" h-12 relative" src="src/assets/reconocimientos/whole-schools.jpg" />
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                  “Quote”
+                  Top 100 Schools in Mexico
                 </div>
               </div>
               <div className="self-stretch text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
+                Nuestro compromiso con la excelencia educativa nos distingue, de
+                acuerdo con tres sólidos criterios pedagógicos: Certificaciones
+                internacionales; compromiso con el bienestar de la comunidad
+                educativa y la felicidad de los estudiantes; innovación; e
+                igualdad.
               </div>
             </div>
           </div>
