@@ -2,7 +2,7 @@ import React from 'react';
 
 function Reviews() {
   return (
-    <div className="w-full p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-8">
+    <div className="w-full md:h-screen p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-8">
       <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
       Nuestro feedback
       </div>

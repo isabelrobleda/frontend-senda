@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 function OfertaHome() {
   return (
     <div className="w-full md:h-screen px-4 md:px-16 py-16 bg-[#f4f6f8] flex flex-col justify-center items-center gap-10">
-      <div className="w-full text-left text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+      <div className="w-full text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
         Oferta educativa
       </div>
       <div className="w-full flex flex-col gap-10">
         <div className="w-full flex flex-col md:flex-row justify-center items-center gap-10">
-          <div className="w-full md:h-80 md:w-auto flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow bg-[#E9EBEF] items-center">
+          <div className="w-full md:h-80 md:w-[700px] flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow bg-[#E9EBEF] items-center">
             <div className="w-full md:w-[357px] flex flex-col justify-between">
               <div className="flex flex-col gap-4">
                 <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -35,7 +35,7 @@ function OfertaHome() {
               className=" md:self-stretch"
             />
           </div>
-          <div className="w-full md:w-auto md:h-80 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow bg-[#E9EBEF] items-center">
+          <div className="w-full md:w-[700px] md:h-80 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow bg-[#E9EBEF] items-center">
             <div className="w-full md:w-[357px] flex flex-col justify-between">
               <div className="flex flex-col gap-4">
                 <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -62,7 +62,7 @@ function OfertaHome() {
           </div>
         </div>
         <div className="w-full flex flex-col md:flex-row justify-center items-center gap-10">
-          <div className="w-full md:w-auto md:h-80 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow bg-[#E9EBEF] items-center">
+          <div className="w-full md:w-[700px] md:h-80 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow bg-[#E9EBEF] items-center">
             <div className="w-full md:w-[357px] flex flex-col justify-between">
               <div className="flex flex-col gap-4">
                 <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -87,7 +87,7 @@ function OfertaHome() {
               className="md:self-stretch"
             />
           </div>
-          <div className="w-full md:w-auto md:h-80 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow bg-[#E9EBEF] items-center">
+          <div className="w-full md:w-[700px] md:h-80 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow bg-[#E9EBEF] items-center">
             <div className="w-full md:w-[357px] flex flex-col justify-between">
               <div className="flex flex-col gap-4">
                 <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">

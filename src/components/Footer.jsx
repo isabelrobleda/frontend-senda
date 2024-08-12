@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="w-full p-8 md:p-12 bg-gradient-to-br from-[#011b34] to-[#1a2f59] flex flex-col justify-start items-start gap-12 ">
-      <div className="w-full flex flex-col md:flex-row justify-between items-start gap-12">
+      <div className="w-full md:max-w-[1440px] self-center flex flex-col md:flex-row justify-between items-start gap-12">
         <div className="flex flex-col justify-start items-start gap-12">
           <div className="flex flex-col justify-start items-start gap-4">
             <div className="w-36 h-[85.82px] flex justify-center items-center">

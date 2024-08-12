@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 function CTAApply() {
   return (
-    <div className="relative w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
-      <div className="relative flex flex-col md:flex-row justify-center items-start gap-12 ">
-        <div className=" md:h-[339px] absolute inset-0 bg-gradient-to-r from-[#00a4da] to-[#b3cf3f] rounded-2xl opacity-50 z-0"></div>
+    <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
+      <div className="relative flex flex-col md:flex-row justify-center items-start gap-12">
+        <div className="md:h-[339px] absolute inset-0 bg-gradient-to-r from-[#00a4da] to-[#b3cf3f] rounded-2xl opacity-50 z-0"></div>
         <div className="relative w-full md:w-[528px] p-10 md:pl-10 md:pr-4 md:pb-10 flex flex-col justify-start items-start gap-6 z-10">
           <div className="w-full flex flex-col justify-start items-start gap-4">
-            <div className="w-full text-[#1e1e1e] text-2xl md:text-[32px] font-medium text-pangea leading-snug md:leading-[38.40px]">
+            <div className="w-full text-[#1e1e1e] text-2xl md:text-[32px] font-semibold font-pangea leading-snug md:leading-[38.40px]">
               Promoviendo una cultura
               <br />
               del pensamiento
@@ -27,8 +27,8 @@ function CTAApply() {
         </div>
         <div className="relative w-full md:w-[397px] md:h-[339px] z-20">
           <img
-            className="absolute bottom-0 right-0 w-full"
-            src="src/assets/cta_img.png"
+            className="w-full h-auto md:absolute md:bottom-0 md:right-0"
+            src="src/assets/image-CTA.png"
             alt="CTA"
           />
         </div>

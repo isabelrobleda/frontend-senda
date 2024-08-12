@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 function MainHome() {
   return (
-    <div className="relative w-full h-screen px-4 md:px-16 py-20 md:py-40 flex-col justify-center items-center gap-8 inline-flex">
+    <div className="relative w-full md:h-screen px-4 md:px-16 py-20 md:py-40 flex-col justify-center items-center gap-8 inline-flex">
       <div className="absolute inset-0 z-0">
         <img className='w-screen h-full object-cover opacity-10' src='src/assets/Header-background.png' alt='Background' />
       </div>
-      <div className="relative z-10 self-stretch justify-between items-center flex flex-col-reverse md:flex-row">
+      <div className="relative self-center z-10  justify-between items-center flex flex-col-reverse md:flex-row">
         <div className="grow shrink basis-0 flex-col justify-start items-center gap-8 inline-flex">
           <div className="self-stretch flex-col justify-start items-start gap-6 flex">
             <div className="self-stretch text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-tight md:leading-[68.40px]">

@@ -44,7 +44,7 @@ function Mision() {
         <div className="w-full flex flex-col md:flex-row justify-center items-start gap-8 md:gap-8">
           <div className="w-full md:w-[30%] h-auto relative">
             <img
-              className="w-full h-72 rounded-lg"
+              className="w-full h-auto rounded-lg"
               src="src/assets/Mision.jpeg"
               alt="Mision"
             />
@@ -56,9 +56,9 @@ function Mision() {
               alt="Mision 02"
             />
           </div>
-          <div className="w-full md:w-[30%] h-72 relative">
+          <div className="w-full md:w-[30%] relative">
             <img
-              className="w-full h-72 rounded-lg"
+              className="w-full h-auto rounded-lg"
               src="src/assets/mision01.jpeg"
               alt="Mision 01"
             />

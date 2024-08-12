@@ -3,33 +3,32 @@ import { Link } from "react-router-dom";
 
 function TestimonialsHome() {
   return (
-    <div className="w-full md:h-screen h-auto p-8 md:p-16 bg-white flex flex-col justify-center items-center gap-12 ">
-      <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-12">
-        <div className="w-full lg:w-1/2 flex flex-col justify-center items-start gap-4">
-          <div className="text-[#1e1e1e] text-3xl md:text-5xl font-bold font-['Inter'] leading-tight md:leading-[57.60px] md:pt-24">
-            Nuestra inspiración y convicción
+    <div className="w-full md:h-screen flex justify-center items-center p-8 md:p-16 bg-white">
+      <div className="w-full max-w-[1440px] flex flex-col justify-center items-center gap-12">
+        <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-12">
+          <div className="w-full lg:w-1/2 flex flex-col justify-center items-start gap-4">
+            <div className="text-[#1e1e1e] text-3xl md:text-5xl font-bold font-['Inter'] leading-tight md:leading-[57.60px] md:pt-24">
+              Nuestra inspiración y convicción
+            </div>
+            <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+              Creemos que cada uno de nuestros alumnos son personas únicas e
+              irrepetibles y con la capacidad de dejar huella convirtiendo sus
+              experiencias en historia y buscando las explicaciones de lo que
+              acontece a su alrededor.
+            </div>
+            <div className="px-6 py-3 bg-[#009bce] rounded-2xl flex justify-center items-center gap-2">
+              <Link to="/inspiracion-conviccion">
+                <button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+                  Descubre más
+                </button>
+              </Link>
+            </div>
           </div>
-          <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-            Creemos que cada uno de nuestros alumnos son personas únicas e
-            irrepetibles y con la capacidad de dejar huella convirtiendo sus
-            experiencias en historia y buscando las explicaciones de lo que
-            acontece a su alrededor. Valoramos y potencializamos la capacidad de
-            crear, por lo que nuestros alumnos tienen espacios y tiempo para
-            comprender su entorno y proponer solucione
-          </div>
-          <div className="px-6 py-3 bg-[#009bce] rounded-2xl flex justify-center items-center gap-2">
-            <Link to="/inspiracion-conviccion"><button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
-              Descubre más
-            </button>
-            </Link>
-          </div>
-        </div>
-        <div className="w-full lg:w-1/2 relative h-[429px]">
-          <div className="absolute top-0 left-0 w-full h-full">
+          <div className="w-full lg:w-1/2 flex justify-center items-center">
             <img
-              src="src/assets/testimonial-images.png"
+              src="src/assets/testimonial-image.png"
               alt="testimonials-home"
-              className="w-full h-full object-cover"
+              className="w-full h-auto object-cover"
             />
           </div>
         </div>

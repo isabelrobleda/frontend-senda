@@ -2,8 +2,8 @@ import React from "react";
 
 function CardsNosotros() {
   return (
-    <div className="w-full p-8 md:p-16 bg-white flex flex-col justify-center items-center gap-12">
-      <div className="w-full flex flex-col md:flex-row justify-start items-start gap-12">
+    <div className="w-full md:h-screen p-8 md:p-16 bg-white flex flex-col justify-center items-center gap-12">
+      <div className="w-full  max-w-[1440px] flex flex-col md:flex-row justify-start items-start gap-12">
         {cardsData.map((card, index) => (
           <div
             key={index}
@@ -45,7 +45,7 @@ const cardsData = [
     image: "src/assets/elecciones.png",
     alt: "elections-picture",
     author: "Mónica Sánchez Gavito",
-    title: "Elecciones 2024",
+    title: "El Colegio Senda y las Elecciones 2024",
     description:
       "La educación no sólo se trata de impartir conocimientos, sino de formar ciudadanos íntegros, conscientes y preparados para enfrentar los retos del mundo moderno."
   },
@@ -55,7 +55,7 @@ const cardsData = [
     author: "Mónica Sánchez Gavito",
     title: "El Colegio Senda haciendo el pensamiento visible",
     description:
-      '"Hacer Visible el Pensamiento" es una metodología educativa desarrollada por el Proyecto Cero de la Universidad de Harvard. Esta iniciativa tiene como objetivo transformar la manera en que se enseña y se aprende, promoviendo una cultura de pensamiento en las aulas.'
+      'En el Senda tenemos una metodología desarrollada en la Universidad de Harvard. Esta iniciativa tiene como objetivo transformar la manera en que se enseña y se aprende.'
   },
   {
     image: "src/assets/secundaria_01.jpg",
@@ -63,7 +63,7 @@ const cardsData = [
     author: "Ana Robleda",
     title: "La Enseñanza de la Ética a los Jóvenes",
     description:
-      "En la era de la información, donde los jóvenes están constantemente expuestos a una avalancha de datos, imágenes e influencias a través de las redes sociales y otras plataformas digitales, la enseñanza de la ética se ha convertido en una necesidad imperante."
+      "En la era de la informaciónLa enseñanza de la ética a los jóvenes de hoy en día es más que una simple asignatura académica; es una inversión en el futuro de nuestra sociedad."
   }
 ];
 

@@ -2,11 +2,11 @@ import React from 'react';
 
 function DataHome() {
   return (
-    <div className="w-full px-8 md:px-16 py-16 md:py-32 bg-[#f9f9fe] flex flex-col justify-center items-center gap-8 md:gap-20">
-      <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+    <div className="w-full md:h-screen   px-8 md:px-16 py-16 md:py-32 bg-[#f9f9fe] flex flex-col justify-center items-center gap-8 md:gap-20">
+      <div className="self-stretch  text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
         Sobre el Colegio Senda
       </div>
-      <div className="self-stretch flex flex-col md:flex-row justify-start items-center md:items-start gap-8 md:gap-8">
+      <div className=" max-w-[1440px] self-center flex flex-col md:flex-row justify-start items-center md:items-start gap-8 md:gap-8">
         {cardsData.map((card, index) => (
           <div
             key={index}
@@ -47,21 +47,21 @@ const cardsData = [
   },
   {
     image: "src/assets/brain02.png",
-    alt: "Placeholder",
+    alt: "grain image 2",
     title: "Top 100 mejores escuelas",
-    description: "Somos reconocidos por: Certificaciones internacionales, compromiso con el bienestar y la felicidad de la comunidad educativa, e innovación."
+    description: "Gracias a nuestras certificaciones internacionales, compromiso con el bienestar y la felicidad de la comunidad, e innovación."
   },
   {
     image: "src/assets/brain04.png",
-    alt: "Placeholder",
+    alt: "brain image 3",
     title: "100% de maestros son Apple Teacher",
     description: "Un programa de aprendizaje diseñado para apoyar y reconocer a los maestros que usan productos Apple en la enseñanza."
   },
   {
     image: "src/assets/brain03.png",
-    alt: "Placeholder",
+    alt: "brain image 4",
     title: "Colegio Bicultural y Bilingüe",
-    description: "El Colegio Senda hace que el alumno adquiera el inglés de manera natural a través de programas integrados e interdisciplinarios."
+    description: "El Colegio Senda hace que el alumno adquiera el inglés de manera natural a través de programas  interdisciplinarios."
   }
 ];
 
