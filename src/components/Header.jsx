@@ -38,7 +38,7 @@ function Header() {
             <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-none">
               Sobre nosotros
             </div>
-            <div className="absolute top-full left-0 mt-2 w-64 bg-white shadow-lg rounded-lg z-50 opacity-0 group-hover:opacity-100 group-hover:delay-150 transition-opacity duration-300">
+            <div className="absolute top-full left-0 mt-2 w-64 bg-white shadow-lg rounded-lg z-50 opacity-0 group-hover:opacity-100 group-hover:delay-150 transition-opacity duration-300 pointer-events-none group-hover:pointer-events-auto">
               <ul>
                 <li className="p-2 hover:bg-neutral-100">
                   <Link to="/misionyvision">Misión y Visión</Link>
@@ -71,7 +71,7 @@ function Header() {
             <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-none">
               Oferta educativa y deportiva
             </div>
-            <div className="absolute top-full left-0 mt-2 w-64 bg-white shadow-lg rounded-lg z-50 opacity-0 group-hover:opacity-100 group-hover:delay-150 transition-opacity duration-300">
+            <div className="absolute top-full left-0 mt-2 w-64 bg-white shadow-lg rounded-lg z-50 opacity-0 group-hover:opacity-100 group-hover:delay-150 transition-opacity duration-300 pointer-events-none group-hover:pointer-events-auto">
               <ul>
                 <li className="p-2 hover:bg-neutral-100">
                   <Link to="/maternal">Maternal</Link>
@@ -98,7 +98,7 @@ function Header() {
             <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-none">
               Admisiones
             </div>
-            <div className="absolute top-full left-0 mt-2 w-64 bg-white shadow-lg rounded-lg z-50 opacity-0 group-hover:opacity-100 group-hover:delay-150 transition-opacity duration-300">
+            <div className="absolute top-full left-0 mt-2 w-64 bg-white shadow-lg rounded-lg z-50 opacity-0 group-hover:opacity-100 group-hover:delay-150 transition-opacity duration-300 pointer-events-none group-hover:pointer-events-auto">
               <ul>
                 <li className="p-2 hover:bg-neutral-100">
                   <Link to="/aplica-al-senda">Aplica al Senda</Link>
@@ -119,7 +119,7 @@ function Header() {
             <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-none">
               Vida en el Senda
             </div>
-            <div className="absolute top-full left-0 mt-2 w-64 bg-white shadow-lg rounded-lg z-50 opacity-0 group-hover:opacity-100 group-hover:delay-150 transition-opacity duration-300">
+            <div className="absolute top-full left-0 mt-2 w-64 bg-white shadow-lg rounded-lg z-50 opacity-0 group-hover:opacity-100 group-hover:delay-150 transition-opacity duration-300 pointer-events-none group-hover:pointer-events-auto">
               <ul>
                 <li className="p-2 hover:bg-neutral-100">
                   <Link to="/blog">Blog</Link>

@@ -10,9 +10,7 @@ function Reviews() {
         <div className="flex flex-col justify-start items-start gap-6">
           <div className="w-full md:w-[400px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <div className="flex justify-start items-start gap-3">
-              <div className="w-10 h-10 rounded-full flex justify-center items-center">
-                <img className="w-10 h-10" src="src/assets/emoji-01.png" alt="Reviewer" />
-              </div>
+             
               <div className="flex flex-col justify-start items-start gap-0.5">
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">Lucas</div>
                 <div className="text-[#b3b3b3] text-base font-normal font-['Inter'] leading-snug">Alumno Senda</div>
@@ -24,9 +22,7 @@ function Reviews() {
           </div>
           <div className="w-full md:w-[400px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <div className="flex justify-start items-start gap-3">
-              <div className="w-10 h-10 rounded-full flex justify-center items-center">
-                <img className="w-10 h-10" src="src/assets/emoji-04.png" alt="Reviewer" />
-              </div>
+              
               <div className="flex flex-col justify-start items-start gap-0.5">
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">Laura</div>
                 <div className="text-[#b3b3b3] text-base font-normal font-['Inter'] leading-snug">Padre de familia</div>
@@ -40,9 +36,7 @@ function Reviews() {
         <div className="flex flex-col justify-start items-start gap-6">
           <div className="w-full md:w-[400px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <div className="flex justify-start items-start gap-3">
-              <div className="w-10 h-10 rounded-full flex justify-center items-center">
-                <img className="w-10 h-10" src="src/assets/emoji-02.png" alt="Reviewer" />
-              </div>
+              
               <div className="flex flex-col justify-start items-start gap-0.5">
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">Silvia</div>
                 <div className="text-[#b3b3b3] text-base font-normal font-['Inter'] leading-snug">Maestra del Senda</div>
@@ -58,9 +52,7 @@ function Reviews() {
           </div>
           <div className="w-full md:w-[400px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <div className="flex justify-start items-start gap-3">
-              <div className="w-10 h-10 rounded-full flex justify-center items-center">
-                <img className="w-10 h-10" src="src/assets/emoji-03.png" alt="Reviewer" />
-              </div>
+              
               <div className="flex flex-col justify-start items-start gap-0.5">
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">Moni</div>
                 <div className="text-[#b3b3b3] text-base font-normal font-['Inter'] leading-snug">Padre de familia</div>
@@ -78,9 +70,7 @@ function Reviews() {
         <div className="flex flex-col justify-start items-start gap-6">
           <div className="w-full md:w-[400px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <div className="flex justify-start items-start gap-3">
-              <div className="w-10 h-10 rounded-full flex justify-center items-center">
-                <img className="w-10 h-10" src="src/assets/emoji-05.png" alt="Reviewer" />
-              </div>
+              
               <div className="flex flex-col justify-start items-start gap-0.5">
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">Sofía</div>
                 <div className="text-[#b3b3b3] text-base font-normal font-['Inter'] leading-snug">Padre de familia</div>
@@ -92,9 +82,7 @@ function Reviews() {
           </div>
           <div className="w-full md:w-[400px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <div className="flex justify-start items-start gap-3">
-              <div className="w-10 h-10 rounded-full flex justify-center items-center">
-                <img className="w-10 h-10" src="src/assets/emoji-06.png" alt="Reviewer" />
-              </div>
+              
               <div className="flex flex-col justify-start items-start gap-0.5">
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">Diego</div>
                 <div className="text-[#b3b3b3] text-base font-normal font-['Inter'] leading-snug">Alumno Senda</div>
