@@ -96,7 +96,7 @@ function NuestroEquipo() {
                 />
               </div>
               <div className="h-[57px] flex-col justify-start items-center gap-2 flex ">
-                <div className="self-stretch justify-center items-start inline-flex">
+                <div className="self-stretch justify-center items-start inline-flex ">
                   <div className="grow shrink basis-0 text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                     Viviana Colucci Trovato
                   </div>

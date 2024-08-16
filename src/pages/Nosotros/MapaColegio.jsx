@@ -9,7 +9,7 @@ const MapaColegio = () => {
     lng: -99.21988774769969,
   };
 
-  const apiKey = "AIzaSyAf4aKazuJomy1mgGrTVQCVH1bPVLSQFG8";
+  const apiKey = process.env.GOOGLE_MAPS_API_KEY;
 
   const onLoad = (mapInstance) => {
     setMap(mapInstance);

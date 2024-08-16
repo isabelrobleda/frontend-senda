@@ -24,7 +24,6 @@ import PlaneaVisita from "./pages/Admision/PlaneaVisita";
 import ProcesoAdmision from "./pages/Admision/ProcesoAdmision";
 import Blog from "./pages/VidaSenda/Blog";
 import ProximosEventos from "./pages/VidaSenda/ProximosEventos";
-import Contacto from "./pages/Contact";
 import AvisoPrivacidad from "./pages/AvisoPrivacidad";
 
 function App() {
@@ -57,7 +56,6 @@ function App() {
           <Route path="/proceso-de-admision" element={<ProcesoAdmision />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/proximos-eventos" element={<ProximosEventos />} />
-          <Route path="/contacto" element={<Contacto />} />
           <Route path="/aviso-de-privacidad" element={<AvisoPrivacidad />} />
         </Routes>
         <Footer />
