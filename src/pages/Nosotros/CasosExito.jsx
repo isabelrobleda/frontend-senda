@@ -3,17 +3,15 @@ import React from "react";
 function CasosExito() {
   return (
     <>
-      <div className="relative w-full max-h-max mt-20 flex flex-col justify-center items-center gap-6 px-4">
-        <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] ">
+      <div className="relative w-full max-w-[1440px] mx-auto mt-20 flex flex-col justify-center items-center gap-6 px-4">
+        <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter']">
           Success stories
         </div>
         <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-          Nuestras historias de éxito  que nos hacen sentir muy
-          orgullosos
+          Nuestras historias de éxito que nos hacen sentir muy orgullosos
         </div>
 
-        
-        <div className="relative w-full max-w-[780px] h-auto aspect-w-16 aspect-h-9 bg-white rounded-[10px] shadow border border-[#e4e4de] z-20">
+        <div className="relative w-full max-w-[780px] h-auto aspect-w-16 aspect-h-9 bg-white rounded-[10px] shadow border border-[#e4e4de] z-20 flex justify-center items-center">
           <video
             className="w-full h-full object-cover rounded-[10px]"
             src="src/assets/caso-exito-01-compressed.mp4"
@@ -22,30 +20,30 @@ function CasosExito() {
           ></video>
 
           <img
-            className="absolute top-[10px] md:top-[40px] left-[-40px] md:left-[-60px] z-10 w-[60px] md:w-[94px] h-[60px] md:h-[94px]"
+            className="absolute top-0 md:top-[40px] left-[-20px] md:left-[-60px] z-10 w-[60px] md:w-[94px] h-[60px] md:h-[94px]"
             src="src/assets/medal.png"
             alt="Medal"
           />
           <img
-            className="absolute bottom-[10px] md:bottom-[40px] right-[-60px] z-10 w-[60px] md:w-36"
+            className="absolute bottom-0 md:bottom-[40px] right-[-25px] md:right-[-60px] z-10 w-[60px] md:w-36"
             src="src/assets/brain.png"
             alt="Brain"
           />
         </div>
 
         <img
-          className="absolute top-[10px] md:top-10 right-[10%] md:right-[230px] z-0 w-[30px] md:w-auto"
+          className="absolute top-24 md:top-10 right-[10px] md:right-72 z-0 w-[40px] md:w-auto"
           src="src/assets/green-dots.png"
           alt="Green Dots"
         />
         <img
-          className="absolute bottom-[-20px] md:bottom-[-60px] left-[20px] md:left-56 z-0 w-[30px] md:w-auto"
+          className="absolute bottom-[-15px] md:bottom-[-60px] left-[10px] md:left-56 z-0 w-[40px] md:w-auto"
           src="src/assets/blue-dots.png"
           alt="Blue Dots"
         />
       </div>
 
-      <div className="md:mt-40">
+      <div className="relative w-full max-w-[1440px] mx-auto mt-40">
         <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
           Nuestro feedback
         </div>
