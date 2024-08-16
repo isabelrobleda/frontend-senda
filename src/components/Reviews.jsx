@@ -29,7 +29,7 @@ function Reviews() {
               </div>
             </div>
             <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-              “Excelente colegio, la atención de Miss Paty es de otro nivel, te hace sentir tranquila y en casa. Te explican súper!! No se pueden perder la oportunidad de tener a sus hijos dentro de este gran colegio!"
+              “Excelente colegio, la atención es de otro nivel, te hace sentir tranquila y en casa. Te explican súper!! No se pueden perder la oportunidad de tener a sus hijos dentro de este gran colegio!"
             </div>
           </div>
         </div>
