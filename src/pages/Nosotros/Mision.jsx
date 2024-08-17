@@ -41,24 +41,24 @@ function Mision() {
         </div>
       </div>
       <div className="w-full px-8 md:px-16 py-16 md:py-32 flex flex-col justify-center items-center gap-8 md:gap-20">
-        <div className="w-full flex flex-col md:flex-row justify-center items-start gap-8 md:gap-8">
-          <div className="w-full md:w-[30%] h-auto relative">
+        <div className="w-full flex flex-col md:flex-row justify-between items-start gap-8 md:gap-0">
+          <div className="w-full md:w-[30%] h-auto">
             <img
-              className="w-full h-auto rounded-lg"
+              className="w-full h-64 rounded-lg"
               src="src/assets/Mision.jpeg"
               alt="Mision"
             />
           </div>
-          <div className="w-full md:w-[30%] h-72 relative">
+          <div className="w-full md:w-[30%] h-auto">
             <img
-              className="w-full h-auto rounded-lg"
+              className="w-full h-64 rounded-lg"
               src="src/assets/mision02.png"
               alt="Mision 02"
             />
           </div>
-          <div className="w-full md:w-[30%] relative">
+          <div className="w-full md:w-[30%] h-auto">
             <img
-              className="w-full h-auto rounded-lg"
+              className="w-full h-64 rounded-lg"
               src="src/assets/mision01.jpeg"
               alt="Mision 01"
             />

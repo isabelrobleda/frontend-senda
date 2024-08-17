@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 
+
 const MapaColegio = () => {
   const [map, setMap] = useState(null);
 
@@ -9,7 +10,7 @@ const MapaColegio = () => {
     lng: -99.21988774769969,
   };
 
-  const apiKey = process.env.GOOGLE_MAPS_API_KEY;
+  const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
   const onLoad = (mapInstance) => {
     setMap(mapInstance);

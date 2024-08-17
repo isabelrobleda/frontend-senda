@@ -51,8 +51,8 @@ function ModeloSenda() {
       </div>
       <div className="md:h-[800px] h-auto w-full pr-8 md:pr-16 py-8 md:py-16 bg-white flex flex-col md:flex-row justify-center items-center gap-12">
         <img
-          className="w-full md:w-[602px] h-auto"
-          src="https://via.placeholder.com/602x486"
+          className="w-auto md:w-[592px] md:h-[476px]"
+          src="src/assets/modelo_senda/Modelo_Senda.png"
           alt="Modelo Pedagógico"
         />
         <div className="w-full md:w-[523px] flex flex-col justify-start items-start gap-6 ml-28">
