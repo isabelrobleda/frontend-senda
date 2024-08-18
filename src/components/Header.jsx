@@ -135,11 +135,11 @@ function Header() {
             </div>
           </div>
           <div className="p-2 hover:bg-neutral-100 rounded-lg flex items-center hover:cursor-pointer">
-            <a href="mailto:senda@colegiosenda.edu.mx">
+            <Link to={"/contacto"}>
               <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-none">
                 Contacto
               </div>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="hidden md:flex items-center gap-4">
@@ -362,9 +362,11 @@ function Header() {
             )}
           </div>
           <div className="p-2 hover:bg-neutral-100 rounded-lg flex items-center w-full hover:cursor-pointer">
+            <Link to={"/contacto"}>
             <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-none">
               Contacto
             </div>
+            </Link>
           </div>
           <button className="px-4 py-2 mt-4 bg-[#009bce] rounded-2xl flex justify-center items-center w-full hover:cursor-pointer ">
             <p className="text-white text-base font-normal font-['Inter'] leading-none">
