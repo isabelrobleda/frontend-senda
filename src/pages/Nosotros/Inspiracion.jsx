@@ -5,7 +5,7 @@ function Inspiracion() {
     <div className="w-full flex flex-col items-center">
       <div className="w-full h-auto  max-w-[1440px] bg-white flex flex-col md:flex-row justify-center items-start gap-12 pt-10">
         <div className="w-full h-auto flex left-0">
-          <img src="src/assets/inspiracion/inspiracion01.png" alt="" className="md:h-[618px] h-96 md:w-auto md:left-0 " />
+          <img src="src/assets/inspiracion/inspiracion.png" alt="image inspiración" className="md:h-[618px] h-96 md:w-auto md:left-0 " />
         </div>
         <div className="w-full flex flex-col self-center items-start gap-4 p-8 md:mr-64">
           <div className="text-[#1e1e1e] text-5xl font-bold font-['Inter'] leading-tight">
@@ -61,7 +61,7 @@ function Inspiracion() {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-          <img src="src/assets/inspiracion/Image - Conviction 02.png" alt="imagen convicción" className="md:h-[618px] h-96 md:w-auto md:left-0" />
+          <img src="src/assets/inspiracion/conviccion.png" alt="imagen convicción" className="md:h-[618px] h-96 md:w-auto md:left-0" />
         </div>
       </div>
     </div>

@@ -145,14 +145,14 @@ function Reconocimientos() {
       </div>
       <div>
         <div className="h-auto px-8 md:px-[151px] py-16 bg-[#f4f6f8] flex flex-col justify-center items-center gap-10">
-          <div className="self-stretch text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+          <div className="self-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
             Oferta educativa
           </div>
           <div className="w-full flex flex-col gap-10">
-            <div className="w-full flex justify-between items-center">
+            <div className="w-full flex justify-center items-center">
               <button
                 onClick={prevSlide}
-                className="p-2 mr-2 rounded-full shadow"
+                className="p-2 mr-4 rounded-full shadow hover:cursor-pointer"
               >
                 &#8249;
               </button>
@@ -220,7 +220,7 @@ function Reconocimientos() {
               </div>
               <button
                 onClick={nextSlide}
-                className="p-2 ml-2 rounded-full shadow"
+                className="p-2 ml-4 rounded-full shadow"
               >
                 &#8250;
               </button>

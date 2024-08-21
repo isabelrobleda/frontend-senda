@@ -55,7 +55,7 @@ function CasosExito() {
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                   Ex-alumno
                 </div>
-                <div className="text-[#1e1e1e] text-lg md:text-xl font-normal font-['Inter'] leading-normal">
+                <div className="text-[#1e1e1e] text-base  font-normal font-['Inter'] leading-normal pb-10">
                   “Me gusta mucho el Senda porque aceptan a todos los niños. Las
                   misses son justas, tengo muy buenos amigos, y la escuela creo
                   que está muy bien hecha."
@@ -65,11 +65,12 @@ function CasosExito() {
                 <div className="flex-col justify-end items-start gap-4 inline-flex">
                   <div className="w-full md:w-[183px] justify-start items-start gap-3 inline-flex">
                     <div className="flex-col justify-start items-start gap-0.5 inline-flex">
+                      <img src="src/assets/exito/vector-blue.png" alt="quote-vector" className="md:ml-56 ml-64" />
                       <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                         Lucas
                       </div>
-                      <div className="text-[#b3b3b3] text-sm font-normal font-['Inter'] leading-tight">
-                        Ex-Alumno Preescolar
+                      <div className="w-[121.65px] h-7 relative">
+                        <img src="src/assets/exito/five-stars.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -82,7 +83,7 @@ function CasosExito() {
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                   Padre de Familia
                 </div>
-                <div className="text-[#1e1e1e] text-lg md:text-xl font-normal font-['Inter'] leading-normal">
+                <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-normal pb-10">
                   “Excelente colegio, la atención es de otro nivel, te hace
                   sentir tranquila y en casa. Te explican súper!! No se pueden
                   perder la oportunidad de tener a sus hijos dentro de este gran
@@ -93,11 +94,12 @@ function CasosExito() {
                 <div className="flex-col justify-end items-start gap-4 inline-flex">
                   <div className="w-full md:w-[183px] justify-start items-start gap-3 inline-flex">
                     <div className="flex-col justify-start items-start gap-0.5 inline-flex">
+                    <img src="src/assets/exito/vector-blue.png" alt="quote-vector" className="md:ml-56 ml-64" />
                       <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                         Laura
                       </div>
-                      <div className="text-[#b3b3b3] text-sm font-normal font-['Inter'] leading-tight">
-                        Padre de familia
+                      <div className="w-[121.65px] h-7 relative">
+                        <img src="src/assets/exito/five-stars.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -110,7 +112,7 @@ function CasosExito() {
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                   Maestra
                 </div>
-                <div className="text-[#1e1e1e] text-lg md:text-xl font-normal font-['Inter'] leading-normal">
+                <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-normal pb-16">
                   “Excelencia en educación, maestras comprometidas y preparadas
                   para esta nueva era. Niños felices y desarrollando su
                   potencial día a día."
@@ -120,11 +122,12 @@ function CasosExito() {
                 <div className="flex-col justify-end items-start gap-4 inline-flex">
                   <div className="w-full md:w-[183px] justify-start items-start gap-3 inline-flex">
                     <div className="flex-col justify-start items-start gap-0.5 inline-flex">
+                    <img src="src/assets/exito/vector-blue.png" alt="quote-vector" className="md:ml-56 ml-64" />
                       <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                         Silvia
                       </div>
-                      <div className="text-[#b3b3b3] text-sm font-normal font-['Inter'] leading-tight">
-                        Maestra Inglés
+                      <div className="w-[121.65px] h-7 relative">
+                        <img src="src/assets/exito/five-stars.png" alt="" />
                       </div>
                     </div>
                   </div>

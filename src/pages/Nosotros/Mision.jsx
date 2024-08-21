@@ -3,12 +3,12 @@ import React from "react";
 function Mision() {
   return (
     <>
-      <div className="w-full h-[645px] p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-start gap-12">
-        <div className="w-full flex flex-col justify-start items-start gap-12">
-          <div className="w-full text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+      <div className="h-[645px] p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
+        <div className="w-full max-w-[1440px] flex flex-col justify-start items-center gap-12">
+          <div className="max-w-max text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px] text-center">
             Mision y Vision
           </div>
-          <div className="w-full flex flex-col md:flex-row justify-start items-start gap-10">
+          <div className="w-full flex flex-col md:flex-row justify-center items-start gap-10">
             <div className="w-full md:w-[50%] flex flex-col justify-start items-start gap-4">
               <div className="text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">
                 Misión
@@ -41,24 +41,24 @@ function Mision() {
         </div>
       </div>
       <div className="w-full px-8 md:px-16 py-16 md:py-32 flex flex-col justify-center items-center gap-8 md:gap-20">
-        <div className="w-full flex flex-col md:flex-row justify-between items-start gap-8 md:gap-0">
-          <div className="w-full md:w-[30%] h-auto">
+        <div className="w-full flex flex-col md:flex-row justify-center items-start gap-8 md:gap-8">
+          <div className="w-full md:w-[415px] h-auto">
             <img
-              className="w-full h-64 rounded-lg"
+              className="w-96 h-64 rounded-lg"
               src="src/assets/Mision.jpeg"
               alt="Mision"
             />
           </div>
-          <div className="w-full md:w-[30%] h-auto">
+          <div className="w-full md:w-[415px] h-auto">
             <img
-              className="w-full h-64 rounded-lg"
+              className="w-96 h-64 rounded-lg"
               src="src/assets/mision02.png"
               alt="Mision 02"
             />
           </div>
-          <div className="w-full md:w-[30%] h-auto">
+          <div className="w-full md:w-[415px] h-auto">
             <img
-              className="w-full h-64 rounded-lg"
+              className="w-96 h-64 rounded-lg"
               src="src/assets/mision01.jpeg"
               alt="Mision 01"
             />
