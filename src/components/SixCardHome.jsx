@@ -26,8 +26,8 @@ function SixCardHome() {
           </div>
           <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
-              className="w-20 h-20 relative"
-              src="src/assets/icon-teacher.png"
+              className="w-14 h-14  relative"
+              src="src/assets/icons/Why_we_are_the_best-01.png"
             />
             <div className="w-full">
               <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -41,8 +41,8 @@ function SixCardHome() {
           </div>
           <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
-              className="w-20 h-20 relative"
-              src="src/assets/icon-innovation.png"
+              className="w-14 h-14  relative"
+              src="src/assets/icons/Why_we_are_the_best-02.png"
             />
             <div className="w-full">
               <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -56,8 +56,8 @@ function SixCardHome() {
           </div>
           <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
-              className="w-20 h-20 relative"
-              src="src/assets/icon-excellence.png"
+              className="w-14 h-14  relative"
+              src="src/assets/icons/Why_we_are_the_best-05.png"
             />
             <div className="w-full">
               <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -71,8 +71,8 @@ function SixCardHome() {
           </div>
           <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
-              className="w-20 h-20 relative"
-              src="src/assets/icon-english.png"
+              className="w-14 h-14  relative"
+              src="src/assets/icons/Why_we_are_the_best-03.png"
             />
             <div className="w-full">
               <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -85,7 +85,7 @@ function SixCardHome() {
             </div>
           </div>
           <div className="w-full p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
-            <img className="w-20 h-20 relative" src="src/assets/icon-model.png" />
+            <img className="w-14 h-14 relative" src="src/assets/icons/Why_we_are_the_best-04.png" />
             <div className="w-full">
               <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Modelo Senda

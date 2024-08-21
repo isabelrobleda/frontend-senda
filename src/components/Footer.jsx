@@ -3,15 +3,16 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="w-full p-8 md:p-12 bg-gradient-to-br from-[#011b34] to-[#1a2f59] flex flex-col justify-start items-start gap-12 ">
+    <div className="w-full h-auto p-12 bg-gradient-to-b from-[#0066b1] to-[#025693] flex-col justify-start items-start gap-12 inline-flex">
+      
       <div className="w-full md:max-w-[1440px] self-center flex flex-col md:flex-row justify-between items-start gap-12">
         <div className="flex flex-col justify-start items-start gap-12">
           <div className="flex flex-col justify-start items-start gap-4">
-            <div className="w-36 h-[85.82px] flex justify-center items-center">
+            <div className="w-36 h-[85.82px] flex ">
               <Link to="/">
                 <img
-                  className="w-36 h-[85.82px]"
-                  src="src/assets/Logo-Senda.png"
+                  className="w-20 h-20"
+                  src="src/assets/simbolo_senda 1.png"
                   alt="Logo"
                 />
               </Link>

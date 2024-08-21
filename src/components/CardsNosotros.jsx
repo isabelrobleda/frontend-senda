@@ -3,6 +3,9 @@ import React from "react";
 function CardsNosotros() {
   return (
     <div className="w-full md:h-screen p-8 md:p-16 bg-white flex flex-col justify-center items-center gap-12">
+      <div className="md:text-center text-left text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+      Nuestro blog
+      </div>
       <div className="w-full  max-w-[1440px] flex flex-col md:flex-row justify-start items-start gap-12">
         {cardsData.map((card, index) => (
           <div
@@ -20,7 +23,7 @@ function CardsNosotros() {
                 <div className="text-[#b0cb4f] text-base font-semibold font-['Inter'] leading-snug">
                   {card.author}
                 </div>
-                <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                <div className="text-[#1e1e1e] text-xl font-semibold font-['Inter'] leading-[28.80px]">
                   {card.title}
                 </div>
                 <div className="w-full h-auto text-[#757575] text-base font-normal font-['Inter'] leading-snug">

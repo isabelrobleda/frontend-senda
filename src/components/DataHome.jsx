@@ -13,9 +13,9 @@ function DataHome() {
             className="w-full md:w-80 grow shrink basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md"
             style={{ height: '400px' }}
           >
-            <div className="relative w-28 h-28 flex justify-center items-center">
+            <div className="relative w-20 h-24 flex justify-center items-center">
               <img
-                className="absolute pt-6"
+                className="absolute pt-8"
                 src={card.image}
                 alt={card.alt}
                 style={{ top: '-40px' }}
@@ -40,25 +40,25 @@ function DataHome() {
 
 const cardsData = [
   {
-    image: "src/assets/brain01.png",
-    alt: "brain image",
+    image: "src/assets/icons/tech-icon.png",
+    alt: "tech image",
     title: "Top 15 escuelas innovadoras",
     description: "“El colegio despierta en el alumno capacidades de indagación, creación, descubrimiento y cuidado de la naturaleza.“"
   },
   {
-    image: "src/assets/brain02.png",
-    alt: "grain image 2",
+    image: "src/assets/icons/graduate-icon.png",
+    alt: "graduate image 2",
     title: "Top 100 mejores escuelas",
     description: "Gracias a nuestras certificaciones internacionales, compromiso con el bienestar y la felicidad de la comunidad, e innovación."
   },
   {
-    image: "src/assets/brain04.png",
+    image: "src/assets/icons/apple-icon.png",
     alt: "brain image 3",
     title: "100% de maestros son Apple Teacher",
     description: "Un programa de aprendizaje diseñado para apoyar y reconocer a los maestros que usan productos Apple en la enseñanza."
   },
   {
-    image: "src/assets/brain03.png",
+    image: "src/assets/icons/world-icon.png",
     alt: "brain image 4",
     title: "Colegio Bicultural y Bilingüe",
     description: "El Colegio Senda hace que el alumno adquiera el inglés de manera natural a través de programas  interdisciplinarios."
