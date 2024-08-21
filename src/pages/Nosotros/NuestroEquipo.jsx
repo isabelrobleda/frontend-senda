@@ -2,158 +2,134 @@ import React from "react";
 
 function NuestroEquipo() {
   return (
-    <div>
-      <div className="h-screen md:w-[1440px] px-16 py-36 my-14 flex-col justify-center items-center gap-14 inline-flex">
-        <div className="self-stretch h-[67px] flex-col justify-start items-start gap-4 flex">
-          <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-            Nuestro equipo
-          </div>
-          <div className="self-stretch text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-         Conoce a nuestras líderes del Colegio Senda
-          </div>
+    <div className="flex flex-col items-center">
+      {/* Wrapper for the team section */}
+      <div className="w-full max-w-screen-lg px-4 md:px-16 py-12 md:py-24 my-14 flex flex-col items-center gap-14">
+        {/* Title and description */}
+        <div className="w-full text-center mb-12">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#1e1e1e]">Nuestro equipo</h2>
+          <p className="text-base md:text-lg text-[#757575] mt-4">
+            Conoce a nuestras líderes del Colegio Senda
+          </p>
         </div>
-        <div className="self-stretch h-[684.67px] flex-col justify-start items-start gap-14  flex">
-          <div className="self-stretch justify-center items-start gap-12 inline-flex">
-            <div className="flex-col justify-start items-center gap-6 inline-flex">
-              <div className="w-[200px] h-[233.33px] rounded-[100px] flex-col justify-center items-center flex">
-                <img
-                  className="w-[200px] h-[233.33px] rounded-[20px]"
-                  src="src/assets/equipo/Image-Nuestro_equipo-02.png"
-                />
-              </div>
-              <div className="h-[57px] flex-col justify-start items-center gap-2 flex">
-                <div className="self-stretch justify-center items-start inline-flex">
-                  <div className="grow shrink basis-0 text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Mónica Sánchez Gavito
-                  </div>
-                </div>
-                <div className="self-stretch text-center text-[#49454f] text-sm font-normal font-['Inter'] leading-tight tracking-tight">
-                  Directora General y Fundadora
-                </div>
-              </div>
+        {/* Team members */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-12 ">
+          <div className="flex flex-col items-center ">
+            <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
+              <img
+                className="w-full h-full object-cover"
+                src="src/assets/equipo/Image-Nuestro_equipo-02.png"
+                alt="Mónica Sánchez Gavito"
+              />
             </div>
-            <div className="flex-col justify-start items-center gap-6 inline-flex">
-              <div className="w-[200px] h-[233.33px] rounded-[23px] flex-col justify-center items-center flex">
-                <img
-                  className="w-[200px] h-[233.33px] rounded-[20px]"
-                  src="src/assets/equipo/Image-Nuestro_equipo-03.png"
-                />
-              </div>
-              <div className="h-[57px] flex-col justify-start items-center gap-2 flex">
-                <div className="self-stretch justify-center items-start inline-flex">
-                  <div className="grow shrink basis-0 text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Rosa Isabel García de Luca
-                  </div>
-                </div>
-                <div className="self-stretch text-center text-[#49454f] text-sm font-normal font-['Inter'] leading-tight tracking-tight">
-                  Directora Administrativa 
-                </div>
-              </div>
+            <div className="text-center">
+              <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e]">Mónica Sánchez Gavito</h3>
+              <p className="text-sm text-[#49454f]">Directora General y Fundadora</p>
             </div>
-            <div className="flex-col justify-start items-center gap-6 inline-flex">
-              <div className="w-[200px] h-[233.33px] rounded-[23px] flex-col justify-center items-center flex">
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
+              <img
+                className="w-full h-full object-cover"
+                src="src/assets/equipo/Image-Nuestro_equipo-03.png"
+                alt="Rosa Isabel García de Luca"
+              />
+            </div>
+            <div className="text-center">
+              <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e]">Rosa Isabel García de Luca</h3>
+              <p className="text-sm text-[#49454f]">Directora Administrativa</p>
+            </div>
+          </div>
+          {/* Row 2: Roxana, Karla, and Viviana */}
+          <div className="flex flex-col items-center lg:col-span-2 lg:flex-row lg:justify-center lg:gap-12">
+            <div className="flex flex-col items-center mb-6 lg:mb-0">
+              <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
                 <img
-                  className="w-[200px] h-[233.33px] rounded-[20px]"
+                  className="w-full h-full object-cover"
                   src="src/assets/equipo/Image-Nuestro_equipo-04.png"
+                  alt="Roxana Fernández Landoni"
                 />
               </div>
-              <div className="h-[57px] flex-col justify-start items-center gap-2 flex">
-                <div className="self-stretch justify-center items-start inline-flex">
-                  <div className="grow shrink basis-0 text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Roxana Fernández Landoni
-                  </div>
-                </div>
-                <div className="self-stretch text-center text-[#49454f] text-sm font-normal font-['Inter'] leading-tight tracking-tight">
-                  Directora Preescolar
-                </div>
+              <div className="text-center">
+                <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e]">Roxana Fernández Landoni</h3>
+                <p className="text-sm text-[#49454f]">Directora Preescolar</p>
               </div>
             </div>
-          </div>
-          <div className="self-stretch justify-center items-start gap-x-12 inline-flex">
-            <div className="flex-col justify-start items-center gap-6 inline-flex">
-              <div className="w-[200px] h-[233.33px] rounded-[23px] flex-col justify-center items-center flex">
+            <div className="flex flex-col items-center mb-6 lg:mb-0">
+              <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
                 <img
-                  className="w-[200px] h-[233.33px] rounded-[20px]"
+                  className="w-full h-full object-cover"
                   src="src/assets/equipo/Image-Nuestro_equipo-01.png"
+                  alt="Karla Olivares Granja"
                 />
               </div>
-              <div className="h-[57px] flex-col justify-start items-center gap-2 flex">
-                <div className="self-stretch justify-center items-start inline-flex">
-                  <div className="grow shrink basis-0 text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Karla Olivares Granja
-                  </div>
-                </div>
-                <div className="self-stretch text-center text-[#49454f] text-sm font-normal font-['Inter'] leading-tight tracking-tight">
-                  Directora Primaria
-                </div>
+              <div className="text-center">
+                <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e]">Karla Olivares Granja</h3>
+                <p className="text-sm text-[#49454f]">Directora Primaria</p>
               </div>
             </div>
-            <div className="flex-col justify-start items-center gap-6 inline-flex ">
-              <div className="w-[200px] h-[233.33px] rounded-[23px] flex-col justify-center items-center flex">
+            <div className="flex flex-col items-center">
+              <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
                 <img
-                  className="w-[200px] h-[233.33px] rounded-[20px]"
+                  className="w-full h-full object-cover"
                   src="src/assets/equipo/Image-Nuestro_equipo-05.png"
+                  alt="Viviana Colucci Trovato"
                 />
               </div>
-              <div className="h-[57px] flex-col justify-start items-center gap-2 flex ">
-                <div className="self-stretch justify-center items-start inline-flex ">
-                  <div className="grow shrink basis-0 text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Viviana Colucci Trovato
-                  </div>
-                </div>
-                <div className=" self-stretch text-center text-[#49454f] text-sm font-normal font-['Inter'] leading-tight tracking-tight">
-                  Directora Secundaria
-                </div>
+              <div className="text-center">
+                <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e]">Viviana Colucci Trovato</h3>
+                <p className="text-sm text-[#49454f]">Directora Secundaria</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="h-screen p-16 bg-[#f9f9fe] flex-col justify-center items-center gap-14 inline-flex">
-  <div className="self-stretch h-[67px] flex-col justify-start items-start gap-4 flex">
-    <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">¿Qué hace al Colegio Senda
-    la mejor opción?</div>
-    <div className="self-stretch text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">Nos caracterizamos por ser una escuela reconocida por la calidad y la innovación educativa.</div>
-  </div>
-  <div className="self-stretch justify-between items-start inline-flex">
-    <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-start gap-10 inline-flex">
-      <div className="w-12 h-12 relative" />
-      <div className="self-stretch h-[194px] flex-col justify-start items-start gap-4 flex">
-        <div className="self-stretch justify-start items-start inline-flex">
-          <div className="grow shrink basis-0 text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">Educadores que inspiran</div>
+
+      {/* Second Section */}
+      <div className="w-full bg-[#f9f9fe] py-12 md:py-24 flex justify-center">
+        <div className="w-full max-w-screen-2xl px-4 md:px-16">
+          <div className="w-full text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-semibold text-[#1e1e1e]">¿Qué hace al Colegio Senda la mejor opción?</h2>
+            <p className="text-base md:text-lg text-[#757575] mt-4">
+              Nos caracterizamos por ser una escuela reconocida por la calidad y la innovación educativa.
+            </p>
+          </div>
+          <div className="w-full flex flex-col md:flex-row  gap-12">
+            {/* Feature 1 */}
+            <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
+              <img className="w-12 h-12 mb-4" src="src/assets/icons/Why_we_are_the_best-01.png"></img>
+              <h3 className="text-xl font-semibold text-[#1e1e1e]">Educadores que inspiran</h3>
+              <p className="text-base text-[#49454f]">
+                Todos nuestros educadores están comprometidos con los alumnos y sus familias para trabajar juntos por un mundo mejor.
+              </p>
+            </div>
+            {/* Feature 2 */}
+            <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
+              <img className="w-12 h-12 mb-4" src="src/assets/icons/Why_we_are_the_best-05.png"></img>
+              <h3 className="text-xl font-semibold text-[#1e1e1e]">Alto Nivel de Inglés</h3>
+              <p className="text-base text-[#49454f]">
+                Los alumnos aprenden inglés desde pequeños lo que asegura que lo lleguen a dominar y puedan aprender de forma bilingüe.
+              </p>
+            </div>
+            {/* Feature 3 */}
+            <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
+              <img className="w-12 h-12 mb-4" src="src/assets/icons/Why_we_are_the_best-03.png"></img>
+              <h3 className="text-xl font-semibold text-[#1e1e1e]">Educación de Excelencia</h3>
+              <p className="text-base text-[#49454f]">
+                Nuestro objetivo es lograr los más altos estándares de nivel académico, calidad humana y resultados de competencias y habilidades.
+              </p>
+            </div>
+            {/* Feature 4 */}
+            <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
+            <img className="w-12 h-12 mb-4" src="src/assets/icons/Why_we_are_the_best-04.png"></img>
+              <h3 className="text-xl font-semibold text-[#1e1e1e]">Modelo Senda</h3>
+              <p className="text-base text-[#49454f]">
+                Humanista. Constructivista. Basado en la Cultura del Pensamiento. Bilingüe. Incluyente. Personalizado. Promueve el pensamiento ético y crítico.
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="self-stretch text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">Todos nuestros educadores están comprometidos con los alumnos y sus familias para trabajar juntos por un mundo mejor.</div>
       </div>
-    </div>
-    <div className="h-[329px] p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-start gap-10 inline-flex">
-      <div className="w-12 h-12 relative" />
-      <div className="self-stretch h-[165px] flex-col justify-start items-start gap-4 flex">
-        <div className="self-stretch justify-start items-start inline-flex">
-          <div className="grow shrink basis-0 text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">Alto Nivel de Inglés</div>
-        </div>
-        <div className="self-stretch text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">Los alumnos aprenden inglés desde pequeños lo que asegura que lo lleguen a dominar y puedan aprender de forma bilingüe.</div>
-      </div>
-    </div>
-    <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-start gap-10 inline-flex">
-      <div className="w-12 h-12 relative" />
-      <div className="self-stretch h-[194px] flex-col justify-start items-start gap-4 flex">
-        <div className="self-stretch justify-start items-start inline-flex">
-          <div className="grow shrink basis-0 text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">Educación de Excelencia</div>
-        </div>
-        <div className="self-stretch text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">Nuestro objetivo es lograr los más altos estándares de nivel académico, calidad humana y resultados de competencias y habilidades.</div>
-      </div>
-    </div>
-    <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-start gap-10 inline-flex">
-      <div className="w-12 h-12 relative" />
-      <div className="self-stretch h-[189px] flex-col justify-start items-start gap-4 flex">
-        <div className="self-stretch justify-start items-start inline-flex">
-          <div className="grow shrink basis-0 text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">Modelo Senda</div>
-        </div>
-        <div className="self-stretch text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">Humanista. Constructivista. Basado en la Cultura del Pensamiento. Bilingüe. Incluyente. Personalizado. Promueve el pensamiento ético y crítico.</div>
-      </div>
-    </div>
-  </div>
-</div>
     </div>
   );
 }
