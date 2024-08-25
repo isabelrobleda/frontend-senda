@@ -97,7 +97,7 @@ function Maternal() {
       {/* Quote Section */}
 
       <div className="w-full px-4 md:px-16 py-16 md:py-32 bg-white  flex justify-center items-center">
-        <div className="w-full max-w-screen-lg p-6 bg-white rounded-lg shadow-md text-center flex flex-col justify-center items-center ">
+        <div className="w-full max-w-screen-lg p-6 bg-white  text-center flex flex-col justify-center items-center ">
           <div className="text-[#303030] text-2xl md:text-3xl font-medium leading-tight">
             “Tenemos y queremos niños felices,
             <span style={{ display: "inline-block" }}></span>
@@ -119,7 +119,7 @@ function Maternal() {
             <img
               src="src/assets/maternal/quote-img-3.png"
               alt="image 3"
-              className="inline-block mx-2"
+              className="inline-block mx-2 my-2"
             />
             entorno.”
           </div>

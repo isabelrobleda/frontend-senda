@@ -26,6 +26,7 @@ import Blog from "./pages/VidaSenda/Blog";
 import ProximosEventos from "./pages/VidaSenda/ProximosEventos";
 import AvisoPrivacidad from "./pages/AvisoPrivacidad";
 import Contacto from "./pages/Contacto";
+import Blog1 from "./pages/VidaSenda/Blog1";
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
           <Route path="/planea-tu-visita" element={<PlaneaVisita />} />
           <Route path="/proceso-de-admision" element={<ProcesoAdmision />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog-1" element={<Blog1 />} />
           <Route path="/proximos-eventos" element={<ProximosEventos />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/aviso-de-privacidad" element={<AvisoPrivacidad />} />
