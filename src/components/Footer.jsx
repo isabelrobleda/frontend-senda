@@ -140,7 +140,7 @@ function Footer() {
       <div className="w-full h-px opacity-25 flex justify-center items-start">
         <div className="w-[1440px] h-[0px] border border-[#fef7ff]"></div>
       </div>
-      <div className="w-full md:max-w-[1440px] flex flex-col md:flex-row justify-between items-start gap-4 md:ml-[400px]">
+      <div className="w-full md:max-w-[1440px]  flex flex-col md:flex-row justify-between items-start gap-4 ">
         <div className="text-[#f2f2f2] text-sm font-normal font-['Inter'] leading-tight md:inline-flex gap-5">
           <p className="py-1">Secundaria No. SECR 09160077</p>
           <p className="py-1">Primaria No. 09980102</p>
