@@ -81,181 +81,223 @@ function AfterSchool() {
 
       {/* Second Section */}
 
-<div className="p-8 md:p-16 bg-white flex-col justify-center items-start gap-12 inline-flex">
-    <div className="self-stretch px-4 md:px-16 flex-col justify-start items-start gap-12 flex">
-        <div className="w-full text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+      <div className="p-8 md:p-16 bg-white flex-col justify-center items-start gap-12 inline-flex">
+        <div className="self-stretch px-4 md:px-16 flex-col justify-start items-start gap-12 flex">
+          <div className="w-full text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
             Información
-        </div>
-        <div className="self-stretch justify-start items-start gap-6 flex flex-col md:flex-row">
+          </div>
+          <div className="self-stretch justify-start items-start gap-6 flex flex-col md:flex-row">
             <div className="flex-1 flex-col justify-start items-start gap-4 flex">
-                <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                    El programa de After School es un servicio adicional en el cual, los participantes tendrán la oportunidad de disfrutar de diferentes actividades que les permitirán complementar y enriquecer su crecimiento y madurez de una forma divertida. Este programa está dirigido a los miembros de nuestra comunidad. Ofrecemos además, servicio de comedor.
-                </div>
+              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                El programa de After School es un servicio adicional en el cual,
+                los participantes tendrán la oportunidad de disfrutar de
+                diferentes actividades que les permitirán complementar y
+                enriquecer su crecimiento y madurez de una forma divertida. Este
+                programa está dirigido a los miembros de nuestra comunidad.
+                Ofrecemos además, servicio de comedor.
+              </div>
             </div>
             <div className="flex-1 flex-col justify-start items-start gap-4 flex">
-                <div>
-                    <span className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                        El servicio está a cargo de un personal altamente capacitado de la empresa IdeaSport, especialista en fair play y enseñanza del deporte individual y en equipo.{" "}
-                    </span>
-                    <span className="text-[#757575] text-base font-bold font-['Inter'] leading-snug">
-                        Horario:
-                    </span>
-                    <span className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                        {" "}
-                        Lunes a jueves: 14:00 a 17:00 horas
-                    </span>
-                </div>
+              <div>
+                <span className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                  El servicio está a cargo de un personal altamente capacitado
+                  de la empresa IdeaSport, especialista en fair play y enseñanza
+                  del deporte individual y en equipo.{" "}
+                </span>
+                <span className="text-[#757575] text-base font-bold font-['Inter'] leading-snug">
+                  Horario:
+                </span>
+                <span className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                  {" "}
+                  Lunes a jueves: 14:00 a 17:00 horas
+                </span>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
 
-{/* Cards Section */}
-<div className="px-4 md:px-16 py-16 text-center bg-[#f9f9fe] flex-col justify-center items-center gap-20 flex">
-    <div className=" text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] ">
-        Actividades
-    </div>
-    <div className=" text-center text-[#757575] text-base font-normal font-['Inter']">
-        Nuestros alumnos pueden disfrutar de una variedad de actividades en nuestras instalaciones, diseñadas para fomentar la creatividad y el desarrollo físico:
-    </div>
-    <div className="flex flex-col md:grid md:grid-cols-4 md:gap-10 md:justify-center gap-8">
-        {/* Card 1 */}
-        <div className=" px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
-            <div className="h-56 flex-col justify-start items-center gap-4 flex">
-                <img src="src/assets/after school/📓.png" alt="patineta" className="w-18 pb-2" />
-                <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Tareas
-                </div>
-                <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                    Para que los alumnos puedan realizar sus tareas en un ambiente tranquilo y supervisado.
-                </div>
-            </div>
+      {/* Cards Section */}
+      <div className="px-4 md:px-16 py-16 text-center bg-[#f9f9fe] flex-col justify-center items-center gap-20 flex">
+        <div className=" text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] ">
+          Actividades
         </div>
-        {/* Card 2 */}
-        <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
-            <div className="h-56 flex-col justify-start items-center gap-4 flex">
-                <img src="src/assets/after school/⚽.png" alt="futbol" className="w-18 pb-2" />
-                <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Fútbol
-                </div>
-                <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                    Entrenamientos y partidos para desarrollar habilidades técnicas y de trabajo en equipo.
-                </div>
-            </div>
+        <div className=" text-center text-[#757575] text-base font-normal font-['Inter']">
+          Nuestros alumnos pueden disfrutar de una variedad de actividades en
+          nuestras instalaciones, diseñadas para fomentar la creatividad y el
+          desarrollo físico:
         </div>
-        {/* Card 3 */}
-        <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
-            <div className="h-56 flex-col justify-start items-center gap-4 flex">
-                <img src="src/assets/after school/🏀.png" alt="basquet" className="w-18 pb-2" />
-                <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Baloncesto
-                </div>
-                <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                    Clases y juegos para mejorar la coordinación y el espíritu deportivo.
-                </div>
-            </div>
-        </div>
-        {/* Card 4 */}
-        <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
-            <div className="h-56 flex-col justify-start items-center gap-4 flex">
-                <img src="src/assets/after school/🎾.png" alt="pickleball" className="w-18 pb-2" />
-                <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Pickleball
-                </div>
-                <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                    Fomenta la actividad física, coordinación, trabajo en equipo y es accesible para todos.
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    <div className="flex flex-col md:flex-row md:justify-center gap-8">
-    {/* Card 5 */}
-    <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+        <div className="flex flex-col md:grid md:grid-cols-4 md:gap-10 md:justify-center gap-8">
+          {/* Card 1 */}
+          <div className=" px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-                <img src="src/assets/after school/🏑.png" alt="hockey sobre pasto" className="w-18 pb-2" />
-                <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Hockey sobre pasto
-                </div>
-                <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                    Promueve el trabajo en equipo, la coordinación, resistencia física y disciplina.
-                </div>
+              <img
+                src="src/assets/after school/📓.png"
+                alt="patineta"
+                className="w-18 pb-2"
+              />
+              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                Tareas
+              </div>
+              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                Para que los alumnos puedan realizar sus tareas en un ambiente
+                tranquilo y supervisado.
+              </div>
             </div>
-        </div>
-        {/* Card 6 */}
-        <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+          </div>
+          {/* Card 2 */}
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-                <img src="src/assets/after school/🛹.png" alt="patineta" className="w-18 pb-2" />
-                <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Patineta
-                </div>
-                <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                    Espacio seguro para practicar y aprender técnicas de skateboarding.
-                </div>
+              <img
+                src="src/assets/after school/⚽.png"
+                alt="futbol"
+                className="w-18 pb-2"
+              />
+              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                Fútbol
+              </div>
+              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                Entrenamientos y partidos para desarrollar habilidades técnicas
+                y de trabajo en equipo.
+              </div>
             </div>
-        </div>
-        {/* Card 7 */}
-        <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+          </div>
+          {/* Card 3 */}
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-                <img src="src/assets/after school/🪨.png" alt="roca" className="w-18 pb-2" />
-                <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                    Muro de escalar
-                </div>
-                <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                    Actividad que fortalece tanto el cuerpo como la mente, fomentando el esfuerzo y la perseverancia.
-                </div>
+              <img
+                src="src/assets/after school/🏀.png"
+                alt="basquet"
+                className="w-18 pb-2"
+              />
+              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                Baloncesto
+              </div>
+              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                Clases y juegos para mejorar la coordinación y el espíritu
+                deportivo.
+              </div>
             </div>
+          </div>
+          {/* Card 4 */}
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
+              <img
+                src="src/assets/after school/🎾.png"
+                alt="pickleball"
+                className="w-18 pb-2"
+              />
+              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                Pickleball
+              </div>
+              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                Fomenta la actividad física, coordinación, trabajo en equipo y
+                es accesible para todos.
+              </div>
+            </div>
+          </div>
         </div>
+        <div className="flex flex-col md:flex-row md:justify-center gap-8">
+          {/* Card 5 */}
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
+              <img
+                src="src/assets/after school/🏑.png"
+                alt="hockey sobre pasto"
+                className="w-18 pb-2"
+              />
+              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                Hockey sobre pasto
+              </div>
+              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                Promueve el trabajo en equipo, la coordinación, resistencia
+                física y disciplina.
+              </div>
+            </div>
+          </div>
+          {/* Card 6 */}
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
+              <img
+                src="src/assets/after school/🛹.png"
+                alt="patineta"
+                className="w-18 pb-2"
+              />
+              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                Patineta
+              </div>
+              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                Espacio seguro para practicar y aprender técnicas de
+                skateboarding.
+              </div>
+            </div>
+          </div>
+          {/* Card 7 */}
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
+              <img
+                src="src/assets/after school/🪨.png"
+                alt="roca"
+                className="w-18 pb-2"
+              />
+              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                Muro de escalar
+              </div>
+              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                Actividad que fortalece tanto el cuerpo como la mente,
+                fomentando el esfuerzo y la perseverancia.
+              </div>
+            </div>
+          </div>
         </div>
-</div>
-{/* Image Section */}
-<div className="px-4 md:px-16 py-16 md:py-32 flex flex-col justify-center items-center gap-20">
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10">
-        <div className=" w-full h-80">
+      </div>
+      {/* Image Section */}
+      <div className="px-4 md:px-16 py-16 md:py-32 flex flex-col justify-center items-center gap-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10">
+          <div className=" w-full h-80">
             <img
-                className=" inset-0 w-full h-full object-cover rounded-[20px]"
-                src="src/assets/after school/afterschool_02 2.png"
-                alt="After School 1"
+              className=" inset-0 w-full h-full object-cover rounded-[20px]"
+              src="src/assets/after school/afterschool_02 2.png"
+              alt="After School 1"
             />
-        </div>
-        <div className="relative w-full h-80">
+          </div>
+          <div className="relative w-full h-80">
             <img
-                className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-                src="src/assets/after school/PCI_3443.png"
-                alt="After School 2"
+              className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
+              src="src/assets/after school/PCI_3443.png"
+              alt="After School 2"
             />
-        </div>
-        <div className="relative w-full h-80">
+          </div>
+          <div className="relative w-full h-80">
             <img
-                className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-                src="src/assets/after school/PCI_3753.png"
-                alt="After School 3"
+              className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
+              src="src/assets/after school/PCI_3753.png"
+              alt="After School 3"
             />
-        </div>
-        <div className="relative w-full h-80">
+          </div>
+          <div className="relative w-full h-80">
             <img
-                className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-                src="src/assets/after school/PCI_3923.png"
-                alt="After School 4"
+              className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
+              src="src/assets/after school/PCI_3923.png"
+              alt="After School 4"
             />
-        </div>
-        <div className="relative w-full h-80">
+          </div>
+          <div className="relative w-full h-80">
             <img
-                className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-                src="src/assets/after school/PCI_4104.png"
-                alt="After School 5"
+              className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
+              src="src/assets/after school/PCI_4104.png"
+              alt="After School 5"
             />
-        </div>
-        <div className="relative w-full h-80">
+          </div>
+          <div className="relative w-full h-80">
             <img
-                className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-                src="src/assets/after school/PCI_4207.png"
-                alt="After School 6"
+              className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
+              src="src/assets/after school/PCI_4207.png"
+              alt="After School 6"
             />
+          </div>
         </div>
-    </div>
-</div>
-
+      </div>
 
       {/* CTA Section */}
       <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
@@ -266,25 +308,28 @@ function AfterSchool() {
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
             />
-            <h3 className="absolute z-10 px-14 mt-20 font-semibold font-pangea md:text-2xl text-lg">
+            <h3 className="absolute z-10 px-14 mt-16 font-semibold font-pangea md:text-2xl text-lg">
               ¿Tienes preguntas?
             </h3>
-            <p className="absolute z-10 md:mt-32 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
-              Si tienes preguntas sobre el maternal, no dudes en enviarle un
-              correo electrónico a Roxana Fernández L., nuestra Directora de
-              Preescolar
+            <p className="absolute z-10 md:mt-28 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
+              Si tienes alguna duda sobre nuestro programa de After School, ¡no
+              dudes en contactar a nuestra coordinadora, Claudia Alcocer! ¡Ella
+              estará feliz de ayudarte!
+              <br />
+              <p className="font-semibold my-2">Teléfono: (55) 7454 4052</p>
             </p>
-            <a href="mailto:direccionpreescolar@colegiosenda.edu.mx">
-              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl border border-white ">
+
+            <a href="mailto:afterschoolcolegiosenda@gmail.com">
+              <div className="absolute h-10 ml-14  px-8 z-10 md:bottom-10 bottom-10  py-2 bg-white rounded-2xl border border-white ">
                 <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
-                  Contactar
+                  Mandar un correo
                 </span>
               </div>
             </a>
           </div>
           <img
-            src="src/assets/CTAs/img-maternal.png"
-            alt="image maternal"
+            src="src/assets/after school/CTA-After-School.png"
+            alt="image cta after school"
             className="md:rounded-none rounded-lg"
           />
         </div>
