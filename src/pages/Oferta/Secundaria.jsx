@@ -217,7 +217,7 @@ function Secundaria() {
               <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/icons/🇺🇸.png" alt="" className="w-10" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
-                  Inglés
+                  Inglés (TOEFL 3ro de Secundaria)
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">

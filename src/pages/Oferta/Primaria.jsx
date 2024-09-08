@@ -257,6 +257,12 @@ function Primaria() {
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
+                <img src="src/assets/secundaria/🧮.png" alt="" />
+                <h3 className="text-xl font-base text-[#1e1e1e] mb-2">
+                  Matemáticas
+                </h3>
+              </div>
+              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/icons/🇪🇸.png" alt="" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Español
@@ -265,7 +271,7 @@ function Primaria() {
               <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/icons/🇺🇸.png" alt="" className="w-10" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
-                  Inglés
+                  Inglés (TOEFL JR - 6to Primaria)
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">

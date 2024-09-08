@@ -64,7 +64,7 @@ function Colegiaturas() {
         <div className="max-w-screen-xl w-full mx-auto p-8 md:p-16 flex flex-col justify-start items-center gap-16">
           <div className="w-full text-center flex-col justify-start items-center gap-2">
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter']">
-              Colegiaturas 2024/2045
+              Colegiaturas 2024/2025
             </div>
             <div className="text-[#757575] text-base font-normal font-['Inter']">
               Transferencia Bancaria, Cheque, Tarjeta de crédito o débito

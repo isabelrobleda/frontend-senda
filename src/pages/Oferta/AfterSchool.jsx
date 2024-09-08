@@ -63,7 +63,7 @@ function AfterSchool() {
                 After School
                 <br />
                 <span className="text-[#1e1e1e]">Nuestra oferta para </span>
-                <span className="text-[#b0cb4f]">miembros de la comunidad</span>
+                <span className="text-[#b0cb4f]">la tarde</span>
               </h1>
               <p className="text-[#757575] text-base sm:text-lg md:text-xl font-semibold font-['Inter'] leading-[1.4] mt-4">
                 Nuestro programa de After School está diseñado para proporcionar
@@ -81,9 +81,9 @@ function AfterSchool() {
 
       {/* Second Section */}
 
-      <div className="p-8 md:p-16 bg-white flex-col justify-center items-start gap-12 inline-flex">
+      <div className="p-8 md:p-16 md:h-[500px] bg-white flex-col justify-center items-start gap-12 inline-flex">
         <div className="self-stretch px-4 md:px-16 flex-col justify-start items-start gap-12 flex">
-          <div className="w-full text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+          <div className="w-full  text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
             Información
           </div>
           <div className="self-stretch justify-start items-start gap-6 flex flex-col md:flex-row">
@@ -94,7 +94,7 @@ function AfterSchool() {
                 diferentes actividades que les permitirán complementar y
                 enriquecer su crecimiento y madurez de una forma divertida. Este
                 programa está dirigido a los miembros de nuestra comunidad.
-                Ofrecemos además, servicio de comedor.
+                Para los alumnos del Senda, ofrecemos además, servicio de comedor.
               </div>
             </div>
             <div className="flex-1 flex-col justify-start items-start gap-4 flex">
