@@ -4,37 +4,61 @@ import CardsNosotros from "../../components/CardsNosotros";
 function Blog() {
   return (
     <div>
-      <div className="h-[242px] px-[60px] flex-col justify-start items-center inline-flex">
-        <div className="w-[826px] justify-start items-center inline-flex">
-          <div className="grow shrink basis-0 p-6 rounded-[20px] shadow flex-col justify-start items-center gap-14 inline-flex">
-            <div className="w-[904px] text-center">
-              <span className="text-[#1e1e1e] text-[57px] font-semibold font-['Pangea'] leading-[68.40px]">
-                Escribiendo para
-                <br /> formar el{" "}
-              </span>
-              <span className="text-[#b0cb4f] text-[57px] font-semibold font-['Pangea'] leading-[68.40px]">
-                futuro
-              </span>
+      <div className="relative md:h-[700px] w-full flex justify-center items-center p-4">
+        <div>
+          <div className="absolute inset-0">
+            <div
+              className="absolute inset-0 bg-cover bg-no-repeat opacity-10"
+              style={{
+                backgroundImage: "url(src/assets/Header-background.png)",
+              }}
+            ></div>
+          </div>
+        </div>
+        <div className="self-center justify-center items-start gap-8 flex flex-col md:flex-row">
+          <div className=" justify-start items-center flex">
+            <div className="grow shrink basis-0 p-6 rounded-[20px]  flex-col justify-start items-center gap-6 md:gap-14 inline-flex">
+              <div className="w-full md:w-[904px] text-center">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                  Escribiendo para
+                </span>
+
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                  {" "}
+                </span>
+                <br />
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                  <span style={{ display: "inline-block" }}></span>
+                  <img
+                    src="src/assets/blog/Group 86.png"
+                    alt="image 1"
+                    className="inline-block mx-1 md:mx-2 h-10 md:h-16"
+                  />
+                </span>
+
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                  {" "}
+                </span>
+
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                  formar el {" "}
+                </span>
+
+                <span className="text-[#b0cb4f] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                  futuro
+                  <br />
+                </span>
+              </div>
+              <div>
+                <p className="text-[#757575] text-center sm:text-lg md:text-xl font-semibold font-['Inter'] leading-[1.4] ">
+                  En nuestro blog encontrarás contenido
+                  educativo, informativo y de interés general <br /> para que puedas
+                  estar al tanto de las últimas tendencias en educación y
+                  tecnología.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="w-[89.48px] h-[51px] relative">
-          <div className="w-[89.48px] h-[51px] left-0 top-0 absolute">
-            <img
-              className="w-[45px] h-[60px] left-[39.26px] top-[-4px] absolute"
-              src="https://via.placeholder.com/45x60"
-            />
-          </div>
-          <div className="w-[89.48px] h-[51px] left-0 top-0 absolute">
-            <img
-              className="w-[71.90px] h-[48.92px] left-[7.26px] top-[7.08px] absolute"
-              src="https://via.placeholder.com/72x49"
-            />
-          </div>
-        </div>
-        <div className="w-[764px] text-center text-[#757575] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
         </div>
       </div>
       <CardsNosotros />

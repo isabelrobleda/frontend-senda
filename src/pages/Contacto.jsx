@@ -43,8 +43,7 @@ function Contacto() {
                   Contáctanos
                 </div>
                 <div className="self-stretch text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                  Por favor llena todos los campos con asterisco para poder
-                  aplicar.
+                  Por favor llena el siguiente formulario y nos pondremos en contacto contigo:
                 </div>
               </div>
               <div className="self-stretch h-[442px] py-6 rounded-lg flex-col justify-start items-start gap-6 flex">
