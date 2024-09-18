@@ -27,12 +27,17 @@ import ProximosEventos from "./pages/VidaSenda/ProximosEventos";
 import AvisoPrivacidad from "./pages/AvisoPrivacidad";
 import Contacto from "./pages/Contacto";
 import Blog1 from "./pages/VidaSenda/Blog1";
+import ScrollToTop from "./components/ScrollToTop";
+import Blog2 from "./pages/VidaSenda/Blog2";
+import Blog3 from "./pages/VidaSenda/Blog3";
+
 
 function App() {
   return (
     <>
       <div>
         <Header />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/misionyvision" element={<Mision />} />
@@ -58,6 +63,8 @@ function App() {
           <Route path="/proceso-de-admision" element={<ProcesoAdmision />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog-1" element={<Blog1 />} />
+          <Route path="/blog-2" element={<Blog2 />} />
+          <Route path="/blog-3" element={<Blog3 />} />
           <Route path="/proximos-eventos" element={<ProximosEventos />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/aviso-de-privacidad" element={<AvisoPrivacidad />} />

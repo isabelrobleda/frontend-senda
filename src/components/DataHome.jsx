@@ -2,18 +2,18 @@ import React from 'react';
 
 function DataHome() {
   return (
-    <div className="w-full md:h-screen   px-8 md:px-16 py-16 md:py-32 bg-[#f9f9fe] flex flex-col justify-center items-center gap-8 md:gap-20">
+    <div className="w-full md:h-screen px-8  py-16 md:py-32 bg-[#f9f9fe] flex flex-col justify-center items-center gap-8 md:gap-20">
       <div className="self-stretch  text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
         Sobre el Colegio Senda
       </div>
-      <div className=" max-w-[1440px] self-center flex flex-col md:flex-row justify-start items-center md:items-start gap-8 md:gap-8">
+      <div className=" max-w-[1440px] md:px-[64px] self-center flex flex-col md:flex-row justify-start items-center md:items-start gap-8 md:gap-8">
         {cardsData.map((card, index) => (
           <div
             key={index}
             className="w-full md:w-80 grow shrink basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md"
-            style={{ height: '400px' }}
+            style={{ height: '360px' }}
           >
-            <div className="relative w-20 h-24 flex justify-center items-center">
+            <div className="relative w-20 h-20 flex justify-center items-center">
               <img
                 className="absolute pt-8"
                 src={card.image}
@@ -23,7 +23,7 @@ function DataHome() {
             </div>
             <div className="self-stretch flex flex-col justify-start items-center gap-4">
               <div className="self-stretch flex flex-col justify-start items-center gap-2">
-                <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-normal font-['Inter'] leading-[28.80px]">
                   {card.title}
                 </div>
                 <div className="self-stretch text-center text-[#757575] text-base font-light font-inter leading-[22.40px]">

@@ -15,45 +15,45 @@ function AfterSchool() {
               ></div>
             </div>
 
-            <div className="floating-images">
+            <div className="floating-images max-w-screen-lg">
               <img
-                className="absolute w-20 h-20 sm:w-8 sm:h-8 md:w-32 md:h-32 rounded-full md:bottom-36 md:left-10 sm:top-10 top-20 left-10"
+                className="absolute w-20 h-20 sm:w-8 sm:h-8 md:w-36 md:h-36 rounded-full  md:left-28  bottom-36 left-10"
                 src="src/assets/after school/foto_patineta.png"
               />
               <img
-                className="absolute w-18 h-20 sm:w-8 sm:h-8 md:w-32 md:h-32 rounded-full bottom-44 right-10"
+                className="absolute w-20 h-20  md:w-24 md:h-24 rounded-full top-28 left-44"
                 src="src/assets/after school/Deportes_Escalar.png"
               />
               <img
-                className="absolute w-20 h-20 rounded-full left-10 bottom-36 md:bottom-20 md:right-24"
+                className="absolute w-20 h-20 md:w-32 md:h-32 rounded-full left-10 bottom-36 md:bottom-20 md:left-[1200px]"
                 src="src/assets/after school/inspiración.png"
               />
               <img
-                className="absolute w-20 h-20 sm:w-8 sm:h-8 md:w-32 md:h-32 rounded-full md:top-8 md:right-48 right-20 bottom-20"
+                className="absolute w-20 h-20  md:w-32 md:h-32 rounded-full md:top-44 md:right-56 right-20 bottom-20"
                 src="src/assets/after school/convicción.png"
               />
               <img
-                className="absolute w-8 md:w-16 md:h-16 md:bottom-20 md:right-80 opacity-65 bottom-20"
+                className="absolute w-8 md:w-16 md:h-16  md:right-80 opacity-65 bottom-64"
                 src="src/assets/after school/basquetbol.png"
               />
               <img
-                className="absolute w-8 md:w-18 md:h19 md:top-12 md:right-20 opacity-65 right-10 top-52"
+                className="absolute w-8 md:w-12 md:h-12 md:top-56 md:right-20 opacity-65 right-10 top-52"
                 src="src/assets/after school/escalar.png"
               />
               <img
-                className="absolute w-10 md:w-15 md:top-10 md:left-2/4 opacity-65 left-10 top-44"
+                className="absolute w-10 md:w-12 md:top-36 md:left-2/4 opacity-65 left-10 top-44"
                 src="src/assets/after school/tarea.png"
               />
               <img
-                className="absolute w-14 md:w-20 md:top-[600px] md:left-[500px] opacity-65 left-36 top-10"
+                className="absolute w-14 md:w-20 md:top-[800px] md:left-[750px] opacity-65 left-36 top-10"
                 src="src/assets/after school/raqueta.png"
               />
               <img
-                className="absolute md:w-14 w-10 md:bottom-36 md:left-60 opacity-65 bottom-44 right-44"
+                className="absolute md:w-14 w-10 md:bottom-36 md:left-80 opacity-65 bottom-44 right-44"
                 src="src/assets/after school/futbol.png"
               />
               <img
-                className="absolute md:w-14 w-12 md:top-20 md:-left-1/4 opacity-65 bottom-10 right-2"
+                className="absolute md:w-20 w-12 md:top-56 md:left-80  opacity-65 bottom-10 right-2"
                 src="src/assets/after school/patineta.png"
               />
             </div>
@@ -74,6 +74,14 @@ function AfterSchool() {
                 <br />
                 descubre todo lo que tenemos para ofrecer!
               </p>
+
+              <div className="flex flex-col items-center">
+                <img
+                  src="src/assets/Idea-sport.png"
+                  alt="Idea Sport"
+                  className="pt-8  items-center justify-center "
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -104,11 +112,14 @@ function AfterSchool() {
                   de la empresa IdeaSport, especialista en fair play y enseñanza
                   del deporte individual y en equipo.{" "}
                 </span>
+                <br />
+                <br />
                 <span className="text-[#757575] text-base font-bold font-['Inter'] leading-snug">
                   Horario:
                 </span>
                 <span className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
                   {" "}
+                  <br />
                   Lunes a jueves: 14:00 a 17:00 horas
                 </span>
               </div>
@@ -118,18 +129,18 @@ function AfterSchool() {
       </div>
 
       {/* Cards Section */}
-      <div className="px-4 md:px-16 py-16 text-center bg-[#f9f9fe] flex-col justify-center items-center gap-20 flex">
-        <div className=" text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] ">
+      <div className="px-4 md:px-16 py-16 text-center bg-[#f9f9fe] flex-col justify-center items-center flex">
+        <div className=" text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] pb-3">
           Actividades
         </div>
-        <div className=" text-center text-[#757575] text-base font-normal font-['Inter']">
+        <div className=" text-center text-[#757575] text-base font-normal font-['Inter'] pb-20">
           Nuestros alumnos pueden disfrutar de una variedad de actividades en
           nuestras instalaciones, diseñadas para fomentar la creatividad y el
           desarrollo físico:
         </div>
         <div className="flex flex-col md:grid md:grid-cols-4 md:gap-10 md:justify-center gap-8">
           {/* Card 1 */}
-          <div className=" px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+          <div className=" px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
                 src="src/assets/after school/📓.png"
@@ -146,7 +157,7 @@ function AfterSchool() {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
                 src="src/assets/after school/⚽.png"
@@ -162,25 +173,9 @@ function AfterSchool() {
               </div>
             </div>
           </div>
-          {/* Card 3 */}
-          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
-            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src="src/assets/after school/🏀.png"
-                alt="basquet"
-                className="w-18 pb-2"
-              />
-              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                Baloncesto
-              </div>
-              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                Clases y juegos para mejorar la coordinación y el espíritu
-                deportivo.
-              </div>
-            </div>
-          </div>
+        
           {/* Card 4 */}
-          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
                 src="src/assets/after school/🎾.png"
@@ -196,10 +191,10 @@ function AfterSchool() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex flex-col md:flex-row md:justify-center gap-8">
-          {/* Card 5 */}
-          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+        
+        
+          {/* Card 4 */}
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
                 src="src/assets/after school/🏑.png"
@@ -215,8 +210,8 @@ function AfterSchool() {
               </div>
             </div>
           </div>
-          {/* Card 6 */}
-          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+          {/* Card 5 */}
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
                 src="src/assets/after school/🛹.png"
@@ -232,8 +227,9 @@ function AfterSchool() {
               </div>
             </div>
           </div>
-          {/* Card 7 */}
-          <div className="px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+
+          {/* Card 6 */}
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
                 src="src/assets/after school/🪨.png"
@@ -246,6 +242,40 @@ function AfterSchool() {
               <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
                 Actividad que fortalece tanto el cuerpo como la mente,
                 fomentando el esfuerzo y la perseverancia.
+              </div>
+            </div>
+          </div>
+
+          {/* Card 7 */}
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
+              <img
+                src="src/assets/after school/baby.png"
+                alt="bebé"
+                className="w-20 pb-2"
+              />
+              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                Psicomotricidad
+              </div>
+              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                Actividades que fomentan el desarrollo de habilidades motoras y la coordinación.  
+              </div>
+            </div>
+          </div>
+
+          {/* Card 8 */}
+          <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
+              <img
+                src="src/assets/after school/dancer.png"
+                alt="dancer"
+                className="w-20 pb-2"
+              />
+              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                Telas
+              </div>
+              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                Actividad que fomenta la flexibilidad, la fuerza y la coordinación.
               </div>
             </div>
           </div>
@@ -308,10 +338,10 @@ function AfterSchool() {
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
             />
-            <h3 className="absolute z-10 px-14 mt-16 font-semibold font-pangea md:text-2xl text-lg">
+            <h3 className="absolute z-10 px-14 mt-12 font-semibold font-pangea md:text-2xl text-lg">
               ¿Tienes preguntas?
             </h3>
-            <p className="absolute z-10 md:mt-28 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
+            <p className="absolute z-10 md:mt-24 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
               Si tienes alguna duda sobre nuestro programa de After School, ¡no
               dudes en contactar a nuestra coordinadora, Claudia Alcocer! ¡Ella
               estará feliz de ayudarte!
@@ -320,7 +350,7 @@ function AfterSchool() {
             </p>
 
             <a href="mailto:afterschoolcolegiosenda@gmail.com">
-              <div className="absolute h-10 ml-14  px-8 z-10 md:bottom-10 bottom-10  py-2 bg-white rounded-2xl border border-white ">
+              <div className="absolute h-10 ml-14  px-8 z-10 md:bottom-12 bottom-10  py-2 bg-white rounded-2xl border border-white ">
                 <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Mandar un correo
                 </span>

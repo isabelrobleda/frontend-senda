@@ -25,7 +25,7 @@ function Footer() {
           </div>
           <div className="flex flex-col justify-start items-start gap-2">
             <div className="flex justify-start items-center gap-2">
-              <img className="w-6 h-6 relative" src="src/assets/Envelope.png" />
+              <img className="w-6 h-6 relative" src="src/assets/footer/Envelope.png" />
               <a
                 href="mailto:senda@colegiosenda.edu.mx"
                 className="text-white text-sm font-normal  font-['Inter'] leading-tight underline"
@@ -34,14 +34,14 @@ function Footer() {
               </a>
             </div>
             <div className="flex justify-start items-center gap-2">
-              <img className="w-6 h-6 relative" src="src/assets/Phone.png" />
+              <img className="w-6 h-6 relative" src="src/assets/footer/Phone.png" />
               <div className="text-white text-sm font-normal font-['Inter'] leading-tight">
                 (55) 5683-2060
               </div>
             </div>
             <div className="flex justify-start items-center gap-2 pt-2">
               <div className="text-white text-sm font-normal font-['Inter'] leading-tight">
-                Av.Toluca 541, Col. Olivar de los Padres, C.P. 01780, CDMX
+                Av.Toluca 541, Col. Olivar de los Padres, <br /> C.P. 01780, CDMX
               </div>
             </div>
             <div className="flex justify-start items-center gap-2 pt-2">
@@ -141,7 +141,7 @@ function Footer() {
         <div className="w-[1440px] h-[0px] border border-[#fef7ff]"></div>
       </div>
       <div className="w-full md:max-w-[1440px] flex flex-col md:flex-row justify-between self-center gap-4 ">
-        <div className="text-[#f2f2f2] text-sm font-normal font-['Inter'] leading-tight md:inline-flex gap-5">
+        <div className="text-[#f2f2f2] text-xs font-normal font-['Inter'] leading-tight md:inline-flex gap-10">
           <p className="py-1">Secundaria No. SECR 09160077</p>
           <p className="py-1">Primaria No. 09980102</p>
           <p className="py-1">Preescolar No. 09080403</p>

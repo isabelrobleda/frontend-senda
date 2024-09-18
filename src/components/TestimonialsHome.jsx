@@ -16,7 +16,7 @@ function TestimonialsHome() {
               experiencias en historia y buscando las explicaciones de lo que
               acontece a su alrededor.
             </div>
-            <div className="px-6 py-3 bg-[#009bce] rounded-2xl flex justify-center items-center gap-2">
+            <div className="mt-[32px] px-6 py-3 bg-[#009bce] hover:opacity-85 rounded-2xl flex justify-center items-center gap-2">
               <Link to="/inspiracion-conviccion">
                 <button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Descubre más

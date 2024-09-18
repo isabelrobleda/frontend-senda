@@ -3,30 +3,30 @@ import React from "react";
 function Mision() {
   return (
     <>
-      <div className="h-[645px] p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
-        <div className="w-full max-w-[1440px] flex flex-col justify-start items-center gap-12">
-          <div className="max-w-max text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px] text-center">
+      <div className="md:h-[545px] h-auto p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
+        <div className="w-full max-w-[1440px] mt-20 flex flex-col justify-start items-left gap-12">
+          <div className="max-w-max text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px] text-left md:ml-[28px]">
             Misión y Visión
           </div>
-          <div className="w-full flex flex-col md:flex-row justify-center items-start gap-10">
-            <div className="w-full md:w-[50%] flex flex-col justify-start items-start gap-4">
+          <div className="w-full flex flex-col md:flex-row justify-center items-start gap-10 ">
+            <div className="w-full md:w-[50%] flex flex-col justify-start items-start gap-4 md:ml-[28px]">
               <div className="text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">
                 Misión
               </div>
-              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                <b>"Ser una Comunidad que educa para trascender"</b>
+              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug md:mr-[28px]">
+                "Ser una Comunidad que educa para trascender"
                 <br />
                 Somos una comunidad educativa inmersa en la cultura de
                 pensamiento, comprometida con el bienestar emocional de cada
                 alumno. Formamos personas críticas, responsables, competentes, y
-                resilientes.
+                resilientes, para que sean agentes de cambio en su entorno.
               </div>
             </div>
             <div className="w-full md:w-[50%] flex flex-col justify-start items-start gap-4">
               <div className="text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">
                 Visión
               </div>
-              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug md:mr-[28px]">
                 Ser una escuela reconocida por la calidad y la innovación
                 educativa. La excelencia de sus educadores competentes,
                 capacitados y comprometidos en vivir y transmitir valores
@@ -40,8 +40,8 @@ function Mision() {
           </div>
         </div>
       </div>
-      <div className="w-full px-8 md:px-16 py-16 md:py-32 flex flex-col justify-center items-center gap-8 md:gap-20">
-        <div className="w-full flex flex-col md:flex-row justify-center items-start gap-8 md:gap-8">
+      <div className="w-full  px-8 md:px-[32px] py-16 md:py-32 flex flex-col justify-center items-center ">
+        <div className="w-full flex flex-col md:flex-row justify-center items-start">
           <div className="w-full md:w-[415px] h-auto">
             <img
               className="w-96 h-64 rounded-lg"

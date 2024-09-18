@@ -35,7 +35,7 @@ const MapaColegio = () => {
             width: "1312px",
             borderRadius: "10px",
             boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.2)",
-            margin: "30px auto",
+            margin: "130px auto",
           }}
           center={center}
           zoom={15}

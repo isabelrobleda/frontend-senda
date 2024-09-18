@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Reconocimientos() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [currentItem, setCurrentItem] = useState(0); // Track the current item within the slide for small screens
+  const [currentItem, setCurrentItem] = useState(0); 
 
   const slides = [
     [
@@ -18,7 +18,7 @@ function Reconocimientos() {
       {
         title: "Preescolar",
         description:
-          "Montessori. Cultura de Pensamiento. Bilingüe. Inteligencias múltiples y trabajo cooperativo.",
+          "Montessori. Cultura de Pensamiento. Bicultural. Inteligencias múltiples y trabajo cooperativo.",
         link: "/preescolar",
         imgSrc: "src/assets/preescolar_nobg.png",
       },
@@ -79,10 +79,10 @@ function Reconocimientos() {
 
   return (
     <>
-      <div className="h-auto p-8 md:p-16 flex-col justify-center items-center gap-6 md:gap-12 flex">
+      <div className="h-auto p-8 md:px-16 pt-36 flex-col justify-center items-center gap-6 md:gap-12 flex">
         <div className="w-full flex flex-col justify-start items-start gap-6">
           <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
-            <div className="w-full md:w-[700px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
+            <div className="w-full md:w-[700px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
               <img className=" h-12 relative py-2" src="src/assets/reconocimientos/canva-logo-png.png"/>
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -96,8 +96,8 @@ function Reconocimientos() {
                 alumnos. Promovemos la práctica de innovaciones educativas y propuestas pedagógicas de vanguardia.
               </div>
             </div>
-            <div className="w-full md:w-[350px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <img className=" h-12 relative" src="src/assets/reconocimientos/knotion.png"/>
+            <div className="w-full md:w-[350px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
+              <img className=" h-8 relative" src="src/assets/reconocimientos/knotion.png"/>
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   Insignias Knotion
@@ -110,7 +110,7 @@ function Reconocimientos() {
             </div>
           </div>
           <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
-            <div className="w-full md:w-[350px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
+            <div className="w-full md:w-[350px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
               <img className=" h-12 relative" src="src/assets/reconocimientos/APPLE-TEACHER.jpeg" />
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -122,8 +122,8 @@ function Reconocimientos() {
                 posibilidades de aprendizaje.
               </div>
             </div>
-            <div className="w-full md:w-[700px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <img className=" h-12 relative" src="src/assets/reconocimientos/whole-schools.jpg" />
+            <div className="w-full md:w-[700px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
+              <img className=" h-14 relative" src="src/assets/reconocimientos/whole-schools.png" />
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   Top 100 Schools in Mexico
@@ -145,14 +145,14 @@ function Reconocimientos() {
       </div>
       <div>
         <div className="h-auto px-8 md:px-[151px] py-16 bg-[#f4f6f8] flex flex-col justify-center items-center gap-10">
-          <div className="self-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+          <div className="self-start ml-10 text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
             Oferta educativa
           </div>
           <div className="w-full flex flex-col gap-10">
             <div className="w-full flex justify-center items-center">
               <button
                 onClick={prevSlide}
-                className="p-2 mr-4 rounded-full shadow hover:cursor-pointer"
+                className="p-3 mr-4 rounded-full border"
               >
                 &#8249;
               </button>
@@ -161,12 +161,12 @@ function Reconocimientos() {
                 {slides[currentSlide].map((item, index) => (
                   <div
                     key={index}
-                    className=" hidden relative md:flex w-full md:w-[500px] md:h-80 flex-col md:flex-row md:items-center gap-4 px-8 pt-8 rounded-[10px] shadow bg-[#E9EBEF] "
+                    className=" hidden relative md:flex w-full md:w-[500px] md:h-72 flex-col md:flex-row md:items-center gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] "
                   >
                     <img
                       src={item.imgSrc}
                       alt={`imagen ${item.title.toLowerCase()}`}
-                      className="absolute w-56 bottom-0 right-0"
+                      className="absolute w-52 bottom-0 right-0"
                     />
                     <div className="w-full h-52 md:w-[257px] flex flex-col justify-between ">
                       <div className="flex flex-col gap-4">
@@ -178,7 +178,7 @@ function Reconocimientos() {
                         </div>
                       </div>
                       <Link to={item.link}>
-                        <div className="w-28 px-6 py-2 md:mt-16 my-5 bg-[#f9f9fe] rounded-2xl flex justify-center items-center">
+                        <div className="w-28 px-6 py-2 md:mt-10 my-5 bg-[#f9f9fe] rounded-2xl flex justify-center items-center">
                           <div className="text-[#303030] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                             Ver más
                           </div>
@@ -190,7 +190,7 @@ function Reconocimientos() {
 
                 {/* For small screens */}
                 <div className="block md:hidden w-full flex flex-col justify-center items-center gap-4">
-                  <div className="w-full h-auto flex flex-col gap-4 px-8 pt-8 rounded-[10px] shadow bg-[#E9EBEF] items-center">
+                  <div className="w-full h-auto flex flex-col gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] items-center">
                     <img
                       src={slides[currentSlide][currentItem].imgSrc}
                       alt={`imagen ${slides[currentSlide][
@@ -220,7 +220,7 @@ function Reconocimientos() {
               </div>
               <button
                 onClick={nextSlide}
-                className="p-2 ml-4 rounded-full shadow"
+                className="p-3 ml-4 rounded-full border"
               >
                 &#8250;
               </button>

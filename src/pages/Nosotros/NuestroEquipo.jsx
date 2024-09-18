@@ -4,7 +4,7 @@ function NuestroEquipo() {
   return (
     <div className="flex flex-col items-center">
       {/* Wrapper for the team section */}
-      <div className="w-full max-w-screen-lg px-4 md:px-16 py-12 md:py-24 my-14 flex flex-col items-center gap-14">
+      <div className="w-full max-w-screen-lg px-4 md:px-12 py-12 md:py-24 my-14 flex flex-col items-center ">
         {/* Title and description */}
         <div className="w-full text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-semibold text-[#1e1e1e]">Nuestro equipo</h2>
@@ -13,8 +13,8 @@ function NuestroEquipo() {
           </p>
         </div>
         {/* Team members */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-12 ">
-          <div className="flex flex-col items-center ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 ">
+          <div className="flex flex-col items-center justify-center">
             <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
               <img
                 className="w-full h-full object-cover"
@@ -23,7 +23,7 @@ function NuestroEquipo() {
               />
             </div>
             <div className="text-center">
-              <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e]">Mónica Sánchez Gavito</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e] pb-[8px]">Mónica Sánchez Gavito</h3>
               <p className="text-sm text-[#49454f]">Directora General y Fundadora</p>
             </div>
           </div>
@@ -36,13 +36,13 @@ function NuestroEquipo() {
               />
             </div>
             <div className="text-center">
-              <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e]">Rosa Isabel García de Luca</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e] pb-[8px]">Rosa Isabel García de Luca</h3>
               <p className="text-sm text-[#49454f]">Directora Administrativa</p>
             </div>
           </div>
           {/* Row 2: Roxana, Karla, and Viviana */}
-          <div className="flex flex-col items-center lg:col-span-2 lg:flex-row lg:justify-center lg:gap-12">
-            <div className="flex flex-col items-center mb-6 lg:mb-0">
+          <div className="flex flex-col items-center lg:col-span-2 lg:flex-row md:justify-between ">
+            <div className="flex flex-col items-center mb-6 md:mb-0 md:pr-44">
               <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
                 <img
                   className="w-full h-full object-cover"
@@ -51,11 +51,11 @@ function NuestroEquipo() {
                 />
               </div>
               <div className="text-center">
-                <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e]">Roxana Fernández Landoni</h3>
+                <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e] pb-[8px]">Roxana Fernández Landoni</h3>
                 <p className="text-sm text-[#49454f]">Directora Preescolar</p>
               </div>
             </div>
-            <div className="flex flex-col items-center mb-6 lg:mb-0">
+            <div className="flex flex-col items-center mb-6 md:mb-0 md:pr-44">
               <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
                 <img
                   className="w-full h-full object-cover"
@@ -64,7 +64,7 @@ function NuestroEquipo() {
                 />
               </div>
               <div className="text-center">
-                <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e]">Karla Olivares Granja</h3>
+                <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e] pb-[8px]">Karla Olivares Granja</h3>
                 <p className="text-sm text-[#49454f]">Directora Primaria</p>
               </div>
             </div>
@@ -77,7 +77,7 @@ function NuestroEquipo() {
                 />
               </div>
               <div className="text-center">
-                <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e]">Viviana Colucci Trovato</h3>
+                <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e] pb-[8px]">Viviana Colucci Trovato</h3>
                 <p className="text-sm text-[#49454f]">Directora Secundaria</p>
               </div>
             </div>
@@ -106,7 +106,7 @@ function NuestroEquipo() {
             {/* Feature 2 */}
             <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
               <img className="w-12 h-12 mb-4" src="src/assets/icons/Why_we_are_the_best-05.png"></img>
-              <h3 className="text-xl font-semibold text-[#1e1e1e]">Alto Nivel de Inglés</h3>
+              <h3 className="text-xl font-semibold text-[#1e1e1e]">Colegio Bicultural</h3>
               <p className="text-base text-[#49454f]">
                 Los alumnos aprenden inglés desde pequeños lo que asegura que lo lleguen a dominar y puedan aprender de forma bilingüe.
               </p>

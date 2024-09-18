@@ -11,7 +11,7 @@ function PlaneaVisita() {
   return (
     <div>
       <div className="min-h-screen w-full flex justify-center items-center bg-white">
-        <div className="max-w-screen-xl w-full mx-auto p-8 md:p-16 flex flex-col justify-start items-center gap-16">
+        <div className=" w-full mx-auto p-8 md:p-16 flex flex-col justify-start items-center gap-16">
           <div className="relative md:h-[700px] w-full flex justify-center items-center">
             <div>
               <div className="absolute inset-0">
@@ -24,14 +24,14 @@ function PlaneaVisita() {
               </div>
             </div>
             {/* Planea tu visita Section */}
-            <div className="h-auto w-full flex flex-col lg:flex-row justify-between items-center gap-8">
+            <div className="h-auto w-full max-w-screen-xl flex flex-col lg:flex-row justify-between items-center gap-8">
               <div className="flex-grow flex flex-col justify-start items-center gap-8 text-center lg:text-left">
                 <div className="flex flex-col justify-start items-start gap-6">
                   <div className="text-[#1e1e1e] text-[40px] md:text-[57px] font-semibold font-['Pangea'] leading-tight">
                     Planea tu visita
                   </div>
                   <div className="text-[#757575] text-left   text-lg md:text-2xl font-semibold font-['Inter'] leading-tight">
-                    Conoce nuestras instalaciones y descubre cómo aprenden
+                    Conoce nuestras instalaciones y descubre <br /> cómo aprenden
                     nuestros alumnos
                   </div>
                 </div>
@@ -54,9 +54,9 @@ function PlaneaVisita() {
             </div>
 
             {/* Two Visit Types Cards */}
-            <div className="w-full flex flex-col md:flex-row justify-center items-center gap-8">
+            <div className="w-full flex flex-col md:flex-row justify-center items-center ">
               {/* Cita con Admisiones Card */}
-              <div className="w-full md:w-[500px] p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex flex-col justify-start items-center gap-10">
+              <div className="w-full md:w-[500px] p-6 bg-white rounded-tl-lg rounded-bl-lg shadow-sm border border-[#e4e4de] flex flex-col justify-start items-center gap-10">
                 <div className="flex flex-col justify-start items-center gap-4">
                   <img
                     src="src/assets/icons/👩🏻‍🏫.png"
@@ -66,13 +66,13 @@ function PlaneaVisita() {
                   <div className="text-center text-[#1e1e1e] text-xl md:text-2xl font-semibold">
                     Cita con admisiones
                   </div>
-                  <div className="text-center text-black/40 text-base font-normal mx-3">
+                  <div className="text-center text-black/40 text-base font-normal mx-10">
                     Haz una cita personalizada con nuestro equipo de admisiones
                     y conoce más sobre el Colegio Senda.
                   </div>
                   <button
                     onClick={() => scrollToSection("cita-con-admisiones")}
-                    className="px-6 py-3 bg-[#b0cb4f] rounded-2xl text-[#f2f2f2] text-base font-medium"
+                    className="px-6 py-3 bg-[#b0cb4f] hover:opacity-85 rounded-2xl text-[#f2f2f2] text-base font-medium"
                   >
                     Más información
                   </button>
@@ -80,7 +80,7 @@ function PlaneaVisita() {
               </div>
 
               {/* Open House Card */}
-              <div className="w-full md:w-[500px] p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex flex-col justify-start items-center gap-10">
+              <div className="w-full md:w-[500px] p-6 bg-white rounded-tr-lg rounded-br-lg shadow-sm border border-[#e4e4de] flex flex-col justify-start items-center gap-10">
                 <div className="flex flex-col justify-start items-center gap-4">
                   <img
                     src="src/assets/icons/🏫.png"
@@ -96,7 +96,7 @@ function PlaneaVisita() {
                   </div>
                   <button
                     onClick={() => scrollToSection("open-house")}
-                    className="px-6 py-3 bg-[#b0cb4f] rounded-2xl text-[#f2f2f2] text-base font-medium"
+                    className="px-6 py-3 bg-[#b0cb4f] hover:opacity-85 rounded-2xl text-[#f2f2f2] text-base font-medium"
                   >
                     Más información
                   </button>
@@ -111,7 +111,7 @@ function PlaneaVisita() {
           >
             <div className="self-stretch h-auto flex-col justify-start items-start gap-4 flex">
               <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                Contáctanos
+                Cita con admisiones
               </div>
               <div className="self-stretch text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
                 Planea tu próxima visita al Colegio Senda
@@ -119,7 +119,7 @@ function PlaneaVisita() {
             </div>
             <div className="self-stretch h-auto flex-col justify-start items-start gap-10 flex">
               <div className="self-stretch justify-center items-start gap-8 flex flex-col md:flex-row">
-                <div className="w-full md:w-[350px] px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 inline-flex">
+                <div className="w-full md:w-[350px] px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 inline-flex">
                   <div className="self-stretch flex-col justify-start items-center gap-4 flex">
                     <div className="self-stretch flex-col justify-start items-start gap-2 flex">
                       <img
@@ -143,7 +143,7 @@ function PlaneaVisita() {
                     </div>
                   </a>
                 </div>
-                <div className="w-full md:w-[350px] px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 inline-flex">
+                <div className="w-full md:w-[350px] px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 inline-flex">
                   <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
                     <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
                       <img
@@ -167,7 +167,7 @@ function PlaneaVisita() {
                     </div>
                   </a>
                 </div>
-                <div className="w-full md:w-[350px] px-6 py-12 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-center gap-6 inline-flex">
+                <div className="w-full md:w-[350px] px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 inline-flex">
                   <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
                     <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
                       <img
@@ -198,7 +198,7 @@ function PlaneaVisita() {
           {/* Open House Section */}
           <div
             id="open-house"
-            className="w-full md:w-[1440px] h-auto md:h-[1490px] px-4 sm:px-8 md:px-40 py-12 sm:py-16 md:py-24 bg-white flex-col justify-start items-center gap-8 sm:gap-12 md:gap-16 inline-flex"
+            className="w-full md:w-[1440px] h-auto md:h-[1490px] px-4 sm:px-8 md:px-40 py-12 sm:py-16 md:py-24 bg-white flex-col justify-start items-center gap-8  inline-flex"
           >
             
             <div className="self-stretch h-auto md:h-[111px] flex-col justify-start items-center gap-4 flex">

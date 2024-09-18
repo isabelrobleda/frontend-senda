@@ -6,7 +6,7 @@ function Secundaria() {
     <div>
       <div className="flex flex-col items-center">
         {/* First Section with Background */}
-        <div className="relative w-full px-4 md:px-16 py-20 md:py-40 flex justify-center items-center">
+        <div className="relative w-full px-4 md:h-[750px] md:px-16 py-20 md:py-40 flex justify-center items-center">
           {/* Background Image with Opacity */}
           <div className="absolute inset-0">
             <div
@@ -20,7 +20,7 @@ function Secundaria() {
           <div className="relative max-w-screen-xl flex flex-col md:flex-row justify-between items-center gap-8 z-10">
             <div className="flex flex-col justify-start items-start gap-8 text-left">
               <div className="text-[#1e1e1e] text-[2.5rem] md:text-[3.5rem] font-semibold leading-tight">
-                Secundaria
+                Secundaria Constructivista
               </div>
               <div className="text-[#757575] text-lg md:text-2xl font-semibold leading-snug">
                 Nuestra secundaria, basada en la Cultura del Pensamiento,
@@ -84,38 +84,38 @@ function Secundaria() {
         {/* Quote Section */}
 
         <div className="w-full px-4 md:px-16 py-16 md:py-32 bg-white  flex justify-center items-center">
-          <div className="w-full max-w-screen-lg p-6 bg-white  text-center flex flex-col justify-center items-center ">
-            <div className="text-[#303030] text-2xl md:text-3xl font-medium leading-tight">
-              “Tenemos y queremos niños felices,
-              <span style={{ display: "inline-block" }}></span>
-              <img
-                src="src/assets/maternal/quote-img-1.png"
-                alt="image 1"
-                className="inline-block mx-2 rounded-3xl"
-              />
-              que transmitan
-              <span style={{ display: "inline-block" }}></span>
-              <img
-                src="src/assets/maternal/quote-img-2.png"
-                alt="image 2"
-                className="inline-block mx-2"
-              />
-              esa energía y esa pasión que tienen por descubrir, por transformar
-              y por trascender en su
-              <span style={{ display: "inline-block" }}></span>
-              <img
-                src="src/assets/maternal/quote-img-3.png"
-                alt="image 3"
-                className="inline-block mx-2 my-2"
-              />
-              entorno.”
-            </div>
-            <div className="text-[#757575] text-xl font-semibold mt-8">
-              Mónica Sánchez Gavito
-            </div>
-            <div className="text-[#b3b3b3] text-base">Directora general</div>
+        <div className="w-full max-w-screen-lg p-6 bg-white  text-center flex flex-col justify-center items-center ">
+          <div className="text-[#303030] text-2xl md:text-[35px] font-pangea font-medium leading-tight px-24">
+            “Tenemos y queremos niños felices,
+            <span style={{ display: "inline-block" }}></span>
+            <img
+              src="src/assets/maternal/quote-img-1.png"
+              alt="image 1"
+              className="inline-block mx-2 rounded-3xl"
+            />
+            que transmitan
+            <span style={{ display: "inline-block" }}></span>
+            <img
+              src="src/assets/maternal/quote-img-2.png"
+              alt="image 2"
+              className="inline-block mx-2"
+            />
+            esa energía y esa pasión que tienen por descubrir, por transformar y
+            por trascender en su
+            <span style={{ display: "inline-block" }}></span>
+            <img
+              src="src/assets/maternal/quote-img-3.png"
+              alt="image 3"
+              className="inline-block mx-2 my-2"
+            />
+            entorno.”
           </div>
+          <div className="text-[#757575] text-xl font-semibold mt-8">
+            Mónica Sánchez Gavito
+          </div>
+          <div className="text-[#b3b3b3] text-base">Directora general</div>
         </div>
+      </div>
 
         {/* Fourth Section */}
         <div className="w-full bg-[#f9f9fe] py-16 md:py-32">
@@ -158,38 +158,33 @@ function Secundaria() {
         </div>
 
         {/* Fifth Section */}
-        <div className="w-full px-4 md:px-16 py-16 md:py-32 flex justify-center items-center">
-          <div className="w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-6 h-96 bg-white rounded-tl-lg rounded-bl-lg shadow border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-              <img src="src/assets/icons/👩🏻‍🏫.png" alt="" />
-              <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
+        <div className="w-full px-4 md:px-32 py-16 md:py-44 flex justify-center items-center">
+        <div className="w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3">
+          <div className="p-6 h-[300px] bg-white rounded-tl-xl rounded-bl-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
+            <img src="src/assets/icons/👩🏻‍🏫.png" alt="icon teacher" className="mb-10"/>
+            <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Maestros expertos
-              </h3>
-              <p className="text-black/40 text-base">
-              100% de maestros expertos en su materia
-              </p>
-            </div>
-            <div className="p-6 h-96 bg-white shadow border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-              <img src="src/assets/icons/🏫.png" alt="" />
-              <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
-              Alumnos bilingües
-              </h3>
-              <p className="text-black/40 text-base">
-              100% de nuestros alumnos son aceptados en prepas bilingues
-              </p>
-            </div>
-            <div className="p-6 h-96 bg-white rounded-tr-lg rounded-br-lg shadow border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-              <img src="src/assets/secundaria/Group 74.png" alt="ingles y francés" />
-              
-              <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
-              Inglés y francés
-              </h3>
-              <p className="text-black/40 text-base">
-              50% del tiempo en inglés y 20% en francés
-              </p>
-            </div>
+            </h3>
+            <p className="text-black/40 text-base">
+              100% de maestros expertos en <br /> su materia
+            </p>
+          </div>
+          <div className="p-6  bg-white shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
+            <img src="src/assets/icons/🏫.png" alt="icon school" className="mb-10"/>
+            <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
+              Alumnos biculturales
+            </h3>
+            <p className="text-black/40 text-base">100% de nuestros alumnos son <br />aceptadas en prepas bilingues</p>
+          </div>
+          <div className="p-6  bg-white rounded-tr-xl rounded-br-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
+            <img src="src/assets/secundaria/Group 74.png" alt="icon us flag" className="mb-10"/>
+            <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
+              Idioma inglés
+            </h3>
+            <p className="text-black/40 text-base">50% del tiempo en inglés y 20% <br />en francés</p>
           </div>
         </div>
+      </div>
 
         {/* Sixth Section */}
         <div className="w-full bg-[#f9f9fe] py-16 md:py-32">
@@ -202,43 +197,43 @@ function Secundaria() {
               Modelo Senda y la SEP.
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/secundaria/🧮.png" alt="matemáticas icon" />
                 <h3 className="text-xl font-base text-[#1e1e1e] mb-2">
                   Matemáticas
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/icons/🇪🇸.png" alt="" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Español
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/icons/🇺🇸.png" alt="" className="w-10" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Inglés (TOEFL 3ro de Secundaria)
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/icons/⚽.png" alt="" />
                 <h3 className="text-xl font-noraml text-[#1e1e1e] mb-2">
                   Deportes
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/secundaria/🔬.png" alt="ciencias icon" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                 Ciencias (física, química y biología) 
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center ">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
                 <img src="src/assets/icons/🖥️.png" alt="" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Tecnología
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center ">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
                 <img src="src/assets/icons/🎭.png" alt="" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Talleres
@@ -261,10 +256,10 @@ function Secundaria() {
                 ¿Tienes preguntas?
               </h3>
               <p className="absolute z-10 md:mt-32 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
-              Si tienes preguntas sobre secundaria, no dudes en enviarle un correo electrónico a Viviana Macías, nuestra Directora de Secundaria
+              Si tienes preguntas sobre secundaria, no dudes en enviarle un correo electrónico a Viviana Colucci, nuestra Directora de Secundaria
               </p>
               <a href="mailto:direccionsecundaria@colegiosenda.edu.mx">
-                <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl border border-white ">
+                <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-20 bottom-10  py-2 bg-white rounded-2xl border border-white ">
                   <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                     Contactar
                   </span>

@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CardsNosotros() {
   return (
-    <div className="w-full md:h-screen p-8 md:p-16 bg-white flex flex-col justify-center items-center gap-12">
+    <div className="w-full md:h-screen p-8 md:py-16  bg-white flex flex-col justify-center items-center gap-12">
       <div className="md:text-center text-left text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-      Nuestro blog
+        Nuestro blog
       </div>
-      <div className="w-full  max-w-[1440px] flex flex-col md:flex-row justify-start items-start gap-12">
+      <div className="w-full max-w-[1440px] flex flex-col md:flex-row justify-start items-start gap-12">
         {cardsData.map((card, index) => (
           <div
             key={index}
@@ -30,10 +31,12 @@ function CardsNosotros() {
                   {card.description}
                 </div>
               </div>
-              <div className="px-6 py-2 bg-[#009bce] rounded-2xl flex justify-center items-center gap-2">
-                <button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
-                  Ver más
-                </button>
+              <div className="px-6 py-2 bg-[#009bce] hover:opacity-85 rounded-2xl flex justify-center items-center gap-2">
+                <Link to={card.link}>
+                  <button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+                    Ver más
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -50,7 +53,8 @@ const cardsData = [
     author: "Mónica Sánchez Gavito",
     title: "El Colegio Senda y las Elecciones 2024",
     description:
-      "La educación no sólo se trata de impartir conocimientos, sino de formar ciudadanos íntegros, conscientes y preparados para enfrentar los retos del mundo moderno."
+      "La educación no sólo se trata de impartir conocimientos, sino de formar ciudadanos íntegros, conscientes y preparados para enfrentar los retos del mundo moderno.",
+    link: "/blog-1"
   },
   {
     image: "src/assets/blog01.png",
@@ -58,7 +62,8 @@ const cardsData = [
     author: "Mónica Sánchez Gavito",
     title: "El Colegio Senda haciendo el pensamiento visible",
     description:
-      'En el Senda tenemos una metodología desarrollada en la Universidad de Harvard. Esta iniciativa tiene como objetivo transformar la manera en que se enseña y se aprende.'
+      'En el Senda tenemos una metodología desarrollada en la Universidad de Harvard. Esta iniciativa tiene como objetivo transformar la manera en que se enseña y se aprende.',
+    link: "/blog-2"
   },
   {
     image: "src/assets/secundaria_01.jpg",
@@ -66,7 +71,8 @@ const cardsData = [
     author: "Ana Robleda",
     title: "La Enseñanza de la Ética a los Jóvenes",
     description:
-      "En la era de la informaciónLa enseñanza de la ética a los jóvenes de hoy en día es más que una simple asignatura académica; es una inversión en el futuro de nuestra sociedad."
+      "En un mundo cada vez más globalizado, donde las interacciones sociales y digitales juegan un papel crucial en el desarrollo, la enseñanza de la ética se ha vuelto una necesidad.",
+    link: "/blog-3"
   }
 ];
 

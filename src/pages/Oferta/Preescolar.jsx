@@ -6,7 +6,7 @@ function Preescolar() {
     <div>
       <div className="flex flex-col items-center">
         {/* First Section with Background */}
-        <div className="relative w-full px-4 md:px-16 py-20 md:py-40 flex justify-center items-center">
+        <div className="relative w-full md:h-[750px] px-4 md:px-16 py-20 md:py-40 flex justify-center items-center">
           {/* Background Image with Opacity */}
           <div className="absolute inset-0">
             <div
@@ -20,12 +20,12 @@ function Preescolar() {
           <div className="relative max-w-screen-xl flex flex-col md:flex-row justify-between items-center gap-8 z-10">
             <div className="flex flex-col justify-start items-start gap-8 text-left">
               <div className="text-[#1e1e1e] text-[2.5rem] md:text-[3.5rem] font-semibold leading-tight">
-                Preescolar constructivista
+                Preescolar 
               </div>
               <div className="text-[#757575] text-lg md:text-2xl font-semibold leading-snug">
                 Ofrecemos un entorno bilingüe y estimulante que integra
                 tecnología y cultura del pensamiento, promoviendo habilidades
-                críticas, creativas y socioemocionales.
+                críticas, creativas y socioemocionales. Montessori constructivista.
               </div>
               <Link
                 to="/aplica-al-senda"
@@ -92,7 +92,7 @@ function Preescolar() {
 
         <div className="w-full px-4 md:px-16 py-16 md:py-32 bg-white  flex justify-center items-center">
           <div className="w-full max-w-screen-lg p-6 bg-white  text-center flex flex-col justify-center items-center ">
-            <div className="text-[#303030] text-2xl md:text-3xl font-medium leading-tight">
+            <div className="text-[#303030] text-2xl md:text-[35px] font-pangea font-medium leading-tight px-24">
               “Tenemos y queremos niños felices,
               <span style={{ display: "inline-block" }}></span>
               <img
@@ -129,9 +129,9 @@ function Preescolar() {
           <div className="w-full max-w-screen-xl mx-auto px-4 md:px-16 flex flex-col md:flex-row justify-between items-start gap-12">
             <div className="flex flex-col justify-start items-start gap-12">
               <div className="text-[#1e1e1e] text-2xl md:text-3xl font-semibold">
-                Nuestro preescolar constructivista
+              Preescolar Montessori Constructivista
               </div>
-              <div className="text-[#757575] text-base leading-snug">
+              <div className="text-[#757575] text-base leading-snug mr-40">
                 Los niños de preescolar se benefician de un ambiente de
                 aprendizaje enriquecido y estimulante, donde la creatividad y la
                 curiosidad se valoran y se fomentan. Utilizamos una metodología
@@ -148,7 +148,7 @@ function Preescolar() {
                 una base sólida de autoestima y confianza.
               </div>
             </div>
-            <div className="relative w-full max-w-md h-96">
+            <div className="relative w-full max-w-md h-96 md:h-[555px]">
               <div className="bg-[#d6ecf4] rounded-lg">
                 <img
                   src="src/assets/preescolar/middle-preescolar.png"
@@ -161,37 +161,33 @@ function Preescolar() {
         </div>
 
         {/* Fifth Section */}
-        <div className="w-full px-4 md:px-16 py-16 md:py-32 flex justify-center items-center">
-          <div className="w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-6 h-96 bg-white rounded-tl-lg rounded-bl-lg shadow border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-              <img src="src/assets/icons/👩🏻‍🏫.png" alt="" />
-              <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
-                Personalizado
-              </h3>
-              <p className="text-black/40 text-base">
-                2 educadores por salón además de una miss de Inglés
-              </p>
-            </div>
-            <div className="p-6 h-96 bg-white shadow border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-              <img src="src/assets/icons/🏫.png" alt="" />
-              <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
-                Salones pequeños
-              </h3>
-              <p className="text-black/40 text-base">
-                Máximo 24 niños por salón
-              </p>
-            </div>
-            <div className="p-6 h-96 bg-white rounded-tr-lg rounded-br-lg shadow border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-              <img src="src/assets/icons/🇺🇸.png" alt="" />
-              <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
-                Idioma inglés
-              </h3>
-              <p className="text-black/40 text-base">
-                50% del tiempo en inglés
-              </p>
-            </div>
+      <div className="w-full px-4 md:px-32 py-16 md:py-44 flex justify-center items-center">
+        <div className="w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3">
+          <div className="p-6 h-[300px] bg-white rounded-tl-xl rounded-bl-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
+            <img src="src/assets/icons/👩🏻‍🏫.png" alt="icon teacher" className="mb-10"/>
+            <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
+              Personalizado
+            </h3>
+            <p className="text-black/40 text-base">
+              2 educadores por salón además <br />de una miss de Inglés
+            </p>
+          </div>
+          <div className="p-6  bg-white shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
+            <img src="src/assets/icons/🏫.png" alt="icon school" className="mb-10"/>
+            <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
+              Salones pequeños
+            </h3>
+            <p className="text-black/40 text-base">Máximo 24 niños por salón</p>
+          </div>
+          <div className="p-6  bg-white rounded-tr-xl rounded-br-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
+            <img src="src/assets/icons/🇺🇸.png" alt="icon us flag" className="mb-10"/>
+            <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
+              Idioma inglés
+            </h3>
+            <p className="text-black/40 text-base">50% del tiempo en inglés</p>
           </div>
         </div>
+      </div>
 
         {/* Sixth Section */}
         <div className="w-full bg-[#f9f9fe] py-16 md:py-32">
@@ -204,13 +200,13 @@ function Preescolar() {
               Modelo Senda y la SEP.
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/icons/🧘🏻‍♀️.png" alt="" />
                 <h3 className="text-xl font-base text-[#1e1e1e] mb-2">
                   Momento sagrado
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/icons/🇪🇸.png" alt="" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Español
@@ -222,31 +218,31 @@ function Preescolar() {
                   Inglés
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/icons/⚽.png" alt="" />
                 <h3 className="text-xl font-noraml text-[#1e1e1e] mb-2">
                   Deportes
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/icons/👶🏻.png" alt="" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Psicomotricidad
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center ">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
                 <img src="src/assets/icons/🖥️.png" alt="" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Tecnología
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center ">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
                 <img src="src/assets/icons/🎶.png" alt="" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Sing and Play (en inglés)
                 </h3>
               </div>
-              <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
+              <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
                 <img src="src/assets/icons/🎨.png" alt="" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Arte
@@ -270,7 +266,7 @@ function Preescolar() {
               </h3>
               <p className="absolute z-10 md:mt-32 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
                 Si tienes preguntas sobre el preescolar, no dudes en enviarle un
-                correo electrónico a Roxana Fernández L., nuestra Directora de
+                correo electrónico a Roxana Fernández, nuestra Directora de
                 Preescolar
               </p>
               <a href="mailto:direccionpreescolar@colegiosenda.edu.mx">

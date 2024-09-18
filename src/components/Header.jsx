@@ -22,19 +22,19 @@ function Header() {
   };
 
   return (
-    <div>
-      <div className="w-full h-24 p-8 bg-gradient-to-b from-white to-white flex justify-between items-center gap-6">
-        <div className="w-[109px] h-[65px] bg-gradient-to-b from-white to-white flex justify-center items-center">
+    <div className="absolute top-0 left-0 w-full z-20 ">
+      <div className="w-full h-24  px-8 bg-gradient-to-b from-white to-transparent flex justify-between items-center gap-6">
+        <div className="w-[109px] h-[65px] flex justify-center items-center">
           <Link to="/">
             <img
-              className="w-[109px] h-[65px] hover:cursor-pointer"
+              className="w-[100px] h-[60px] mb-2 hover:cursor-pointer"
               src="src/assets/Logo-Senda.png"
               alt="Logo"
             />
           </Link>
         </div>
-        <div className="hidden md:flex md:items-center md:gap-4 md:ml-auto relative">
-          <div className="relative group p-2 hover:bg-neutral-100 rounded-lg flex items-center hover:cursor-pointer ">
+        <div className="hidden md:flex md:flex-row md:items-center md:gap-4 md:ml-auto">
+          <div className="relative group p-2 hover:bg-neutral-100 rounded-lg flex items-center hover:cursor-pointer active:bg-neutral-100">
             <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-none">
               Sobre nosotros
             </div>

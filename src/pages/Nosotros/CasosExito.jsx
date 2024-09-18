@@ -3,7 +3,7 @@ import React from "react";
 function CasosExito() {
   return (
     <>
-      <div className="relative w-full max-w-[1440px] mx-auto mt-20 flex flex-col justify-center items-center gap-6 px-4">
+      <div className="relative w-full max-w-[1440px] mx-auto mt-32 flex flex-col justify-center items-center gap-6 px-4">
         <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter']">
           Success stories
         </div>
@@ -11,7 +11,7 @@ function CasosExito() {
           Nuestras historias de éxito que nos hacen sentir muy orgullosos
         </div>
 
-        <div className="relative w-full max-w-[780px] h-auto aspect-w-16 aspect-h-9 bg-white rounded-[10px] shadow border border-[#e4e4de] z-20 flex justify-center items-center">
+        <div className="relative w-full max-w-[780px] h-auto aspect-w-16 aspect-h-9 bg-white rounded-[10px] shadow border border-[#e4e4de] z-10 flex justify-center items-center">
           <video
             className="w-full h-full object-cover rounded-[10px]"
             src="src/assets/caso-exito-01-compressed.mp4"
@@ -20,24 +20,24 @@ function CasosExito() {
           ></video>
 
           <img
-            className="absolute top-0 md:top-[40px] left-[-20px] md:left-[-60px] z-10 w-[60px] md:w-[94px] h-[60px] md:h-[94px]"
+            className="absolute top-0 md:top-[40px] left-[-20px] md:left-[-120px] z-10 w-[60px] md:w-[120px] h-[60px] md:h-[110px]"
             src="src/assets/medal.png"
             alt="Medal"
           />
           <img
-            className="absolute bottom-0 md:bottom-[40px] right-[-25px] md:right-[-60px] z-10 w-[60px] md:w-36"
+            className="absolute bottom-0 md:bottom-[40px] right-[-25px] md:right-[-150px] z-10 w-[60px] md:w-44"
             src="src/assets/brain.png"
             alt="Brain"
           />
         </div>
 
         <img
-          className="absolute top-24 md:top-10 right-[10px] md:right-72 z-0 w-[40px] md:w-auto"
+          className="absolute top-24 md:top-10 right-[10px] md:right-36 z-0 w-[40px] md:w-auto"
           src="src/assets/green-dots.png"
           alt="Green Dots"
         />
         <img
-          className="absolute bottom-[-15px] md:bottom-[-60px] left-[10px] md:left-56 z-0 w-[40px] md:w-auto"
+          className="absolute bottom-[-15px] md:bottom-[-60px] left-[10px] md:left-36 z-0 w-[40px] md:w-auto"
           src="src/assets/blue-dots.png"
           alt="Blue Dots"
         />
@@ -50,7 +50,7 @@ function CasosExito() {
 
         <div className="relative w-full mb-20 flex flex-col md:flex-row items-center justify-center mt-10 px-4 md:px-0">
           <div className="w-full md:w-[1138px] flex flex-col md:flex-row justify-start items-start gap-10">
-            <div className="w-full md:w-[369px] h-auto p-6 bg-[#f7f7f7] rounded-[10px] shadow flex-col justify-between items-start inline-flex">
+            <div className="w-full md:w-[369px] h-auto p-6 bg-[#f7f7f7] rounded-[10px] shadow-sm flex-col justify-between items-start inline-flex">
               <div className="h-auto flex-col justify-start items-start gap-6 flex">
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                   Ex-alumno
@@ -78,7 +78,7 @@ function CasosExito() {
               </div>
             </div>
 
-            <div className="w-full md:w-[369px] h-auto p-6 bg-[#f7f7f7] rounded-[10px] shadow flex-col justify-between items-start inline-flex">
+            <div className="w-full md:w-[369px] h-auto p-6 bg-[#f7f7f7] rounded-[10px] shadow-sm flex-col justify-between items-start inline-flex">
               <div className="h-auto flex-col justify-start items-start gap-6 flex">
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                   Padre de Familia
@@ -107,7 +107,7 @@ function CasosExito() {
               </div>
             </div>
 
-            <div className="w-full md:w-[369px] h-auto p-6 bg-[#f7f7f7] rounded-[10px] shadow flex-col justify-between items-start inline-flex">
+            <div className="w-full md:w-[369px] h-auto p-6 bg-[#f7f7f7] rounded-[10px] -sm flex-col justify-between items-start inline-flex">
               <div className="h-auto flex-col justify-start items-start gap-6 flex">
                 <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                   Maestra

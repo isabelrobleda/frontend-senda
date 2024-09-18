@@ -1,10 +1,11 @@
 import React from "react";
 import CardsNosotros from "../../components/CardsNosotros";
 
+
 function Blog() {
   return (
     <div>
-      <div className="relative md:h-[700px] w-full flex justify-center items-center p-4">
+      <div className="relative md:h-[750px] pt-20 w-full flex justify-center items-center p-4">
         <div>
           <div className="absolute inset-0">
             <div

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function ModeloSenda() {
   return (
     <div>
-      <div className="md:h-[800px] h-auto w-full p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
+      <div className="md:h-[650px] h-auto w-full p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
         <div className="w-full md:w-auto h-auto px-4 md:px-16 flex flex-col justify-center items-center gap-12">
           <div className="w-full h-auto text-left md:text-left flex flex-col md:items-start gap-2">
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px] mt-10 md:ml-0 sm:ml-28">
@@ -16,7 +16,7 @@ function ModeloSenda() {
           </div>
           <div className="flex flex-col md:flex-row justify-start items-start gap-10">
             <div className="w-full md:w-[523px] flex flex-col justify-start items-start gap-4">
-              <div className="text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">
+              <div className="text-[#1e1e1e] text-base font-bold font-['Inter'] leading-snug">
                 Modelo pedagógico Senda
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
@@ -49,7 +49,7 @@ function ModeloSenda() {
           </div>
         </div>
       </div>
-      <div className="md:h-[800px] h-auto w-full pr-8 md:pr-16 py-8 md:py-16 bg-white flex flex-col md:flex-row justify-center items-center gap-12">
+      <div className="md:h-[800px] h-auto w-full pr-8 md:pr-16 py-8 md:py-16 bg-white flex flex-col md:flex-row justify-start items-center">
         <img
           className="w-auto md:w-[592px] md:h-[476px]"
           src="src/assets/modelo_senda/Modelo_Senda.png"
@@ -63,7 +63,7 @@ function ModeloSenda() {
               Pedagógico Senda
             </div>
             <ul className="text-[#757575] text-base font-normal font-['Inter'] leading-snug ml-4">
-              <li className="list-disc">Bilingüe</li>
+              <li className="list-disc">Bicultural</li>
               <li className="list-disc">Constructivista</li>
               <li className="list-disc">Aprendizaje basado en proyectos</li>
               <li className="list-disc">Inteligencias Múltiples</li>

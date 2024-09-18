@@ -2,11 +2,11 @@ import React from 'react';
 
 function Reviews() {
   return (
-    <div className="w-full md:h-screen p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-8">
-      <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+    <div className="w-full md:h-auto p-8 md:py-[64px] bg-[#f9f9fe] flex flex-col justify-center items-center gap-8">
+      <div className="md:pb-[40px] md:pt-[64px] text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
       Nuestro feedback
       </div>
-      <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-8">
+      <div className="w-full md:px-[64px] md:pb-[64px] flex flex-col lg:flex-row justify-center items-center gap-8">
         <div className="flex flex-col justify-start items-start gap-6">
           <div className="w-full md:w-[400px] h-auto p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <div className="flex justify-start items-start gap-3">

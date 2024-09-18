@@ -13,6 +13,7 @@ function Partners() {
           <img src="src/assets/Knotion.png" className="w-[120px] h-auto" alt="Knotion" />
           <img src="src/assets/LARSA.png" className="w-[120px] h-auto" alt="LARSA" />
           <img src="src/assets/Idea-sport.png" className="w-[114px] h-auto" alt="Idea Sport" />
+          
         </div>
       </div>
     </div>
