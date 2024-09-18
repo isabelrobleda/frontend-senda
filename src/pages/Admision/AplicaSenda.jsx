@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
+import Swal from "sweetalert2";
 
 function AplicaSenda() {
   const [formData, setFormData] = useState({
@@ -52,11 +53,21 @@ function AplicaSenda() {
         `${import.meta.env.VITE_BACKEND_URL}/api/aplica-al-senda`,
         structuredData
       );
-      console.log("Application submitted:", response.data);
-      alert("Application submitted successfully!");
+      Swal.fire({
+        icon: "success",
+        title: "Aplicación enviada",
+        text: "¡Tu aplicación ha sido enviada exitosamente!",
+        confirmButtonColor: "#009bce",
+      });
+
     } catch (error) {
       console.error("There was an error submitting the application:", error);
-      alert("Failed to submit the application.");
+      Swal.fire({
+        icon: "error",
+        title: "Error",
+        text: "Hubo un error con enviar tu aplicación, intenta nuevamente.",
+        confirmButtonColor: "#b0cb4f",
+      });
     }
   };
 
