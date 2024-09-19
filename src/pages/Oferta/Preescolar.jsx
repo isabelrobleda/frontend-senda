@@ -1,5 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import HeaderPreescolar from "../../assets/preescolar/header-preescolar.png";
+import QuoteImg1 from "../../assets/maternal/quote-img-1.png";
+import QuoteImg2 from "../../assets/maternal/quote-img-2.png";
+import QuoteImg3 from "../../assets/maternal/quote-img-3.png";
+import MiddlePreescolar from "../../assets/preescolar/middle-preescolar.png";
+import IconTeacher from "../../assets/icons/👩🏻‍🏫.png";
+import IconSchool from "../../assets/icons/🏫.png"
+import IconUsFlag from "../../assets/icons/🇺🇸.png";
+import IconMeditation from "../../assets/icons/🧘🏻‍♀️.png";
+import IconSpanish from "../../assets/icons/🇪🇸.png";  
+import IconSoccer from "../../assets/icons/⚽.png";
+import IconBaby from "../../assets/icons/👶🏻.png";
+import IconComputer from "../../assets/icons/🖥️.png";
+import IconMusic from "../../assets/icons/🎶.png";
+import IconArt from "../../assets/icons/🎨.png";
+import CTA01 from "../../assets/CTAs/CTA-01.png";
+import CTAImgPreescolar from "../../assets/preescolar/preescolar-tienes_preguntas.png";
 
 function Preescolar() {
   return (
@@ -36,7 +53,7 @@ function Preescolar() {
             </div>
             <div className="relative w-full max-w-xl">
               <img
-                src="src/assets/preescolar/header-preescolar.png"
+                src={HeaderPreescolar}
                 alt="Preescolar"
                 className="w-full h-auto object-cover"
               />
@@ -96,14 +113,14 @@ function Preescolar() {
               “Tenemos y queremos niños felices,
               <span style={{ display: "inline-block" }}></span>
               <img
-                src="src/assets/maternal/quote-img-1.png"
+                src={QuoteImg1}
                 alt="image 1"
                 className="inline-block mx-2 rounded-3xl"
               />
               que transmitan
               <span style={{ display: "inline-block" }}></span>
               <img
-                src="src/assets/maternal/quote-img-2.png"
+                src={QuoteImg2}
                 alt="image 2"
                 className="inline-block mx-2"
               />
@@ -111,7 +128,7 @@ function Preescolar() {
               y por trascender en su
               <span style={{ display: "inline-block" }}></span>
               <img
-                src="src/assets/maternal/quote-img-3.png"
+                src={QuoteImg3}
                 alt="image 3"
                 className="inline-block mx-2 my-2"
               />
@@ -151,7 +168,7 @@ function Preescolar() {
             <div className="relative w-full max-w-md h-96 md:h-[555px]">
               <div className="bg-[#d6ecf4] rounded-lg">
                 <img
-                  src="src/assets/preescolar/middle-preescolar.png"
+                  src={MiddlePreescolar}
                   alt="Preschool"
                   className="rounded-lg absolute"
                 />
@@ -164,7 +181,7 @@ function Preescolar() {
       <div className="w-full px-4 md:px-32 py-16 md:py-44 flex justify-center items-center">
         <div className="w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3">
           <div className="p-6 h-[300px] bg-white rounded-tl-xl rounded-bl-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src="src/assets/icons/👩🏻‍🏫.png" alt="icon teacher" className="mb-10"/>
+            <img src={IconTeacher} alt="icon teacher" className="mb-10"/>
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Personalizado
             </h3>
@@ -173,14 +190,14 @@ function Preescolar() {
             </p>
           </div>
           <div className="p-6  bg-white shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src="src/assets/icons/🏫.png" alt="icon school" className="mb-10"/>
+            <img src={IconSchool} alt="icon school" className="mb-10"/>
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Salones pequeños
             </h3>
             <p className="text-black/40 text-base">Máximo 24 niños por salón</p>
           </div>
           <div className="p-6  bg-white rounded-tr-xl rounded-br-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src="src/assets/icons/🇺🇸.png" alt="icon us flag" className="mb-10"/>
+            <img src={IconUsFlag} alt="icon us flag" className="mb-10"/>
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Idioma inglés
             </h3>
@@ -201,49 +218,49 @@ function Preescolar() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src="src/assets/icons/🧘🏻‍♀️.png" alt="" />
+                <img src={IconMeditation} alt="meditation" />
                 <h3 className="text-xl font-base text-[#1e1e1e] mb-2">
                   Momento sagrado
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src="src/assets/icons/🇪🇸.png" alt="" />
+                <img src={IconSpanish} alt="spanish" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Español
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow border border-[#e4e4de] flex gap-6 items-center">
-                <img src="src/assets/icons/🇺🇸.png" alt="" className="w-10" />
+                <img src={IconUsFlag} alt="us flag" className="w-10" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Inglés
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src="src/assets/icons/⚽.png" alt="" />
+                <img src={IconSoccer} alt="soccer" />
                 <h3 className="text-xl font-noraml text-[#1e1e1e] mb-2">
                   Deportes
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src="src/assets/icons/👶🏻.png" alt="" />
+                <img src={IconBaby} alt="baby" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Psicomotricidad
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
-                <img src="src/assets/icons/🖥️.png" alt="" />
+                <img src={IconComputer} alt="computer" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Tecnología
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
-                <img src="src/assets/icons/🎶.png" alt="" />
+                <img src={IconMusic} alt="music" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Sing and Play (en inglés)
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src="src/assets/icons/🎨.png" alt="" />
+                <img src={IconArt} alt="art" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Arte
                 </h3>
@@ -257,7 +274,7 @@ function Preescolar() {
           <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
             <div className="abolute flex flex-col justify-between">
               <img
-                src="src/assets/CTAs/CTA-01.png"
+                src={CTA01}
                 alt="background green cta"
                 className="relative z-0 md:rounded-none rounded-lg"
               />
@@ -278,7 +295,7 @@ function Preescolar() {
               </a>
             </div>
             <img
-              src="src/assets/preescolar/preescolar-tienes_preguntas.png"
+              src={CTAImgPreescolar}
               alt="image preescolar tienes preguntas"
               className="md:rounded-none rounded-lg"
             />

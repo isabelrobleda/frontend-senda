@@ -1,5 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import HeaderSecundaria from "../../assets/secundaria/header-secundaria.png";
+import MiddleSecundaria from "../../assets/secundaria/middle-secundaria.png";
+import IconTeacher from "../../assets/icons/👩🏻‍🏫.png";
+import IconSchool from "../../assets/icons/🏫.png";
+import IconUsFlag from "../../assets/icons/🇺🇸.png";
+import IconYoga from "../../assets/icons/🧘🏻‍♀️.png";
+import IconScience from "../../assets/secundaria/🔬.png";
+import IconMath from "../../assets/secundaria/🧮.png";
+import IconSpanish from "../../assets/icons/🇪🇸.png";
+import IconSoccer from "../../assets/icons/⚽.png";
+import IconComputer from "../../assets/icons/🖥️.png";
+import IconTheater from "../../assets/icons/🎭.png";
+import IconArt from "../../assets/icons/🎨.png";
+import CTA01 from "../../assets/CTAs/CTA-01.png";
+import SecundariaCTA from "../../assets/secundaria/Secundaria-CTA.png";
+import Quote01 from "../../assets/maternal/quote-img-1.png";
+import Quote02 from "../../assets/maternal/quote-img-2.png";
+import Quote03 from "../../assets/maternal/quote-img-3.png";
+import Group74 from "../../assets/secundaria/Group 74.png";
 
 function Secundaria() {
   return (
@@ -38,7 +57,7 @@ function Secundaria() {
             </div>
             <div className="relative w-full max-w-xl">
               <img
-                src="src/assets/secundaria/header-secundaria.png"
+                src={HeaderSecundaria}
                 alt="Secundaria"
                 className="w-full h-auto object-cover"
               />
@@ -89,14 +108,14 @@ function Secundaria() {
             “Tenemos y queremos niños felices,
             <span style={{ display: "inline-block" }}></span>
             <img
-              src="src/assets/maternal/quote-img-1.png"
+              src={Quote01}
               alt="image 1"
               className="inline-block mx-2 rounded-3xl"
             />
             que transmitan
             <span style={{ display: "inline-block" }}></span>
             <img
-              src="src/assets/maternal/quote-img-2.png"
+              src={Quote02}
               alt="image 2"
               className="inline-block mx-2"
             />
@@ -104,7 +123,7 @@ function Secundaria() {
             por trascender en su
             <span style={{ display: "inline-block" }}></span>
             <img
-              src="src/assets/maternal/quote-img-3.png"
+              src={Quote03}
               alt="image 3"
               className="inline-block mx-2 my-2"
             />
@@ -148,7 +167,7 @@ function Secundaria() {
             <div className="relative w-full max-w-md h-96">
               <div className="bg-[#d6ecf4] rounded-lg">
                 <img
-                  src="src/assets/secundaria/middle-secundaria.png"
+                  src={MiddleSecundaria}
                   alt="secundaria foto"
                   className="rounded-lg absolute"
                 />
@@ -161,7 +180,7 @@ function Secundaria() {
         <div className="w-full px-4 md:px-32 py-16 md:py-44 flex justify-center items-center">
         <div className="w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3">
           <div className="p-6 h-[300px] bg-white rounded-tl-xl rounded-bl-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src="src/assets/icons/👩🏻‍🏫.png" alt="icon teacher" className="mb-10"/>
+            <img src={IconTeacher} alt="icon teacher" className="mb-10"/>
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Maestros expertos
             </h3>
@@ -170,14 +189,14 @@ function Secundaria() {
             </p>
           </div>
           <div className="p-6  bg-white shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src="src/assets/icons/🏫.png" alt="icon school" className="mb-10"/>
+            <img src={IconSchool} alt="icon school" className="mb-10"/>
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Alumnos biculturales
             </h3>
             <p className="text-black/40 text-base">100% de nuestros alumnos son <br />aceptadas en prepas bilingues</p>
           </div>
           <div className="p-6  bg-white rounded-tr-xl rounded-br-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src="src/assets/secundaria/Group 74.png" alt="icon us flag" className="mb-10"/>
+            <img src={Group74} alt="icon us flag" className="mb-10"/>
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Idioma inglés
             </h3>
@@ -198,43 +217,43 @@ function Secundaria() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src="src/assets/secundaria/🧮.png" alt="matemáticas icon" />
+                <img src={IconMath} alt="matemáticas icon" />
                 <h3 className="text-xl font-base text-[#1e1e1e] mb-2">
                   Matemáticas
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src="src/assets/icons/🇪🇸.png" alt="" />
+                <img src={IconSpanish} alt="spanish" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Español
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src="src/assets/icons/🇺🇸.png" alt="" className="w-10" />
+                <img src={IconUsFlag} alt="" className="w-10" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Inglés (TOEFL 3ro de Secundaria)
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src="src/assets/icons/⚽.png" alt="" />
+                <img src={IconSoccer} alt="soccer" />
                 <h3 className="text-xl font-noraml text-[#1e1e1e] mb-2">
                   Deportes
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src="src/assets/secundaria/🔬.png" alt="ciencias icon" />
+                <img src={IconScience} alt="ciencias icon" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                 Ciencias (física, química y biología) 
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
-                <img src="src/assets/icons/🖥️.png" alt="" />
+                <img src={IconComputer} alt="computer" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Tecnología
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
-                <img src="src/assets/icons/🎭.png" alt="" />
+                <img src={IconTheater} alt="teatro" />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Talleres
                 </h3>
@@ -248,7 +267,7 @@ function Secundaria() {
           <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
             <div className="abolute flex flex-col justify-between">
               <img
-                src="src/assets/CTAs/CTA-01.png"
+                src={CTA01}
                 alt="background green cta"
                 className="relative z-0 md:rounded-none rounded-lg"
               />
@@ -267,7 +286,7 @@ function Secundaria() {
               </a>
             </div>
             <img
-              src="src/assets/secundaria/Secundaria-CTA.png"
+              src={SecundariaCTA}
               alt="image secungaria tienes preguntas"
               className="md:rounded-none rounded-lg"
             />
