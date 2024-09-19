@@ -1,11 +1,13 @@
 import React from "react";
+import InspiracionImg from "../../assets/inspiracion/inspiracion.png";
+import Conviccion from "../../assets/inspiracion/conviccion.png";
 
 function Inspiracion() {
   return (
     <div className="w-full flex flex-col items-center ">
       <div className="w-full h-auto  max-w-[1440px] bg-white flex flex-col md:flex-row justify-center items-start gap-12 pt-32 ">
         <div className="w-full h-auto flex left-0">
-          <img src="src/assets/inspiracion/inspiracion.png" alt="image inspiración" className="md:h-[500px] h-80 md:w-auto md:left-0 md:mx-[128px] ml-10" />
+          <img src={InspiracionImg} alt="image inspiración" className="md:h-[500px] h-80 md:w-auto md:left-0 md:mx-[128px] ml-10" />
         </div>
         <div className="w-full flex flex-col self-center items-start gap-4 p-8 md:mr-40">
           <div className="text-[#1e1e1e] text-2xl font-bold font-['Inter'] leading-tight">
@@ -61,7 +63,7 @@ function Inspiracion() {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-          <img src="src/assets/inspiracion/conviccion.png" alt="imagen convicción" className="md:h-[500px] h-80 md:w-auto md:left-0  mr-10" />
+          <img src={Conviccion} alt="imagen convicción" className="md:h-[500px] h-80 md:w-auto md:left-0  mr-10" />
         </div>
       </div>
     </div>
