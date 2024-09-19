@@ -51,7 +51,7 @@ function CardsNosotros() {
 
 const cardsData = [
   {
-    image: {Blog2},
+    image: Blog2,
     alt: "elections-picture",
     author: "Mónica Sánchez Gavito",
     title: "El Colegio Senda y las Elecciones 2024",
@@ -60,7 +60,7 @@ const cardsData = [
     link: "/blog-1"
   },
   {
-    image:{Blog1},
+    image: Blog1,
     alt: "blog-picture",
     author: "Mónica Sánchez Gavito",
     title: "El Colegio Senda haciendo el pensamiento visible",
@@ -69,7 +69,7 @@ const cardsData = [
     link: "/blog-2"
   },
   {
-    image: {Blog3},
+    image: Blog3,
     alt: "ethics-picture",
     author: "Ana Robleda",
     title: "La Enseñanza de la Ética a los Jóvenes",
