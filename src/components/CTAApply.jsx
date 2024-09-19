@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CTA from "../assets/CTAs/CTA-01.png";
+import ImgMaternal from "../assets/CTAs/img-maternal.png";
 
 function CTAApply() {
   return (
@@ -7,7 +9,7 @@ function CTAApply() {
       <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
         <div className="abolute flex flex-col justify-between">
         <img
-          src="src/assets/CTAs/CTA-01.png"
+          src={CTA}
           alt="background green cta"
           className="relative z-0 md:rounded-none rounded-lg"
         />
@@ -27,7 +29,7 @@ function CTAApply() {
           </div>
         </Link>
         </div>
-        <img src="src/assets/CTAs/img-maternal.png" alt="image maternal" className="md:rounded-none rounded-lg" />
+        <img src={ImgMaternal} alt="image maternal" className="md:rounded-none rounded-lg" />
       </div>
     </div>
   );
