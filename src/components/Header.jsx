@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Logo from "../assets/Logo-Senda.png";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,7 +29,7 @@ function Header() {
           <Link to="/">
             <img
               className="w-[100px] h-[60px] mb-2 hover:cursor-pointer"
-              src="src/assets/Logo-Senda.png"
+              src={Logo}
               alt="Logo"
             />
           </Link>
