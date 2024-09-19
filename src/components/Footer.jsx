@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import SimboloSenda from "../assets/simbolo_senda 1.png";
 import Envelope from "../assets/footer/Envelope.png";
 import Phone from "../assets/footer/Phone.png";
-import Instagram from "../assets/Logo Instagram.png";
+import Instagram from "../assets/Logo Instagram.png"
 import Facebook from "../assets/Facebook.png";
 import Spotify from "../assets/Spotify.png";
 
@@ -173,10 +173,10 @@ function Footer() {
               alt="Spotify Icon"
             />
           </Link>
-          <Link to={Facebook} _blank>
+          <Link to="https://www.facebook.com/colegiosenda/" _blank>
             <img
               className="w-6 h-[24.10px]"
-              src="src/assets/Facebook.png"
+              src={Facebook}
               alt="Facebook Icon"
             />
           </Link>
