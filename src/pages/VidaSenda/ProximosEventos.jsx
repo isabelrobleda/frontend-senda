@@ -1,4 +1,8 @@
 import React from "react";
+import Group88 from "../../assets/proximos_eventos/Group 88.png";
+import BackToSchool from "../../assets/proximos_eventos/back-2-school.png";
+import Emociones from "../../assets/proximos_eventos/emociones.png";
+import Mexico from "../../assets/proximos_eventos/mexico.png";
 
 function ProximosEventos() {
   return (
@@ -23,7 +27,7 @@ function ProximosEventos() {
                 </span>
                 <span className="text-[#1e1e1e] text-[24px] md:text-[57px] font-semibold font-['Pangea'] leading-[30px] md:leading-[68px]">
                   <img
-                    src="src/assets/proximos_eventos/Group 88.png"
+                    src={Group88}
                     alt="image 1"
                     className="inline-block mx-1 md:mx-2 h-8 md:h-14"
                   />
@@ -56,7 +60,7 @@ function ProximosEventos() {
             <div className="w-full md:w-[260px] h-[187px] rounded-2xl flex-col justify-center items-center flex">
               <img
                 className=" md:w-[255px] h-full md:h-48 rounded-xl"
-                src="src/assets/proximos_eventos/back-2-school.png"
+                src={BackToSchool}
                 alt="Back to School"
               />
             </div>
@@ -82,7 +86,7 @@ function ProximosEventos() {
             <div className="w-full md:w-[260px] h-[187px] rounded-2xl flex-col justify-center items-center flex">
               <img
                 className=" md:w-[255px] h-full md:h-48 rounded-xl"
-                src="src/assets/proximos_eventos/emociones.png"
+                src={Emociones}
                 alt="Explorando las Emociones"
               />
             </div>
@@ -108,7 +112,7 @@ function ProximosEventos() {
             <div className="w-full md:w-[260px] h-[187px] rounded-2xl flex-col justify-center items-center flex">
               <img
                 className=" md:w-[255px] h-full md:h-48 rounded-xl"
-                src="src/assets/proximos_eventos/mexico.png"
+                src={Mexico}
                 alt="Día de la Independencia de México"
               />
             </div>

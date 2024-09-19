@@ -1,4 +1,11 @@
 import React from "react";
+import Phone from "../../assets/aplica_senda/📞.png"
+import Email from "../../assets/aplica_senda/📨.png";
+import WhatsApp from "../../assets/aplica_senda/image.png";
+import CTA1 from "../../assets/CTAs/CTA-01.png";
+import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
+import Group87 from "../../assets/aplica_senda/Group_87.png";
+
 
 function Colegiaturas() {
   return (
@@ -21,7 +28,7 @@ function Colegiaturas() {
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
                   Una <span style={{ display: "inline-block" }}></span>
                   <img
-                    src="src/assets/aplica_senda/Group_87.png"
+                    src={Group87}
                     alt="image 2"
                     className="inline-block mx-1 md:mx-2 md:h-14 h-10"
                   />
@@ -214,7 +221,7 @@ function Colegiaturas() {
               <div className="self-stretch flex-col justify-start items-center gap-4 flex">
                 <div className="self-stretch flex-col justify-start items-start gap-2 flex">
                   <img
-                    src="src/assets/aplica_senda/📞.png"
+                    src={Phone}
                     alt=""
                     className="h-12 self-center mb-3"
                   />
@@ -238,7 +245,7 @@ function Colegiaturas() {
               <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
                 <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
                   <img
-                    src="src/assets/aplica_senda/image.png"
+                    src={WhatsApp}
                     alt=""
                     className="h-12 self-center mb-3"
                   />
@@ -262,7 +269,7 @@ function Colegiaturas() {
               <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
                 <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
                   <img
-                    src="src/assets/aplica_senda/📨.png"
+                    src={Email}
                     alt=""
                     className="h-12 self-center mb-3"
                   />
@@ -290,7 +297,7 @@ function Colegiaturas() {
         <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
           <div className="abolute flex flex-col justify-between">
             <img
-              src="src/assets/CTAs/CTA-01.png"
+              src={CTA1}
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
             />
@@ -311,7 +318,7 @@ function Colegiaturas() {
             </a>
           </div>
           <img
-            src="src/assets/CTAs/img-maternal.png"
+            src={CTAImgMaternal}
             alt="image maternal"
             className="md:rounded-none rounded-lg"
           />

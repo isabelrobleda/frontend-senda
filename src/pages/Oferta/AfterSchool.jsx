@@ -1,4 +1,31 @@
 import React from "react";
+import Patineta from "../../assets/after school/foto_patineta.png";
+import DeportesEscalar from "../../assets/after school/Deportes_Escalar.png";
+import Inspiracion from "../../assets/after school/inspiracion.png";
+import Conviccion from "../../assets/after school/conviccion.png";
+import Basquetbol from "../../assets/after school/basquetbol.png";
+import Escalar from "../../assets/after school/escalar.png";
+import Tarea from "../../assets/after school/tarea.png";
+import Raqueta from "../../assets/after school/raqueta.png";
+import Futbol from "../../assets/after school/futbol.png";
+import Patineta2 from "../../assets/after school/patineta.png";
+import IdeaSport from "../../assets/Idea-sport.png";
+import PatinetaIcon from "../../assets/after school/📓.png"
+import FutbolIcon from "../../assets/after school/⚽.png"
+import PickleballIcon from "../../assets/after school/🎾.png";
+import HockeyIcon from "../../assets/after school/🏑.png";
+import PatinetaIcon2 from "../../assets/after school/🛹.png";
+import EscalarIcon from "../../assets/after school/🪨.png";
+import BabyIcon from "../../assets/after school/baby.png";
+import DancerIcon from "../../assets/after school/dancer.png";
+import ImgAfterSchool01 from "../../assets/after school/afterschool_02 2.png";
+import ImgAfterSchool02 from "../../assets/after school/PCI_3443.png";
+import ImgAfterSchool03 from "../../assets/after school/PCI_3753.png";
+import ImgAfterSchool04 from "../../assets/after school/PCI_3923.png";
+import ImgAfterSchool05 from "../../assets/after school/PCI_4104.png";
+import ImgAfterSchool06 from "../../assets/after school/PCI_4207.png";
+import CTA1 from "../../assets/CTAs/CTA-01.png";
+import CTAAfterSchool from "../../assets/after school/CTA-After-School.png";
 
 function AfterSchool() {
   return (
@@ -18,43 +45,43 @@ function AfterSchool() {
             <div className="floating-images max-w-screen-lg">
               <img
                 className="absolute w-20 h-20 sm:w-8 sm:h-8 md:w-36 md:h-36 rounded-full  md:left-28  bottom-36 left-10"
-                src="src/assets/after school/foto_patineta.png"
+                src={Patineta}
               />
               <img
                 className="absolute w-20 h-20  md:w-24 md:h-24 rounded-full top-28 left-44"
-                src="src/assets/after school/Deportes_Escalar.png"
+                src={DeportesEscalar}
               />
               <img
                 className="absolute w-20 h-20 md:w-32 md:h-32 rounded-full left-10 bottom-36 md:bottom-20 md:left-[1200px]"
-                src="src/assets/after school/inspiración.png"
+                src={Inspiracion}
               />
               <img
                 className="absolute w-20 h-20  md:w-32 md:h-32 rounded-full md:top-44 md:right-56 right-20 bottom-20"
-                src="src/assets/after school/convicción.png"
+                src={Conviccion}
               />
               <img
                 className="absolute w-8 md:w-16 md:h-16  md:right-80 opacity-65 bottom-64"
-                src="src/assets/after school/basquetbol.png"
+                src={Basquetbol}
               />
               <img
                 className="absolute w-8 md:w-12 md:h-12 md:top-56 md:right-20 opacity-65 right-10 top-52"
-                src="src/assets/after school/escalar.png"
+                src={Escalar}
               />
               <img
                 className="absolute w-10 md:w-12 md:top-36 md:left-2/4 opacity-65 left-10 top-44"
-                src="src/assets/after school/tarea.png"
+                src={Tarea}
               />
               <img
                 className="absolute w-14 md:w-20 md:top-[800px] md:left-[750px] opacity-65 left-36 top-10"
-                src="src/assets/after school/raqueta.png"
+                src={Raqueta}
               />
               <img
                 className="absolute md:w-14 w-10 md:bottom-36 md:left-80 opacity-65 bottom-44 right-44"
-                src="src/assets/after school/futbol.png"
+                src={Futbol}
               />
               <img
                 className="absolute md:w-20 w-12 md:top-56 md:left-80  opacity-65 bottom-10 right-2"
-                src="src/assets/after school/patineta.png"
+                src={Patineta2}
               />
             </div>
 
@@ -77,7 +104,7 @@ function AfterSchool() {
 
               <div className="flex flex-col items-center">
                 <img
-                  src="src/assets/Idea-sport.png"
+                  src={IdeaSport}
                   alt="Idea Sport"
                   className="pt-8  items-center justify-center "
                 />
@@ -143,7 +170,7 @@ function AfterSchool() {
           <div className=" px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/📓.png"
+                src={PatinetaIcon}
                 alt="patineta"
                 className="w-18 pb-2"
               />
@@ -160,7 +187,7 @@ function AfterSchool() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/⚽.png"
+                src={FutbolIcon}
                 alt="futbol"
                 className="w-18 pb-2"
               />
@@ -178,7 +205,7 @@ function AfterSchool() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/🎾.png"
+                src={PickleballIcon}
                 alt="pickleball"
                 className="w-18 pb-2"
               />
@@ -197,7 +224,7 @@ function AfterSchool() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/🏑.png"
+                src={HockeyIcon}
                 alt="hockey sobre pasto"
                 className="w-18 pb-2"
               />
@@ -214,7 +241,7 @@ function AfterSchool() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/🛹.png"
+                src={PatinetaIcon2}
                 alt="patineta"
                 className="w-18 pb-2"
               />
@@ -232,7 +259,7 @@ function AfterSchool() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/🪨.png"
+                src={EscalarIcon}
                 alt="roca"
                 className="w-18 pb-2"
               />
@@ -250,7 +277,7 @@ function AfterSchool() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/baby.png"
+                src={BabyIcon}
                 alt="bebé"
                 className="w-20 pb-2"
               />
@@ -267,7 +294,7 @@ function AfterSchool() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/dancer.png"
+                src={DancerIcon}
                 alt="dancer"
                 className="w-20 pb-2"
               />
@@ -287,42 +314,42 @@ function AfterSchool() {
           <div className=" w-full h-80">
             <img
               className=" inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/after school/afterschool_02 2.png"
+              src={ImgAfterSchool01}
               alt="After School 1"
             />
           </div>
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/after school/PCI_3443.png"
+              src={ImgAfterSchool02}
               alt="After School 2"
             />
           </div>
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/after school/PCI_3753.png"
+              src={ImgAfterSchool03}
               alt="After School 3"
             />
           </div>
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/after school/PCI_3923.png"
+              src={ImgAfterSchool04}
               alt="After School 4"
             />
           </div>
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/after school/PCI_4104.png"
+              src={ImgAfterSchool05}
               alt="After School 5"
             />
           </div>
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/after school/PCI_4207.png"
+              src={ImgAfterSchool06}
               alt="After School 6"
             />
           </div>
@@ -334,7 +361,7 @@ function AfterSchool() {
         <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
           <div className="abolute flex flex-col justify-between">
             <img
-              src="src/assets/CTAs/CTA-01.png"
+              src={CTA1}
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
             />
@@ -358,7 +385,7 @@ function AfterSchool() {
             </a>
           </div>
           <img
-            src="src/assets/after school/CTA-After-School.png"
+            src={CTAAfterSchool}
             alt="image cta after school"
             className="md:rounded-none rounded-lg"
           />

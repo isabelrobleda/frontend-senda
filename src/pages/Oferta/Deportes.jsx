@@ -1,4 +1,26 @@
 import React from "react";
+import Bici from "../../assets/deportes/bici.png";
+import Group79 from "../../assets/deportes/Group 79.png";
+import Group80 from "../../assets/deportes/Group 80.png";
+import Group81 from "../../assets/deportes/Group 81.png";
+import Group82 from "../../assets/deportes/Group 82.png";
+import Group83 from "../../assets/deportes/Group 83.png";
+import Group84 from "../../assets/deportes/Group 84.png";
+import Group85 from "../../assets/deportes/Group 85.png";
+import IdeaSport from "../../assets/Idea-sport.png";
+import Futbol from "../../assets/after school/⚽.png";
+import Basquet from "../../assets/after school/🏀.png"
+import Pickleball from "../../assets/after school/🎾.png";
+import Hockey from "../../assets/after school/🏑.png";
+import Patineta from "../../assets/after school/🛹.png";
+import Roca from "../../assets/after school/🪨.png";
+import Escalar from "../../assets/deportes/deportes_escalar_02.png";
+import Futbol2 from "../../assets/deportes/Deportes_Futbol 2.png";
+import Patineta2 from "../../assets/deportes/deportes_patineta_02.png";
+import Deportes4 from "../../assets/deportes/P1270918.png";
+import Deportes5 from "../../assets/deportes/Screenshot 2024-08-17 at 18.08.48 1.png";
+import Deportes6 from "../../assets/deportes/Screenshot 2024-08-17 at 18.09.25 1.png";
+
 
 function Deportes() {
   return (
@@ -18,35 +40,35 @@ function Deportes() {
             <div className="floating-images">
               <img
                 className="absolute w-20 h-20  md:w-32 md:h-32 top-28 right-44"
-                src="src/assets/deportes/bici.png"
+                src={Bici}
               />
               <img
                 className="absolute w-18 h-20 md:w-32 md:h-32 md:bottom-32 md:left-72 bottom-56 left-72"
-                src="src/assets/deportes/Group 79.png"
+                src={Group79}
               />
               <img
                 className="absolute w-20 h-20 md:w-32 md:h-32 left-10 top-[500px] md:top-72 md:left-32"
-                src="src/assets/deportes/Group 80.png"
+                src={Group80}
               />
               <img
                 className="absolute w-14 h-14  md:w-20 md:h-20  md:top-96 md:right-24 right-20 top-20"
-                src="src/assets/deportes/Group 81.png"
+                src={Group81}
               />
               <img
                 className="absolute w-20 h-20 md:w-32 md:h-32  md:top-20 md:left-80 right-2 top-44"
-                src="src/assets/deportes/Group 82.png"
+                src={Group82}
               />
               <img
                 className="absolute w-16 h-16  md:w-32 md:h-32 md:bottom-32 md:right-80 bottom-20"
-                src="src/assets/deportes/Group 83.png"
+                src={Group83}
               />
               <img
                 className="absolute w-20 h-20 md:w-20 md:h-20 md:top-48 md:left-[750px] left-20 top-56"
-                src="src/assets/deportes/Group 84.png"
+                src={Group84}
               />
               <img
                 className="absolute w-14 h-14  md:w-20 md:h-20   md:bottom-56 md:right-[750px] right-20 bottom-20"
-                src="src/assets/deportes/Group 85.png"
+                src={Group85}
               />
             </div>
 
@@ -62,7 +84,7 @@ function Deportes() {
               </p>
               <div className="flex flex-col items-center">
                 <img
-                  src="src/assets/Idea-sport.png"
+                  src={IdeaSport}
                   alt="Idea Sport"
                   className="pt-8  items-center justify-center "
                 />
@@ -132,7 +154,7 @@ function Deportes() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/⚽.png"
+                src={Futbol}
                 alt="futbol"
                 className="w-18 pb-2"
               />
@@ -166,7 +188,7 @@ function Deportes() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/🎾.png"
+                src={Pickleball}
                 alt="pickleball"
                 className="w-18 pb-2"
               />
@@ -184,7 +206,7 @@ function Deportes() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/🏑.png"
+                src={Hockey}
                 alt="hockey sobre pasto"
                 className="w-18 pb-2"
               />
@@ -201,7 +223,7 @@ function Deportes() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/🛹.png"
+                src={Patineta}
                 alt="patineta"
                 className="w-18 pb-2"
               />
@@ -218,7 +240,7 @@ function Deportes() {
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
               <img
-                src="src/assets/after school/🪨.png"
+                src={Roca}
                 alt="roca"
                 className="w-18 pb-2"
               />
@@ -240,42 +262,42 @@ function Deportes() {
           <div className=" w-full h-80">
             <img
               className=" inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/deportes/deportes_escalar_02.png"
+              src={Escalar}
               alt="deportes 1"
             />
           </div>
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/deportes/Deportes_Futbol 2.png"
+              src={Futbol2}
               alt="Deportes 2"
             />
           </div>
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/deportes/deportes_patineta_02.png"
+              src={Patineta2}
               alt="Deportes 3"
             />
           </div>
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/deportes/P1270918.png"
+              src={Deportes4}
               alt="Deportes 4"
             />
           </div>
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/deportes/Screenshot 2024-08-17 at 18.08.48 1.png"
+              src={Deportes5}
               alt="Deportes 5"
             />
           </div>
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src="src/assets/deportes/Screenshot 2024-08-17 at 18.09.25 1.png"
+              src={Deportes6}
               alt="Deportes 6"
             />
           </div>

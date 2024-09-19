@@ -1,4 +1,13 @@
 import React from "react";
+import Phone from "../../assets/aplica_senda/📞.png"
+import Email from "../../assets/aplica_senda/📨.png";
+import WhatsApp from "../../assets/aplica_senda/image.png";
+import CTA1 from "../../assets/CTAs/CTA-01.png";
+import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
+import PlaneaTuVisita from "../../assets/planea-tu-visita.png";
+import OpenHouse from "../../assets/icons/🏫.png";
+import CitaConAdmisiones from "../../assets/icons/👩🏻‍🏫.png";
+
 
 function PlaneaVisita() {
   const scrollToSection = (id) => {
@@ -38,7 +47,7 @@ function PlaneaVisita() {
               </div>
               <div className=" w-full md:w-[500px]  relative">
                 <img
-                  src="src/assets/planea-tu-visita.png"
+                  src={PlaneaTuVisita}
                   alt="Plan your visit"
                   className="w-full h-full"
                 />
@@ -59,7 +68,7 @@ function PlaneaVisita() {
               <div className="w-full md:w-[500px] p-6 bg-white rounded-tl-lg rounded-bl-lg shadow-sm border border-[#e4e4de] flex flex-col justify-start items-center gap-10">
                 <div className="flex flex-col justify-start items-center gap-4">
                   <img
-                    src="src/assets/icons/👩🏻‍🏫.png"
+                    src={CitaConAdmisiones}
                     alt="Cita con admisiones"
                     className="w-[60px] h-[60px]"
                   />
@@ -83,7 +92,7 @@ function PlaneaVisita() {
               <div className="w-full md:w-[500px] p-6 bg-white rounded-tr-lg rounded-br-lg shadow-sm border border-[#e4e4de] flex flex-col justify-start items-center gap-10">
                 <div className="flex flex-col justify-start items-center gap-4">
                   <img
-                    src="src/assets/icons/🏫.png"
+                    src={OpenHouse}
                     alt="Open House"
                     className="w-[60px] h-[60px]"
                   />
@@ -123,7 +132,7 @@ function PlaneaVisita() {
                   <div className="self-stretch flex-col justify-start items-center gap-4 flex">
                     <div className="self-stretch flex-col justify-start items-start gap-2 flex">
                       <img
-                        src="src/assets/aplica_senda/📞.png"
+                        src={Phone}
                         alt=""
                         className="h-12 self-center mb-3"
                       />
@@ -147,7 +156,7 @@ function PlaneaVisita() {
                   <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
                     <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
                       <img
-                        src="src/assets/aplica_senda/image.png"
+                        src={WhatsApp}
                         alt=""
                         className="h-12 self-center mb-3"
                       />
@@ -171,7 +180,7 @@ function PlaneaVisita() {
                   <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
                     <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
                       <img
-                        src="src/assets/aplica_senda/📨.png"
+                        src={Email}
                         alt=""
                         className="h-12 self-center mb-3"
                       />
@@ -503,7 +512,7 @@ function PlaneaVisita() {
             <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
               <div className="abolute flex flex-col justify-between">
                 <img
-                  src="src/assets/CTAs/CTA-01.png"
+                  src={CTA1}
                   alt="background green cta"
                   className="relative z-0 md:rounded-none rounded-lg"
                 />
@@ -522,7 +531,7 @@ function PlaneaVisita() {
                 </a>
               </div>
               <img
-                src="src/assets/CTAs/img-maternal.png"
+                src={CTAImgMaternal}
                 alt="image maternal"
                 className="md:rounded-none rounded-lg"
               />

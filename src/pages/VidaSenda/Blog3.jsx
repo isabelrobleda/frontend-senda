@@ -1,5 +1,7 @@
 import React from "react";
 import CardsNosotros from "../../components/CardsNosotros";
+import ImgBlog3 from "../../assets/blog/blog-3.png";
+import Ana from "../../assets/blog/ana-robleda.jpeg";
 
 function Blog3() {
   return (
@@ -9,7 +11,7 @@ function Blog3() {
           <div className="w-full h-auto flex justify-center items-center">
             <img
               className="w-full max-w-[1312px] h-96 rounded-2xl object-cover "
-              src="src/assets/blog/blog-3.png"
+              src={ImgBlog3}
               alt="Blog 2"
             />
           </div>
@@ -27,8 +29,8 @@ function Blog3() {
               <div className="w-[50px] h-[50px] rounded-full bg-[#d9d9d9] relative">
                 <img
                   className="w-full h-full rounded-full object-cover"
-                  src="src/assets/blog/ana-robleda.jpeg"
-                  alt="Mónica Sánchez Gavito"
+                  src={Ana}
+                  alt="Ana Robleda"
                 />
               </div>
               <div className="flex flex-col items-start">

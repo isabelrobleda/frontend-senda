@@ -1,5 +1,6 @@
 import React from "react";
 import CardsNosotros from "../../components/CardsNosotros";
+import Group86 from "../../assets/blog/Group 86.png";
 
 
 function Blog() {
@@ -31,7 +32,7 @@ function Blog() {
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
                   <span style={{ display: "inline-block" }}></span>
                   <img
-                    src="src/assets/blog/Group 86.png"
+                    src={Group86}
                     alt="image 1"
                     className="inline-block mx-1 md:mx-2 h-10 md:h-16"
                   />

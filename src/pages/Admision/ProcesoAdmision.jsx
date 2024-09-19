@@ -1,5 +1,20 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import CTA1 from "../../assets/CTAs/CTA-01.png";
+import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
+import ChevronLeft from "../../assets/proceso_admision/Chevron left.png";
+import ChevronRight from "../../assets/proceso_admision/Chevron right.png";
+import LaboratorioSecundaria from "../../assets/proceso_admision/Laboratorio_Secundaria.png";
+import Paso02 from "../../assets/proceso_admision/paso_02.png";
+import Paso03 from "../../assets/proceso_admision/paso_03.png";
+import Paso04 from "../../assets/proceso_admision/paso_04.png";
+import Paso05 from "../../assets/proceso_admision/paso_05.png";
+import Paso06 from "../../assets/proceso_admision/paso_06.png";
+import Paso07 from "../../assets/proceso_admision/paso_07.png";
+import Paso08 from "../../assets/proceso_admision/paso_08.png";
+import Paso09 from "../../assets/proceso_admision/paso_09.png";
+
+
 
 function ProcesoAdmision() {
   const steps = [
@@ -8,7 +23,7 @@ function ProcesoAdmision() {
       description:
         "Para poder aplicar es necesario llenar el formato de aplicación o planear tu visita con nuestra área de admisiones.",
       stepNumber: "Paso 1",
-      imageUrl: "src/assets/proceso_admision/Laboratorio_Secundaria.png",
+      imageUrl: LaboratorioSecundaria,
       applyLink: "/aplica-al-senda",
       visitLink: "/planea-tu-visita",
     },
@@ -17,7 +32,7 @@ function ProcesoAdmision() {
       description:
         "Para los que aplican a Maternal y K1, deberán agendar una entrevista. Los demás grados, deberán agendar una cita para asistir dos días al colegio para una entrevista y una evaluación.",
       stepNumber: "Paso 2",
-      imageUrl: "src/assets/proceso_admision/paso_02.png",
+      imageUrl: Paso02,
       applyLink: "/contacto",
     },
     {
@@ -25,47 +40,47 @@ function ProcesoAdmision() {
       description:
         "Pago de Proceso de Admisión en efectivo en la Caja del Colegio.",
       stepNumber: "Paso 3",
-      imageUrl: "src/assets/proceso_admision/paso_03.png",
+      imageUrl: Paso03,
     },
     {
       title: "Entrega de documentos",
       description:
         "Para los que entran de KII a Secundaria, traer el formato de antecedentes, copia de calificaciones o evaluación, carta de no adeudo y de buena conducta. Para los que entran a maternal y K1, no es necesario entregar estos documentos.",
       stepNumber: "Paso 4",
-      imageUrl: "src/assets/proceso_admision/paso_04.png",
+      imageUrl: Paso04,
     },
     {
       title: "Asistir al Colegio",
       description:
         "Para los de maternal y K1 deberán asistir a la entrevista. Para los que entran de KII a Secundaria, deberán asistir a los dos días de visita agendados.",
       stepNumber: "Paso 5",
-      imageUrl: "src/assets/proceso_admision/paso_05.png",
+      imageUrl: Paso05,
     },
     {
       title: "Resultado de aplicación",
       description:
         "Para los que entran de KII a Secundaria, se les notificará por e-mail el resultado de su aplicación para entrar al Colegio. Para los que entran a maternal y K1 recibirán una llamada notificarles los siguientes pasos.",
       stepNumber: "Paso 6",
-      imageUrl: "src/assets/proceso_admision/paso_06.png",
+      imageUrl: Paso06,
     },
     {
       title: "Pago de inscripción y cuota familiar",
       description: "Pagar la inscripción y la cuota familiar",
       stepNumber: "Paso 7",
-      imageUrl: "src/assets/proceso_admision/paso_07.png",
+      imageUrl: Paso07,
     },
     {
       title: "Entrega de Documentos Adisionales",
       description:
         "Entregar los documentos oficiales adicionales, los cuales fueron acordados durante la cita en el Colegio.",
       stepNumber: "Paso 8",
-      imageUrl: "src/assets/proceso_admision/paso_08.png",
+      imageUrl: Paso08,
     },
     {
       title: "Comprar uniformes",
       description: "Comprar los uniformes y pagar los materiales.",
       stepNumber: "Paso 9",
-      imageUrl: "src/assets/proceso_admision/paso_09.png",
+      imageUrl: Paso09,
     },
   ];
 
@@ -159,7 +174,7 @@ function ProcesoAdmision() {
               onClick={handlePreviousStep}
             >
               <img
-                src="src/assets/proceso_admision/Chevron left.png"
+                src={ChevronLeft}
                 alt="Prev"
               />
             </button>
@@ -170,7 +185,7 @@ function ProcesoAdmision() {
               onClick={handleNextStep}
             >
               <img
-                src="src/assets/proceso_admision/Chevron right.png"
+                src={ChevronRight}
                 alt="Next"
               />
             </button>
@@ -183,7 +198,7 @@ function ProcesoAdmision() {
         <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
           <div className="abolute flex flex-col justify-between">
             <img
-              src="src/assets/CTAs/CTA-01.png"
+              src={CTA1}
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
             />
@@ -203,7 +218,7 @@ function ProcesoAdmision() {
             </a>
           </div>
           <img
-            src="src/assets/CTAs/img-maternal.png"
+            src={CTAImgMaternal}
             alt="image maternal"
             className="md:rounded-none rounded-lg"
           />

@@ -2,6 +2,17 @@ import React from "react";
 import { useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
+import Group86 from "../../assets/aplica_senda/Group_86.png";
+import Group87 from "../../assets/aplica_senda/Group_87.png";
+import Group88 from "../../assets/aplica_senda/Group_88.png";
+import HeaderBackground from "../../assets/Header-background.png";
+import Image from "../../assets/aplica_senda/image.png";
+import Phone from "../../assets/aplica_senda/📞.png"
+import Email from "../../assets/aplica_senda/📨.png";
+import WhatsApp from "../../assets/aplica_senda/image.png";
+import CTA1 from "../../assets/CTAs/CTA-01.png";
+import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
+
 
 function AplicaSenda() {
   const [formData, setFormData] = useState({
@@ -95,7 +106,7 @@ function AplicaSenda() {
                   comunidad
                   <span style={{ display: "inline-block" }}></span>
                   <img
-                    src="src/assets/aplica_senda/Group_87.png"
+                    src={Group87}
                     alt="image 2"
                     className="inline-block mx-1 md:mx-2 h-14"
                   />
@@ -108,7 +119,7 @@ function AplicaSenda() {
                   educativa inmersa en la cultura de pensamiento,
                   <span style={{ display: "inline-block" }}></span>
                   <img
-                    src="src/assets/aplica_senda/Group_86.png"
+                    src={Group86}
                     alt="image 2"
                     className="inline-block mx-1 md:mx-2 h-14"
                   />
@@ -128,7 +139,7 @@ function AplicaSenda() {
                   de cada
                   <span style={{ display: "inline-block" }}></span>
                   <img
-                    src="src/assets/aplica_senda/Group_88.png"
+                    src={Group88}
                     alt="image 2"
                     className="inline-block mx-1 md:mx-2 h-14"
                   />
@@ -399,8 +410,8 @@ function AplicaSenda() {
               <div className="self-stretch flex-col justify-start items-center gap-4 flex">
                 <div className="self-stretch flex-col justify-start items-start gap-2 flex">
                   <img
-                    src="src/assets/aplica_senda/📞.png"
-                    alt=""
+                    src={Phone}
+                    alt="open phone"
                     className="h-12 self-center mb-3"
                   />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -423,8 +434,8 @@ function AplicaSenda() {
               <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
                 <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
                   <img
-                    src="src/assets/aplica_senda/image.png"
-                    alt=""
+                    src={WhatsApp}
+                    alt="whatsapp"
                     className="h-12 self-center mb-3"
                   />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -447,8 +458,8 @@ function AplicaSenda() {
               <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
                 <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
                   <img
-                    src="src/assets/aplica_senda/📨.png"
-                    alt=""
+                    src={Email}
+                    alt="email"
                     className="h-12 self-center mb-3"
                   />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -475,7 +486,7 @@ function AplicaSenda() {
         <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
           <div className="abolute flex flex-col justify-between">
             <img
-              src="src/assets/CTAs/CTA-01.png"
+              src={CTA1}
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
             />
@@ -496,7 +507,7 @@ function AplicaSenda() {
             </a>
           </div>
           <img
-            src="src/assets/CTAs/img-maternal.png"
+            src={CTAImgMaternal}
             alt="image maternal"
             className="md:rounded-none rounded-lg"
           />
