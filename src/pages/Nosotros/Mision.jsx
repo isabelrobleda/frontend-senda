@@ -1,4 +1,7 @@
 import React from "react";
+import MisionImg from "../../assets/mision/Mision.jpeg";
+import Mision01 from "../../assets/mision/mision01.jpeg";
+import Mision02 from "../../assets/mision/mision02.png";
 
 function Mision() {
   return (
@@ -45,21 +48,21 @@ function Mision() {
           <div className="w-full md:w-[415px] h-auto">
             <img
               className="w-96 h-64 rounded-lg"
-              src="src/assets/Mision.jpeg"
+              src={MisionImg}
               alt="Mision"
             />
           </div>
           <div className="w-full md:w-[415px] h-auto">
             <img
               className="w-96 h-64 rounded-lg"
-              src="src/assets/mision02.png"
+              src={Mision02}
               alt="Mision 02"
             />
           </div>
           <div className="w-full md:w-[415px] h-auto">
             <img
               className="w-96 h-64 rounded-lg"
-              src="src/assets/mision01.jpeg"
+              src={Mision01}
               alt="Mision 01"
             />
           </div>

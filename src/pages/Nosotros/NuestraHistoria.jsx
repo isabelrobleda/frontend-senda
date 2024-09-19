@@ -1,4 +1,14 @@
 import React from "react";
+import NuestraHistoriaImg from "../../assets/nuestrahistoria.png";
+import Circle from "../../assets/nuestra_historia/circle.png";
+import Line from "../../assets/nuestra_historia/line.png";
+import Chick from "../../assets/nuestra_historia/chick.png";
+import Truck from "../../assets/nuestra_historia/truck.png";
+import House from "../../assets/nuestra_historia/house.png";
+import Graduation from "../../assets/nuestra_historia/Graduation.png";
+import Rocket from "../../assets/nuestra_historia/rocket.png";
+import Robot from "../../assets/nuestra_historia/🤖 .png";
+import Raquet from "../../assets/nuestra_historia/1f3be.png";
 
 function NuestraHistoria() {
   return (
@@ -36,8 +46,8 @@ function NuestraHistoria() {
           </div>
           <div className="w-full md:w-[501.67px] h-[429px] relative">
             <img
-              src="src/assets/nuestrahistoria.png"
-              alt=""
+              src={NuestraHistoriaImg}
+              alt="imagen nuestra historia"
               className="w-full h-full object-cover"
             />
           </div>
@@ -48,12 +58,12 @@ function NuestraHistoria() {
           <div className="w-full flex flex-col sm:flex-row justify-start items-start gap-10">
             <div className="flex-shrink-0 flex flex-col justify-start items-center sm:items-start gap-4">
               <img
-                src="src/assets/nuestra_historia/circle.png"
+                src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block" 
               />
               <img
-                src="src/assets/nuestra_historia/line.png"
+                src={Line}
                 alt="line"
                 className="ml-2 w-1 h-28 pb-3 hidden sm:block" 
               />
@@ -65,7 +75,7 @@ function NuestraHistoria() {
                 </div>
                 <img
                   className="w-[29px] h-[29px]"
-                  src="src/assets/nuestra_historia/chick.png"
+                  src={Chick}
                   alt="chick emoji"
                 />
               </div>
@@ -81,13 +91,13 @@ function NuestraHistoria() {
           <div className="w-full flex flex-col md:flex-row justify-start items-start gap-10">
             <div className="flex-shrink-0 flex flex-col justify-start items-center md:items-start gap-4">
               <img
-                src="src/assets/nuestra_historia/circle.png"
+                src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
               />
 
               <img
-                src="src/assets/nuestra_historia/line.png"
+                src={Line}
                 alt="line"
                 className="ml-2 w-1 h-24 pb-3 hidden sm:block"
               />
@@ -99,8 +109,8 @@ function NuestraHistoria() {
                 </div>
                 <img
                   className="w-[29px] h-[29px]"
-                  src="src/assets/nuestra_historia/truck.png"
-                  alt=""
+                  src={Truck}
+                  alt="truck"
                 />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
@@ -114,13 +124,13 @@ function NuestraHistoria() {
           <div className="w-full flex flex-col md:flex-row justify-start items-start gap-10">
             <div className="flex-shrink-0 flex flex-col justify-start items-center md:items-start gap-4">
               <img
-                src="src/assets/nuestra_historia/circle.png"
+                src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
               />
 
               <img
-                src="src/assets/nuestra_historia/line.png"
+                src={Line}
                 alt="line"
                 className="ml-2 w-1 h-24 pb-3 hidden sm:block"
               />
@@ -132,7 +142,7 @@ function NuestraHistoria() {
                 </div>
                 <img
                   className="w-[29px] h-[29px]"
-                  src="src/assets/nuestra_historia/house.png"
+                  src={House}
                   alt="house"
                 />
               </div>
@@ -147,13 +157,13 @@ function NuestraHistoria() {
           <div className="w-full flex flex-col md:flex-row justify-start items-start gap-10">
             <div className="flex-shrink-0 flex flex-col justify-start items-center md:items-start gap-4">
               <img
-                src="src/assets/nuestra_historia/circle.png"
+                src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
               />
 
               <img
-                src="src/assets/nuestra_historia/line.png"
+                src={Line}
                 alt="line"
                 className="ml-2 w-1 h-28 pb-3 hidden sm:block"
               />
@@ -165,8 +175,8 @@ function NuestraHistoria() {
                 </div>
                 <img
                   className="w-[29px] h-[29px]"
-                  src="src/assets/nuestra_historia/Graduation.png"
-                  alt=""
+                  src={Graduation}
+                  alt="graduation icon"
                 />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
@@ -181,13 +191,13 @@ function NuestraHistoria() {
           <div className="w-full flex flex-col md:flex-row justify-start items-start gap-10">
             <div className="flex-shrink-0 flex flex-col justify-start items-center md:items-start gap-4">
               <img
-                src="src/assets/nuestra_historia/circle.png"
+                src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
               />
 
               <img
-                src="src/assets/nuestra_historia/line.png"
+                src={Line}
                 alt="line"
                 className="ml-2 w-1 h-40 pb-3 hidden sm:block"
               />
@@ -199,8 +209,8 @@ function NuestraHistoria() {
                 </div>
                 <img
                   className="w-[29px] h-[29px]"
-                  src="src/assets/nuestra_historia/rocket.png"
-                  alt=""
+                  src={Rocket}
+                  alt="rocket"
                 />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
@@ -218,13 +228,13 @@ function NuestraHistoria() {
           <div className="w-full flex flex-col md:flex-row justify-start items-start gap-10">
             <div className="flex-shrink-0 flex flex-col justify-start items-center md:items-start gap-4">
               <img
-                src="src/assets/nuestra_historia/circle.png"
+                src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
               />
 
               <img
-                src="src/assets/nuestra_historia/line.png"
+                src={Line}
                 alt="line"
                 className="ml-2 w-1 h-44 pb-3 hidden sm:block"
               />
@@ -236,7 +246,7 @@ function NuestraHistoria() {
                 </div>
                 <img
                   className="w-[29px] h-[29px]"
-                  src="src/assets/nuestra_historia/🤖 .png"
+                  src={Robot}
                   alt="robot"
                 />
               </div>
@@ -256,7 +266,7 @@ function NuestraHistoria() {
           <div className="w-full flex flex-col md:flex-row justify-start items-start gap-10">
             <div className="flex-shrink-0 flex flex-col justify-start items-center md:items-start gap-4">
               <img
-                src="src/assets/nuestra_historia/circle.png"
+                src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
               />
@@ -268,7 +278,7 @@ function NuestraHistoria() {
                 </div>
                 <img
                   className="w-[29px] h-[29px]"
-                  src="src/assets/nuestra_historia/1f3be.png"
+                  src={Raquet}
                   alt="raquet"
                 />
               </div>
