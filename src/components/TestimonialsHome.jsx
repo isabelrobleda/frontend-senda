@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import TestimonialImage from "../assets/testimonial-image.png";
 
 function TestimonialsHome() {
   return (
@@ -26,7 +27,7 @@ function TestimonialsHome() {
           </div>
           <div className="w-full lg:w-1/2 flex justify-center items-center">
             <img
-              src="src/assets/testimonial-image.png"
+              src={TestimonialImage}
               alt="testimonials-home"
               className="w-full h-auto object-cover"
             />
