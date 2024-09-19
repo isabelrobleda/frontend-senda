@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MaternalNoBg from "../assets/maternal_nobg.png";
+import PreescolarNoBg from "../assets/preescolar_nobg.png";
+import PrimariaNoBg from "../assets/primaria_nobg.png";
+import SecundariaNoBg from "../assets/secundaria_nobg.png";
 
 function OfertaHome() {
   return (
@@ -30,7 +34,7 @@ function OfertaHome() {
             </div>
 
             <img
-              src="src/assets/maternal_nobg.png"
+              src={MaternalNoBg}
               alt="imagen maternal"
               className=" md:self-stretch"
             />
@@ -55,7 +59,7 @@ function OfertaHome() {
               </Link>
             </div>
             <img
-              src="src/assets/preescolar_nobg.png"
+              src={PreescolarNoBg}
               alt="imagen preescolar"
               className="md:self-stretch"
             />
@@ -82,7 +86,7 @@ function OfertaHome() {
               </Link>
             </div>
             <img
-              src="src/assets/primaria_nobg.png"
+              src={PrimariaNoBg}
               alt="imagen primaria"
               className="md:self-stretch"
             />
@@ -107,7 +111,7 @@ function OfertaHome() {
               </Link>
             </div>
             <img
-              src="src/assets/secundaria_nobg.png"
+              src={SecundariaNoBg}
               alt="imagen secundaria"
               className="md:self-stretch"
             />

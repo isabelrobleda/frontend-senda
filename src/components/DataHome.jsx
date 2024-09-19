@@ -1,4 +1,9 @@
 import React from 'react';
+import TechIcon from '../assets/icons/tech-icon.png';
+import GraduateIcon from '../assets/icons/graduate-icon.png';
+import AppleIcon from '../assets/icons/apple-icon.png';
+import WorldIcon from '../assets/icons/world-icon.png';
+
 
 function DataHome() {
   return (
@@ -40,25 +45,25 @@ function DataHome() {
 
 const cardsData = [
   {
-    image: "src/assets/icons/tech-icon.png",
+    image: TechIcon,
     alt: "tech image",
     title: "Top 15 escuelas innovadoras",
     description: "“El colegio despierta en el alumno capacidades de indagación, creación, descubrimiento y cuidado de la naturaleza.“"
   },
   {
-    image: "src/assets/icons/graduate-icon.png",
+    image: GraduateIcon,
     alt: "graduate image 2",
     title: "Top 100 mejores escuelas",
     description: "Gracias a nuestras certificaciones internacionales, compromiso con el bienestar y la felicidad de la comunidad, e innovación."
   },
   {
-    image: "src/assets/icons/apple-icon.png",
+    image: AppleIcon,
     alt: "brain image 3",
     title: "100% de maestros son Apple Teacher",
     description: "Un programa de aprendizaje diseñado para apoyar y reconocer a los maestros que usan productos Apple en la enseñanza."
   },
   {
-    image: "src/assets/icons/world-icon.png",
+    image: WorldIcon,
     alt: "brain image 4",
     title: "Colegio Bicultural y Bilingüe",
     description: "El Colegio Senda hace que el alumno adquiera el inglés de manera natural a través de programas  interdisciplinarios."

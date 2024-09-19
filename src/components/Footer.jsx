@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SimboloSenda from "../assets/simbolo_senda 1.png";
+import Envelope from "../assets/footer/Envelope.png";
+import Phone from "../assets/footer/Phone.png";
+import Instagram from "../assets/Logo Instagram.png";
+import Facebook from "../assets/Facebook.png";
+import Spotify from "../assets/Spotify.png";
 
 function Footer() {
   return (
@@ -12,7 +18,7 @@ function Footer() {
               <Link to="/">
                 <img
                   className="w-20 h-20"
-                  src="src/assets/simbolo_senda 1.png"
+                  src={SimboloSenda}
                   alt="Logo"
                 />
               </Link>
@@ -25,7 +31,7 @@ function Footer() {
           </div>
           <div className="flex flex-col justify-start items-start gap-2">
             <div className="flex justify-start items-center gap-2">
-              <img className="w-6 h-6 relative" src="src/assets/footer/Envelope.png" />
+              <img className="w-6 h-6 relative" src={Envelope} />
               <a
                 href="mailto:senda@colegiosenda.edu.mx"
                 className="text-white text-sm font-normal  font-['Inter'] leading-tight underline"
@@ -34,7 +40,7 @@ function Footer() {
               </a>
             </div>
             <div className="flex justify-start items-center gap-2">
-              <img className="w-6 h-6 relative" src="src/assets/footer/Phone.png" />
+              <img className="w-6 h-6 relative" src={Phone} />
               <div className="text-white text-sm font-normal font-['Inter'] leading-tight">
                 (55) 5683-2060
               </div>
@@ -153,7 +159,7 @@ function Footer() {
           <Link to="https://www.instagram.com/colegiosenda/" _blank>
             <img
               className="w-6 h-[24.10px]"
-              src="src/assets/Logo Instagram.png"
+              src={Instagram}
               alt="Instagram Icon"
             />
           </Link>
@@ -163,11 +169,11 @@ function Footer() {
           >
             <img
               className="w-6 h-[24.10px]"
-              src="src/assets/Spotify.png"
+              src={Spotify}
               alt="Spotify Icon"
             />
           </Link>
-          <Link to="https://www.facebook.com/colegiosenda" _blank>
+          <Link to={Facebook} _blank>
             <img
               className="w-6 h-[24.10px]"
               src="src/assets/Facebook.png"

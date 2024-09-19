@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import GreenVector from "../assets/green-vector.png";
+import HeaderBackground from "../assets/Header-background.png";
+import BullsEye from "../assets/bullseye-emoji.png";
+import Image01Home from "../assets/Image01-Home.png";
+import StarEmoji from "../assets/star-emoji.png";
+
 
 function MainHome() {
   return (
@@ -7,7 +13,7 @@ function MainHome() {
       <div className="absolute inset-0 z-0">
         <img
           className="w-screen object-cover opacity-10 z-0 md:h-[892px]"
-          src="src/assets/Header-background.png"
+          src={HeaderBackground}
           alt="Background"
         />
       </div>
@@ -18,8 +24,8 @@ function MainHome() {
               Ser una comunidad que
               <br />
               <img
-                src="src/assets/green-vector.png"
-                alt=""
+                src={GreenVector}
+                alt="green vector"
                 className="absolute md:left-4 md:top-32 transform -translate-y-3/4 translate-x-[-10%] z-0  md:w-auto hidden md:block"
               />
               <span className="relative">educa</span> para trascender
@@ -50,18 +56,18 @@ function MainHome() {
         </div>
         <div className="w-full md:w-[605px] h-auto md:h-[572.44px] relative mb-8 md:mb-0">
           <img
-            src="src/assets/bullseye-emoji.png"
+            src={BullsEye}
             alt="bullseye image"
             className="absolute md:left-[-20px] md:top-[-30px] md:w-auto w-32"
           />
           <img
-            src="src/assets/Image01-Home.png"
-            alt=""
+            src={Image01Home}
+            alt="main image"
             className="w-full h-auto"
           />
           <img
-            src="src/assets/star-emoji.png"
-            alt=""
+            src={StarEmoji}
+            alt="star emoji"
             className="absolute right-0 bottom-[-70px] md:w-auto w-32 "
           />
         </div>

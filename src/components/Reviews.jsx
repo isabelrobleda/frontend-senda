@@ -1,4 +1,5 @@
 import React from 'react';
+import FiveStars from '../assets/five-stars.png';
 
 function Reviews() {
   return (
@@ -46,7 +47,7 @@ function Reviews() {
               “Excelencia en educación, maestras comprometidas y preparadas para esta nueva era. Niños felices y desarrollando su potencial día a día."
             </div>
             <div className="flex justify-start items-start gap-4">
-              <img className="justify-start items-center gap-0.5 flex" src='src/assets/five-stars.png' />
+              <img className="justify-start items-center gap-0.5 flex" src={FiveStars} />
               <div className="w-[25px] text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">5.0</div>
             </div>
           </div>
@@ -62,7 +63,7 @@ function Reviews() {
               “Desde hace mucho decidí meter a mis hijos en el Colegio Senda. Hoy puedo decir que ha sido la mejor decisión que he tomado en mi vida. Desde Comunidad Infantil, hasta Secundaria. <br/><br/>Este es un Colegio que permite que tus hijos estén en un ambiente contenido, que tengan un trato personalizado y que permite a los niños identificar cuáles son sus habilidades, cómo las pueden fortalecer. Los niños pueden crecer en un lugar donde el idioma, los principios y los valores son muy importantes.”
             </div>
             <div className="flex justify-start items-start gap-4">
-              <img className="justify-start items-center gap-0.5 flex" src='src/assets/five-stars.png'/>
+              <img className="justify-start items-center gap-0.5 flex" src={FiveStars}/>
               <div className="w-[25px] text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">5.0</div>
             </div>
           </div>

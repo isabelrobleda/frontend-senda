@@ -1,5 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import WhyWeAreTheBest01 from "../assets/icons/Why_we_are_the_best-01.png";
+import WhyWeAreTheBest02 from "../assets/icons/Why_we_are_the_best-02.png";
+import WhyWeAreTheBest05 from "../assets/icons/Why_we_are_the_best-05.png";
+import WhyWeAreTheBest03 from "../assets/icons/Why_we_are_the_best-03.png";
+import WhyWeAreTheBest04 from "../assets/icons/Why_we_are_the_best-04.png";
 
 function SixCardHome() {
   return (
@@ -27,7 +32,7 @@ function SixCardHome() {
           <div className="w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
               className="w-14 h-14  relative"
-              src="src/assets/icons/Why_we_are_the_best-01.png"
+              src={WhyWeAreTheBest01}
             />
             <div className="w-full">
               <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -42,7 +47,7 @@ function SixCardHome() {
           <div className="w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
               className="w-14 h-14  relative"
-              src="src/assets/icons/Why_we_are_the_best-02.png"
+              src={WhyWeAreTheBest02}
             />
             <div className="w-full">
               <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -57,7 +62,7 @@ function SixCardHome() {
           <div className="w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
               className="w-14 h-14  relative"
-              src="src/assets/icons/Why_we_are_the_best-05.png"
+              src={WhyWeAreTheBest05}
             />
             <div className="w-full">
               <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -72,7 +77,7 @@ function SixCardHome() {
           <div className="w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
               className="w-14 h-14  relative"
-              src="src/assets/icons/Why_we_are_the_best-03.png"
+              src={WhyWeAreTheBest03}
             />
             <div className="w-full">
               <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -85,7 +90,7 @@ function SixCardHome() {
             </div>
           </div>
           <div className="w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
-            <img className="w-14 h-14 relative" src="src/assets/icons/Why_we_are_the_best-04.png" />
+            <img className="w-14 h-14 relative" src={WhyWeAreTheBest04} />
             <div className="w-full">
               <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Modelo Senda
