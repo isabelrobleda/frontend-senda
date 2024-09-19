@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Blog3 from "../assets/secundaria_01.jpg";
+import Blog2 from "../assets/elecciones.png";
+import Blog1 from "../assets/blog01.png";
 
 function CardsNosotros() {
   return (
@@ -48,7 +51,7 @@ function CardsNosotros() {
 
 const cardsData = [
   {
-    image: "src/assets/elecciones.png",
+    image: {Blog2},
     alt: "elections-picture",
     author: "Mónica Sánchez Gavito",
     title: "El Colegio Senda y las Elecciones 2024",
@@ -57,7 +60,7 @@ const cardsData = [
     link: "/blog-1"
   },
   {
-    image: "src/assets/blog01.png",
+    image:{Blog1},
     alt: "blog-picture",
     author: "Mónica Sánchez Gavito",
     title: "El Colegio Senda haciendo el pensamiento visible",
@@ -66,7 +69,7 @@ const cardsData = [
     link: "/blog-2"
   },
   {
-    image: "src/assets/secundaria_01.jpg",
+    image: {Blog3},
     alt: "ethics-picture",
     author: "Ana Robleda",
     title: "La Enseñanza de la Ética a los Jóvenes",
