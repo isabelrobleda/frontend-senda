@@ -1,4 +1,13 @@
 import React from "react";
+import Img01NuestroEquipo from "../../assets/equipo/Image-Nuestro_equipo-01.png";
+import Img02NuestroEquipo from "../../assets/equipo/Image-Nuestro_equipo-02.png";
+import Img03NuestroEquipo from "../../assets/equipo/Image-Nuestro_equipo-03.png";
+import Img04NuestroEquipo from "../../assets/equipo/Image-Nuestro_equipo-04.png";
+import Img05NuestroEquipo from "../../assets/equipo/Image-Nuestro_equipo-05.png";
+import WhyWeAreTheBest01 from "../../assets/icons/Why_we_are_the_best-01.png";
+import WhyWeAreTheBest05 from "../../assets/icons/Why_we_are_the_best-05.png";
+import WhyWeAreTheBest03 from "../../assets/icons/Why_we_are_the_best-03.png";
+import WhyWeAreTheBest04 from "../../assets/icons/Why_we_are_the_best-04.png";
 
 function NuestroEquipo() {
   return (
@@ -18,7 +27,7 @@ function NuestroEquipo() {
             <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
               <img
                 className="w-full h-full object-cover"
-                src="src/assets/equipo/Image-Nuestro_equipo-02.png"
+                src={Img02NuestroEquipo}
                 alt="Mónica Sánchez Gavito"
               />
             </div>
@@ -31,7 +40,7 @@ function NuestroEquipo() {
             <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
               <img
                 className="w-full h-full object-cover"
-                src="src/assets/equipo/Image-Nuestro_equipo-03.png"
+                src={Img03NuestroEquipo}
                 alt="Rosa Isabel García de Luca"
               />
             </div>
@@ -46,7 +55,7 @@ function NuestroEquipo() {
               <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
                 <img
                   className="w-full h-full object-cover"
-                  src="src/assets/equipo/Image-Nuestro_equipo-04.png"
+                  src={Img04NuestroEquipo}
                   alt="Roxana Fernández Landoni"
                 />
               </div>
@@ -59,7 +68,7 @@ function NuestroEquipo() {
               <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
                 <img
                   className="w-full h-full object-cover"
-                  src="src/assets/equipo/Image-Nuestro_equipo-01.png"
+                  src={Img01NuestroEquipo}
                   alt="Karla Olivares Granja"
                 />
               </div>
@@ -72,7 +81,7 @@ function NuestroEquipo() {
               <div className="w-[200px] h-[233.33px] rounded-[20px] overflow-hidden mb-6">
                 <img
                   className="w-full h-full object-cover"
-                  src="src/assets/equipo/Image-Nuestro_equipo-05.png"
+                  src={Img05NuestroEquipo}
                   alt="Viviana Colucci Trovato"
                 />
               </div>
@@ -97,7 +106,7 @@ function NuestroEquipo() {
           <div className="w-full flex flex-col md:flex-row  gap-12">
             {/* Feature 1 */}
             <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
-              <img className="w-12 h-12 mb-4" src="src/assets/icons/Why_we_are_the_best-01.png"></img>
+              <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest01}></img>
               <h3 className="text-xl font-semibold text-[#1e1e1e]">Educadores que inspiran</h3>
               <p className="text-base text-[#49454f]">
                 Todos nuestros educadores están comprometidos con los alumnos y sus familias para trabajar juntos por un mundo mejor.
@@ -105,7 +114,7 @@ function NuestroEquipo() {
             </div>
             {/* Feature 2 */}
             <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
-              <img className="w-12 h-12 mb-4" src="src/assets/icons/Why_we_are_the_best-05.png"></img>
+              <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest05}></img>
               <h3 className="text-xl font-semibold text-[#1e1e1e]">Colegio Bicultural</h3>
               <p className="text-base text-[#49454f]">
                 Los alumnos aprenden inglés desde pequeños lo que asegura que lo lleguen a dominar y puedan aprender de forma bilingüe.
@@ -113,7 +122,7 @@ function NuestroEquipo() {
             </div>
             {/* Feature 3 */}
             <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
-              <img className="w-12 h-12 mb-4" src="src/assets/icons/Why_we_are_the_best-03.png"></img>
+              <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest03}></img>
               <h3 className="text-xl font-semibold text-[#1e1e1e]">Educación de Excelencia</h3>
               <p className="text-base text-[#49454f]">
                 Nuestro objetivo es lograr los más altos estándares de nivel académico, calidad humana y resultados de competencias y habilidades.
@@ -121,7 +130,7 @@ function NuestroEquipo() {
             </div>
             {/* Feature 4 */}
             <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
-            <img className="w-12 h-12 mb-4" src="src/assets/icons/Why_we_are_the_best-04.png"></img>
+            <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest04}></img>
               <h3 className="text-xl font-semibold text-[#1e1e1e]">Modelo Senda</h3>
               <p className="text-base text-[#49454f]">
                 Humanista. Constructivista. Basado en la Cultura del Pensamiento. Bilingüe. Incluyente. Personalizado. Promueve el pensamiento ético y crítico.

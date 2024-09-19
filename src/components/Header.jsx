@@ -175,7 +175,7 @@ function Header() {
         </div>
       </div>
       {menuOpen && (
-        <div className="md:hidden flex flex-col items-start p-8 bg-white">
+        <div className="md:hidden flex flex-col items-start p-8 bg-white ">
           <div
             className="relative group p-2 hover:bg-neutral-100 rounded-lg flex flex-col items-start w-full hover:cursor-pointer"
             onClick={() => toggleMobileSubMenu("sobreNosotros")}

@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import Partners from "../../components/Partners";
 import { Link } from "react-router-dom";
+import MaternalNoBg from "../../assets/maternal_nobg.png"
+import PreescolarNoBg from "../../assets/preescolar_nobg.png"
+import PrimariaNoBg from "../../assets/primaria_nobg.png"
+import SecundariaNoBg from "../../assets/secundaria_nobg.png"
+import CanvaLogo from "../../assets/reconocimientos/canva-logo-png.png"
+import Knotion from "../../assets/reconocimientos/knotion.png"
+import AppleTeacher from "../../assets/reconocimientos/APPLE-TEACHER.jpeg"
+import WholeSchools from "../../assets/reconocimientos/whole-schools.png"
 
 function Reconocimientos() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -13,14 +21,14 @@ function Reconocimientos() {
         description:
           "Constructivista. Ambiente cálido, desarrollo de lenguaje, motricidad y socialización.",
         link: "/maternal",
-        imgSrc: "src/assets/maternal_nobg.png",
+        imgSrc: MaternalNoBg,
       },
       {
         title: "Preescolar",
         description:
           "Montessori. Cultura de Pensamiento. Bicultural. Inteligencias múltiples y trabajo cooperativo.",
         link: "/preescolar",
-        imgSrc: "src/assets/preescolar_nobg.png",
+        imgSrc: PreescolarNoBg,
       },
     ],
     [
@@ -29,14 +37,14 @@ function Reconocimientos() {
         description:
           "Cultura del Pensamiento. Inteligencias múltiples. Solución de problemas.",
         link: "/primaria",
-        imgSrc: "src/assets/primaria_nobg.png",
+        imgSrc: PrimariaNoBg,
       },
       {
         title: "Secundaria",
         description:
           "Cultura del Pensamiento. Knotion. Inglés. Bilingüismo digital. Ética y valores.",
         link: "/secundaria",
-        imgSrc: "src/assets/secundaria_nobg.png",
+        imgSrc: SecundariaNoBg,
       },
     ],
   ];
@@ -83,7 +91,7 @@ function Reconocimientos() {
         <div className="w-full flex flex-col justify-start items-start gap-6">
           <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
             <div className="w-full md:w-[700px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <img className=" h-12 relative py-2" src="src/assets/reconocimientos/canva-logo-png.png"/>
+              <img className=" h-12 relative py-2" src={CanvaLogo}/>
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   Top 15 de escuelas innovadoras en México
@@ -97,7 +105,7 @@ function Reconocimientos() {
               </div>
             </div>
             <div className="w-full md:w-[350px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <img className=" h-8 relative" src="src/assets/reconocimientos/knotion.png"/>
+              <img className=" h-8 relative" src={Knotion}/>
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   Insignias Knotion
@@ -111,7 +119,7 @@ function Reconocimientos() {
           </div>
           <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
             <div className="w-full md:w-[350px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <img className=" h-12 relative" src="src/assets/reconocimientos/APPLE-TEACHER.jpeg" />
+              <img className=" h-12 relative" src={AppleTeacher} />
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   100% de profesores Apple Teacher
@@ -123,7 +131,7 @@ function Reconocimientos() {
               </div>
             </div>
             <div className="w-full md:w-[700px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <img className=" h-14 relative" src="src/assets/reconocimientos/whole-schools.png" />
+              <img className=" h-14 relative" src={WholeSchools} />
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   Top 100 Schools in Mexico

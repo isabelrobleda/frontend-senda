@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
+import Instalaciones from "../../assets/mapa/instalaciones.jpeg";
+import Recepcion from "../../assets/mapa/recepcion.jpeg";
+import Laboratorio from "../../assets/mapa/laboratorio.jpeg";
 
 
 const MapaColegio = () => {
@@ -47,22 +50,22 @@ const MapaColegio = () => {
           <div className="w-[1312px] md:w-[30%] h-auto relative">
             <img
               className="w-full  rounded-lg"
-              src="src/assets/mapa/instalaciones.jpeg"
-              alt="Mision"
+              src={Instalaciones}
+              alt="Instalaciones"
             />
           </div>
           <div className="w-full md:w-[30%] relative">
             <img
               className="w-full  rounded-lg"
-              src="src/assets/mapa/recepcion.jpeg"
-              alt="Mision 01"
+              src={Recepcion}
+              alt="Recepcion"
             />
           </div>
           <div className="w-full md:w-[30%] relative">
             <img
               className="w-full  rounded-lg"
-              src="src/assets/mapa/laboratorio.jpeg"
-              alt="Mision 01"
+              src={Laboratorio}
+              alt="Laboratorio"
             />
           </div>
         </div>

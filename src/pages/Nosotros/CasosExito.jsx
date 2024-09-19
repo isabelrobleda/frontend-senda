@@ -1,4 +1,12 @@
 import React from "react";
+import CasoExitoVideo from "../../assets/caso-exito-01-compressed.mp4";
+import ImageVideo from "../../assets/image-video.png";
+import Medal from "../../assets/medal.png";
+import Brain from "../../assets/brain.png";
+import GreenDots from "../../assets/green-dots.png";
+import BlueDots from "../../assets/blue-dots.png";
+import VectorBlue from "../../assets/exito/vector-blue.png";
+import FiveStars from "../../assets/exito/five-stars.png";
 
 function CasosExito() {
   return (
@@ -14,31 +22,31 @@ function CasosExito() {
         <div className="relative w-full max-w-[780px] h-auto aspect-w-16 aspect-h-9 bg-white rounded-[10px] shadow border border-[#e4e4de] z-10 flex justify-center items-center">
           <video
             className="w-full h-full object-cover rounded-[10px]"
-            src="src/assets/caso-exito-01-compressed.mp4"
+            src={CasoExitoVideo}
             controls
-            poster="src/assets/image-video.png"
+            poster={ImageVideo}
           ></video>
 
           <img
             className="absolute top-0 md:top-[40px] left-[-20px] md:left-[-120px] z-10 w-[60px] md:w-[120px] h-[60px] md:h-[110px]"
-            src="src/assets/medal.png"
+            src={Medal}
             alt="Medal"
           />
           <img
             className="absolute bottom-0 md:bottom-[40px] right-[-25px] md:right-[-150px] z-10 w-[60px] md:w-44"
-            src="src/assets/brain.png"
+            src={Brain}
             alt="Brain"
           />
         </div>
 
         <img
           className="absolute top-24 md:top-10 right-[10px] md:right-36 z-0 w-[40px] md:w-auto"
-          src="src/assets/green-dots.png"
+          src={GreenDots}
           alt="Green Dots"
         />
         <img
           className="absolute bottom-[-15px] md:bottom-[-60px] left-[10px] md:left-36 z-0 w-[40px] md:w-auto"
-          src="src/assets/blue-dots.png"
+          src={BlueDots}
           alt="Blue Dots"
         />
       </div>
@@ -65,12 +73,12 @@ function CasosExito() {
                 <div className="flex-col justify-end items-start gap-4 inline-flex">
                   <div className="w-full md:w-[183px] justify-start items-start gap-3 inline-flex">
                     <div className="flex-col justify-start items-start gap-0.5 inline-flex">
-                      <img src="src/assets/exito/vector-blue.png" alt="quote-vector" className="md:ml-56 ml-64" />
+                      <img src={VectorBlue} alt="quote-vector" className="md:ml-56 ml-64" />
                       <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                         Lucas
                       </div>
                       <div className="w-[121.65px] h-7 relative">
-                        <img src="src/assets/exito/five-stars.png" alt="" />
+                        <img src={FiveStars} alt="five stars" />
                       </div>
                     </div>
                   </div>
@@ -94,12 +102,12 @@ function CasosExito() {
                 <div className="flex-col justify-end items-start gap-4 inline-flex">
                   <div className="w-full md:w-[183px] justify-start items-start gap-3 inline-flex">
                     <div className="flex-col justify-start items-start gap-0.5 inline-flex">
-                    <img src="src/assets/exito/vector-blue.png" alt="quote-vector" className="md:ml-56 ml-64" />
+                    <img src={VectorBlue} alt="quote-vector" className="md:ml-56 ml-64" />
                       <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                         Laura
                       </div>
                       <div className="w-[121.65px] h-7 relative">
-                        <img src="src/assets/exito/five-stars.png" alt="" />
+                        <img src={FiveStars} alt="five starts" />
                       </div>
                     </div>
                   </div>
@@ -122,12 +130,12 @@ function CasosExito() {
                 <div className="flex-col justify-end items-start gap-4 inline-flex">
                   <div className="w-full md:w-[183px] justify-start items-start gap-3 inline-flex">
                     <div className="flex-col justify-start items-start gap-0.5 inline-flex">
-                    <img src="src/assets/exito/vector-blue.png" alt="quote-vector" className="md:ml-56 ml-64" />
+                    <img src={VectorBlue} alt="quote-vector" className="md:ml-56 ml-64" />
                       <div className="text-[#757575] text-base font-semibold font-['Inter'] leading-snug">
                         Silvia
                       </div>
                       <div className="w-[121.65px] h-7 relative">
-                        <img src="src/assets/exito/five-stars.png" alt="" />
+                        <img src={FiveStars} alt="five stars" />
                       </div>
                     </div>
                   </div>

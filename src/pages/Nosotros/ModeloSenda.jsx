@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ModeloSendaImg from "../../assets/modelo_senda/Modelo_Senda.png";
 
 function ModeloSenda() {
   return (
@@ -52,7 +53,7 @@ function ModeloSenda() {
       <div className="md:h-[800px] h-auto w-full pr-8 md:pr-16 py-8 md:py-16 bg-white flex flex-col md:flex-row justify-start items-center">
         <img
           className="w-auto md:w-[592px] md:h-[476px]"
-          src="src/assets/modelo_senda/Modelo_Senda.png"
+          src={ModeloSendaImg}
           alt="Modelo Pedagógico"
         />
         <div className="w-full md:w-[523px] flex flex-col justify-start items-start gap-6 ml-28">
