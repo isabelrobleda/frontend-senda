@@ -84,7 +84,7 @@ function AplicaSenda() {
 
   return (
     <div>
-      <div className="relative md:h-[750px] w-full flex justify-center items-center p-4">
+      <div className="relative md:h-[750px] w-full flex justify-center items-center p-4 mt-20">
         <div>
           <div className="absolute inset-0">
             <div
@@ -112,10 +112,10 @@ function AplicaSenda() {
                   />
                 </span>
 
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
                   {" "}
                 </span>
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   educativa inmersa en la cultura de pensamiento,
                   <span style={{ display: "inline-block" }}></span>
                   <img
@@ -125,17 +125,17 @@ function AplicaSenda() {
                   />
                 </span>
 
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
                   {" "}
                 </span>
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   comprometida con el{" "}
                 </span>
-                <span className="text-[#b0cb4f] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#b0cb4f] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   bienestar emocional
                   <br />
                 </span>
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   de cada
                   <span style={{ display: "inline-block" }}></span>
                   <img
@@ -144,10 +144,10 @@ function AplicaSenda() {
                     className="inline-block mx-1 md:mx-2 h-14"
                   />
                 </span>
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
                   {" "}
                 </span>
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   alumno.
                 </span>
               </div>
