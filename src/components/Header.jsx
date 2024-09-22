@@ -24,7 +24,7 @@ function Header() {
 
   return (
     <div className="absolute top-0 left-0 w-full z-20 ">
-      <div className="w-full h-24  px-8 bg-gradient-to-b from-white to-transparent flex justify-between items-center gap-6">
+      <div className="w-full h-auto pt-4 px-8 bg-gradient-to-b from-white to-transparent flex justify-between items-center gap-6">
         <div className="w-[109px] h-[65px] flex justify-center items-center">
           <Link to="/">
             <img
