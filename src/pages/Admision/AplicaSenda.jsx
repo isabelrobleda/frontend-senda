@@ -99,10 +99,10 @@ function AplicaSenda() {
           <div className=" justify-start items-center flex">
             <div className="grow shrink basis-0 p-6 rounded-[20px]  flex-col justify-start items-center gap-6 md:gap-14 inline-flex">
               <div className="w-full md:w-[904px] text-center">
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   Somos una{" "}
                 </span>
-                <span className="text-[#b0cb4f] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#b0cb4f] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   comunidad
                   <span style={{ display: "inline-block" }}></span>
                   <img
