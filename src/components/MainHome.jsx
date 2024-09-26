@@ -41,7 +41,7 @@ function MainHome() {
             <div className="px-6 py-3 bg-[#009bce] hover:opacity-85 rounded-2xl justify-center items-center gap-2 flex">
               <Link to="/aplica-al-senda">
                 <button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
-                  Unete al Senda
+                  Únete al Senda
                 </button>
               </Link>
             </div>
