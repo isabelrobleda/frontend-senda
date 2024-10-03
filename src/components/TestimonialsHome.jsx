@@ -4,7 +4,7 @@ import TestimonialImage from "../assets/testimonial-image.png";
 
 function TestimonialsHome() {
   return (
-    <div className="w-full md:h-screen flex justify-center items-center p-8 md:p-16 bg-white">
+    <div className="w-full md:h-[800px] flex justify-center items-center p-8 md:p-16 bg-white">
       <div className="w-full max-w-[1440px] flex flex-col justify-center items-center gap-12">
         <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-12">
           <div className="w-full lg:w-1/2 flex flex-col justify-center items-start gap-4">
@@ -17,13 +17,15 @@ function TestimonialsHome() {
               experiencias en historia y buscando las explicaciones de lo que
               acontece a su alrededor.
             </div>
-            <div className="mt-[32px] px-6 py-3 bg-[#009bce] hover:opacity-85 rounded-2xl flex justify-center items-center gap-2">
-              <Link to="/inspiracion-conviccion">
+            <Link to="/inspiracion-conviccion">
+            <div className="mt-[32px] px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl flex justify-center items-center gap-2">
+              
                 <button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Descubre más
                 </button>
-              </Link>
+              
             </div>
+            </Link>
           </div>
           <div className="w-full lg:w-1/2 flex justify-center items-center">
             <img

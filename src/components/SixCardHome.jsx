@@ -8,8 +8,8 @@ import WhyWeAreTheBest04 from "../assets/icons/Why_we_are_the_best-04.png";
 
 function SixCardHome() {
   return (
-    <div className="bg-white py-16 px-4 md:px-16 flex justify-center items-center">
-      <div className="w-full md:h-screen max-w-[1440px] flex flex-col justify-center items-center gap-12">
+    <div className="bg-white py-16 px-6 md:px-16 flex justify-center items-center">
+      <div className="w-full md:h-[700px] max-w-[1440px] flex flex-col justify-center items-center gap-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div className="text-left">
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -23,7 +23,7 @@ function SixCardHome() {
             </div>
             <div className="mt-6">
               <Link to="/reconocimientos-certificaciones">
-                <button className="px-6 py-3 bg-[#b0cb4f] hover:opacity-85 rounded-2xl text-neutral-100 text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+                <button className="px-6 py-3 bg-[#b0cb4f] hover:bg-[#859c36] rounded-2xl text-neutral-100 text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Descubre más
                 </button>
               </Link>

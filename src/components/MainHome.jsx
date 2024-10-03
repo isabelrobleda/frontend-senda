@@ -6,18 +6,17 @@ import BullsEye from "../assets/bullseye-emoji.png";
 import Image01Home from "../assets/Image01-Home.png";
 import StarEmoji from "../assets/star-emoji.png";
 
-
 function MainHome() {
   return (
-    <div className="relative w-full md:h-auto px-4 md:px-16 py-20 md:py-40 flex-col justify-center items-center gap-8 inline-flex">
+    <div className="relative w-full md:h-[900px] px-4 md:px-16 py-20 md:py-40 flex-col justify-center items-center gap-8 inline-flex">
       <div className="absolute inset-0 z-0">
         <img
-          className="w-screen object-cover opacity-10 z-0 md:h-[892px]"
+          className="w-screen object-cover opacity-10 z-0 md:h-[900px]"
           src={HeaderBackground}
           alt="Background"
         />
       </div>
-      <div className="relative self-center z-10 justify-between items-center flex flex-col-reverse md:flex-row">
+      <div className="md:mx-0 mx-6 relative self-center z-10 justify-between items-center flex flex-col-reverse md:flex-row">
         <div className="grow shrink basis-0 flex-col justify-start items-center gap-8 inline-flex">
           <div className="self-stretch flex-col justify-start items-start gap-6 flex">
             <div className="self-stretch text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-tight md:leading-[68.40px] relative">
@@ -33,42 +32,37 @@ function MainHome() {
             <div className="self-stretch text-[#757575] text-lg md:text-2xl font-semibold font-['Inter'] leading-snug md:leading-[28.80px]">
               Somos una comunidad educativa inmersa en la cultura de
               pensamiento, comprometida con el bienestar emocional
-              <br />
               de cada alumno.
             </div>
           </div>
-          <div className="self-stretch justify-start items-center gap-4 inline-flex">
-            <div className="px-6 py-3 bg-[#009bce] hover:opacity-85 rounded-2xl justify-center items-center gap-2 flex">
-              <Link to="/aplica-al-senda">
+          <div className="self-stretch md:justify-start justify-center items-center gap-4 inline-flex">
+            <Link to="/aplica-al-senda">
+              <div className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl justify-center items-center gap-2 flex">
                 <button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Únete al Senda
                 </button>
-              </Link>
-            </div>
-            <div className="px-6 py-3 bg-[#b0cb4f] hover:opacity-85 rounded-2xl justify-center items-center gap-2 flex">
-              <Link to="/misionyvision">
+              </div>
+            </Link>
+            <Link to="/misionyvision">
+              <div className="px-6 py-3 bg-[#b0cb4f] hover:bg-[#859c36] rounded-2xl justify-center items-center gap-2 flex">
                 <button className="text-neutral-100 text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Descubre más
                 </button>
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
         </div>
-        <div className="w-full md:w-[605px] h-auto md:h-[572.44px] relative mb-8 md:mb-0">
+        <div className="w-full md:w-[670px] h-auto md:h-[572.44px] relative mb-8 md:mb-0">
           <img
             src={BullsEye}
             alt="bullseye image"
             className="absolute md:left-[-20px] md:top-[-30px] md:w-auto w-32"
           />
-          <img
-            src={Image01Home}
-            alt="main image"
-            className="w-full h-auto"
-          />
+          <img src={Image01Home} alt="main image" className="w-full h-auto" />
           <img
             src={StarEmoji}
             alt="star emoji"
-            className="absolute right-0 bottom-[-70px] md:w-auto w-32 "
+            className="absolute right-0 md:right-4 bottom-[-60px] md:bottom-[-120px] md:w-auto w-32 "
           />
         </div>
       </div>

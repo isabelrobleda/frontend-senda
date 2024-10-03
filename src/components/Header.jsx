@@ -22,11 +22,16 @@ function Header() {
     }));
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false); 
+  };
+
+
   return (
     <div className="absolute top-0 left-0 w-full z-20 ">
       <div className="w-full h-auto pt-4 px-8 bg-gradient-to-b from-white to-transparent flex justify-between items-center gap-6">
         <div className="w-[109px] h-[65px] flex justify-center items-center">
-          <Link to="/">
+          <Link to="/" onClick={closeMenu}>
             <img
               className="w-[100px] h-[60px] mb-2 hover:cursor-pointer"
               src={Logo}
@@ -41,34 +46,50 @@ function Header() {
             </div>
             <div className="invisible top-full absolute z-50 flex w-80 flex-col bg-white shadow-lg rounded-lg py-2 px-4 text-gray-800 group-hover:visible">
               <ul>
+              <Link to="/misionyvision">
                 <li className="p-2 hover:bg-neutral-100 relative">
-                  <Link to="/misionyvision">Misión y Visión</Link>
+                  Misión y Visión
                 </li>
+                </Link>
+                <Link to="/nuestra-historia">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/nuestra-historia">Nuestra Historia</Link>
+                  Nuestra Historia
                 </li>
+                </Link>
+                <Link to="/inspiracion-conviccion">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/inspiracion-conviccion">
+                  
                     Inspiración y Convicción
-                  </Link>
+                  
                 </li>
+                </Link>
+                <Link to="/reconocimientos-certificaciones">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/reconocimientos-certificaciones">
+                 
                     Reconocimientos y Certificaciones
-                  </Link>
+                 
                 </li>
+                </Link>
+                <Link to="/casos-de-exito">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/casos-de-exito">Casos de Éxito</Link>
+                 Casos de Éxito
                 </li>
+                </Link>
+                <Link to="/modelo-senda">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/modelo-senda">Modelo Senda</Link>
+                  Modelo Senda
                 </li>
+                </Link>
+                <Link to="/mapa-del-colegio">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/mapa-del-colegio">Mapa del Colegio</Link>
+                  Mapa del Colegio
                 </li>
+                </Link>
+                <Link to="/nuestro-equipo">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/nuestro-equipo">Nuestro Equipo</Link>
+                  Nuestro Equipo
                 </li>
+                </Link>
               </ul>
             </div>
           </div>
@@ -78,24 +99,36 @@ function Header() {
             </div>
             <div className="invisible top-full absolute z-50 flex w-80 flex-col bg-white shadow-lg rounded-lg py-2 px-4 text-gray-800 group-hover:visible">
               <ul>
+                <Link to="/maternal">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/maternal">Maternal</Link>
+                  Maternal
                 </li>
+                </Link>
+                <Link to="/preescolar">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/preescolar">Preescolar</Link>
+                  Preescolar
                 </li>
+                </Link>
+                <Link to="/primaria">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/primaria">Primaria</Link>
+                  Primaria
                 </li>
+                </Link>
+                <Link to="/secundaria">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/secundaria">Secundaria</Link>
+                  Secundaria
                 </li>
+                </Link>
+                <Link to="/after-school">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/after-school">After School</Link>
+                  After School
                 </li>
+                </Link>
+                <Link to="/deportes">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/deportes">Deportes</Link>
+                 Deportes
                 </li>
+                </Link>
               </ul>
             </div>
           </div>
@@ -105,18 +138,26 @@ function Header() {
             </div>
             <div className="invisible top-full absolute z-50 flex w-80 flex-col bg-white shadow-lg rounded-lg py-2 px-4 text-gray-800 group-hover:visible">
               <ul>
+              <Link to="/aplica-al-senda">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/aplica-al-senda">Aplica al Senda</Link>
+                  Aplica al Senda
                 </li>
+                </Link>
+                <Link to="/colegiaturas">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/colegiaturas">Colegiaturas</Link>
+                  Colegiaturas
                 </li>
+                </Link>
+                <Link to="/planea-tu-visita">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/planea-tu-visita">Planea tu visita</Link>
+                  Planea tu visita
                 </li>
+                </Link>
+                <Link to="/proceso-de-admision">
                 <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/proceso-de-admision">Proceso de admisión</Link>
+                 Proceso de admisión
                 </li>
+                </Link>
               </ul>
             </div>
           </div>
@@ -126,25 +167,25 @@ function Header() {
             </div>
             <div className="invisible top-full absolute z-50 flex w-80 flex-col bg-white shadow-lg rounded-lg py-2 px-4 text-gray-800 group-hover:visible">
               <ul>
-                <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/blog">Blog</Link>
-                </li>
-                <li className="p-2 hover:bg-neutral-100">
-                  <Link to="/proximos-eventos">Próximos Eventos</Link>
-                </li>
+                <Link to="/blog">
+                  <li className="p-2 hover:bg-neutral-100">Blog</li>
+                </Link>
+                <Link to="/proximos-eventos">
+                  <li className="p-2 hover:bg-neutral-100">Próximos Eventos</li>
+                </Link>
               </ul>
             </div>
           </div>
-          <div className="p-2 hover:bg-neutral-100 rounded-lg flex items-center hover:cursor-pointer">
-            <Link to={"/contacto"}>
+          <Link to={"/contacto"}>
+            <div className="p-2 hover:bg-neutral-100 rounded-lg flex items-center hover:cursor-pointer">
               <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-none">
                 Contacto
               </div>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
         <div className="hidden md:flex items-center gap-4">
-          <div className="px-4 py-2 bg-[#009bce] rounded-2xl flex items-center hover:cursor-pointer">
+          <div className="px-4 py-2 bg-[#009bce] hover:bg-[#b0cb4f] rounded-2xl flex items-center hover:cursor-pointer">
             <Link to="https://www.colegiosenda.edu.mx/">
               <div className="text-white text-base font-normal font-['Inter'] leading-none">
                 Comunidad Senda
@@ -202,34 +243,40 @@ function Header() {
             {mobileSubMenuOpen.sobreNosotros && (
               <div className="mt-2 w-full bg-white shadow-lg rounded-lg">
                 <ul>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/misionyvision">Misión y Visión</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/nuestra-historia">Nuestra Historia</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/inspiracion-conviccion">
+                  <Link to="/misionyvision" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">
+                      Misión y Visión
+                    </li>
+                  </Link>
+                  <Link to="/nuestra-historia" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">
+                      Nuestra Historia
+                    </li>
+                  </Link>
+                  <Link to="/inspiracion-conviccion" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">
                       Inspiración y Convicción
-                    </Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/reconocimientos-certificaciones">
+                    </li>
+                  </Link>
+                  <Link to="/reconocimientos-certificaciones" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">
                       Reconocimientos y Certificaciones
-                    </Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/casos-de-exito">Casos de Éxito</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/modelo-senda">Modelo Senda</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/mapa-del-colegio">Mapa del Colegio</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/nuestro-equipo">Nuestro Equipo</Link>
-                  </li>
+                    </li>
+                  </Link>
+                  <Link to="/casos-de-exito" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">Casos de Éxito</li>
+                  </Link>
+                  <Link to="/modelo-senda" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">Modelo Senda</li>
+                  </Link>
+                  <Link to="/mapa-del-colegio" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">
+                      Mapa del Colegio
+                    </li>
+                  </Link>
+                  <Link to="/nuestro-equipo" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">Nuestro Equipo</li>
+                  </Link>
                 </ul>
               </div>
             )}
@@ -262,24 +309,24 @@ function Header() {
             {mobileSubMenuOpen.ofertaEducativa && (
               <div className="mt-2 w-full bg-white shadow-lg rounded-lg">
                 <ul>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/maternal">Maternal</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/preescolar">Preescolar</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/primaria">Primaria</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/secundaria">Secundaria</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/after-school">After School</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/deportes">Deportes</Link>
-                  </li>
+                  <Link to="/maternal" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">Maternal</li>
+                  </Link>
+                  <Link to="/preescolar" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">Preescolar</li>
+                  </Link>
+                  <Link to="/primaria" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">Primaria</li>
+                  </Link>
+                  <Link to="/secundaria" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">Secundaria</li>
+                  </Link>
+                  <Link to="/after-school" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">After School</li>
+                  </Link>
+                  <Link to="/deportes" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">Deportes</li>
+                  </Link>
                 </ul>
               </div>
             )}
@@ -310,18 +357,24 @@ function Header() {
             {mobileSubMenuOpen.admisiones && (
               <div className="mt-2 w-full bg-white shadow-lg rounded-lg">
                 <ul>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/aplica-al-senda">Aplica al Senda</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/colegiaturas">Colegiaturas</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/planea-tu-visita">Planea tu visita</Link>
-                  </li>
-                  <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/proceso-de-admision">Proceso de admisión</Link>
-                  </li>
+                  <Link to="/aplica-al-senda" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">
+                      Aplica al Senda
+                    </li>
+                  </Link>
+                  <Link to="/colegiaturas" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">Colegiaturas</li>
+                  </Link>
+                  <Link to="/planea-tu-visita" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">
+                      Planea tu visita
+                    </li>
+                  </Link>
+                  <Link to="/proceso-de-admision" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">
+                      Proceso de admisión
+                    </li>
+                  </Link>
                 </ul>
               </div>
             )}
@@ -352,29 +405,35 @@ function Header() {
             {mobileSubMenuOpen.vidaSenda && (
               <div className="mt-2 w-full bg-white shadow-lg rounded-lg">
                 <ul>
+                <Link to="/blog" onClick={closeMenu}>
                   <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/blog">Blog</Link>
+                    Blog
                   </li>
+                  </Link>
+                  <Link to="/proximos-eventos" onClick={closeMenu}>
                   <li className="p-2 hover:bg-neutral-100">
-                    <Link to="/proximos-eventos">Próximos Eventos</Link>
+                   Próximos Eventos
                   </li>
+                  </Link>
                 </ul>
               </div>
             )}
           </div>
+          <Link to={"/contacto"} onClick={closeMenu}>
           <div className="p-2 hover:bg-neutral-100 rounded-lg flex items-center w-full hover:cursor-pointer">
-            <Link to={"/contacto"}>
-            <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-none">
-              Contacto
-            </div>
-            </Link>
+            
+              <div className="text-[#1e1e1e] text-base font-normal font-['Inter'] leading-none">
+                Contacto
+              </div>
+            
           </div>
-          <Link to="https://www.colegiosenda.edu.mx/">
-          <button className="px-4 py-2 mt-4 bg-[#009bce] rounded-2xl flex justify-center items-center w-full hover:cursor-pointer ">
-            <p className="text-white text-base font-normal font-['Inter'] leading-none">
-              Comunidad Senda
-            </p>
-          </button>
+          </Link>
+          <Link to="https://www.colegiosenda.edu.mx/" onClick={closeMenu}>
+            <button className="px-4 py-2 mt-4 bg-[#009bce] rounded-2xl flex justify-center items-center w-full hover:cursor-pointer ">
+              <p className="text-white text-base font-normal font-['Inter'] leading-none">
+                Comunidad Senda
+              </p>
+            </button>
           </Link>
         </div>
       )}
