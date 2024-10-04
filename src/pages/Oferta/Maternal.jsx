@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HeaderMaternal from "../../assets/maternal/header-maternal.png";
-import QuoteImg1 from "../../assets/maternal/quote-img-1.png";
-import QuoteImg2 from "../../assets/maternal/quote-img-2.png";
-import QuoteImg3 from "../../assets/maternal/quote-img-3.png";
+import QuoteImg1 from "../../assets/maternal/quote-1.png";
+import QuoteImg2 from "../../assets/maternal/quote-2.png";
+import QuoteImg3 from "../../assets/maternal/quote-3.png";
 import MiddleMaternal from "../../assets/maternal/middle-maternal.png";
 import IconTeacher from "../../assets/icons/👩🏻‍🏫.png";
 import IconSchool from "../../assets/icons/🏫.png"
@@ -28,14 +28,14 @@ function Maternal() {
         {/* Background Image with Opacity */}
         <div className="absolute inset-0 z-0">
         <img
-          className="w-screen object-cover opacity-10 z-0 md:h-[900px]"
+          className="w-screen object-cover opacity-10 z-0 md:h-[800px]"
           src={HeaderBackground}
           alt="Background"
         />
       </div>
 
         <div className="relative max-w-screen-xl flex flex-col md:flex-row justify-between items-center gap-8 z-10">
-          <div className="flex flex-col justify-start items-start gap-8 text-left">
+          <div className="flex flex-col justify-start items-start gap-8 text-left md:px-0 px-8">
             <div className="text-[#1e1e1e] text-[2.5rem] md:text-[3.5rem] font-semibold leading-tight">
               Maternal 
             </div>
@@ -46,7 +46,7 @@ function Maternal() {
             </div>
             <Link
               to="/aplica-al-senda"
-              className="px-6 py-3 bg-[#009bce] rounded-2xl text-[#f2f2f2] text-base font-medium hover:bg-[#007cae]"
+              className="px-6 py-3 bg-[#009bce] md:self-start self-center rounded-2xl text-[#f2f2f2] text-base font-medium hover:bg-[#007cae]"
             >
               Únete al Colegio Senda
             </Link>
@@ -55,14 +55,14 @@ function Maternal() {
             <img
               src={HeaderMaternal}
               alt="Maternal"
-              className="w-full h-auto object-cover"
+              className="w-full md:h-[470px] h-auto object-cover"
             />
           </div>
         </div>
       </div>
 
       {/* Second Section */}
-      <div className="w-full max-w-screen-xl px-4  py-16 md:py-32 bg-white flex flex-col justify-center items-start gap-12">
+      <div className="w-full max-w-screen-xl md:px-4 px-8  py-16 md:py-32 bg-white flex flex-col justify-center items-start gap-12">
         <div className="text-[#1e1e1e] text-2xl md:text-3xl font-semibold mb-6">
           Montessori Constructivista
         </div>
@@ -118,20 +118,20 @@ function Maternal() {
 
       <div className="w-full px-4 md:px-16 py-16 md:py-32 bg-white  flex justify-center items-center">
         <div className="w-full max-w-screen-lg p-6 bg-white  text-center flex flex-col justify-center items-center ">
-          <div className="text-[#303030] text-2xl md:text-[35px] font-pangea font-medium leading-tight px-24">
+          <div className="text-[#303030] text-2xl md:text-[35px] font-pangea font-medium leading-tight md:px-24">
             “Tenemos y queremos niños felices,
             <span style={{ display: "inline-block" }}></span>
             <img
               src={QuoteImg1}
               alt="image 1"
-              className="inline-block mx-2 rounded-3xl"
+              className="md:inline-block mx-2 h-12 rounded-3xl hidden"
             />
             que transmitan
             <span style={{ display: "inline-block" }}></span>
             <img
               src={QuoteImg2}
               alt="image 2"
-              className="inline-block mx-2"
+              className="md:inline-block h-12 mx-2 hidden"
             />
             esa energía y esa pasión que tienen por descubrir, por transformar y
             por trascender en su
@@ -139,7 +139,7 @@ function Maternal() {
             <img
               src={QuoteImg3}
               alt="image 3"
-              className="inline-block mx-2 my-2"
+              className="hidden md:inline-block h-12 mx-2 my-2"
             />
             entorno.”
           </div>
@@ -153,11 +153,11 @@ function Maternal() {
       {/* Fourth Section */}
       <div className="w-full bg-[#f9f9fe] py-16 md:py-32">
         <div className="w-full max-w-screen-xl mx-auto px-4 md:px-16 flex flex-col md:flex-row justify-between items-start gap-12">
-          <div className="flex flex-col justify-start items-start gap-12">
+          <div className="flex flex-col justify-start items-start gap-12 md:px-0 px-4">
             <div className="text-[#1e1e1e] text-2xl md:text-3xl font-semibold">
               Nuestro preescolar constructivista
             </div>
-            <div className="text-[#757575] text-base leading-snug mr-40">
+            <div className="text-[#757575] text-base leading-snug md:mr-40">
               Los niños de preescolar se benefician de un ambiente de
               aprendizaje enriquecido y estimulante, donde la creatividad y la
               curiosidad se valoran y se fomentan. Utilizamos una metodología
