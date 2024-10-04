@@ -76,7 +76,7 @@ function ModeloSenda() {
             </ul>
           </div>
           <Link to="/aplica-al-senda">
-            <button className="mt-6 md:mt-0 px-6 mb-10 py-3 bg-[#009bce] rounded-2xl justify-center items-center gap-2 inline-flex">
+            <button className="mt-6 md:mt-0 px-6 mb-10 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl justify-center items-center gap-2 inline-flex">
               <div className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight">
                 Únete al Colegio Senda
               </div>

@@ -3,8 +3,8 @@ import CasoExitoVideo from "../../assets/caso-exito-01-compressed.mp4";
 import ImageVideo from "../../assets/image-video.png";
 import Medal from "../../assets/medal.png";
 import Brain from "../../assets/brain.png";
-import GreenDots from "../../assets/green-dots.png";
-import BlueDots from "../../assets/blue-dots.png";
+import GreenDots from "../../assets/green-dots.svg";
+import BlueDots from "../../assets/blue-dots.svg";
 import VectorBlue from "../../assets/exito/vector-blue.png";
 import FiveStars from "../../assets/exito/five-stars.png";
 
