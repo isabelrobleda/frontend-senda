@@ -20,14 +20,16 @@ function MainHome() {
         <div className="grow shrink basis-0 flex-col justify-start items-center gap-8 inline-flex">
           <div className="self-stretch flex-col justify-start items-start gap-6 flex">
             <div className="self-stretch text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-tight md:leading-[68.40px] relative">
-              Ser una comunidad que
-              <br />
+              Ser una comunidad que 
+              
               <img
                 src={GreenVector}
                 alt="green vector"
-                className="absolute md:left-4 md:top-32 transform -translate-y-3/4 translate-x-[-10%] z-0  md:w-auto hidden md:block"
+                className="absolute md:left-32 md:top-45 transform -translate-y-3/4 translate-x-[-10%] z-0  md:w-auto hidden md:block"
               />
-              <span className="relative">educa</span> para trascender
+              <span className="relative"> educa</span> para trascender
+              
+              
             </div>
             <div className="self-stretch text-[#757575] text-lg md:text-2xl font-semibold font-['Inter'] leading-snug md:leading-[28.80px]">
               Somos una comunidad educativa inmersa en la cultura de
