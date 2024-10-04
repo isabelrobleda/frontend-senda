@@ -44,7 +44,7 @@ function NuestraHistoria() {
               inteligencias y maneras de aprender.
             </div>
           </div>
-          <div className="w-full md:w-[501.67px] h-[429px] relative">
+          <div className="w-full self-center md:w-auto h-auto relative">
             <img
               src={NuestraHistoriaImg}
               alt="imagen nuestra historia"
@@ -54,18 +54,21 @@ function NuestraHistoria() {
         </div>
       </div>
       <div className="w-full p-8 md:py-16 md:px-32 pb-16 bg-white flex flex-col justify-center items-start gap-12">
+        <h2 className="text-[#1e1e1e] text-lg md:text-3xl font-bold font-['Inter'] leading-[28.80px] md:leading-[57.60px]">
+          Línea del Tiempo
+        </h2>
         <div className="w-full flex flex-col max-w-[1440px] self-center ">
           <div className="w-full flex flex-col sm:flex-row justify-start items-start gap-10">
             <div className="flex-shrink-0 flex flex-col justify-start items-center sm:items-start gap-4">
               <img
                 src={Circle}
                 alt="circle"
-                className="h-full hidden sm:block" 
+                className="h-full hidden sm:block"
               />
               <img
                 src={Line}
                 alt="line"
-                className="ml-2 w-1 h-28 pb-3 hidden sm:block" 
+                className="ml-2 w-1 h-36 pb-3 hidden sm:block"
               />
             </div>
             <div className="w-full sm:w-[600px] flex flex-col justify-start items-start gap-4">
@@ -79,7 +82,7 @@ function NuestraHistoria() {
                   alt="chick emoji"
                 />
               </div>
-              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug pb-6">
+              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug pb-10">
                 Fundación del colegio en agosto. Comenzaron las clases con un
                 preescolar Montessori, bilingüe y mixto, además de un grupo de
                 primero y segundo de primaria. Las instalaciones eran pequeñas,
@@ -99,7 +102,7 @@ function NuestraHistoria() {
               <img
                 src={Line}
                 alt="line"
-                className="ml-2 w-1 h-24 pb-3 hidden sm:block"
+                className="ml-2 w-1 h-32 pb-3 hidden sm:block"
               />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
@@ -108,12 +111,12 @@ function NuestraHistoria() {
                   2000
                 </div>
                 <img
-                  className="w-[29px] h-[29px]"
+                  className="w-[29px] h-[29px] pl-1"
                   src={Truck}
                   alt="truck"
                 />
               </div>
-              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug pb-12">
                 El colegio se mudó a un nuevo edificio, el cual era una fábrica
                 de chocolates, donde se construyeron 10 salones, un auditorio y
                 un patio. El colegio ocupaba la planta baja y el primer piso.{" "}
@@ -132,7 +135,7 @@ function NuestraHistoria() {
               <img
                 src={Line}
                 alt="line"
-                className="ml-2 w-1 h-24 pb-3 hidden sm:block"
+                className="ml-2 w-1 h-32 pb-3 hidden sm:block"
               />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
@@ -140,13 +143,9 @@ function NuestraHistoria() {
                 <div className="w-[59px] text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   2005
                 </div>
-                <img
-                  className="w-[29px] h-[29px]"
-                  src={House}
-                  alt="house"
-                />
+                <img className="w-[29px] h-[29px]" src={House} alt="house" />
               </div>
-              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug pb-12">
                 Remodelación completa del edificio de 4 pisos, que se
                 convirtieron en las instalaciones actuales. En ese momento, el
                 colegio tenía 180 alumnos en preescolar y primaria.{" "}
@@ -165,7 +164,7 @@ function NuestraHistoria() {
               <img
                 src={Line}
                 alt="line"
-                className="ml-2 w-1 h-28 pb-3 hidden sm:block"
+                className="ml-2 w-1 h-34   pb-3 hidden sm:block"
               />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
@@ -179,7 +178,7 @@ function NuestraHistoria() {
                   alt="graduation icon"
                 />
               </div>
-              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug pb-12">
                 Primer contacto con la Universidad de Educación de Harvard para
                 implementar el modelo de Cultura del Pensamiento en el colegio.
                 Iniciamos con un salón de computación. Escribímos y registramos
@@ -199,7 +198,7 @@ function NuestraHistoria() {
               <img
                 src={Line}
                 alt="line"
-                className="ml-2 w-1 h-40 pb-3 hidden sm:block"
+                className="ml-2 w-1 h-48 pb-3 hidden sm:block"
               />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
@@ -207,11 +206,7 @@ function NuestraHistoria() {
                 <div className="w-[59px] text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   2015
                 </div>
-                <img
-                  className="w-[29px] h-[29px]"
-                  src={Rocket}
-                  alt="rocket"
-                />
+                <img className="w-[29px] h-[29px]" src={Rocket} alt="rocket" />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
                 Inauguración de la secundaria. Se remodeló un área especial para
@@ -236,7 +231,7 @@ function NuestraHistoria() {
               <img
                 src={Line}
                 alt="line"
-                className="ml-2 w-1 h-44 pb-3 hidden sm:block"
+                className="ml-2 w-1 h-52 pb-3 hidden sm:block"
               />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
@@ -244,11 +239,7 @@ function NuestraHistoria() {
                 <div className="w-[59px] text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   2019
                 </div>
-                <img
-                  className="w-[29px] h-[29px]"
-                  src={Robot}
-                  alt="robot"
-                />
+                <img className="w-[29px] h-[29px]" src={Robot} alt="robot" />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
                 Se establecieron los tres grados de secundaria, maternal,
@@ -276,11 +267,7 @@ function NuestraHistoria() {
                 <div className="w-[59px] text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   2024
                 </div>
-                <img
-                  className="w-[29px] h-[29px]"
-                  src={Raquet}
-                  alt="raquet"
-                />
+                <img className="w-[29px] h-[29px]" src={Raquet} alt="raquet" />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
                 Inauguración de canchas de pickleball, hockey sobre pasto,
