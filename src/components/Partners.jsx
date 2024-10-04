@@ -1,9 +1,9 @@
 import React from "react";
-import Apple from "../assets/Apple.png";
-import MARSA from "../assets/MARSA.png";
-import Knotion from "../assets/Knotion.png";
-import LARSA from "../assets/LARSA.png";
-import IdeaSport from "../assets/Idea-sport.png";
+import Apple from "../assets/Apple.svg";
+import MARSA from "../assets/MARSA.svg";
+import Knotion from "../assets/Knotion.svg";
+import LARSA from "../assets/LARSA.svg";
+import IdeaSport from "../assets/Idea-sport.svg";
 
 function Partners() {
   return (
