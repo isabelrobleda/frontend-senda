@@ -6,10 +6,10 @@ import QuoteImg2 from "../../assets/maternal/quote-img-2.png";
 import QuoteImg3 from "../../assets/maternal/quote-img-3.png";
 import MiddlePreescolar from "../../assets/preescolar/middle-preescolar.png";
 import IconTeacher from "../../assets/icons/👩🏻‍🏫.png";
-import IconSchool from "../../assets/icons/🏫.png"
+import IconSchool from "../../assets/icons/🏫.png";
 import IconUsFlag from "../../assets/icons/🇺🇸.png";
 import IconMeditation from "../../assets/icons/🧘🏻‍♀️.png";
-import IconSpanish from "../../assets/icons/🇪🇸.png";  
+import IconSpanish from "../../assets/icons/🇪🇸.png";
 import IconSoccer from "../../assets/icons/⚽.png";
 import IconBaby from "../../assets/icons/👶🏻.png";
 import IconComputer from "../../assets/icons/🖥️.png";
@@ -23,7 +23,7 @@ function Preescolar() {
     <div>
       <div className="flex flex-col items-center">
         {/* First Section with Background */}
-        <div className="relative w-full md:h-[750px] px-4 md:px-16 py-20 md:py-40 flex justify-center items-center">
+        <div className="relative w-full md:h-[800px] px-4 md:px-16 py-20 md:py-40 flex justify-center items-center">
           {/* Background Image with Opacity */}
           <div className="absolute inset-0">
             <div
@@ -36,28 +36,29 @@ function Preescolar() {
 
           <div className="relative max-w-screen-xl flex flex-col md:flex-row justify-between items-center gap-8 z-10">
             <div className="flex flex-col justify-start items-start gap-8 text-left">
-              <div className="text-[#1e1e1e] text-[2.5rem] md:text-[3.5rem] font-semibold leading-tight">
-                Preescolar 
+              <div className="text-[#1e1e1e] md:pt-0 pt-8 text-[2.5rem] md:text-[3.5rem] font-semibold leading-tight">
+                Preescolar
               </div>
-              <div className="text-[#757575] text-lg md:text-2xl font-semibold leading-snug">
+              <div className="  text-[#757575] text-lg md:text-2xl font-semibold leading-snug">
                 Ofrecemos un entorno bilingüe y estimulante que integra
                 tecnología y cultura del pensamiento, promoviendo habilidades
-                críticas, creativas y socioemocionales. Montessori constructivista.
+                críticas, creativas y socioemocionales. Montessori
+                constructivista.
               </div>
               <Link
                 to="/aplica-al-senda"
-                className="px-6 py-3 bg-[#009bce] rounded-2xl text-[#f2f2f2] text-base font-medium hover:bg-[#007cae]"
+                className="px-6 py-3 bg-[#009bce] rounded-2xl text-[#f2f2f2] text-base md:self-start  self-center font-medium hover:bg-[#007cae]"
               >
                 Únete al Colegio Senda
               </Link>
             </div>
-            <div className="relative w-full max-w-xl">
+            
               <img
                 src={HeaderPreescolar}
                 alt="Preescolar"
-                className="w-full h-auto object-cover"
+                className="w-full md:h-[470px] object-cover" // Changed here
               />
-            </div>
+           
           </div>
         </div>
 
@@ -108,53 +109,53 @@ function Preescolar() {
         {/* Quote Section */}
 
         <div className="w-full px-4 md:px-16 py-16 md:py-32 bg-white  flex justify-center items-center">
-          <div className="w-full max-w-screen-lg p-6 bg-white  text-center flex flex-col justify-center items-center ">
-            <div className="text-[#303030] text-2xl md:text-[35px] font-pangea font-medium leading-tight px-24">
-              “Tenemos y queremos niños felices,
-              <span style={{ display: "inline-block" }}></span>
-              <img
-                src={QuoteImg1}
-                alt="image 1"
-                className="inline-block mx-2 rounded-3xl"
-              />
-              que transmitan
-              <span style={{ display: "inline-block" }}></span>
-              <img
-                src={QuoteImg2}
-                alt="image 2"
-                className="inline-block mx-2"
-              />
-              esa energía y esa pasión que tienen por descubrir, por transformar
-              y por trascender en su
-              <span style={{ display: "inline-block" }}></span>
-              <img
-                src={QuoteImg3}
-                alt="image 3"
-                className="inline-block mx-2 my-2"
-              />
-              entorno.”
-            </div>
-            <div className="text-[#757575] text-xl font-semibold mt-8">
-              Mónica Sánchez Gavito
-            </div>
-            <div className="text-[#b3b3b3] text-base">Directora general</div>
+        <div className="w-full max-w-screen-lg p-6 bg-white  text-center flex flex-col justify-center items-center ">
+          <div className="text-[#303030] text-2xl md:text-[35px] font-pangea font-medium leading-tight md:px-24">
+            “Tenemos y queremos niños felices,
+            <span style={{ display: "inline-block" }}></span>
+            <img
+              src={QuoteImg1}
+              alt="image 1"
+              className="md:inline-block mx-2 h-12 rounded-3xl hidden"
+            />
+            que transmitan
+            <span style={{ display: "inline-block" }}></span>
+            <img
+              src={QuoteImg2}
+              alt="image 2"
+              className="md:inline-block h-12 mx-2 hidden"
+            />
+            esa energía y esa pasión que tienen por descubrir, por transformar y
+            por trascender en su
+            <span style={{ display: "inline-block" }}></span>
+            <img
+              src={QuoteImg3}
+              alt="image 3"
+              className="hidden md:inline-block h-12 mx-2 my-2"
+            />
+            entorno.”
           </div>
+          <div className="text-[#757575] text-xl font-semibold mt-8">
+            Mónica Sánchez Gavito
+          </div>
+          <div className="text-[#b3b3b3] text-base">Directora general</div>
         </div>
+      </div>
 
         {/* Fourth Section */}
         <div className="w-full bg-[#f9f9fe] py-16 md:py-32">
           <div className="w-full max-w-screen-xl mx-auto px-4 md:px-16 flex flex-col md:flex-row justify-between items-start gap-12">
-            <div className="flex flex-col justify-start items-start gap-12">
+            <div className="flex flex-col justify-start items-start gap-12 md:px-0 px-6">
               <div className="text-[#1e1e1e] text-2xl md:text-3xl font-semibold">
-              Preescolar Montessori Constructivista
+                Preescolar Montessori Constructivista
               </div>
-              <div className="text-[#757575] text-base leading-snug mr-40">
+              <div className="text-[#757575] text-base leading-snug  md:mr-40">
                 Los niños de preescolar se benefician de un ambiente de
                 aprendizaje enriquecido y estimulante, donde la creatividad y la
                 curiosidad se valoran y se fomentan. Utilizamos una metodología
                 constructivista que se adapta a las necesidades individuales de
                 cada niño, permitiéndoles explorar y descubrir a su propio
-                ritmo. 
+                ritmo.
                 <br />
                 <br />
                 Nuestro enfoque en la cultura del pensamiento y las
@@ -178,33 +179,38 @@ function Preescolar() {
         </div>
 
         {/* Fifth Section */}
-      <div className="w-full px-4 md:px-32 py-16 md:py-44 flex justify-center items-center">
-        <div className="w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3">
-          <div className="p-6 h-[300px] bg-white rounded-tl-xl rounded-bl-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src={IconTeacher} alt="icon teacher" className="mb-10"/>
-            <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
-              Personalizado
-            </h3>
-            <p className="text-black/40 text-base">
-              2 educadores por salón además <br />de una miss de Inglés
-            </p>
-          </div>
-          <div className="p-6  bg-white shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src={IconSchool} alt="icon school" className="mb-10"/>
-            <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
-              Salones pequeños
-            </h3>
-            <p className="text-black/40 text-base">Máximo 24 niños por salón</p>
-          </div>
-          <div className="p-6  bg-white rounded-tr-xl rounded-br-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src={IconUsFlag} alt="icon us flag" className="mb-10"/>
-            <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
-              Idioma inglés
-            </h3>
-            <p className="text-black/40 text-base">50% del tiempo en inglés</p>
+        <div className="w-full px-4 md:px-32 py-16 md:py-44 flex justify-center items-center">
+          <div className="w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3">
+            <div className="p-6 h-[300px] bg-white rounded-tl-xl rounded-bl-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
+              <img src={IconTeacher} alt="icon teacher" className="mb-10" />
+              <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
+                Personalizado
+              </h3>
+              <p className="text-black/40 text-base">
+                2 educadores por salón además <br />
+                de una miss de Inglés
+              </p>
+            </div>
+            <div className="p-6  bg-white shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
+              <img src={IconSchool} alt="icon school" className="mb-10" />
+              <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
+                Salones pequeños
+              </h3>
+              <p className="text-black/40 text-base">
+                Máximo 24 niños por salón
+              </p>
+            </div>
+            <div className="p-6  bg-white rounded-tr-xl rounded-br-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
+              <img src={IconUsFlag} alt="icon us flag" className="mb-10" />
+              <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
+                Idioma inglés
+              </h3>
+              <p className="text-black/40 text-base">
+                50% del tiempo en inglés
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
         {/* Sixth Section */}
         <div className="w-full bg-[#f9f9fe] py-16 md:py-32">
@@ -278,7 +284,7 @@ function Preescolar() {
                 alt="background green cta"
                 className="relative z-0 md:rounded-none rounded-lg"
               />
-              <h3 className="absolute z-10 px-14 mt-20 font-semibold font-pangea md:text-2xl text-lg">
+              <h3 className="absolute z-10 px-14 md:mt-20 mt-16 font-semibold font-pangea md:text-2xl text-lg">
                 ¿Tienes preguntas?
               </h3>
               <p className="absolute z-10 md:mt-32 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
@@ -287,7 +293,7 @@ function Preescolar() {
                 Preescolar
               </p>
               <a href="mailto:direccionpreescolar@colegiosenda.edu.mx">
-                <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl border border-white ">
+                <div className="absolute hover:bg-gray-200 h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl  ">
                   <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                     Contactar
                   </span>

@@ -15,9 +15,9 @@ import IconTheater from "../../assets/icons/🎭.png";
 import IconArt from "../../assets/icons/🎨.png";
 import CTA01 from "../../assets/CTAs/CTA-01.png";
 import SecundariaCTA from "../../assets/secundaria/Secundaria-CTA.png";
-import Quote01 from "../../assets/maternal/quote-img-1.png";
-import Quote02 from "../../assets/maternal/quote-img-2.png";
-import Quote03 from "../../assets/maternal/quote-img-3.png";
+import QuoteImg1 from "../../assets/maternal/quote-1.png";
+import QuoteImg2 from "../../assets/maternal/quote-2.png";
+import QuoteImg3 from "../../assets/maternal/quote-3.png";
 import Group74 from "../../assets/secundaria/Group 74.png";
 
 function Secundaria() {
@@ -37,7 +37,7 @@ function Secundaria() {
           </div>
 
           <div className="relative max-w-screen-xl flex flex-col md:flex-row justify-between items-center gap-8 z-10">
-            <div className="flex flex-col justify-start items-start gap-8 text-left">
+            <div className="md:pt-0 pt-8 flex flex-col justify-start items-start gap-8 text-left">
               <div className="text-[#1e1e1e] text-[2.5rem] md:text-[3.5rem] font-semibold leading-tight">
                 Secundaria Constructivista
               </div>
@@ -50,23 +50,23 @@ function Secundaria() {
               </div>
               <Link
                 to="/aplica-al-senda"
-                className="px-6 py-3 bg-[#009bce] rounded-2xl text-[#f2f2f2] text-base font-medium hover:bg-[#007cae]"
+                className="px-6 py-3 md:self-start self-center bg-[#009bce] rounded-2xl text-[#f2f2f2] text-base font-medium hover:bg-[#007cae]"
               >
                 Únete al Colegio Senda
               </Link>
             </div>
-            <div className="relative w-full max-w-xl">
+            
               <img
                 src={HeaderSecundaria}
                 alt="Secundaria"
                 className="w-full h-auto object-cover"
               />
-            </div>
+           
           </div>
         </div>
 
         {/* Second Section */}
-        <div className="w-full max-w-screen-xl px-4  py-16 md:py-32 bg-white flex flex-col justify-center items-start gap-12">
+        <div className="w-full max-w-screen-xl md:px-4 px-6  py-16 md:py-32 bg-white flex flex-col justify-center items-start gap-12">
           <div className="text-[#1e1e1e] text-2xl md:text-3xl font-semibold mb-6">
             Cultura del Pensamiento
           </div>
@@ -104,28 +104,28 @@ function Secundaria() {
 
         <div className="w-full px-4 md:px-16 py-16 md:py-32 bg-white  flex justify-center items-center">
         <div className="w-full max-w-screen-lg p-6 bg-white  text-center flex flex-col justify-center items-center ">
-          <div className="text-[#303030] text-2xl md:text-[35px] font-pangea font-medium leading-tight px-24">
+          <div className="text-[#303030] text-2xl md:text-[35px] font-pangea font-medium leading-tight md:px-24">
             “Tenemos y queremos niños felices,
             <span style={{ display: "inline-block" }}></span>
             <img
-              src={Quote01}
+              src={QuoteImg1}
               alt="image 1"
-              className="inline-block mx-2 rounded-3xl"
+              className="md:inline-block mx-2 h-12 rounded-3xl hidden"
             />
             que transmitan
             <span style={{ display: "inline-block" }}></span>
             <img
-              src={Quote02}
+              src={QuoteImg2}
               alt="image 2"
-              className="inline-block mx-2"
+              className="md:inline-block h-12 mx-2 hidden"
             />
             esa energía y esa pasión que tienen por descubrir, por transformar y
             por trascender en su
             <span style={{ display: "inline-block" }}></span>
             <img
-              src={Quote03}
+              src={QuoteImg3}
               alt="image 3"
-              className="inline-block mx-2 my-2"
+              className="hidden md:inline-block h-12 mx-2 my-2"
             />
             entorno.”
           </div>
@@ -135,10 +135,11 @@ function Secundaria() {
           <div className="text-[#b3b3b3] text-base">Directora general</div>
         </div>
       </div>
+      
 
         {/* Fourth Section */}
         <div className="w-full bg-[#f9f9fe] py-16 md:py-32">
-          <div className="w-full max-w-screen-xl mx-auto px-4 md:px-16 flex flex-col md:flex-row justify-between items-start gap-12">
+          <div className="w-full max-w-screen-xl mx-auto px-6 md:px-16 flex flex-col md:flex-row justify-between items-start gap-12">
             <div className="flex flex-col justify-start items-start gap-12">
               <div className="text-[#1e1e1e] text-2xl md:text-3xl font-semibold">
                 Áreas de enfoque
@@ -271,14 +272,14 @@ function Secundaria() {
                 alt="background green cta"
                 className="relative z-0 md:rounded-none rounded-lg"
               />
-              <h3 className="absolute z-10 px-14 mt-20 font-semibold font-pangea md:text-2xl text-lg">
+              <h3 className="absolute z-10 px-14 md:mt-20 mt-16 font-semibold font-pangea md:text-2xl text-lg">
                 ¿Tienes preguntas?
               </h3>
               <p className="absolute z-10 md:mt-32 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
               Si tienes preguntas sobre secundaria, no dudes en enviarle un correo electrónico a Viviana Colucci, nuestra Directora de Secundaria
               </p>
               <a href="mailto:direccionsecundaria@colegiosenda.edu.mx">
-                <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-20 bottom-10  py-2 bg-white rounded-2xl border border-white ">
+                <div className="absolute hover:bg-gray-200 h-10 ml-14 px-8 z-10 md:bottom-20 bottom-10  py-2 bg-white rounded-2xl">
                   <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                     Contactar
                   </span>
