@@ -1,15 +1,7 @@
 import React from "react";
-import Bici from "../../assets/deportes/bici.png";
-import Group79 from "../../assets/deportes/Group 79.png";
-import Group80 from "../../assets/deportes/Group 80.png";
-import Group81 from "../../assets/deportes/Group 81.png";
-import Group82 from "../../assets/deportes/Group 82.png";
-import Group83 from "../../assets/deportes/Group 83.png";
-import Group84 from "../../assets/deportes/Group 84.png";
-import Group85 from "../../assets/deportes/Group 85.png";
+import MainBackground from "../../assets/deportes/main-background.png";
 import IdeaSport from "../../assets/Idea-sport.png";
 import Futbol from "../../assets/after school/⚽.png";
-import Basquet from "../../assets/after school/🏀.png"
 import Pickleball from "../../assets/after school/🎾.png";
 import Hockey from "../../assets/after school/🏑.png";
 import Patineta from "../../assets/after school/🛹.png";
@@ -20,75 +12,38 @@ import Patineta2 from "../../assets/deportes/deportes_patineta_02.png";
 import Deportes4 from "../../assets/deportes/P1270918.png";
 import Deportes5 from "../../assets/deportes/Screenshot 2024-08-17 at 18.08.48 1.png";
 import Deportes6 from "../../assets/deportes/Screenshot 2024-08-17 at 18.09.25 1.png";
-
+import FutbolImage from "../../assets/deportes/futbol.jpeg";
+import PickleballImage from "../../assets/deportes/pickleball-img.jpeg";
+import PatinetaImage from "../../assets/deportes/patineta.jpeg";
 
 function Deportes() {
   return (
     <div>
       <div className="w-full flex-col justify-center items-center gap-8 inline-flex">
-        <div className="relative w-full flex flex-wrap justify-center items-center gap-4 p-4">
-          <div className="relative h-screen w-full flex justify-center items-center p-4">
-            <div className="absolute inset-0">
-              <div
-                className="absolute inset-0 bg-cover bg-no-repeat opacity-10"
-                style={{
-                  backgroundImage: "url(src/assets/Header-background.png)",
-                }}
-              ></div>
-            </div>
-
-            <div className="floating-images">
-              <img
-                className="absolute w-20 h-20  md:w-32 md:h-32 top-28 right-44"
-                src={Bici}
-              />
-              <img
-                className="absolute w-18 h-20 md:w-32 md:h-32 md:bottom-32 md:left-72 bottom-56 left-72"
-                src={Group79}
-              />
-              <img
-                className="absolute w-20 h-20 md:w-32 md:h-32 left-10 top-[500px] md:top-72 md:left-32"
-                src={Group80}
-              />
-              <img
-                className="absolute w-14 h-14  md:w-20 md:h-20  md:top-96 md:right-24 right-20 top-20"
-                src={Group81}
-              />
-              <img
-                className="absolute w-20 h-20 md:w-32 md:h-32  md:top-20 md:left-80 right-2 top-44"
-                src={Group82}
-              />
-              <img
-                className="absolute w-16 h-16  md:w-32 md:h-32 md:bottom-32 md:right-80 bottom-20"
-                src={Group83}
-              />
-              <img
-                className="absolute w-20 h-20 md:w-20 md:h-20 md:top-48 md:left-[750px] left-20 top-56"
-                src={Group84}
-              />
-              <img
-                className="absolute w-14 h-14  md:w-20 md:h-20   md:bottom-56 md:right-[750px] right-20 bottom-20"
-                src={Group85}
-              />
-            </div>
-
-            <div className="text-center z-10 relative">
-              <h1 className="text-[32px] sm:text-[40px] md:text-[48px] font-semibold font-['Pangea'] leading-[1.2]">
-                Deportes que fomentan
-                <br />
-                <span className="text-[#009BCE]">el desarrollo integral</span>
-              </h1>
-              <p className="text-[#757575] text-base sm:text-lg md:text-xl font-semibold font-['Inter'] leading-[1.4] mt-4">
-                En el Senda y junto con IdeaSport, ofrecemos una diversidad en
-                deportes para todos los gustos.
-              </p>
-              <div className="flex flex-col items-center">
-                <img
-                  src={IdeaSport}
-                  alt="Idea Sport"
-                  className="pt-8  items-center justify-center "
-                />
-              </div>
+        <div
+          className="relative w-full h-screen flex flex-wrap justify-center items-center gap-4 p-4"
+          style={{
+            maxWidth: "100vw",
+            backgroundImage: `url(${MainBackground})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          {/* Text and IdeaSport image */}
+          <div className="relative z-10 flex flex-col justify-center items-center text-center">
+            <h1 className="text-[32px] sm:text-[40px] md:text-[48px] font-semibold font-pangea leading-[1.2]">
+              Deportes que fomentan
+              <br />
+              <span className="text-[#009BCE]">el desarrollo integral</span>
+            </h1>
+            <p className="text-[#757575] text-base sm:text-lg md:text-xl font-semibold font-['Inter'] leading-[1.4] mt-4">
+              En el Senda y junto con IdeaSport, ofrecemos una diversidad en
+              deportes para todos los gustos.
+            </p>
+            {/* Center IdeaSport Image */}
+            <div className="pt-8">
+              <img src={IdeaSport} alt="Idea Sport" className="mx-auto" />
             </div>
           </div>
         </div>
@@ -134,8 +89,15 @@ function Deportes() {
                   <br />
                   <br />
                   Grabamos un podcast con el Director y Fundador de IdeaSport,
-                  ve a este <a href="https://open.spotify.com/episode/4XK2EJBKnmuGeIItCDaBSz?si=860ea0af41d74ae2" className="underline">link</a> si quieres saber más sobre la compañía y
-                  nuestra alianza con ellos.
+                  ve a este{" "}
+                  <a
+                    href="https://open.spotify.com/episode/4XK2EJBKnmuGeIItCDaBSz?si=860ea0af41d74ae2"
+                    className="underline"
+                  >
+                    link
+                  </a>{" "}
+                  si quieres saber más sobre la compañía y nuestra alianza con
+                  ellos.
                 </span>
               </div>
             </div>
@@ -153,11 +115,7 @@ function Deportes() {
           {/* Card 2 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={Futbol}
-                alt="futbol"
-                className="w-18 pb-2"
-              />
+              <img src={Futbol} alt="futbol" className="w-18 pb-2" />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Fútbol
               </div>
@@ -167,31 +125,11 @@ function Deportes() {
               </div>
             </div>
           </div>
-          {/* Card 3 */}
-          {/* <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
-            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src="src/assets/after school/🏀.png"
-                alt="basquet"
-                className="w-18 pb-2"
-              />
-              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                Baloncesto
-              </div>
-              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                Nuestras clases de baloncesto mejoran coordinación, resistencia
-                y trabajo en equipo, desarrollando mente y cuerpo.
-              </div>
-            </div>
-          </div> */}
+
           {/* Card 4 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={Pickleball}
-                alt="pickleball"
-                className="w-18 pb-2"
-              />
+              <img src={Pickleball} alt="pickleball" className="w-18 pb-2" />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Pickleball
               </div>
@@ -219,40 +157,35 @@ function Deportes() {
               </div>
             </div>
           </div>
-          {/* Card 6 */}
-          <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
-            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={Patineta}
-                alt="patineta"
-                className="w-18 pb-2"
-              />
-              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                Patineta
-              </div>
-              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                Ofrecemos un espacio seguro para skateboarding, mejorando
-                equilibrio y coordinación, además de ser divertido.
-              </div>
+        </div>
+        <div className="flex flex-col md:grid md:grid-cols-2 md:gap-10 gap-8 ">
+
+        {/* Card 6 */}
+        <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+          <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
+            <img src={Patineta} alt="patineta" className="w-18 pb-2" />
+            <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+              Patineta
+            </div>
+            <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+              Ofrecemos un espacio seguro para skateboarding, mejorando
+              equilibrio y coordinación, además de ser divertido.
             </div>
           </div>
-          {/* Card 7 */}
-          <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
-            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={Roca}
-                alt="roca"
-                className="w-18 pb-2"
-              />
-              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                Muro de escalar
-              </div>
-              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                La escalada promueve fuerza, flexibilidad y resolución de
-                problemas, ideal para estudiantes que buscan desafíos.
-              </div>
+        </div>
+        {/* Card 7 */}
+        <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
+          <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
+            <img src={Roca} alt="roca" className="w-18 pb-2" />
+            <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+              Muro de escalar
+            </div>
+            <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+              La escalada promueve fuerza, flexibilidad y resolución de
+              problemas, ideal para estudiantes que buscan desafíos.
             </div>
           </div>
+        </div>
         </div>
       </div>
 
@@ -269,14 +202,14 @@ function Deportes() {
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src={Futbol2}
+              src={FutbolImage}
               alt="Deportes 2"
             />
           </div>
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src={Patineta2}
+              src={PatinetaImage}
               alt="Deportes 3"
             />
           </div>
@@ -297,7 +230,7 @@ function Deportes() {
           <div className="relative w-full h-80">
             <img
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
-              src={Deportes6}
+              src={PickleballImage}
               alt="Deportes 6"
             />
           </div>
