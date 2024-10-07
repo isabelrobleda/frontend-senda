@@ -1,29 +1,20 @@
 import React from "react";
-import Patineta from "../../assets/after school/foto_patineta.png";
-import DeportesEscalar from "../../assets/after school/Deportes_Escalar.png";
-import Inspiracion from "../../assets/after school/inspiracion.png";
-import Conviccion from "../../assets/after school/conviccion.png";
-import Basquetbol from "../../assets/after school/basquetbol.png";
-import Escalar from "../../assets/after school/escalar.png";
-import Tarea from "../../assets/after school/tarea.png";
-import Raqueta from "../../assets/after school/raqueta.png";
-import Futbol from "../../assets/after school/futbol.png";
-import Patineta2 from "../../assets/after school/patineta.png";
+import MainAfterSchool from "../../assets/after school/main-after-school.png";
 import IdeaSport from "../../assets/Idea-sport.png";
-import PatinetaIcon from "../../assets/after school/📓.png"
-import FutbolIcon from "../../assets/after school/⚽.png"
+import PatinetaIcon from "../../assets/after school/📓.png";
+import FutbolIcon from "../../assets/after school/⚽.png";
 import PickleballIcon from "../../assets/after school/🎾.png";
 import HockeyIcon from "../../assets/after school/🏑.png";
 import PatinetaIcon2 from "../../assets/after school/🛹.png";
 import EscalarIcon from "../../assets/after school/🪨.png";
 import BabyIcon from "../../assets/after school/baby.png";
 import DancerIcon from "../../assets/after school/dancer.png";
-import ImgAfterSchool01 from "../../assets/after school/afterschool_02 2.png";
+import ImgAfterSchool01 from "../../assets/after school/psicomotricidad-image.jpeg";
 import ImgAfterSchool02 from "../../assets/after school/PCI_3443.png";
-import ImgAfterSchool03 from "../../assets/after school/PCI_3753.png";
+import ImgAfterSchool03 from "../../assets/after school/minifut-image.jpeg";
 import ImgAfterSchool04 from "../../assets/after school/PCI_3923.png";
-import ImgAfterSchool05 from "../../assets/after school/PCI_4104.png";
-import ImgAfterSchool06 from "../../assets/after school/PCI_4207.png";
+import ImgAfterSchool05 from "../../assets/after school/patineta-image.jpeg";
+import ImgAfterSchool06 from "../../assets/after school/pickleball-image.jpeg";
 import CTA1 from "../../assets/CTAs/CTA-01.png";
 import CTAAfterSchool from "../../assets/after school/CTA-After-School.png";
 
@@ -31,84 +22,44 @@ function AfterSchool() {
   return (
     <div>
       <div className="w-full flex-col justify-center items-center gap-8 inline-flex">
-        <div className="relative w-full flex flex-wrap justify-center items-center gap-4 p-4">
-          <div className="relative h-screen w-full flex justify-center items-center p-4">
-            <div className="absolute inset-0">
-              <div
-                className="absolute inset-0 bg-cover bg-no-repeat opacity-10"
-                style={{
-                  backgroundImage: "url(src/assets/Header-background.png)",
-                }}
-              ></div>
-            </div>
+        <div className="relative w-full h-screen flex flex-wrap justify-center items-center gap-4 p-4">
+          {/* Background Image */}
+          <img
+            src={MainAfterSchool}
+            alt="background image after school"
+            className="absolute inset-0 w-full h-full object-cover z-0 md:block hidden" 
+          />
 
-            <div className="floating-images max-w-screen-lg">
-              <img
-                className="absolute w-20 h-20 sm:w-8 sm:h-8 md:w-36 md:h-36 rounded-full  md:left-28  bottom-36 left-10"
-                src={Patineta}
-              />
-              <img
-                className="absolute w-20 h-20  md:w-24 md:h-24 rounded-full top-28 left-44"
-                src={DeportesEscalar}
-              />
-              <img
-                className="absolute w-20 h-20 md:w-32 md:h-32 rounded-full left-10 bottom-36 md:bottom-20 md:left-[1200px]"
-                src={Inspiracion}
-              />
-              <img
-                className="absolute w-20 h-20  md:w-32 md:h-32 rounded-full md:top-44 md:right-56 right-20 bottom-20"
-                src={Conviccion}
-              />
-              <img
-                className="absolute w-8 md:w-16 md:h-16  md:right-80 opacity-65 bottom-64"
-                src={Basquetbol}
-              />
-              <img
-                className="absolute w-8 md:w-12 md:h-12 md:top-56 md:right-20 opacity-65 right-10 top-52"
-                src={Escalar}
-              />
-              <img
-                className="absolute w-10 md:w-12 md:top-36 md:left-2/4 opacity-65 left-10 top-44"
-                src={Tarea}
-              />
-              <img
-                className="absolute w-14 md:w-20 md:top-[800px] md:left-[750px] opacity-65 left-36 top-10"
-                src={Raqueta}
-              />
-              <img
-                className="absolute md:w-14 w-10 md:bottom-36 md:left-80 opacity-65 bottom-44 right-44"
-                src={Futbol}
-              />
-              <img
-                className="absolute md:w-20 w-12 md:top-56 md:left-80  opacity-65 bottom-10 right-2"
-                src={Patineta2}
-              />
-            </div>
+<div className="absolute inset-0">
+            <div
+              className="absolute inset-0 bg-cover bg-no-repeat opacity-10 md:hidden"
+              style={{
+                backgroundImage: "url(src/assets/Header-background.png)",
+              }}
+            ></div>
+          </div>
 
-            <div className="text-center z-10 relative">
-              <h1 className="text-[32px] sm:text-[40px] md:text-[48px] font-semibold font-['Pangea'] leading-[1.2]">
-                After School
-                <br />
-                <span className="text-[#1e1e1e]">Nuestra oferta para </span>
-                <span className="text-[#b0cb4f]">la tarde</span>
-              </h1>
-              <p className="text-[#757575] text-base sm:text-lg md:text-xl font-semibold font-['Inter'] leading-[1.4] mt-4">
-                Nuestro programa de After School está diseñado para proporcionar
-                una experiencia enriquecedora y divertida,
-                <br />
-                promoviendo un equilibrio entre el aprendizaje y el tiempo de
-                ocio. ¡Únete a nosotros y
-                <br />
-                descubre todo lo que tenemos para ofrecer!
-              </p>
+          {/* Text and IdeaSport image */}
+          <div className="relative z-10 flex flex-col justify-center items-center text-center">
+            <h1 className="text-[32px] sm:text-[40px] md:text-[48px] font-semibold font-['Pangea'] leading-[1.2]">
+              After School
+              <br />
+              <span className="text-[#1e1e1e]">Nuestra oferta para </span>
+              <span className="text-[#b0cb4f]">la tarde</span>
+            </h1>
+            <p className="text-[#757575] text-base sm:text-lg md:text-xl font-semibold font-['Inter'] leading-[1.4] mt-4">
+              Nuestro programa de After School está diseñado para proporcionar
+              una experiencia enriquecedora y divertida,
+              <br />
+              promoviendo un equilibrio entre el aprendizaje y el tiempo de
+              ocio. ¡Únete a nosotros y
+              <br />
+              descubre todo lo que tenemos para ofrecer!
+            </p>
 
-              <div className="flex flex-col items-center">
-                <img
-                  src={IdeaSport}
-                  alt="Idea Sport"
-                  className="pt-8  items-center justify-center "
-                />
-              </div>
+            {/* Center IdeaSport Image */}
+            <div className="pt-8">
+              <img src={IdeaSport} alt="Idea Sport" className="mx-auto" />
             </div>
           </div>
         </div>
@@ -128,8 +79,8 @@ function AfterSchool() {
                 los participantes tendrán la oportunidad de disfrutar de
                 diferentes actividades que les permitirán complementar y
                 enriquecer su crecimiento y madurez de una forma divertida. Este
-                programa está dirigido a los miembros de nuestra comunidad.
-                Para los alumnos del Senda, ofrecemos además, servicio de comedor.
+                programa está dirigido a los miembros de nuestra comunidad. Para
+                los alumnos del Senda, ofrecemos además, servicio de comedor.
               </div>
             </div>
             <div className="flex-1 flex-col justify-start items-start gap-4 flex">
@@ -169,11 +120,7 @@ function AfterSchool() {
           {/* Card 1 */}
           <div className=" px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={PatinetaIcon}
-                alt="patineta"
-                className="w-18 pb-2"
-              />
+              <img src={PatinetaIcon} alt="patineta" className="w-18 pb-2" />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Tareas
               </div>
@@ -186,11 +133,7 @@ function AfterSchool() {
           {/* Card 2 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={FutbolIcon}
-                alt="futbol"
-                className="w-18 pb-2"
-              />
+              <img src={FutbolIcon} alt="futbol" className="w-18 pb-2" />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Fútbol
               </div>
@@ -200,7 +143,7 @@ function AfterSchool() {
               </div>
             </div>
           </div>
-        
+
           {/* Card 4 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
@@ -218,8 +161,7 @@ function AfterSchool() {
               </div>
             </div>
           </div>
-        
-        
+
           {/* Card 4 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
@@ -240,11 +182,7 @@ function AfterSchool() {
           {/* Card 5 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={PatinetaIcon2}
-                alt="patineta"
-                className="w-18 pb-2"
-              />
+              <img src={PatinetaIcon2} alt="patineta" className="w-18 pb-2" />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Patineta
               </div>
@@ -258,11 +196,7 @@ function AfterSchool() {
           {/* Card 6 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={EscalarIcon}
-                alt="roca"
-                className="w-18 pb-2"
-              />
+              <img src={EscalarIcon} alt="roca" className="w-18 pb-2" />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Muro de escalar
               </div>
@@ -276,16 +210,13 @@ function AfterSchool() {
           {/* Card 7 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={BabyIcon}
-                alt="bebé"
-                className="w-20 pb-2"
-              />
+              <img src={BabyIcon} alt="bebé" className="w-20 pb-2" />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Psicomotricidad
               </div>
               <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                Actividades que fomentan el desarrollo de habilidades motoras y la coordinación.  
+                Actividades que fomentan el desarrollo de habilidades motoras y
+                la coordinación.
               </div>
             </div>
           </div>
@@ -293,25 +224,24 @@ function AfterSchool() {
           {/* Card 8 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={DancerIcon}
-                alt="dancer"
-                className="w-20 pb-2"
-              />
+              <img src={DancerIcon} alt="dancer" className="w-20 pb-2" />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Telas
               </div>
               <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                Actividad que fomenta la flexibilidad, la fuerza y la coordinación.
+                Actividad que fomenta la flexibilidad, la fuerza y la
+                coordinación.
               </div>
             </div>
           </div>
         </div>
       </div>
+
+
       {/* Image Section */}
       <div className="px-4 md:px-16 py-16 md:py-32 flex flex-col justify-center items-center gap-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10">
-          <div className=" w-full h-80">
+          <div className=" w-80 h-80">
             <img
               className=" inset-0 w-full h-full object-cover rounded-[20px]"
               src={ImgAfterSchool01}
@@ -334,7 +264,7 @@ function AfterSchool() {
           </div>
           <div className="relative w-full h-80">
             <img
-              className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
+              className="absolute inset-0 w-full h-full object- rounded-[20px]"
               src={ImgAfterSchool04}
               alt="After School 4"
             />
@@ -368,7 +298,7 @@ function AfterSchool() {
             <h3 className="absolute z-10 px-14 mt-12 font-semibold font-pangea md:text-2xl text-lg">
               ¿Tienes preguntas?
             </h3>
-            <p className="absolute z-10 md:mt-24 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
+            <p className="absolute z-10 md:mt-24 mt-20 px-14 font-light md:w-1/2 text-sm md:text-base">
               Si tienes alguna duda sobre nuestro programa de After School, ¡no
               dudes en contactar a nuestra coordinadora, Claudia Alcocer! ¡Ella
               estará feliz de ayudarte!
@@ -377,9 +307,9 @@ function AfterSchool() {
             </p>
 
             <a href="mailto:afterschoolcolegiosenda@gmail.com">
-              <div className="absolute h-10 ml-14  px-8 z-10 md:bottom-12 bottom-10  py-2 bg-white rounded-2xl border border-white ">
+              <div className="absolute h-10 ml-14 hover:bg-gray-200 px-8 z-10 md:bottom-12 bottom-10  py-2 bg-white rounded-2xl ">
                 <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
-                  Mandar un correo
+                  Contactar
                 </span>
               </div>
             </a>
