@@ -27,10 +27,10 @@ function AfterSchool() {
           <img
             src={MainAfterSchool}
             alt="background image after school"
-            className="absolute inset-0 w-full h-full object-cover z-0 md:block hidden" 
+            className="absolute inset-0 w-full h-full object-cover z-0 md:block hidden"
           />
 
-<div className="absolute inset-0">
+          <div className="absolute inset-0">
             <div
               className="absolute inset-0 bg-cover bg-no-repeat opacity-10 md:hidden"
               style={{
@@ -41,7 +41,7 @@ function AfterSchool() {
 
           {/* Text and IdeaSport image */}
           <div className="relative z-10 flex flex-col justify-center items-center text-center">
-            <h1 className="text-[32px] sm:text-[40px] md:text-[48px] font-semibold font-['Pangea'] leading-[1.2]">
+            <h1 className="text-[32px] sm:text-[40px] md:text-[48px] font-semibold font-pangea leading-[1.2]">
               After School
               <br />
               <span className="text-[#1e1e1e]">Nuestra oferta para </span>
@@ -236,7 +236,6 @@ function AfterSchool() {
           </div>
         </div>
       </div>
-
 
       {/* Image Section */}
       <div className="px-4 md:px-16 py-16 md:py-32 flex flex-col justify-center items-center gap-20">

@@ -22,12 +22,7 @@ function MainHome() {
             <div className="self-stretch text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-tight md:leading-[68.40px] relative">
               Ser una comunidad que 
               
-              <img
-                src={GreenVector}
-                alt="green vector"
-                className="absolute md:left-32 md:top-45 transform -translate-y-3/4 translate-x-[-10%] z-0  md:w-auto hidden md:block"
-              />
-              <span className="relative"> educa</span> para trascender
+              <span className="relative text-[#b0cb4f]"> educa</span> para <span className="text-[#009bce]">trascender</span>
               
               
             </div>
