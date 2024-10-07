@@ -17,6 +17,7 @@ import IconMusic from "../../assets/icons/🎶.png";
 import IconArt from "../../assets/icons/🎨.png";
 import CTA01 from "../../assets/CTAs/CTA-01.png";
 import CTAImgPreescolar from "../../assets/preescolar/preescolar-tienes_preguntas.png";
+import HeaderBackground from "../../assets/Header-background.png";
 
 function Preescolar() {
   return (
@@ -24,14 +25,14 @@ function Preescolar() {
       <div className="flex flex-col items-center">
         {/* First Section with Background */}
         <div className="relative w-full md:h-[800px] px-4 md:px-16 py-20 md:py-40 flex justify-center items-center">
+          
           {/* Background Image with Opacity */}
-          <div className="absolute inset-0">
-            <div
-              className="absolute inset-0 bg-cover bg-no-repeat opacity-10"
-              style={{
-                backgroundImage: "url(src/assets/Header-background.png)",
-              }}
-            ></div>
+          <div className="absolute inset-0 z-0">
+            <img
+              className="w-screen object-cover opacity-10 z-0 md:h-[800px]"
+              src={HeaderBackground}
+              alt="Background"
+            />
           </div>
 
           <div className="relative max-w-screen-xl flex flex-col md:flex-row justify-between items-center gap-8 z-10">
