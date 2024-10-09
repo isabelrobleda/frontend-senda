@@ -6,10 +6,11 @@ import Blog1 from "../assets/blog01.png";
 
 function CardsNosotros() {
   return (
-    <div className="w-full md:h-screen p-8 md:py-16  bg-white flex flex-col gap-12">
-      <div className="text-center  text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+    <div className="w-full p-8 md:py-16 bg-white flex flex-col items-center gap-12">
+      <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
         Nuestro blog
       </div>
+      {/* Centered container with max width */}
       <div className="w-full max-w-[1440px] flex flex-col md:flex-row md:justify-start justify-center items-center md:items-start gap-12">
         {cardsData.map((card, index) => (
           <div
@@ -35,13 +36,11 @@ function CardsNosotros() {
                 </div>
               </div>
               <Link to={card.link}>
-              <div className="px-6 py-2 bg-[#009bce] hover:bg-[#007cae] rounded-2xl flex justify-center items-center gap-2">
-                
+                <div className="px-6 py-2 bg-[#009bce] hover:bg-[#007cae] rounded-2xl flex justify-center items-center gap-2">
                   <button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                     Ver más
                   </button>
-                
-              </div>
+                </div>
               </Link>
             </div>
           </div>
