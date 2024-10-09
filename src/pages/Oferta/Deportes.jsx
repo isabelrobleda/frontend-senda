@@ -106,7 +106,7 @@ function Deportes() {
       </div>
 
       {/* Cards Section */}
-      <div className="px-4 md:px-16 py-24 text-center bg-[#f9f9fe] flex-col justify-center items-center gap-20 flex">
+      <div className="px-4 md:px-16 py-24 text-center bg-[#f9f9fe] flex-col justify-center items-center gap-8 flex">
         <div className=" text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] ">
           Deportes en el Senda
         </div>

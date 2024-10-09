@@ -7,6 +7,7 @@ import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
 import PlaneaTuVisita from "../../assets/planea-tu-visita.png";
 import OpenHouse from "../../assets/icons/🏫.png";
 import CitaConAdmisiones from "../../assets/icons/👩🏻‍🏫.png";
+import HeaderBackground from "../../assets/Header-background.png";
 
 
 function PlaneaVisita() {
@@ -23,29 +24,29 @@ function PlaneaVisita() {
         <div className=" w-full mx-auto p-8 md:p-16 flex flex-col justify-start items-center gap-16">
           <div className="relative md:h-[700px] w-full flex justify-center items-center">
             <div>
-              <div className="absolute inset-0">
-                <div
-                  className="absolute inset-0 bg-cover bg-no-repeat opacity-10"
-                  style={{
-                    backgroundImage: "url(src/assets/Header-background.png)",
-                  }}
-                ></div>
-              </div>
+               {/* Background Image with Opacity */}
+         <div className="absolute inset-0 z-0">
+            <img
+              className="w-screen object-cover md:block hidden opacity-10 z-0 md:h-[800px]"
+              src={HeaderBackground}
+              alt="Background"
+            />
+          </div>
             </div>
             {/* Planea tu visita Section */}
-            <div className="h-auto w-full max-w-screen-xl flex flex-col lg:flex-row justify-between items-center gap-8">
+            <div className="h-auto w-full max-w-screen-xl flex flex-col lg:flex-row md:justify-start items-center gap-8 mt-20">
               <div className="flex-grow flex flex-col justify-start items-center gap-8 text-center lg:text-left">
                 <div className="flex flex-col justify-start items-start gap-6">
                   <div className="text-[#1e1e1e] text-[40px] md:text-[57px] font-semibold font-['Pangea'] leading-tight">
                     Planea tu visita
                   </div>
                   <div className="text-[#757575] text-left   text-lg md:text-2xl font-semibold font-['Inter'] leading-tight">
-                    Conoce nuestras instalaciones y descubre <br /> cómo aprenden
+                    Conoce nuestras instalaciones y descubre cómo aprenden
                     nuestros alumnos
                   </div>
                 </div>
               </div>
-              <div className=" w-full md:w-[500px]  relative">
+              <div className=" w-full md:w-[870px]  relative">
                 <img
                   src={PlaneaTuVisita}
                   alt="Plan your visit"
@@ -516,10 +517,10 @@ function PlaneaVisita() {
                   alt="background green cta"
                   className="relative z-0 md:rounded-none rounded-lg"
                 />
-                <h3 className="absolute z-10 px-14 mt-20 font-semibold font-pangea md:text-2xl text-lg">
+                <h3 className="absolute z-10 px-14 md:mt-20 mt-8 font-semibold font-pangea md:text-2xl text-lg">
                   ¿Tienes preguntas?
                 </h3>
-                <p className="absolute z-10 md:mt-32 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
+                <p className="absolute z-10 md:mt-32 mt-16 px-14 font-light md:w-1/2 text-sm md:text-base">
                 Si tienes alguna duda, ¡no dudes en contactar a nuestra directora de admisiones, Paty González! ¡Ella estará feliz de ayudarte!
                 </p>
                 <a href="mailto:admisiones@colegiosenda.edu.mx">

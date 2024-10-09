@@ -5,6 +5,7 @@ import WhatsApp from "../../assets/aplica_senda/image.png";
 import CTA1 from "../../assets/CTAs/CTA-01.png";
 import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
 import Group87 from "../../assets/aplica_senda/Group_87.png";
+import HeaderBackground from "../../assets/Header-background.png";
 
 
 function Colegiaturas() {
@@ -12,13 +13,13 @@ function Colegiaturas() {
     <div>
       <div className="relative md:h-[750px] h-96 md:mt-0 mt-28 w-full flex justify-center items-center p-4">
         <div>
-          <div className="absolute inset-0">
-            <div
-              className="absolute inset-0 bg-cover bg-no-repeat opacity-10"
-              style={{
-                backgroundImage: "url(src/assets/Header-background.png)",
-              }}
-            ></div>
+         {/* Background Image with Opacity */}
+         <div className="absolute inset-0 z-0">
+            <img
+              className="w-screen object-cover opacity-10 z-0 md:h-[800px]"
+              src={HeaderBackground}
+              alt="Background"
+            />
           </div>
         </div>
         <div className="self-center justify-center items-start gap-8 flex flex-col md:flex-row">
