@@ -8,7 +8,7 @@ import SecundariaNoBg from "../assets/secundaria_nobg.png";
 function OfertaHome() {
   return (
     <div className="w-full md:h-[800px] px-6 md:px-16 md:py-2 py-20 bg-[#f9f9fe] flex flex-col justify-center items-center gap-10">
-      <div className="w-full text-center md:text-left text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+      <div className="w-full text-center  text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
         Oferta educativa
       </div>
       <div className="w-full flex flex-col gap-10">

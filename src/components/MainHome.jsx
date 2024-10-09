@@ -16,7 +16,7 @@ function MainHome() {
           alt="Background"
         />
       </div>
-      <div className="md:mx-0 mx-6 relative self-center z-10 justify-between items-center flex flex-col-reverse md:flex-row">
+      <div className="md:mx-0 w-full max-w-[1440px] mx-6 relative self-center z-10 justify-between items-center flex flex-col-reverse md:flex-row">
         <div className="grow shrink basis-0 flex-col justify-start items-center gap-8 inline-flex">
           <div className="self-stretch flex-col justify-start items-start gap-6 flex">
             <div className="self-stretch text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-tight md:leading-[68.40px] relative">
