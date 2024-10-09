@@ -54,7 +54,7 @@ function NuestraHistoria() {
         </div>
       </div>
       <div className="w-full p-8 md:py-16 md:px-32 pb-16 bg-white flex flex-col justify-center items-start gap-12">
-        <h2 className="text-[#1e1e1e] text-lg md:text-3xl font-bold font-['Inter'] leading-[28.80px] md:leading-[57.60px]">
+        <h2 className=" w-full max-w-[1440px] self-center text-[#1e1e1e] text-lg md:text-3xl font-bold font-['Inter'] leading-[28.80px] md:leading-[57.60px]">
           Línea del Tiempo
         </h2>
         <div className="w-full flex flex-col max-w-[1440px] self-center ">

@@ -87,7 +87,7 @@ function Reconocimientos() {
 
   return (
     <>
-      <div className="md:h-screen h-auto p-8 md:px-16 pt-36 flex-col justify-center items-center gap-6 md:gap-12 flex">
+      <div className="md:h-[900px] h-auto p-8 md:px-16 pt-36 flex-col justify-center items-center gap-6 md:gap-12 flex">
         <div className="w-full flex flex-col justify-start items-start gap-6">
           <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
             <div className="w-full md:w-[700px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
@@ -154,7 +154,7 @@ function Reconocimientos() {
       </div>
       <div>
         <div className="h-[630px] px-8 md:px-[151px] py-16 bg-[#f4f6f8] flex flex-col justify-center items-center gap-10">
-          <div className="self-start ml-10 text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+          <div className="self-center ml-10 text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
             Oferta educativa
           </div>
           <div className="w-full flex flex-col gap-10">

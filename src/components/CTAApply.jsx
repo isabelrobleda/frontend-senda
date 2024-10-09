@@ -22,8 +22,8 @@ function CTAApply() {
           del siglo XXI.
         </p>
         <Link to={"/aplica-al-senda"}>
-          <div className="absolute  h-10 ml-10 px-8 z-10 md:bottom-16 bottom-7 py-2 bg-white hover:opacity-85 rounded-2xl border border-white ">
-            <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+          <div className="absolute  h-10 ml-10 px-8 z-10 md:bottom-16 bottom-7 py-2 bg-white  rounded-2xl hover:cursor-pointer hover:bg-slate-100 ">
+            <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight ">
               Aplica ahora
             </span>
           </div>
