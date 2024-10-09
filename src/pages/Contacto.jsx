@@ -66,7 +66,7 @@ function Contacto() {
             Contáctanos
           </div>
           <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-            ¿Tienes dudas sobre nuestro Colegio o no encontraste la información necesaria? Contáctanos
+            ¿Tienes dudas sobre nuestro Colegio o no encontraste la <br />información necesaria? Contáctanos
           </div>
           <div className="flex flex-col gap-2">
             <div className="text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">
