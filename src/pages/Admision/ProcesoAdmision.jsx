@@ -14,8 +14,6 @@ import Paso07 from "../../assets/proceso_admision/paso_07.png";
 import Paso08 from "../../assets/proceso_admision/paso_08.png";
 import Paso09 from "../../assets/proceso_admision/paso_09.png";
 
-
-
 function ProcesoAdmision() {
   const steps = [
     {
@@ -44,22 +42,19 @@ function ProcesoAdmision() {
     },
     {
       title: "Entrega de documentos",
-      description:
-        "Para los que entran de KII a Secundaria, traer el formato de antecedentes, copia de calificaciones o evaluación, carta de no adeudo y de buena conducta. Para los que entran a maternal y K1, no es necesario entregar estos documentos.",
+      description: `Para los que entran de KII a Secundaria, traer el formato de antecedentes, copia de calificaciones o evaluación, carta de no adeudo y de buena conducta.<br /> <br />Para los que entran a maternal y K1, no es necesario entregar estos documentos.`,
       stepNumber: "Paso 4",
       imageUrl: Paso04,
     },
     {
       title: "Asistir al Colegio",
-      description:
-        "Para los de maternal y K1 deberán asistir a la entrevista. Para los que entran de KII a Secundaria, deberán asistir a los dos días de visita agendados.",
+      description: `Para los de maternal y K1 deberán asistir a la entrevista.<br /> <br />Para los que entran de KII a Secundaria, deberán asistir a los dos días de visita agendados.`,
       stepNumber: "Paso 5",
       imageUrl: Paso05,
     },
     {
       title: "Resultado de aplicación",
-      description:
-        "Para los que entran de KII a Secundaria, se les notificará por e-mail el resultado de su aplicación para entrar al Colegio. Para los que entran a maternal y K1 recibirán una llamada notificarles los siguientes pasos.",
+      description: `Para los que entran de KII a Secundaria, se les notificará por e-mail el resultado de su aplicación para entrar al Colegio.<br /> <br />Para los que entran a maternal y K1 recibirán una llamada notificarles los siguientes pasos.`,
       stepNumber: "Paso 6",
       imageUrl: Paso06,
     },
@@ -68,6 +63,7 @@ function ProcesoAdmision() {
       description: "Pagar la inscripción y la cuota familiar",
       stepNumber: "Paso 7",
       imageUrl: Paso07,
+      applyLink: "/colegiaturas",
     },
     {
       title: "Entrega de Documentos Adisionales",
@@ -100,12 +96,11 @@ function ProcesoAdmision() {
 
   return (
     <div>
-      <div className="relative mt-20">
-        {/* Carousel Section */}
-        <div className="h-auto w-full px-4 md:px-16 py-20 bg-[#f9f9fe] flex-col justify-center items-center gap-10 md:gap-20 flex">
-          <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-0">
+      <div className="relative mt-20 bg-[#f9f9fe]">
+        <div className="max-w-[1440px] mx-auto h-auto w-full px-4 md:px-16 py-20  flex-col justify-center items-center flex md:gap-0 gap-8">
+          <div className="flex flex-col  md:flex-row justify-center items-center gap-10 md:gap-0">
             {/* Image Section */}
-            <div className="w-[250px] md:w-[500px] h-[250px] md:h-[500px] relative">
+            <div className="image-container w-full md:w-[500px] h-auto md:h-[500px] relative">
               <img
                 src={steps[activeStep].imageUrl}
                 className="w-full h-full z-0 rounded-[10px] ml-0 md:ml-10"
@@ -114,8 +109,9 @@ function ProcesoAdmision() {
             </div>
 
             {/* Text Section */}
-            <div className="w-full md:w-[674px] z-10 flex-col justify-start items-center md:items-end  flex">
-              <div className="w-full h-auto md:h-80 px-4 md:px-6 py-6 md:py-8 bg-white rounded-[20px] shadow border border-[#e4e4de] flex-col justify-start items-start gap-4 flex">
+            <div className="card-container w-full md:w-[674px] z-10 flex-col justify-start items-center md:items-end flex ">
+              <div className="card-content w-full h-auto md:h-80 px-4 md:px-6 py-6 md:py-8 bg-white rounded-[20px] shadow border border-[#e4e4de] flex-col justify-start items-start gap-4 flex md:mr-10">
+                {/* Text Content */}
                 <div className="self-stretch flex-col justify-between items-start flex">
                   <div className="self-stretch flex-col justify-start items-start gap-2 flex">
                     <div className="text-[#009bce] text-sm md:text-base font-semibold">
@@ -124,23 +120,23 @@ function ProcesoAdmision() {
                     <div className="text-[#1e1e1e] text-lg md:text-2xl font-semibold">
                       {steps[activeStep].title}
                     </div>
-                    <div className="text-[#757575] text-sm md:text-base">
-                      {steps[activeStep].description}
+                    <div className="text-[#757575] text-sm md:text-base"  dangerouslySetInnerHTML={{ __html: steps[activeStep].description }} >
+                     
                     </div>
                   </div>
 
                   {/* Conditional Buttons Section */}
                   {activeStep === 0 && (
-                    <div className="flex gap-2 md:gap-4 mt-6 md:mt-10">
+                    <div className="flex gap-2 md:gap-4 mt-6 md:mt-20 ">
                       <Link to={steps[activeStep].applyLink}>
-                        <div className="h-8 md:h-10 px-4 md:px-6 py-2 bg-[#009bce] rounded-2xl flex justify-center items-center">
+                        <div className="h-8 md:h-10 px-4 md:px-6 py-2 bg-[#009bce] hover:bg-[#007cae] rounded-2xl flex justify-center items-center">
                           <div className="text-[#f2f2f2] text-xs md:text-base font-medium">
                             Aplicar
                           </div>
                         </div>
                       </Link>
                       <Link to={steps[activeStep].visitLink}>
-                        <div className="h-8 md:h-10 px-4 md:px-6 py-2 bg-[#b0cb4f] rounded-2xl flex justify-center items-center">
+                        <div className="h-8 md:h-10 px-4 md:px-6 py-2 bg-[#b0cb4f] hover:bg-[#859c36] rounded-2xl flex justify-center items-center">
                           <div className="text-[#f2f2f2] text-xs md:text-base font-medium">
                             Planea tu visita
                           </div>
@@ -149,11 +145,22 @@ function ProcesoAdmision() {
                     </div>
                   )}
                   {activeStep === 1 && (
-                    <div className="flex gap-2 md:gap-4 mt-6 md:mt-10">
+                    <div className="flex gap-2 md:gap-4 mt-6 md:mt-16">
                       <Link to={steps[activeStep].applyLink}>
-                        <div className="h-8 md:h-10 px-4 md:px-6 py-2 bg-[#009bce] rounded-2xl flex justify-center items-center">
+                        <div className="h-8 md:h-10 px-4 md:px-6 py-2 bg-[#009bce] hover:bg-[#007cae] rounded-2xl flex justify-center items-center">
                           <div className="text-[#f2f2f2] text-xs md:text-base font-medium">
                             Contacto
+                          </div>
+                        </div>
+                      </Link>
+                    </div>
+                  )}
+                  {activeStep === 6 && (
+                    <div className="flex gap-2 md:gap-4 mt-6 md:mt-28">
+                      <Link to={steps[activeStep].applyLink}>
+                        <div className="h-8 md:h-10 px-4 md:px-6 py-2 bg-[#009bce] hover:bg-[#007cae] rounded-2xl flex justify-center items-center">
+                          <div className="text-[#f2f2f2] text-xs md:text-base font-medium">
+                            Ver Colegiaturas
                           </div>
                         </div>
                       </Link>
@@ -164,30 +171,23 @@ function ProcesoAdmision() {
             </div>
           </div>
 
-          
           {/* Navigation Arrows */}
-          <div className="flex flex-row self-start md:pl-[1140px] mt-0 md:w-[1440px] ">
+          <div className="navigation-arrows md:self-end self-center md:mr-28 ">
             <button
-              className={`p-2 md:p-3 rounded-full border  ${
-                activeStep === 0 ? "invisible" : "visible"
+              className={`navigation-arrow ${
+                activeStep === 0 ? "invisible" : "" 
               }`}
               onClick={handlePreviousStep}
             >
-              <img
-                src={ChevronLeft}
-                alt="Prev"
-              />
+              <img src={ChevronRight} alt="Prev" className="transform -scale-x-100 border rounded-full p-4 md:mx-12 hover:bg-slate-200 mr-4" />
             </button>
             <button
-              className={`p-2 md:p-3 rounded-full border mx-2  ${
-                activeStep === steps.length - 1 ? "invisible" : "visible"
+              className={`navigation-arrow ${
+                activeStep === steps.length - 1 ? "invisible" : ""
               }`}
               onClick={handleNextStep}
             >
-              <img
-                src={ChevronRight}
-                alt="Next"
-              />
+              <img src={ChevronRight} alt="Next" className="border rounded-full p-4 hover:bg-slate-200"/>
             </button>
           </div>
         </div>
@@ -210,7 +210,7 @@ function ProcesoAdmision() {
               de admisiones, Paty González! ¡Ella estará feliz de ayudarte!
             </p>
             <a href="mailto:admisiones@colegiosenda.edu.mx">
-              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl border border-white ">
+              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl  hover:bg-slate-200">
                 <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Contactar
                 </span>
