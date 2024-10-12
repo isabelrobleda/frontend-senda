@@ -295,7 +295,7 @@ function Secundaria() {
                 Secundaria
               </p>
               <a href="mailto:direccionsecundaria@colegiosenda.edu.mx">
-                <div className="absolute hover:bg-gray-200 h-10 ml-14 px-8 z-10 md:bottom-20 bottom-10  py-2 bg-white rounded-2xl">
+                <div className="absolute hover:bg-gray-200 h-10 ml-14 px-8 z-10 md:bottom-16 bottom-10  py-2 bg-white rounded-2xl">
                   <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                     Contactar
                   </span>

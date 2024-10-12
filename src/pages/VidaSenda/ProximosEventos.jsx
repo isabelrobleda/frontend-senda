@@ -3,36 +3,37 @@ import Group88 from "../../assets/proximos_eventos/Group 88.png";
 import BackToSchool from "../../assets/proximos_eventos/back-2-school.png";
 import Emociones from "../../assets/proximos_eventos/emociones.png";
 import Mexico from "../../assets/proximos_eventos/mexico.png";
+import HeaderBackground from "../../assets/Header-background.png";
 
 function ProximosEventos() {
   return (
     <div>
       <div className="relative w-full flex justify-center items-center p-4 pt-20 md:h-[750px]">
         <div>
-          <div className="absolute inset-0">
-            <div
-              className="absolute inset-0 bg-cover bg-no-repeat opacity-10"
-              style={{
-                backgroundImage: "url(src/assets/Header-background.png)",
-              }}
-            ></div>
+           {/* Background Image with Opacity */}
+           <div className="absolute inset-0 z-0">
+            <img
+              className="w-screen object-cover opacity-10 z-0 md:h-[800px]"
+              src={HeaderBackground}
+              alt="Background"
+            />
           </div>
         </div>
         <div className="self-center justify-center items-start gap-8 flex flex-col md:flex-row">
           <div className="justify-start items-center flex">
             <div className="grow shrink basis-0 p-4 md:p-6 rounded-[20px] flex-col justify-start items-center gap-6 md:gap-14 inline-flex">
               <div className="w-full md:w-[904px] text-center">
-                <span className="text-[#1e1e1e] text-[24px] md:text-[57px] font-semibold font-['Pangea'] leading-[30px] md:leading-[68px]">
+                <span className="text-[#1e1e1e] text-[24px] md:text-[57px] font-semibold font-pangea leading-[30px] md:leading-[68px]">
                   Próximos
                 </span>
-                <span className="text-[#1e1e1e] text-[24px] md:text-[57px] font-semibold font-['Pangea'] leading-[30px] md:leading-[68px]">
+                <span className="text-[#1e1e1e] text-[24px] md:text-[57px] font-semibold font-pangea leading-[30px] md:leading-[68px]">
                   <img
                     src={Group88}
                     alt="image 1"
                     className="inline-block mx-1 md:mx-2 h-8 md:h-14"
                   />
                 </span>
-                <span className="text-[#009bce] text-[24px] md:text-[57px] font-semibold font-['Pangea'] leading-[30px] md:leading-[68px]">
+                <span className="text-[#009bce] text-[24px] md:text-[57px] font-semibold font-pangea leading-[30px] md:leading-[68px]">
                   eventos
                   <br />
                 </span>

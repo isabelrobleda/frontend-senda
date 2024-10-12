@@ -22,7 +22,7 @@ function Blog3() {
             <div className="text-center text-black/40 text-2xl font-semibold font-['Inter']">
               7 de septiembre de 2024
             </div>
-            <div className="text-center text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[48px] md:leading-[68.40px]">
+            <div className="text-center text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[48px] md:leading-[68.40px]">
               La Enseñanza de la Ética a los Jóvenes
             </div>
             <div className="flex items-center gap-4">

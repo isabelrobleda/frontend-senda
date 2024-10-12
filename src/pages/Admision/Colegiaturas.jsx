@@ -26,7 +26,7 @@ function Colegiaturas() {
           <div className=" justify-start items-center flex">
             <div className="grow shrink basis-0 p-6 rounded-[20px]  flex-col justify-start items-center gap-6 md:gap-6 inline-flex">
               <div className="w-full md:w-[904px] text-center">
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   Una <span style={{ display: "inline-block" }}></span>
                   <img
                     src={Group87}
@@ -34,23 +34,23 @@ function Colegiaturas() {
                     className="inline-block mx-1 md:mx-2 md:h-14 h-10"
                   />
                 </span>
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   inversión
                 </span>
 
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
                   {" "}
                 </span>
                 <br />
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   fomentando el
                 </span>
 
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
                   {" "}
                 </span>
 
-                <span className="text-[#b0cb4f] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#b0cb4f] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   futuro
                   <br />
                 </span>
