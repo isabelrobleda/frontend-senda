@@ -306,8 +306,8 @@ function AfterSchool() {
             </p>
 
             <a href="mailto:afterschoolcolegiosenda@gmail.com">
-              <div className="absolute h-10 ml-14 hover:bg-gray-200 px-8 z-10 md:bottom-12 bottom-10  py-2 bg-white rounded-2xl ">
-                <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+              <div className="absolute h-10 ml-14 hover:bg-[#009bce] text-black/90 hover:text-white px-8 z-10 md:bottom-12 bottom-10  py-2 bg-white rounded-2xl ">
+                <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Contactar
                 </span>
               </div>

@@ -278,7 +278,7 @@ function Secundaria() {
         </div>
 
         {/* CTA Section */}
-        <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
+        <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
           <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
             <div className="abolute flex flex-col justify-between">
               <img
@@ -295,8 +295,8 @@ function Secundaria() {
                 Secundaria
               </p>
               <a href="mailto:direccionsecundaria@colegiosenda.edu.mx">
-                <div className="absolute hover:bg-gray-200 h-10 ml-14 px-8 z-10 md:bottom-16 bottom-10  py-2 bg-white rounded-2xl">
-                  <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+                <div className="absolute hover:bg-[#009bce] text-black/90 hover:text-white h-10 ml-14 px-8 z-10 md:bottom-16 bottom-10  py-2 bg-white rounded-2xl">
+                  <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                     Contactar
                   </span>
                 </div>

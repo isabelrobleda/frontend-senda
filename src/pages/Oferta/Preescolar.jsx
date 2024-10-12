@@ -277,7 +277,7 @@ function Preescolar() {
         </div>
 
         {/* CTA Section */}
-        <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
+        <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
           <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
             <div className="abolute flex flex-col justify-between">
               <img
