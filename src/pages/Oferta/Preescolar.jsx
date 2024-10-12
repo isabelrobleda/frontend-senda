@@ -144,8 +144,8 @@ function Preescolar() {
       </div>
 
         {/* Fourth Section */}
-        <div className="w-full bg-[#f9f9fe] py-16 md:py-32">
-          <div className="w-full max-w-screen-xl mx-auto px-4 md:px-16 flex flex-col md:flex-row justify-between items-start gap-12">
+        <div className="w-full bg-[#f9f9fe] py-16 md:py-44">
+          <div className="w-full max-w-screen-xl mx-auto px-4 md:px-16 flex flex-col md:flex-row justify-between items-center gap-12">
             <div className="flex flex-col justify-start items-start gap-12 md:px-0 px-6">
               <div className="text-[#1e1e1e] text-2xl md:text-3xl font-semibold">
                 Preescolar Montessori Constructivista
@@ -167,7 +167,7 @@ function Preescolar() {
                 una base sólida de autoestima y confianza.
               </div>
             </div>
-            <div className="relative w-full max-w-md h-96 md:h-[555px]">
+            <div className="relative w-full max-w-md h-96 ">
               <div className="bg-[#d6ecf4] rounded-lg">
                 <img
                   src={MiddlePreescolar}
@@ -294,8 +294,8 @@ function Preescolar() {
                 Preescolar
               </p>
               <a href="mailto:direccionpreescolar@colegiosenda.edu.mx">
-                <div className="absolute hover:bg-gray-200 h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl  ">
-                  <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+                <div className="absolute hover:bg-[#009bce] text-black/90 hover:text-white h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl  ">
+                  <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                     Contactar
                   </span>
                 </div>
