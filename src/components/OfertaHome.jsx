@@ -25,8 +25,8 @@ function OfertaHome() {
                 </div>
               </div>
               <Link to="/maternal">
-                <div className="w-28 px-6 py-2 md:mt-[38px] my-5 bg-[#f9f9fe] hover:bg-slate-300 rounded-2xl flex justify-center items-center">
-                  <div className="text-[#303030] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+                <div className="w-28 px-6 py-2 md:mt-[38px] my-5 bg-[#f9f9fe] hover:bg-[#009bce] text-[#303030] hover:text-white rounded-2xl flex justify-center items-center">
+                  <div className="text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                     Ver más
                   </div>
                 </div>
@@ -51,8 +51,8 @@ function OfertaHome() {
                 </div>
               </div>
               <Link to="/preescolar">
-                <div className="w-28 px-6 py-2 md:mt-[38px] my-5 bg-[#f9f9fe] hover:bg-slate-300 rounded-2xl flex justify-center items-center gap-2">
-                  <button className="text-[#303030] text-base font-medium font-['Roboto'] leading-normal tracking-tight  hover:cursor-pointer">
+                <div className="w-28 px-6 py-2 md:mt-[38px] my-5 bg-[#f9f9fe] rounded-2xl  hover:bg-[#009bce] text-[#303030] hover:text-white flex justify-center items-center gap-2">
+                  <button className=" text-base font-medium font-['Roboto'] leading-normal tracking-tight  hover:cursor-pointer">
                     Ver más
                   </button>
                 </div>
@@ -78,8 +78,8 @@ function OfertaHome() {
                 </div>
               </div>
               <Link to="/primaria">
-                <div className="w-28 px-6 py-2 md:mt-[38px] my-5 bg-[#f9f9fe] hover:bg-slate-300 rounded-2xl flex justify-center items-center gap-2">
-                  <button className="text-[#303030] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+                <div className="w-28 px-6 py-2 md:mt-[38px] my-5 bg-[#f9f9fe]  hover:bg-[#009bce] text-[#303030] hover:text-white rounded-2xl flex justify-center items-center gap-2">
+                  <button className=" text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                     Ver más
                   </button>
                 </div>
@@ -103,8 +103,8 @@ function OfertaHome() {
                 </div>
               </div>
               <Link to="/secundaria">
-                <div className="w-28 px-6 py-2 md:mt-[38px] my-5 bg-[#f9f9fe] hover:bg-slate-300 rounded-2xl flex justify-center items-center gap-2">
-                  <button className="text-[#303030] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+                <div className="w-28 px-6 py-2 md:mt-[38px] my-5 bg-[#f9f9fe]  hover:bg-[#009bce] text-[#303030] hover:text-white rounded-2xl flex justify-center items-center gap-2">
+                  <button className=" text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                     Ver más
                   </button>
                 </div>
