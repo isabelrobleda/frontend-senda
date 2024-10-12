@@ -38,15 +38,15 @@ function Blog() {
                   />
                 </span>
 
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
                   {" "}
                 </span>
 
-                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   formar el{" "}
                 </span>
 
-                <span className="text-[#b0cb4f] text-[32px] md:text-[57px] font-semibold font-['Pangea'] leading-[38.40px] md:leading-[68.40px]">
+                <span className="text-[#b0cb4f] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   futuro
                   <br />
                 </span>
