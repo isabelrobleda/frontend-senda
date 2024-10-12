@@ -85,14 +85,14 @@ function Maternal() {
             Además de ofrecer el currículo SEP, los alumnos trabajan con
             materiales de arte, deportes, computación, psicomotricidad, música y
             ética.
-          </div>
-          <div className="text-[#757575] text-base leading-snug">
+            <br />
+            <br />
             En Pre-First, los alumnos utilizan la plataforma digital de Knotion,
             donde trabajan con diferentes herramientas digitales e innovadoras
             destinadas a motivar a los alumnos al aprendizaje y la
             investigación.
-            <br />
-            <br />
+          </div>
+          <div className="text-[#757575] text-base leading-snug">
             Su principal función es facilitar la creación de entornos virtuales
             para impartir todos los contenidos académicos de manera activa y
             divertida a través del iPad.
@@ -192,7 +192,7 @@ function Maternal() {
       {/* Fifth Section */}
       <div className="w-full px-4 md:px-32 py-16 md:py-44 flex justify-center items-center">
         <div className="w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3">
-          <div className="p-6 h-[300px] bg-white rounded-tl-xl md:rounded-bl-xl rounded-tr-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
+          <div className="p-6 h-[300px] bg-white rounded-tl-xl md:rounded-bl-xl  shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
             <img src={IconTeacher} alt="icon teacher" className="mb-10"/>
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Personalizado
@@ -281,7 +281,7 @@ function Maternal() {
       </div>
 
       {/* CTA Section */}
-      <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
+      <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
         <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
           <div className="abolute flex flex-col justify-between">
             <img
@@ -296,8 +296,8 @@ function Maternal() {
             Si tienes preguntas sobre el maternal, no dudes en enviarle un correo electrónico a Roxana Fernández, nuestra Directora de Preescolar
             </p>
             <a href="mailto:direccionpreescolar@colegiosenda.edu.mx">
-              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-[60px] bottom-14  py-2 bg-white rounded-2xl  hover:bg-gray-200">
-                <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-[60px] bottom-14  py-2 bg-white rounded-2xl  hover:bg-[#009bce] text-black/90 hover:text-white">
+                <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Contactar
                 </span>
               </div>
