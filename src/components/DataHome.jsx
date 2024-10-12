@@ -7,7 +7,7 @@ import WorldIcon from '../assets/icons/world-icon.png';
 
 function DataHome() {
   return (
-    <div className="w-full md:h-screen px-8  py-16 md:py-32 bg-[#f9f9fe] flex flex-col justify-center items-center gap-8 md:gap-20">
+    <div className="w-full md:h-5/6 px-8  py-16 md:py-32 bg-[#f9f9fe] flex flex-col justify-center items-center gap-8 md:gap-20">
       <div className="self-stretch  text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
         Sobre el Colegio Senda
       </div>
