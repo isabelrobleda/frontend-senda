@@ -153,7 +153,7 @@ function Reconocimientos() {
         <Partners />
       </div>
       <div>
-        <div className="h-[630px] px-8 md:px-[151px] py-16 bg-[#f4f6f8] flex flex-col justify-center items-center gap-10">
+        <div className="h-[630px] px-8 md:px-[151px] py-16 bg-white flex flex-col justify-center items-center gap-10">
           <div className="self-center ml-10 text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
             Oferta educativa
           </div>
@@ -187,8 +187,8 @@ function Reconocimientos() {
                         </div>
                       </div>
                       <Link to={item.link}>
-                        <div className="w-28 px-6 py-2 md:mt-10 my-5 bg-[#f9f9fe] rounded-2xl flex justify-center items-center hover:bg-slate-300 transition-colors duration-300">
-                          <div className="text-[#303030] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+                        <div className="w-28 px-6 py-2 md:mt-10 my-5 bg-[#f9f9fe] rounded-2xl flex justify-center items-center hover:bg-[#009bce] text-[#303030] hover:text-white transition-colors duration-300">
+                          <div className="text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                             Ver más
                           </div>
                         </div>
