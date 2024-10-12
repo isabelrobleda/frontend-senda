@@ -13,10 +13,10 @@ function CTAApply() {
           alt="background green cta"
           className="relative z-0 md:rounded-none rounded-lg"
         />
-        <h3 className="absolute z-10 px-[40px] py-[35px] font-semibold font-pangea md:text-2xl text-lg">
+        <h3 className="absolute z-10 px-[40px] py-[35px] font-semibold font-pangea md:text-2xl text-base">
           Promoviendo una cultura de <br /> pensamiento
         </h3>
-        <p className="absolute z-10 md:mt-32 mt-24 px-[40px] font-light md:w-1/2 text-sm md:text-base">
+        <p className="absolute z-10 md:mt-32 mt-24 px-[40px] font-light md:w-1/2 text-xs md:text-base">
           Fomentamos dignidad, ética y creatividad. Alumnos responsables,
           saludables y conscientes del medio ambiente, con habilidades digitales
           del siglo XXI.
