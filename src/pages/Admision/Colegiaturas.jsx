@@ -235,7 +235,7 @@ function Colegiaturas() {
                 </div>
               </div>
               <a href="tel:5556832060">
-                <div className="px-6 py-3 bg-[#009bce] rounded-2xl justify-center items-center gap-2 inline-flex">
+                <div className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl justify-center items-center gap-2 inline-flex">
                   <div className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight">
                     Marcar al teléfono
                   </div>
@@ -259,7 +259,7 @@ function Colegiaturas() {
                 </div>
               </div>
               <a href="https://wa.me/525556832060">
-                <div className="px-6 py-3 bg-[#009bce] rounded-2xl justify-center items-center gap-2 inline-flex">
+                <div className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl justify-center items-center gap-2 inline-flex">
                   <div className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight">
                     Chatear en Whatsapp
                   </div>
@@ -283,7 +283,7 @@ function Colegiaturas() {
                 </div>
               </div>
               <a href="mailto:admisiones@colegiosenda.edu.mx">
-                <div className="px-6 py-3 bg-[#009bce] rounded-2xl justify-center items-center gap-2 inline-flex">
+                <div className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl justify-center items-center gap-2 inline-flex">
                   <div className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight">
                     Enviar correo
                   </div>
@@ -294,7 +294,7 @@ function Colegiaturas() {
         </div>
       </div>
       {/* CTA Section */}
-      <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
+      <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe]  flex flex-col justify-center items-center gap-12">
         <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
           <div className="abolute flex flex-col justify-between">
             <img
@@ -311,8 +311,8 @@ function Colegiaturas() {
               de ayudarte!
             </p>
             <a href="mailto:admisiones@colegiosenda.edu.mx">
-              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-14  py-2 bg-white rounded-2xl border border-white ">
-                <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-14  py-2 bg-white rounded-2xl hover:bg-[#009bce] text-black/90 hover:text-white ">
+                <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Contactar
                 </span>
               </div>

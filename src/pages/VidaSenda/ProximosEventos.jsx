@@ -30,7 +30,7 @@ function ProximosEventos() {
                   <img
                     src={Group88}
                     alt="image 1"
-                    className="inline-block mx-1 md:mx-2 h-8 md:h-14"
+                    className="inline-block mx-1 md:mx-2 h-8 md:h-14 "
                   />
                 </span>
                 <span className="text-[#009bce] text-[24px] md:text-[57px] font-semibold font-pangea leading-[30px] md:leading-[68px]">
@@ -54,7 +54,7 @@ function ProximosEventos() {
       </div>
 
       {/* Events Section */}
-      <div className="h-auto w-full px-4 md:px-16 py-16 md:py-24 flex-col justify-center items-center gap-10 md:gap-20 inline-flex">
+      <div className="h-auto w-full px-4 md:px-16 py-16 md:py-32 flex-col justify-center items-center gap-10 md:gap-20 inline-flex">
         <div className="self-stretch flex-col justify-start items-center gap-8 flex">
           {/* Event 1 */}
           <div className="p-4 md:p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] justify-start items-start gap-6 md:gap-10 flex flex-col md:flex-row">

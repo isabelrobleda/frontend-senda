@@ -157,7 +157,7 @@ function AplicaSenda() {
         </div>
       </div>
       <form onSubmit={handleSubmit}>
-        <div className="min-h-screen max-w-screen-xl w-full mx-auto px-4 py-16 bg-white flex flex-col justify-center items-center gap-12">
+        <div className="min-h-screen max-w-screen-xl w-full mx-auto px-4 py-32 bg-white flex flex-col justify-center items-center gap-12">
           <div className="w-full px-4 md:px-20 flex-col justify-start items-start gap-12 flex">
             <div className="w-full justify-start items-center gap-10 inline-flex">
               <div className="grow shrink basis-0 flex-col justify-start items-start gap-4 inline-flex">
@@ -360,7 +360,7 @@ function AplicaSenda() {
                       name="Expectations"
                       value={formData.Expectations}
                       onChange={handleChange}
-                      placeholder="Que mi hijo mejore su nivel de inglés"
+                      placeholder="Que mi hijo haga más deporte"
                     />
                   </div>
 
@@ -381,7 +381,7 @@ function AplicaSenda() {
 
                   <div className="w-full justify-start items-center gap-4 inline-flex">
                     <button
-                      className="w-full md:w-auto h-12 px-6 bg-[#009bce] hover:opacity-85 rounded-lg border border-[#009bce] text-white justify-center items-center"
+                      className="w-full md:w-auto h-12 px-6 bg-[#009bce] hover:bg-[#007cae] rounded-lg border border-[#009bce] text-white justify-center items-center"
                       type="submit"
                     >
                       Mandar aplicación
@@ -424,7 +424,7 @@ function AplicaSenda() {
                 </div>
               </div>
               <a href="tel:5556832060">
-                <div className="px-6 py-3 bg-[#009bce] rounded-2xl justify-center items-center gap-2 inline-flex">
+                <div className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl justify-center items-center gap-2 inline-flex">
                   <div className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight">
                     Marcar al teléfono
                   </div>
@@ -448,7 +448,7 @@ function AplicaSenda() {
                 </div>
               </div>
               <a href="https://wa.me/525556832060">
-                <div className="px-6 py-3 bg-[#009bce] rounded-2xl justify-center items-center gap-2 inline-flex">
+                <div className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl justify-center items-center gap-2 inline-flex">
                   <div className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight">
                     Chatear en Whatsapp
                   </div>
@@ -472,7 +472,7 @@ function AplicaSenda() {
                 </div>
               </div>
               <a href="mailto:admisiones@colegiosenda.edu.mx">
-                <div className="px-6 py-3 bg-[#009bce] rounded-2xl justify-center items-center gap-2 inline-flex">
+                <div className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl justify-center items-center gap-2 inline-flex">
                   <div className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight">
                     Enviar correo
                   </div>
@@ -483,7 +483,7 @@ function AplicaSenda() {
         </div>
       </div>
       {/* CTA Section */}
-      <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
+      <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
         <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
           <div className="abolute flex flex-col justify-between">
             <img
@@ -500,8 +500,8 @@ function AplicaSenda() {
               de ayudarte!
             </p>
             <a href="mailto:admisiones@colegiosenda.edu.mx">
-              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl border border-white ">
-                <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl hover:bg-[#009bce] text-black/90 hover:text-white ">
+                <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Contactar
                 </span>
               </div>

@@ -179,7 +179,7 @@ function ProcesoAdmision() {
               }`}
               onClick={handlePreviousStep}
             >
-              <img src={ChevronRight} alt="Prev" className="transform -scale-x-100 border rounded-full p-4 md:mx-12 hover:bg-slate-200 mr-4" />
+              <img src={ChevronRight} alt="Prev" className="transform -scale-x-100 border rounded-full p-4 md:mx-12 hover:bg-slate-200 mr-4 bg-white" />
             </button>
             <button
               className={`navigation-arrow ${
@@ -187,14 +187,14 @@ function ProcesoAdmision() {
               }`}
               onClick={handleNextStep}
             >
-              <img src={ChevronRight} alt="Next" className="border rounded-full p-4 hover:bg-slate-200"/>
+              <img src={ChevronRight} alt="Next" className="border rounded-full p-4 hover:bg-slate-200 bg-white"/>
             </button>
           </div>
         </div>
       </div>
 
       {/* CTA Section */}
-      <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
+      <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
         <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
           <div className="abolute flex flex-col justify-between">
             <img
@@ -210,8 +210,8 @@ function ProcesoAdmision() {
               de admisiones, Paty González! ¡Ella estará feliz de ayudarte!
             </p>
             <a href="mailto:admisiones@colegiosenda.edu.mx">
-              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl  hover:bg-slate-200">
-                <span className="text-black/90 md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
+              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl  hover:bg-[#009bce] text-black/90 hover:text-white">
+                <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Contactar
                 </span>
               </div>

@@ -114,7 +114,7 @@ function Contacto() {
                   name="FirstName"
                   value={formData.FirstName}
                   onChange={handleChange}
-                  className="h-[57px] px-4 py-3 bg-white rounded-lg border border-[#d9d9d9] text-[#b3b3b3] text-base font-normal"
+                  className="h-[57px] px-4 py-3 bg-white rounded-lg border border-[#d9d9d9] text-black text-base font-normal"
                   placeholder="Tu nombre"
                   required
                 />
@@ -182,7 +182,7 @@ function Contacto() {
             </div>
             <button
               type="submit"
-              className="w-full py-3 bg-[#009bce] text-white rounded-lg"
+              className="w-full py-3 bg-[#009bce] hover:bg-[#007cae] text-white rounded-lg"
             >
               Mandar mensaje
             </button>
