@@ -95,7 +95,7 @@ function NuestroEquipo() {
       </div>
 
       {/* Second Section */}
-      <div className="w-full bg-[#f9f9fe] py-12 md:py-24 flex justify-center">
+      <div className="w-full bg-[#f9f9fe] py-12 md:py-44 flex justify-center">
         <div className="w-full max-w-screen-2xl px-4 md:px-16">
           <div className="w-full text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-semibold text-[#1e1e1e]">¿Qué hace al Colegio Senda la mejor opción?</h2>
