@@ -13,7 +13,7 @@ function CTAApply() {
           alt="background green cta"
           className="relative z-0 md:rounded-none rounded-lg"
         />
-        <h3 className="absolute z-10 px-[40px] py-[35px] font-medium font-pangea md:text-[32px] text-base leading-9">
+        <h3 className="absolute z-10 px-[40px] md:py-[35px] py-[40px] font-medium font-pangea md:text-[32px] text-base md:leading-9">
           Promoviendo una cultura <br /> de pensamiento
         </h3>
         <p className="absolute z-10 md:mt-32 mt-24 px-[40px] font-light md:w-1/2 text-xs md:text-base">
@@ -22,7 +22,7 @@ function CTAApply() {
           del siglo XXI.
         </p>
         <Link to={"/aplica-al-senda"}>
-          <div className="absolute  h-10 ml-10 px-8 z-10 md:bottom-14 bottom-7 py-2 bg-white  rounded-2xl hover:cursor-pointer hover:bg-[#009bce] text-black/90 hover:text-white ">
+          <div className="absolute  h-10 ml-10 px-8 z-10 md:bottom-14 bottom-6 py-2 bg-white  rounded-2xl hover:cursor-pointer hover:bg-[#009bce] text-black/90 hover:text-white ">
             <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight ">
               Aplica ahora
             </span>
