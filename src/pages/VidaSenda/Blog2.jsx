@@ -1,6 +1,6 @@
 import React from "react";
 import CardsNosotros from "../../components/CardsNosotros";
-import ImgBlog2 from "../../assets/blog/blog-2.png";
+import ImgBlog2 from "../../assets/blog01.png";
 import Monica from "../../assets/equipo/Image-Nuestro_equipo-02.png";
 
 function Blog2() {
@@ -10,7 +10,7 @@ function Blog2() {
         <div className="w-full px-4 md:px-16 py-12 bg-white flex flex-col justify-center items-center gap-8">
           <div className="w-full h-auto flex justify-center items-center">
             <img
-              className="w-full max-w-[1312px] h-96 rounded-2xl object-cover "
+              className="w-full max-w-[1312px] h-96 rounded-2xl object-cover"
               src={ImgBlog2}
               alt="Blog 2"
             />
