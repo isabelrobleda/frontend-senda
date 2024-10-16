@@ -58,7 +58,7 @@ function App() {
           <Route path="/after-school" element={<AfterSchool />} />
           <Route path="/deportes" element={<Deportes />} />
           <Route path="/aplica-al-senda" element={<AplicaSenda />} />
-          <Route path="/colegiaturas" element={<Colegiaturas />} />
+          {/* <Route path="/colegiaturas" element={<Colegiaturas />} /> */}
           <Route path="/planea-tu-visita" element={<PlaneaVisita />} />
           <Route path="/proceso-de-admision" element={<ProcesoAdmision />} />
           <Route path="/blog" element={<Blog />} />
