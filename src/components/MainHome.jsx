@@ -26,11 +26,11 @@ function MainHome() {
               
               
             </h1>
-            <div className="self-stretch text-[#757575] text-lg md:text-2xl font-semibold font-['Inter'] leading-snug md:leading-[28.80px]">
+            <h3 className="self-stretch text-[#757575] text-lg md:text-2xl font-semibold font-['Inter'] leading-snug md:leading-[28.80px]">
               Somos una comunidad educativa inmersa en la cultura de
               pensamiento, comprometida con el bienestar emocional
               de cada alumno.
-            </div>
+            </h3>
           </div>
           <div className="self-stretch md:justify-start justify-center items-center gap-4 inline-flex">
             <Link to="/aplica-al-senda">

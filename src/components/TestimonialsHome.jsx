@@ -8,9 +8,9 @@ function TestimonialsHome() {
       <div className="w-full max-w-[1440px] flex flex-col justify-center items-center gap-12">
         <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-12">
           <div className="w-full lg:w-1/2 flex flex-col justify-center items-start gap-4">
-            <div className="text-[#1e1e1e] text-3xl md:text-5xl font-bold font-['Inter'] leading-tight md:leading-[57.60px] md:pt-24">
+            <h3 className="text-[#1e1e1e] text-3xl md:text-5xl font-bold font-['Inter'] leading-tight md:leading-[57.60px] md:pt-24">
               Nuestra inspiración y convicción
-            </div>
+            </h3>
             <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
               Creemos que cada uno de nuestros alumnos son personas únicas e
               irrepetibles y con la capacidad de dejar huella convirtiendo sus

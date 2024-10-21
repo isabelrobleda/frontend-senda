@@ -12,11 +12,11 @@ function SixCardHome() {
       <div className="w-full md:h-[700px] max-w-[1440px] flex flex-col justify-center items-center gap-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div className="text-left">
-            <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+            <h3 className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
               ¿Qué hace al Colegio Senda
               <br />
               la mejor opción?
-            </div>
+            </h3>
             <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug mt-4">
               Nos caracterizamos por ser una escuela reconocida por la calidad y
               la innovación educativa.
