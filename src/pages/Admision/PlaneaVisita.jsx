@@ -300,7 +300,7 @@ function PlaneaVisita() {
                 <div className="self-stretch justify-between items-center inline-flex">
                   <div className="justify-center items-start flex  w-24 md:w-auto">
                     <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      Noviembre 14
+                      Noviembre 7
                     </div>
                   </div>
                   <div className="h-auto sm:h-[66px] justify-between items-center flex">
