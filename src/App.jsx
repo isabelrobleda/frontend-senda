@@ -30,6 +30,7 @@ import Blog1 from "./pages/VidaSenda/Blog1";
 import ScrollToTop from "./components/ScrollToTop";
 import Blog2 from "./pages/VidaSenda/Blog2";
 import Blog3 from "./pages/VidaSenda/Blog3";
+import Blog4 from "./pages/VidaSenda/Blog4";
 
 
 function App() {
@@ -65,6 +66,7 @@ function App() {
           <Route path="/blog-1" element={<Blog1 />} />
           <Route path="/blog-2" element={<Blog2 />} />
           <Route path="/blog-3" element={<Blog3 />} />
+          <Route path="/blog-4" element={<Blog4 />} />
           <Route path="/proximos-eventos" element={<ProximosEventos />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/aviso-de-privacidad" element={<AvisoPrivacidad />} />

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Blog3 from "../assets/secundaria_01.jpg";
 import Blog2 from "../assets/elecciones.png";
 import Blog1 from "../assets/blog01.png";
+import Blog4 from "../assets/blog/blog-4-min.jpeg";
 
 function CardsNosotros() {
   return (
@@ -51,7 +52,7 @@ function CardsNosotros() {
 }
 
 const cardsData = [
-  {
+  /*{
     image: Blog2,
     alt: "elections-picture",
     author: "Mónica Sánchez Gavito",
@@ -59,7 +60,7 @@ const cardsData = [
     description:
       "La educación no sólo se trata de impartir conocimientos, sino de formar ciudadanos íntegros, conscientes y preparados para enfrentar los retos del mundo moderno.",
     link: "/blog-1"
-  },
+  },*/
   {
     image: Blog1,
     alt: "blog-picture",
@@ -77,7 +78,17 @@ const cardsData = [
     description:
       "En un mundo cada vez más globalizado, donde las interacciones sociales y digitales juegan un papel crucial en el desarrollo, la enseñanza de la ética se ha vuelto una necesidad.",
     link: "/blog-3"
+  },
+  {
+    image: Blog4,
+    alt: "magic-cosmos-picture",
+    author: "Mónica Sánchez Gavito",
+    title: "Estimulación Temprana: Construyendo los Cimientos del Futuro",
+    description:
+      "La estimulación temprana es una herramienta fundamental en el desarrollo integral de los niños desde el nacimiento hasta los seis años de edad.",
+    link: "/blog-4"
   }
+  
 ];
 
 export default CardsNosotros;
