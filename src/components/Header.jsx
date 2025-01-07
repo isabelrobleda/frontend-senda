@@ -80,6 +80,11 @@ function Header() {
                   Modelo Senda
                 </li>
                 </Link>
+                <Link to="/cefr-framework">
+                <li className="p-2 hover:bg-neutral-100">
+                  CEFR Framework
+                </li>
+                </Link>
                 <Link to="/mapa-del-colegio">
                 <li className="p-2 hover:bg-neutral-100">
                   Mapa del Colegio

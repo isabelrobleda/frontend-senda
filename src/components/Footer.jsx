@@ -81,6 +81,9 @@ function Footer() {
               <Link to="/modelo-senda">Modelo Senda</Link>
             </div>
             <div className="text-[#f2f2f2] text-base font-light font-['Inter'] leading-snug hover:underline">
+              <Link to="/cefr-framework">CEFR Framework</Link>
+            </div>
+            <div className="text-[#f2f2f2] text-base font-light font-['Inter'] leading-snug hover:underline">
               <Link to="/mapa-del-colegio">Mapa del Colegio</Link>
             </div>
             <div className="text-[#f2f2f2] text-base font-light font-['Inter'] leading-snug hover:underline">

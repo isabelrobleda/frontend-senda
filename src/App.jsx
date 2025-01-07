@@ -31,6 +31,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Blog2 from "./pages/VidaSenda/Blog2";
 import Blog3 from "./pages/VidaSenda/Blog3";
 import Blog4 from "./pages/VidaSenda/Blog4";
+import CEFRFramework from "./pages/Nosotros/CEFRFramework"
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
           />
           <Route path="/casos-de-exito" element={<CasosExito />} />
           <Route path="/modelo-senda" element={<ModeloSenda />} />
+          <Route path="/cefr-framework" element={<CEFRFramework />} />
           <Route path="/mapa-del-colegio" element={<MapaColegio />} />
           <Route path="/nuestro-equipo" element={<Equipo />} />
           <Route path="/maternal" element={<Maternal />} />
