@@ -51,10 +51,10 @@ function CardsNosotros() {
             {cardsData.map((card, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 flex flex-col items-start p-4"
+                className="flex-shrink-0 flex flex-col items-start p-8"
                 style={{ width: `${100 / cardsToShow}%` }}
               >
-                <div className="rounded-2xl shadow-lg overflow-hidden h-[550px]">
+                <div className="rounded-2xl shadow-lg overflow-hidden  h-[550px]">
                   <img
                     className="w-full h-64 object-cover"
                     src={card.image}
