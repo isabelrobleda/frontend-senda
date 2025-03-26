@@ -152,7 +152,7 @@ function Header() {
                 <li className="p-2 hover:bg-neutral-100">
                   Colegiaturas
                 </li>
-                </Link> */
+                </Link> 
                 <Link to="/planea-tu-visita">
                 <li className="p-2 hover:bg-neutral-100">
                   Planea tu visita
@@ -367,9 +367,9 @@ function Header() {
                       Aplica al Senda
                     </li>
                   </Link>
-                  {/* <Link to="/colegiaturas" onClick={closeMenu}>
+                  <Link to="/colegiaturas" onClick={closeMenu}>
                     <li className="p-2 hover:bg-neutral-100">Colegiaturas</li>
-                  </Link> */}
+                  </Link>
                   <Link to="/planea-tu-visita" onClick={closeMenu}>
                     <li className="p-2 hover:bg-neutral-100">
                       Planea tu visita

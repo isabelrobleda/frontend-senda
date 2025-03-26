@@ -122,7 +122,7 @@ function Footer() {
             </div>
             <div className="text-[#f2f2f2] text-base font-light font-['Inter'] leading-snug hover:underline">
               <Link to="/colegiaturas">Colegiaturas</Link>
-            </div> */
+            </div> 
             <div className="text-[#f2f2f2] text-base font-light font-['Inter'] leading-snug hover:underline">
               <Link to="/planea-tu-visita">Planea tu visita</Link>
             </div>
