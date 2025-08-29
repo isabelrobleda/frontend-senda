@@ -8,11 +8,13 @@ import CardsNosotros from "../components/CardsNosotros";
 import DataHome from "../components/DataHome";
 import CTAApply from "../components/CTAApply";
 import MainHome from "../components/MainHome";
+import Banner30 from "../components/banner30";
 
 function Home() {
   return (
     <div>
       <MainHome />
+      <Banner30 />
       <Partners />
       <SixCardHome />
       <OfertaHome />
