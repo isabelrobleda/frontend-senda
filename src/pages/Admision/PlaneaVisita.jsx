@@ -248,7 +248,7 @@ function PlaneaVisita() {
                 <div className="self-stretch justify-between items-center inline-flex">
                   <div className="justify-center items-start flex">
                     <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      Septiembre 12
+                    18 de septiembre 
                     </div>
                   </div>
                   <div className="h-auto sm:h-[66px] justify-between items-center flex">
@@ -274,7 +274,7 @@ function PlaneaVisita() {
                 <div className="self-stretch justify-between items-center inline-flex">
                   <div className="justify-center items-start flex w-24 md:w-auto">
                     <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      Octubre 17
+                    23 de octubre 
                     </div>
                   </div>
                   <div className="h-auto sm:h-[66px] justify-between items-center flex">
@@ -300,7 +300,7 @@ function PlaneaVisita() {
                 <div className="self-stretch justify-between items-center inline-flex">
                   <div className="justify-center items-start flex  w-24 md:w-auto">
                     <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      Noviembre 7
+                      13 de noviembre
                     </div>
                   </div>
                   <div className="h-auto sm:h-[66px] justify-between items-center flex">
@@ -323,36 +323,13 @@ function PlaneaVisita() {
 
                 <hr className="text-black w-full my-2"/>
 
-                <div className="self-stretch justify-between items-center inline-flex ">
-                  <div className="justify-center items-start flex w-24 md:w-auto">
-                    <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      Diciembre 12
-                    </div>
-                  </div>
-                  <div className="h-auto sm:h-[66px] justify-between items-center flex">
-                    <div className="justify-center items-start flex ml-6 md:ml-0 md:mr-80">
-                      <div className="text-[#1e1e1e] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
-                        8:45 - 10:30
-                      </div>
-                    </div>
-                    <div className="justify-center items-start flex">
-                      <div className="text-[#1e1e1e] md:text-sm text-xs font-normal font-['Inter'] leading-snug">
-                        En nuestras instalaciones:
-                        <br />
-                        Av.Toluca 541, Col. Olivar de los Padres,
-                        <br />
-                        C.P. 01780, CDMX
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
                 <hr className="text-black w-full my-2"/>
 
                 <div className="self-stretch justify-between items-center inline-flex">
                   <div className="justify-center items-start flex w-24 md:w-auto">
                     <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      Enero 16
+                      22 de enero
                     </div>
                   </div>
                   <div className="h-auto sm:h-[66px] justify-between items-center flex">
@@ -378,7 +355,7 @@ function PlaneaVisita() {
                 <div className="self-stretch justify-between items-center inline-flex">
                   <div className="justify-center items-start flex  w-24 md:w-auto">
                     <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      Febrero 20
+                      12 de febrero 
                     </div>
                   </div>
                   <div className="h-auto sm:h-[66px] justify-between items-center flex">
@@ -404,7 +381,7 @@ function PlaneaVisita() {
                 <div className="self-stretch justify-between items-center inline-flex">
                   <div className="justify-center items-start flex w-24 md:w-auto">
                     <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      Marzo 20
+                      19 de marzo
                     </div>
                   </div>
                   <div className="h-auto sm:h-[66px] justify-between items-center flex">
@@ -430,7 +407,7 @@ function PlaneaVisita() {
                 <div className="self-stretch justify-between items-center inline-flex">
                   <div className="justify-center items-start flex w-24 md:w-auto">
                     <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      Abril 3
+                      23 de abril
                     </div>
                   </div>
                   <div className="h-auto sm:h-[66px] justify-between items-center flex">
@@ -456,7 +433,7 @@ function PlaneaVisita() {
                 <div className="self-stretch justify-between items-center inline-flex">
                   <div className="justify-center items-start flex w-24 md:w-auto">
                     <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      Mayo 22
+                      21 de mayo
                     </div>
                   </div>
                   <div className="h-auto sm:h-[66px] justify-between items-center flex">
@@ -482,7 +459,7 @@ function PlaneaVisita() {
                 <div className="self-stretch justify-between items-center inline-flex">
                   <div className="justify-center items-start flex w-24 md:w-auto">
                     <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      Junio 19
+                      18 de junio
                     </div>
                   </div>
                   <div className="h-auto sm:h-[66px] justify-between items-center flex">
