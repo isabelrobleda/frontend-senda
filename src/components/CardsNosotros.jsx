@@ -4,6 +4,7 @@ import Blog3 from "../assets/secundaria_01.jpg";
 import Blog2 from "../assets/elecciones.png";
 import Blog1 from "../assets/blog01.png";
 import Blog4 from "../assets/blog/blog-4-min.jpeg";
+import Blog5 from "../assets/blog/logo-paz-senda.png";
 
 function CardsNosotros() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -127,6 +128,15 @@ function CardsNosotros() {
 }
 
 const cardsData = [
+  {
+    image: Blog5,
+    alt: "peace-logo-picture",
+    author: "Mónica Sánchez Gavito",
+    title: "El diálogo como base transformadora del pensamiento crítico y la resolución de conflictos",
+    description:
+      "En el Colegio Senda, creemos en el poder del diálogo como una herramienta esencial para fomentar el pensamiento crítico y la resolución de conflictos.",
+    link: "/blog-5",
+  },
   {
     image: Blog4,
     alt: "magic-cosmos-picture",
