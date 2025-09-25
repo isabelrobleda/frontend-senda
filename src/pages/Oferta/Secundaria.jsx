@@ -20,6 +20,8 @@ import QuoteImg2 from "../../assets/maternal/quote-2.png";
 import QuoteImg3 from "../../assets/maternal/quote-3.png";
 import Group74 from "../../assets/secundaria/Group 74.png";
 import HeaderBackground from "../../assets/Header-background.png";
+import banner30 from "../../components/banner30"
+
 
 function Secundaria() {
   return (
@@ -62,6 +64,9 @@ function Secundaria() {
               className="w-full h-auto object-cover"
             />
           </div>
+        </div>
+        <div>
+          {banner30()}
         </div>
 
         {/* Second Section */}

@@ -18,6 +18,7 @@ import IconArt from "../../assets/icons/🎨.png";
 import CTA01 from "../../assets/CTAs/CTA-01.png";
 import CTAImgPreescolar from "../../assets/preescolar/preescolar-tienes_preguntas.png";
 import HeaderBackground from "../../assets/Header-background.png";
+import banner30 from "../../components/banner30"
 
 function Preescolar() {
   return (
@@ -62,6 +63,10 @@ function Preescolar() {
            
           </div>
         </div>
+        <div>
+        {banner30()}
+        </div>
+     
 
         {/* Second Section */}
         <div className="w-full max-w-screen-xl px-4  py-16 md:py-32 bg-white flex flex-col justify-center items-start gap-12">

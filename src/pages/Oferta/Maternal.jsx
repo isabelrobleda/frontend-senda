@@ -18,6 +18,7 @@ import IconArt from "../../assets/icons/🎨.png";
 import CTA01 from "../../assets/CTAs/CTA-01.png";
 import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
 import HeaderBackground from "../../assets/Header-background.png";
+import banner30 from "../../components/banner30"
 
 
 function Maternal() {
@@ -33,6 +34,7 @@ function Maternal() {
           alt="Background"
         />
       </div>
+     
 
         <div className="relative max-w-screen-xl flex flex-col md:flex-row justify-between items-center gap-8 z-10">
           <div className="flex flex-col justify-start items-start gap-8 text-left md:px-0 px-8">
@@ -42,7 +44,7 @@ function Maternal() {
             <div className="text-[#757575] text-lg md:text-2xl font-semibold leading-snug">
               Fomentamos la curiosidad, el pensamiento crítico y el desarrollo
               integral en un ambiente cálido, preparando a los niños para
-              preescolar.
+              preescolar. Aceptamos bebés desde 1 año.
             </div>
             <Link
               to="/aplica-al-senda"
@@ -59,6 +61,9 @@ function Maternal() {
             />
           </div>
         </div>
+      </div>
+      <div >
+        {banner30()}
       </div>
 
       {/* Second Section */}

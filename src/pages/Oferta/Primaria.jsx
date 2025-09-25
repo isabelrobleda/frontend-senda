@@ -19,6 +19,8 @@ import QuoteImg1 from "../../assets/maternal/quote-1.png";
 import QuoteImg2 from "../../assets/maternal/quote-2.png";
 import QuoteImg3 from "../../assets/maternal/quote-3.png";
 import HeaderBackground from "../../assets/Header-background.png";
+import banner30 from "../../components/banner30"
+
 
 function Primaria() {
   return (
@@ -62,6 +64,10 @@ function Primaria() {
               />
             
           </div>
+        </div>
+
+        <div>
+          {banner30()}
         </div>
 
         {/* Second Section */}

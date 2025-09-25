@@ -1,21 +1,17 @@
 import React from "react";
 import Group88 from "../../assets/proximos_eventos/Group 88.png";
 import BackToSchool from "../../assets/proximos_eventos/back-2-school.png";
-import Emociones from "../../assets/proximos_eventos/emociones.png";
+import LogoPaz from "../../assets/blog/logo-paz-senda.png";
 import Mexico from "../../assets/proximos_eventos/mexico.png";
 import HeaderBackground from "../../assets/Header-background.png";
-import Thanksgiving from "../../assets/proximos_eventos/alumnos-sec.jpeg";
-import Tertulia from "../../assets/proximos_eventos/secundaria-elecciones.jpg";
-import CarreraSecundaria from "../../assets/proximos_eventos/carrera-sec.jpeg";
-import NavidadSenda from "../../assets/proximos_eventos/navidad-senda.jpg";
-import VentaGarage from "../../assets/proximos_eventos/venta-garage.png";
+import logo30Años from "../../assets/logo_30_anos.png"
 
 function ProximosEventos() {
   // Define EventCard as an inline component
   const EventCard = ({ date, title, description, image }) => (
     <div className="p-4 md:p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] justify-start items-start gap-6 md:gap-10 flex flex-col md:flex-row">
       <div className="w-full md:w-[260px] h-[187px] rounded-2xl flex-col justify-center items-center flex">
-        <img className="md:w-[255px] h-full md:h-48 rounded-xl" src={image} alt={title} />
+        <img className="md:w-[255px] h-full md:h-52 rounded-xl" src={image} alt={title} />
       </div>
       <div className="w-full md:w-[405px] flex-col justify-start items-start gap-4 flex">
         <div className="text-[#b0cb4f] text-sm md:text-base font-semibold">{date}</div>
@@ -27,16 +23,16 @@ function ProximosEventos() {
 
   const events = [
     {
-      date: "26 de Agosto",
+      date: "1ro de septiembre",
       title: "Back to School",
       description: "Celebramos el inicio del nuevo ciclo escolar con actividades y talleres diseñados para dar la bienvenida a nuestros alumnos y sus familias.",
       image: BackToSchool,
     },
     {
-      date: "Ciclo 24-25",
-      title: "Explorando las Emociones",
-      description: "Durante todo el ciclo escolar 2024-2025, exploraremos las emociones y cómo influyen en nuestro aprendizaje y desarrollo personal.",
-      image: Emociones,
+      date: "Ciclo 25-26",
+      title: "La Paz se enseña, se vive y se comparte",
+      description: "Durante todo el ciclo escolar 2025-2026, este será nuestro tema central, que comprendamos como comunidad que la paz no sólo es un concepto, sino que es un modo de vida que se aprende, se practica y se comparte cada día.",
+      image: LogoPaz,
     },
     {
       date: "16 de Septiembre",
@@ -45,35 +41,12 @@ function ProximosEventos() {
       image: Mexico,
     },
     {
-      date: "28 de Noviembre",
-      title: "Thanksgiving con preescolar",
-      description: "Evento interno con los alumnos y Talent Show.",
-      image: Thanksgiving,
+      date: "20 de marzo",
+      title: "Fiesta de 30 años Senda",
+      description: "Celebramos 30 años de historia y crecimiento con una gran fiesta para toda la comunidad.",
+      image: logo30Años,
     },
-    {
-      date: "27 de Noviembre",
-      title: "Tertulia de secundaria",
-      description: "Un evento solo para alumnos de secundaria.",
-      image: Tertulia,
-    },
-    {
-      date: "26 de Noviembre",
-      title: "Carrera Secundaria",
-      description: "Carrera para alumnos de secundaria.",
-      image: CarreraSecundaria,
-    },
-    {
-      date: "5 y 6 de Diciembre",
-      title: "Christmas Carol Night",
-      description: "Evento familiar con música y celebración.",
-      image: NavidadSenda,
-    },
-    {
-      date: "19, 20 y 21 de Diciembre",
-      title: "Venta de Garage",
-      description: "Abierto a todo el público.",
-      image: VentaGarage,
-    },
+    
   ];
 
   return (
