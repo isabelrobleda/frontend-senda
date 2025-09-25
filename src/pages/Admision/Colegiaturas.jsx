@@ -302,16 +302,16 @@ function Colegiaturas() {
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
             />
-            <h3 className="absolute z-10 px-14 md:mt-20 mt-14 font-semibold font-pangea md:text-2xl text-lg">
+            <h3 className="absolute z-10 px-14 md:mt-20 mt-8 font-semibold font-pangea md:text-2xl text-lg">
               ¿Tienes preguntas?
             </h3>
-            <p className="absolute z-10 md:mt-32 mt-24 px-14 font-light md:w-1/2 text-sm md:text-base">
+            <p className="absolute z-10 md:mt-32 mt-16 px-14 font-light md:w-1/2 text-sm md:text-base">
               Si tienes alguna duda sobre admisiones, ¡no dudes en contactar a
               nuestra directora de admisiones, Paty González! ¡Ella estará feliz
               de ayudarte!
             </p>
             <a href="mailto:admisiones@colegiosenda.edu.mx">
-              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-14  py-2 bg-white rounded-2xl hover:bg-[#009bce] text-black/90 hover:text-white ">
+              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-4  py-2 bg-white rounded-2xl hover:bg-[#009bce] text-black/90 hover:text-white ">
                 <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Contactar
                 </span>
