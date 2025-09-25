@@ -72,7 +72,7 @@ function Colegiaturas() {
         <div className="max-w-screen-xl w-full mx-auto p-8 md:p-16 flex flex-col justify-start items-center gap-16">
           <div className="w-full text-center flex-col justify-start items-center gap-2">
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] mb-3">
-              Colegiaturas 2024/2025
+              Colegiaturas 2025/2026
             </div>
             <div className="text-[#757575] text-base font-normal font-['Inter']">
               Transferencia Bancaria, Cheque, Tarjeta de crédito o débito
@@ -86,17 +86,17 @@ function Colegiaturas() {
                 Maternal
               </div>
               <p className="text-[#b3b3b3] text-base font-semibold pb-[8px]">
-                Cuota ciclo escolar 2024-2025
+                Cuota ciclo escolar 2025-2026
               </p>
               <ul className="ml-5">
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Inscripción: $12,500
+                  Inscripción: $7,150
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Reinscripción: $8,750
+                  Reinscripción: $7,150
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Cuota Familiar: $1,900
+                  Cuota Familiar: $2,000
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1 font-semibold">
                   Colegiatura 10 meses: $7,150
@@ -109,17 +109,17 @@ function Colegiaturas() {
                 Preescolar
               </div>
               <p className="text-[#b3b3b3] text-base font-semibold pb-[8px]">
-                Cuota ciclo escolar 2024-2025
+                Cuota ciclo escolar 2025-2026
               </p>
               <ul className="ml-5">
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Inscripción: $22,600
+                  Inscripción: $17,950
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
                   Reinscripción: $17,500
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Cuota Familiar: $1,900
+                  Cuota Familiar: $2,000
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1 font-semibold">
                   Colegiatura 10 meses: $9,100
@@ -132,17 +132,17 @@ function Colegiaturas() {
                 Preprimaria
               </div>
               <p className="text-[#b3b3b3] text-base font-semibold pb-[8px]">
-                Cuota ciclo escolar 2024-2025
+                Cuota ciclo escolar 2025-2026
               </p>
               <ul className="ml-5">
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Inscripción: $23,800
+                  Inscripción: $19,950
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
                   Reinscripción: $19,950
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Cuota Familiar: $1,900
+                  Cuota Familiar: $2,000
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1 font-semibold">
                   Colegiatura 10 meses: $11,200
@@ -159,20 +159,20 @@ function Colegiaturas() {
                   Primaria
                 </div>
                 <p className="text-[#b3b3b3] text-base font-semibold pb-[8px]">
-                  Cuota ciclo escolar 2024-2025
+                  Cuota ciclo escolar 2025-2026
                 </p>
                 <ul className="ml-5">
                   <li className="text-[#757575] text-base list-disc py-1">
                     Inscripción: $27,200
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1">
-                    Reinscripción: $19,950
+                    Reinscripción: $23,100
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1">
-                    Cuota Familiar: $1,900
+                    Cuota Familiar: $2,000
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1 font-semibold">
-                    Colegiatura 10 meses: $13,690
+                    Colegiatura 10 meses: $14,350
                   </li>
                 </ul>
               </div>
@@ -182,20 +182,20 @@ function Colegiaturas() {
                   Secundaria
                 </div>
                 <p className="text-[#b3b3b3] text-base font-semibold pb-[8px]">
-                  Cuota ciclo escolar 2024-2025
+                  Cuota ciclo escolar 2025-2026
                 </p>
                 <ul className="ml-5">
                   <li className="text-[#757575] text-base list-disc py-1">
-                    Inscripción: $15,850
+                    Inscripción: $17,800
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1">
-                    Reinscripción: $15,850
+                    Reinscripción: $16,650
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1">
-                    Cuota Familiar: $1,900
+                    Cuota Familiar: $2,000
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1 font-semibold">
-                    Colegiatura 11 meses: $14,150
+                    Colegiatura 11 meses: $14,850
                   </li>
                 </ul>
               </div>
