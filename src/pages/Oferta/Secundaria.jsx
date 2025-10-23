@@ -291,16 +291,16 @@ function Secundaria() {
                 alt="background green cta"
                 className="relative z-0 md:rounded-none rounded-lg"
               />
-              <h3 className="absolute z-10 px-14 md:mt-20 mt-16 font-semibold font-pangea md:text-2xl text-lg">
+              <h3 className="absolute z-10 px-14 md:mt-20 mt-8 font-semibold font-pangea md:text-2xl text-lg">
                 ¿Tienes preguntas?
               </h3>
-              <p className="absolute z-10 md:mt-32 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
+              <p className="absolute z-10 md:mt-32 mt-16 px-14 font-light md:w-1/2 text-sm md:text-base">
                 Si tienes preguntas sobre secundaria, no dudes en enviarle un
                 correo electrónico a Viviana Colucci, nuestra Directora de
                 Secundaria
               </p>
               <a href="mailto:direccionsecundaria@colegiosenda.edu.mx">
-                <div className="absolute hover:bg-[#009bce] text-black/90 hover:text-white h-10 ml-14 px-8 z-10 md:bottom-16 bottom-10  py-2 bg-white rounded-2xl">
+                <div className="absolute hover:bg-[#009bce] text-black/90 hover:text-white h-10 ml-14 px-8 z-10 md:bottom-16 bottom-6  py-2 bg-white rounded-2xl">
                   <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                     Contactar
                   </span>

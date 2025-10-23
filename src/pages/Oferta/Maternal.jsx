@@ -294,14 +294,14 @@ function Maternal() {
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
             />
-            <h3 className="absolute z-10 px-14 mt-16 font-semibold font-pangea md:text-2xl text-lg">
+            <h3 className="absolute z-10 px-14 mt-8 font-semibold font-pangea md:text-2xl text-lg">
               ¿Tienes preguntas?
             </h3>
-            <p className="absolute z-10 md:mt-32 mt-24 px-14 font-light md:w-1/2 text-sm md:text-base">
+            <p className="absolute z-10 md:mt-32 mt-16 px-14 font-light md:w-1/2 text-sm md:text-base">
             Si tienes preguntas sobre el maternal, no dudes en enviarle un correo electrónico a Roxana Fernández, nuestra Directora de Preescolar
             </p>
-            <a href="mailto:direccionpreescolar@colegiosenda.edu.mx">
-              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-[60px] bottom-14  py-2 bg-white rounded-2xl  hover:bg-[#009bce] text-black/90 hover:text-white">
+            <a href="mailto:roxana.fernandez@colegiosenda.edu.mx">
+              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-[60px] bottom-7  py-2 bg-white rounded-2xl  hover:bg-[#009bce] text-black/90 hover:text-white">
                 <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Contactar
                 </span>
