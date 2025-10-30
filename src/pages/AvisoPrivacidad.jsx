@@ -29,10 +29,10 @@ function AvisoPrivacidad() {
         Oposición, limitación de uso o la revocación del consentimiento, podrá
         solicitarse por escrito en el correo electrónico:{" "}
         <a
-          href="mailto:avisodeprivacidad@colegiosenda.edu.mx"
+          href="mailto:aviso.de.privacidad.senda@colegiosenda.edu.mx"
           className="text-[#009bce]"
         >
-          avisodeprivacidad@colegiosenda.edu.mx
+          aviso.de.privacidad.senda@colegiosenda.edu.mx
         </a>
         .
         <br />
@@ -147,10 +147,10 @@ function AvisoPrivacidad() {
         limitación del uso o divulgación de sus datos personales puede hacerlo
         en el correo electrónico: {" "}
         <a
-          href="mailto:avisodeprivacidad@colegiosenda.edu.mx"
+          href="mailto:aviso.de.privacidad.senda@colegiosenda.edu.mx"
           className="text-[#009bce]"
         >
-           avisodeprivacidad@colegiosenda.edu.mx
+           aviso.de.privacidad.senda@colegiosenda.edu.mx
         </a>
         {" "}
         <br />
@@ -166,10 +166,10 @@ function AvisoPrivacidad() {
         consentimiento, deberán solicitarse por escrito únicamente en el correo
         electrónico {" "}
         <a
-          href="mailto:avisodeprivacidad@colegiosenda.edu.mx"
+          href="mailto:aviso.de.privacidad.senda@colegiosenda.edu.mx"
           className="text-[#009bce]"
         >
-           avisodeprivacidad@colegiosenda.edu.mx
+           aviso.de.privacidad.senda@colegiosenda.edu.mx
         </a>
         {" "}
         <br />
@@ -210,10 +210,10 @@ function AvisoPrivacidad() {
         únicamente para tales efectos enviar una solicitud por escrito en el
         correo electrónico {" "}
         <a
-          href="mailto:avisodeprivacidad@colegiosenda.edu.mx"
+          href="mailto:aviso.de.privacidad.senda@colegiosenda.edu.mx"
           className="text-[#009bce]"
         >
-           avisodeprivacidad@colegiosenda.edu.mx
+           aviso.de.privacidad.senda@colegiosenda.edu.mx
         </a>
         {" "} Dentro de los
         siguientes veinte días hábiles contados desde la fecha en que se recibió
