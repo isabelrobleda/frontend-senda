@@ -57,7 +57,7 @@ function CEFRFramework() {
             </p>
             <br />
             <p>
-              En el Colegio Senda, el enfoque realmente potencia nuestra identidad institucional y la innovación pedagógica nos ubica como un colegio incultural al estudiar el idioma inglés de manera natural e interdisciplinaria y el lenguaje de programación de manera simultánea. El 95% de nuestros profesores están certificados como Apple Teacher.
+              En el Colegio Senda, el enfoque realmente potencia nuestra identidad institucional y la innovación pedagógica nos ubica como un colegio bicultural al estudiar el idioma inglés de manera natural e interdisciplinaria y el lenguaje de programación de manera simultánea. El 95% de nuestros profesores están certificados como Apple Teacher.
             </p>
           </div>
 
