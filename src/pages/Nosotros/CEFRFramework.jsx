@@ -8,7 +8,7 @@ function CEFRFramework() {
   return (
     <>
       {/* Header Section */}
-      <div className="md:h-[545px] h-auto p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
+      <div className="md:h-[700px] h-auto p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
         <div className="w-full max-w-[1440px] mt-20 flex flex-col justify-start items-left gap-12">
           <div className="max-w-max text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px] text-left ">
             Common European Framework of Reference (CEFR)
@@ -28,6 +28,41 @@ function CEFRFramework() {
             </p>
           </div>
         </div>
+        <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+          <div className="max-w-max text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px] text-left ">
+            CLIL / Aprendizaje Integrado de Contenidos y Lenguas Extranjeras
+          </div>
+          <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug md:mr-[28px] ">
+            <p className="mt-10">
+              El acrónimo CLIL significa:</p>
+            <br />
+            <div>
+
+              C – Content (Contenido): Aprendizaje de contenidos disciplinares: ciencias, historia, tecnología, etc.
+
+            </div>
+            <div>
+              L – Language (Lengua): Desarrollo de competencias lingüísticas en una segunda lengua (normalmente inglés).
+            </div>
+            <div>
+              I – Integrated (Integrado): El contenido y la lengua se trabajan de manera simultánea; ninguno es accesorio del otro.
+            </div>
+            <div>
+              L – Learning (Aprendizaje): El estudiante aprende a través del contenido y la lengua, promoviendo habilidades cognitivas superiores.
+            </div>
+            <br />
+            <p>
+              Cuando aparece como CLIL-T, la “T” agrega:
+              T – Technology (Tecnología): Uso intencional de tecnologías digitales para potenciar el aprendizaje, mejorar la comunicación en la L2, apoyar la comprensión de contenidos y fomentar la creación de productos multimedia.
+            </p>
+            <br />
+            <p>
+              En el Colegio Senda, el enfoque que realmente potencia identidad institucional, innovación pedagógica y perfil Apple Distinguished School es CLIL/CLILT.
+            </p>
+          </div>
+
+
+        </div>
       </div>
 
       {/* Content Section */}
@@ -44,7 +79,7 @@ function CEFRFramework() {
               Preschool / Preescolar
             </div>
             <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-            <p >
+              <p >
                 Los estudiantes desarrollan habilidades de comunicación básicas
                 mediante entornos de aprendizaje inmersivos. El enfoque está en la adquisición
                 natural del idioma utilizando unidades temáticas que conectan con los intereses y
@@ -60,7 +95,7 @@ function CEFRFramework() {
                 future language development.
               </p>
               <br />
-              
+
               <p>CEFR Levels / Niveles: A1 - A2</p>
             </div>
           </div>
@@ -77,7 +112,7 @@ function CEFRFramework() {
               Primary / Primaria
             </div>
             <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-            <p>
+              <p>
                 Los estudiantes refuerzan el vocabulario y la gramática,
                 avanzando hacia habilidades prácticas de comunicación. A través de estrategias de
                 aprendizaje integradas, los estudiantes participan en conversaciones significativas
@@ -94,7 +129,7 @@ function CEFRFramework() {
                 the stage for more complex language tasks in the future.
               </p>
               <br />
-              
+
               <p>CEFR Levels / Niveles: A2 - B1</p>
             </div>
           </div>
@@ -110,7 +145,7 @@ function CEFRFramework() {
               Secondary / Secundaria
             </div>
             <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-            <p>
+              <p>
                 Los estudiantes logran fluidez y pensamiento crítico,
                 preparándose para un futuro globalizado. El currículo enfatiza habilidades avanzadas
                 en el idioma, incluyendo análisis crítico, argumentación y escritura creativa.
@@ -127,9 +162,10 @@ function CEFRFramework() {
                 equipping them for academic and professional success.
               </p>
               <br />
-             
+
               <p>CEFR Levels / Niveles: B1 - B2</p>
             </div>
+
           </div>
         </div>
       </div>
