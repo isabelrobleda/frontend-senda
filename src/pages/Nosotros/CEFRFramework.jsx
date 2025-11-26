@@ -30,7 +30,7 @@ function CEFRFramework() {
         </div>
         <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
           <div className="max-w-max text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px] text-left ">
-            CLIL / Aprendizaje Integrado de Contenidos y Lenguas Extranjeras
+            CLIL-T / Aprendizaje Integrado de Contenidos y Lenguas Extranjeras
           </div>
           <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug md:mr-[28px] ">
             <p className="mt-10">
