@@ -34,7 +34,7 @@ function CEFRFramework() {
           </div>
           <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug md:mr-[28px] ">
             <p className="mt-10">
-              El acrónimo CLIL significa:</p>
+            La metodología CLILT es un enfoque innovador que integra simultáneamente los contenidos académicos más inglés más tecnología, programación, robótica, ciencia y proyectos usando el inglés como vehículo. Refuerza la filosofía Apple: aprender haciendo, creatividad, colaboración, pensamiento crítico de manera interdisciplinaria. El acrónimo CLIL significa:</p>
             <br />
             <div>
 
@@ -42,7 +42,7 @@ function CEFRFramework() {
 
             </div>
             <div>
-              L – Language (Lengua): Desarrollo de competencias lingüísticas en una segunda lengua (normalmente inglés).
+              L – Language (Lengua): Desarrollo de competencias lingüísticas en inglés.
             </div>
             <div>
               I – Integrated (Integrado): El contenido y la lengua se trabajan de manera simultánea; ninguno es accesorio del otro.
@@ -57,7 +57,7 @@ function CEFRFramework() {
             </p>
             <br />
             <p>
-              En el Colegio Senda, el enfoque que realmente potencia identidad institucional, innovación pedagógica y perfil Apple Distinguished School es CLIL/CLILT.
+              En el Colegio Senda, el enfoque realmente potencia nuestra identidad institucional y la innovación pedagógica nos ubica como un colegio incultural al estudiar el idioma inglés de manera natural e interdisciplinaria y el lenguaje de programación de manera simultánea. El 95% de nuestros profesores están certificados como Apple Teacher.
             </p>
           </div>
 
@@ -118,7 +118,7 @@ function CEFRFramework() {
                 aprendizaje integradas, los estudiantes participan en conversaciones significativas
                 sobre temas familiares y asignaturas académicas. También comienzan a desarrollar
                 habilidades de escritura narrativa y descriptiva, preparando el terreno para
-                tareas lingüísticas más complejas en el futuro.
+                tareas lingüísticas más complejas en el futuro. Muchos alumnos alcanzan niveles B1 al llegar a 6to de primaria.
               </p>
               <br />
               <p className="italic">
@@ -126,7 +126,7 @@ function CEFRFramework() {
                 practical communication skills. Through integrated learning strategies, students
                 engage in meaningful conversations about familiar topics and academic subjects.
                 They also start developing narrative and descriptive writing abilities, setting
-                the stage for more complex language tasks in the future.
+                the stage for more complex language tasks in the future. Many students reach B1 levels by the end of 6th grade.
               </p>
               <br />
 
