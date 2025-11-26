@@ -8,7 +8,7 @@ function CEFRFramework() {
   return (
     <>
       {/* Header Section */}
-      <div className="md:h-[700px] h-auto p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
+      <div className="md:h-[750px] h-auto p-8 md:p-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
         <div className="w-full max-w-[1440px] mt-20 flex flex-col justify-start items-left gap-12">
           <div className="max-w-max text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px] text-left ">
             Common European Framework of Reference (CEFR)
