@@ -53,11 +53,11 @@ function CEFRFramework() {
             <br />
             <p>
               Cuando aparece como CLIL-T, la “T” agrega:
-              T – Technology (Tecnología): Uso intencional de tecnologías digitales para potenciar el aprendizaje, mejorar la comunicación en la L2, apoyar la comprensión de contenidos y fomentar la creación de productos multimedia.
+              T – Technology (Tecnología): Uso intencional de tecnologías digitales para potenciar el aprendizaje, mejorar la comunicación en la L2, apoyar la comprensión de contenidos y fomentar la creación de productos multimedia. Utilizamos el iPad como herramienta fundamental para el aprendizaje activo y creativo.
             </p>
             <br />
             <p>
-              En el Colegio Senda, el enfoque realmente potencia nuestra identidad institucional y la innovación pedagógica nos ubica como un colegio bicultural al estudiar el idioma inglés de manera natural e interdisciplinaria y el lenguaje de programación de manera simultánea. El 95% de nuestros profesores están certificados como Apple Teacher.
+              En el Colegio Senda, este enfoque realmente potencia nuestra identidad institucional y la innovación pedagógica nos ubica como un colegio bicultural al estudiar el idioma inglés de manera natural e interdisciplinaria y el lenguaje de programación de manera simultánea. El 95% de nuestros profesores están certificados como Apple Teacher.
             </p>
           </div>
 
