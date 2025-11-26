@@ -26,10 +26,10 @@ function MainHome() {
               
               
             </h1>
-            <h3 className="self-stretch text-[#757575] text-lg md:text-2xl font-semibold font-['Inter'] leading-snug md:leading-[28.80px]">
+            <h3 className="self-stretch text-[#757575] text-md md:text-lg font-semibold font-['Inter'] leading-snug md:leading-[24.80px]">
               Somos una comunidad educativa inmersa en la cultura de
               pensamiento, comprometida con el bienestar emocional
-              de cada alumno.
+              de cada alumno. Formamos personas críticas, responsables, competentes, y resilientes, para que <br /> sean agentes de cambio en su entorno.
             </h3>
           </div>
           <div className="self-stretch md:justify-start justify-center items-center gap-4 inline-flex">
