@@ -3,7 +3,7 @@ import FiveStars from '../assets/five-stars.png';
 
 function Reviews() {
   return (
-    <div className="w-full md:h-screen py-12 p-8 md:py-[64px] bg-[#f9f9fe] flex flex-col justify-center items-center gap-8">
+    <div className="w-full py-12 p-8 md:py-[64px] bg-[#f9f9fe] flex flex-col justify-center items-center gap-8">
       
       <div className="w-full md:px-[64px]  flex flex-col lg:flex-row justify-center items-center gap-8">
         <div className="flex flex-col justify-start items-start gap-6">
@@ -45,7 +45,7 @@ function Reviews() {
               “Excelencia en educación, maestras comprometidas y preparadas para esta nueva era. Niños felices y desarrollando su potencial día a día."
             </div>
             <div className="flex justify-start items-start gap-4">
-              <img className="justify-start items-center gap-0.5 flex" src={FiveStars} />
+              <img className="justify-start items-center gap-0.5 flex" src={FiveStars} loading="lazy" />
               <div className="w-[25px] text-[#1e1e1e] text-base font-semibold font-['Inter'] leading-snug">5.0</div>
             </div>
           </div>

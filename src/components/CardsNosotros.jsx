@@ -60,6 +60,7 @@ function CardsNosotros() {
                     className="w-full h-64 object-cover"
                     src={card.image}
                     alt={card.alt}
+                    loading="lazy"
                   />
                   <div className="p-4">
                     <div className="text-[#b0cb4f] text-base font-semibold">
@@ -103,6 +104,7 @@ function CardsNosotros() {
               className="w-full h-64 object-cover"
               src={card.image}
               alt={card.alt}
+              loading="lazy"
             />
             <div className="p-4">
               <div className="text-[#b0cb4f] text-base font-semibold">

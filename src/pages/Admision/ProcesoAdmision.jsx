@@ -105,7 +105,8 @@ function ProcesoAdmision() {
                 src={steps[activeStep].imageUrl}
                 className="w-full h-full z-0 rounded-[10px] ml-0 md:ml-10"
                 alt={`proceso admision ${activeStep + 1}`}
-              />
+              loading="lazy"
+            />
             </div>
 
             {/* Text Section */}
@@ -179,7 +180,9 @@ function ProcesoAdmision() {
               }`}
               onClick={handlePreviousStep}
             >
-              <img src={ChevronRight} alt="Prev" className="transform -scale-x-100 border rounded-full p-4 md:mx-12 hover:bg-slate-200 mr-4 bg-white" />
+              <img src={ChevronRight} alt="Prev" className="transform -scale-x-100 border rounded-full p-4 md:mx-12 hover:bg-slate-200 mr-4 bg-white"
+              loading="lazy"
+            />
             </button>
             <button
               className={`navigation-arrow ${
@@ -187,7 +190,9 @@ function ProcesoAdmision() {
               }`}
               onClick={handleNextStep}
             >
-              <img src={ChevronRight} alt="Next" className="border rounded-full p-4 hover:bg-slate-200 bg-white"/>
+              <img src={ChevronRight} alt="Next" className="border rounded-full p-4 hover:bg-slate-200 bg-white"
+              loading="lazy"
+            />
             </button>
           </div>
         </div>
@@ -201,6 +206,7 @@ function ProcesoAdmision() {
               src={CTA1}
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
+              loading="lazy"
             />
             <h3 className="absolute z-10 px-14 mt-20 font-semibold font-pangea md:text-2xl text-lg">
               ¿Tienes preguntas?
@@ -221,7 +227,8 @@ function ProcesoAdmision() {
             src={CTAImgMaternal}
             alt="image maternal"
             className="md:rounded-none rounded-lg"
-          />
+              loading="lazy"
+            />
         </div>
       </div>
     </div>

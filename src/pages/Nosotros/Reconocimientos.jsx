@@ -91,7 +91,9 @@ function Reconocimientos() {
         <div className="w-full flex flex-col justify-start items-start gap-6">
           <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
             <div className="w-full md:w-[700px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <img className=" h-12 relative py-2" src={CanvaLogo} />
+              <img className=" h-12 relative py-2" src={CanvaLogo}
+              loading="lazy"
+            />
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   Top 15 de escuelas innovadoras en México
@@ -106,7 +108,9 @@ function Reconocimientos() {
               </div>
             </div>
             <div className="w-full md:w-[350px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <img className=" h-8 relative" src={Knotion} />
+              <img className=" h-8 relative" src={Knotion}
+              loading="lazy"
+            />
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   Insignias Knotion
@@ -120,7 +124,9 @@ function Reconocimientos() {
           </div>
           <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6">
             <div className="w-full md:w-[350px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <img className=" h-12 relative" src={AppleTeacher} />
+              <img className=" h-12 relative" src={AppleTeacher}
+              loading="lazy"
+            />
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   100% de profesores Apple Teacher
@@ -132,7 +138,9 @@ function Reconocimientos() {
               </div>
             </div>
             <div className="w-full md:w-[700px] h-auto p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-end items-start gap-4">
-              <img className=" h-14 relative" src={WholeSchools} />
+              <img className=" h-14 relative" src={WholeSchools}
+              loading="lazy"
+            />
               <div className="self-stretch justify-start items-start flex">
                 <div className="grow text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   Top 100 Schools in Mexico
@@ -176,7 +184,8 @@ function Reconocimientos() {
                       src={item.imgSrc}
                       alt={`imagen ${item.title.toLowerCase()}`}
                       className="absolute w-52 bottom-0 right-0"
-                    />
+              loading="lazy"
+            />
                     <div className="w-full h-52 md:w-[257px] flex flex-col justify-between ">
                       <div className="flex flex-col gap-4">
                         <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -206,7 +215,8 @@ function Reconocimientos() {
                         currentItem
                       ].title.toLowerCase()}`}
                       className="w-full h-auto"
-                    />
+              loading="lazy"
+            />
                     <div className="w-full flex flex-col justify-between">
                       <div className="flex flex-col gap-4">
                         <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">

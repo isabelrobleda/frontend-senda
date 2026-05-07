@@ -15,8 +15,7 @@ function DataHome() {
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="w-full md:w-80 grow shrink basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md"
-            style={{ height: '360px' }}
+            className="w-full md:w-80 grow shrink basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]"
           >
             <div className="relative w-20 h-20 flex justify-center items-center">
               <img
@@ -24,6 +23,7 @@ function DataHome() {
                 src={card.image}
                 alt={card.alt}
                 style={{ top: '-40px' }}
+                loading="lazy"
               />
             </div>
             <div className="self-stretch flex flex-col justify-start items-center gap-4">

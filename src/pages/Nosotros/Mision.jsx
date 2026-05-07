@@ -50,6 +50,7 @@ function Mision() {
               className="w-96 h-64 rounded-lg"
               src={MisionImg}
               alt="Mision"
+              loading="lazy"
             />
           </div>
           <div className="w-full md:w-[415px] h-auto">
@@ -57,6 +58,7 @@ function Mision() {
               className="w-96 h-64 rounded-lg"
               src={Mision02}
               alt="Mision 02"
+              loading="lazy"
             />
           </div>
           <div className="w-full md:w-[415px] h-auto">
@@ -64,6 +66,7 @@ function Mision() {
               className="w-96 h-64 rounded-lg"
               src={Mision01}
               alt="Mision 01"
+              loading="lazy"
             />
           </div>
         </div>

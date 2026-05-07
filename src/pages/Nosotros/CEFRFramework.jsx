@@ -74,6 +74,7 @@ function CEFRFramework() {
               className="w-96 h-64 rounded-lg"
               src={Preescolar}
               alt="Preschool"
+              loading="lazy"
             />
             <div className="text-[#1e1e1e] text-lg font-semibold font-['Inter']">
               Preschool / Preescolar
@@ -107,6 +108,7 @@ function CEFRFramework() {
               className="w-96 h-64 rounded-lg"
               src={Primaria}
               alt="Primary"
+              loading="lazy"
             />
             <div className="text-[#1e1e1e] text-lg font-semibold font-['Inter']">
               Primary / Primaria
@@ -140,6 +142,7 @@ function CEFRFramework() {
               className="w-96 h-64 rounded-lg"
               src={Secundaria}
               alt="Secondary"
+              loading="lazy"
             />
             <div className="text-[#1e1e1e] text-lg font-semibold font-['Inter']">
               Secondary / Secundaria

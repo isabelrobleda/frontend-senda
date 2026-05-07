@@ -55,7 +55,8 @@ function ModeloSenda() {
           className="w-auto md:w-[592px] md:h-[476px]"
           src={ModeloSendaImg}
           alt="Modelo Pedagógico"
-        />
+              loading="lazy"
+            />
         <div className="w-full md:w-[523px] flex flex-col justify-start items-start gap-6 ml-28">
           <div className="text-left md:text-left h-auto flex flex-col justify-start items-start gap-4">
             <div className="text-[#1e1e1e] text-3xl md:text-5xl font-bold font-['Inter'] leading-[40px] md:leading-[57.60px]">

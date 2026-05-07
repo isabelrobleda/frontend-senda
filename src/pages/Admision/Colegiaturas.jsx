@@ -32,7 +32,8 @@ function Colegiaturas() {
                     src={Group87}
                     alt="image 2"
                     className="inline-block mx-1 md:mx-2 md:h-14 h-10"
-                  />
+              loading="lazy"
+            />
                 </span>
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   inversión
@@ -225,7 +226,8 @@ function Colegiaturas() {
                     src={Phone}
                     alt=""
                     className="h-12 self-center mb-3"
-                  />
+              loading="lazy"
+            />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                     Teléfono
                   </div>
@@ -249,7 +251,8 @@ function Colegiaturas() {
                     src={WhatsApp}
                     alt=""
                     className="h-12 self-center mb-3"
-                  />
+              loading="lazy"
+            />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                     WhatsApp
                   </div>
@@ -273,7 +276,8 @@ function Colegiaturas() {
                     src={Email}
                     alt=""
                     className="h-12 self-center mb-3"
-                  />
+              loading="lazy"
+            />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                     Mail
                   </div>
@@ -301,6 +305,7 @@ function Colegiaturas() {
               src={CTA1}
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
+              loading="lazy"
             />
             <h3 className="absolute z-10 px-14 md:mt-20 mt-8 font-semibold font-pangea md:text-2xl text-lg">
               ¿Tienes preguntas?
@@ -322,7 +327,8 @@ function Colegiaturas() {
             src={CTAImgMaternal}
             alt="image maternal"
             className="md:rounded-none rounded-lg"
-          />
+              loading="lazy"
+            />
         </div>
       </div>
     </div>

@@ -13,11 +13,11 @@ function Partners() {
          Nuestros aliados
         </h3>
         <div className="w-full flex flex-col md:flex-row flex-wrap justify-center items-center gap-12 md:gap-20 ">
-          <img src={Apple} className="w-[120px] h-auto" alt="Apple" />
-          <img src={MARSA} className="w-[120px] h-auto" alt="MARSA" />
-          <img src={Knotion} className="w-[120px] h-auto" alt="Knotion" />
-          <img src={LARSA} className="w-[120px] h-auto" alt="LARSA" />
-          <img src={IdeaSport} className="w-[114px] h-auto" alt="Idea Sport" />
+          <img src={Apple} className="w-[120px] h-auto" alt="Apple" loading="lazy" />
+          <img src={MARSA} className="w-[120px] h-auto" alt="MARSA" loading="lazy" />
+          <img src={Knotion} className="w-[120px] h-auto" alt="Knotion" loading="lazy" />
+          <img src={LARSA} className="w-[120px] h-auto" alt="LARSA" loading="lazy" />
+          <img src={IdeaSport} className="w-[114px] h-auto" alt="Idea Sport" loading="lazy" />
           
         </div>
       </div>

@@ -32,6 +32,7 @@ function TestimonialsHome() {
               src={TestimonialImage}
               alt="testimonials-home"
               className="w-full h-auto object-cover"
+              loading="lazy"
             />
           </div>
         </div>

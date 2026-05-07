@@ -13,6 +13,7 @@ function Blog5() {
               className="w-full max-w-[1312px] h-96 rounded-2xl object-contain "
               src={Blog5Img}
               alt="Blog 4 image"
+              loading="lazy"
             />
           </div>
         </div>
@@ -32,7 +33,8 @@ function Blog5() {
                   className="w-full h-full rounded-full object-cover"
                   src={Monica}
                   alt="Mónica Sánchez Gavito"
-                />
+              loading="lazy"
+            />
               </div>
               <div className="flex flex-col items-start">
                 <div className="text-black/90 text-xl font-normal">

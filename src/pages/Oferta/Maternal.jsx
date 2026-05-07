@@ -18,7 +18,7 @@ import IconArt from "../../assets/icons/🎨.png";
 import CTA01 from "../../assets/CTAs/CTA-01.png";
 import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
 import HeaderBackground from "../../assets/Header-background.png";
-import banner30 from "../../components/banner30"
+import Banner30 from "../../components/banner30"
 
 
 function Maternal() {
@@ -58,12 +58,13 @@ function Maternal() {
               src={HeaderMaternal}
               alt="Maternal"
               className="w-full md:h-[470px] h-auto object-cover"
+              loading="lazy"
             />
           </div>
         </div>
       </div>
       <div >
-        {banner30()}
+        <Banner30 />
       </div>
 
       {/* Second Section */}
@@ -132,6 +133,7 @@ function Maternal() {
               src={QuoteImg1}
               alt="image 1"
               className="md:inline-block mx-2 h-12 rounded-3xl hidden"
+              loading="lazy"
             />
             que transmitan
             <span style={{ display: "inline-block" }}></span>
@@ -139,6 +141,7 @@ function Maternal() {
               src={QuoteImg2}
               alt="image 2"
               className="md:inline-block h-12 mx-2 hidden"
+              loading="lazy"
             />
             esa energía y esa pasión que tienen por descubrir, por transformar y
             por trascender en su
@@ -147,6 +150,7 @@ function Maternal() {
               src={QuoteImg3}
               alt="image 3"
               className="hidden md:inline-block h-12 mx-2 my-2"
+              loading="lazy"
             />
             entorno.”
           </div>
@@ -188,7 +192,8 @@ function Maternal() {
                 src={MiddleMaternal}
                 alt="Preschool"
                 className="rounded-lg absolute"
-              />
+              loading="lazy"
+            />
             </div>
           </div>
         </div>
@@ -198,7 +203,9 @@ function Maternal() {
       <div className="w-full px-4 md:px-32 py-16 md:py-44 flex justify-center items-center">
         <div className="w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3">
           <div className="p-6 h-[300px] bg-white rounded-tl-xl md:rounded-bl-xl  shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src={IconTeacher} alt="icon teacher" className="mb-10"/>
+            <img src={IconTeacher} alt="icon teacher" className="mb-10"
+              loading="lazy"
+            />
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Personalizado
             </h3>
@@ -207,14 +214,18 @@ function Maternal() {
             </p>
           </div>
           <div className="p-6  bg-white shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src={IconSchool} alt="icon school" className="mb-10"/>
+            <img src={IconSchool} alt="icon school" className="mb-10"
+              loading="lazy"
+            />
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Salones pequeños
             </h3>
             <p className="text-black/40 text-base">Máximo 24 niños por salón</p>
           </div>
           <div className="p-6  bg-white rounded-tr-xl rounded-br-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src={IconUsFlag} alt="icon us flag" className="mb-10"/>
+            <img src={IconUsFlag} alt="icon us flag" className="mb-10"
+              loading="lazy"
+            />
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Idioma inglés
             </h3>
@@ -234,49 +245,65 @@ function Maternal() {
             </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
             <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-              <img src={IconMeditation} alt="meditation" />
+              <img src={IconMeditation} alt="meditation"
+              loading="lazy"
+            />
               <h3 className="text-xl font-base text-[#1e1e1e] mb-2">
                 Momento sagrado
               </h3>
             </div>
             <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-              <img src={IconSpanish} alt="español icon" />
+              <img src={IconSpanish} alt="español icon"
+              loading="lazy"
+            />
               <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                 Español
               </h3>
             </div>
             <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-              <img src={IconUsFlag} alt="us flag" className="w-10" />
+              <img src={IconUsFlag} alt="us flag" className="w-10"
+              loading="lazy"
+            />
               <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                 Inglés
               </h3>
             </div>
             <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-              <img src={IconSoccer} alt="soccer" />
+              <img src={IconSoccer} alt="soccer"
+              loading="lazy"
+            />
               <h3 className="text-xl font-noraml text-[#1e1e1e] mb-2">
                 Deportes
               </h3>
             </div>
             <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-              <img src={IconBaby} alt="baby" />
+              <img src={IconBaby} alt="baby"
+              loading="lazy"
+            />
               <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                 Psicomotricidad
               </h3>
             </div>
             <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
-              <img src={IconComputer} alt="computer" />
+              <img src={IconComputer} alt="computer"
+              loading="lazy"
+            />
               <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                 Tecnología
               </h3>
             </div>
             <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
-              <img src={IconMusic} alt="music" />
+              <img src={IconMusic} alt="music"
+              loading="lazy"
+            />
               <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                 Sing and Play (en inglés)
               </h3>
             </div>
             <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-              <img src={IconArt} alt="art" />
+              <img src={IconArt} alt="art"
+              loading="lazy"
+            />
               <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                 Arte
               </h3>
@@ -293,6 +320,7 @@ function Maternal() {
               src={CTA01}
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
+              loading="lazy"
             />
             <h3 className="absolute z-10 px-14 mt-8 font-semibold font-pangea md:text-2xl text-lg">
               ¿Tienes preguntas?
@@ -313,7 +341,8 @@ function Maternal() {
             src={CTAImgMaternal}
             alt="image maternal"
             className="md:rounded-none rounded-lg"
-          />
+              loading="lazy"
+            />
         </div>
       </div>
     </div>

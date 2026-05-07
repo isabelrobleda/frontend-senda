@@ -35,7 +35,8 @@ function Blog() {
                     src={Group86}
                     alt="image 1"
                     className="inline-block mx-1 md:mx-2 h-10 md:h-16"
-                  />
+              loading="lazy"
+            />
                 </span>
 
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">

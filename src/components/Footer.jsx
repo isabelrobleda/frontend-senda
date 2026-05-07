@@ -15,7 +15,7 @@ function Footer() {
           <div className="flex flex-col justify-start items-start gap-4">
             <div className="w-36 h-[85.82px] flex ">
               <Link to="/">
-                <img className="w-20 h-20" src={SimboloSenda} alt="Logo" />
+                <img className="w-20 h-20" src={SimboloSenda} alt="Logo" loading="lazy" />
               </Link>
             </div>
             <div className="h-[22px] pr-24 flex justify-start items-center">
@@ -26,7 +26,7 @@ function Footer() {
           </div>
           <div className="flex flex-col justify-start items-start gap-2">
             <div className="flex justify-start items-center gap-2">
-              <img className="w-6 h-6 relative" src={Envelope} />
+              <img className="w-6 h-6 relative" src={Envelope} loading="lazy" />
               <a
                 href="mailto:senda@colegiosenda.edu.mx"
                 className="text-white text-sm font-normal font-['Inter'] leading-tight underline"
@@ -35,7 +35,7 @@ function Footer() {
               </a>
             </div>
             <div className="flex justify-start items-center gap-2">
-              <img className="w-6 h-6 relative" src={Phone} />
+              <img className="w-6 h-6 relative" src={Phone} loading="lazy" />
               <div className="text-white text-sm font-normal font-['Inter'] leading-tight">
                 (55) 5683-2060
               </div>
@@ -157,16 +157,16 @@ function Footer() {
         {/* Adjust this part to align the social media icons */}
         <div className="flex flex-wrap justify-start md:justify-end items-start gap-4">
           <Link to="https://www.instagram.com/colegiosenda/" target="_blank">
-            <img className="w-6 h-[24.10px]" src={Instagram} alt="Instagram Icon" />
+            <img className="w-6 h-[24.10px]" src={Instagram} alt="Instagram Icon" loading="lazy" />
           </Link>
           <Link
             to="https://open.spotify.com/show/6oUv7xtyQRpzLIlRPBpOI2?si=0385463c97324c7c"
             target="_blank"
           >
-            <img className="w-6 h-[24.10px]" src={Spotify} alt="Spotify Icon" />
+            <img className="w-6 h-[24.10px]" src={Spotify} alt="Spotify Icon" loading="lazy" />
           </Link>
           <Link to="https://www.facebook.com/colegiosenda/" target="_blank">
-            <img className="w-6 h-[24.10px]" src={Facebook} alt="Facebook Icon" />
+            <img className="w-6 h-[24.10px]" src={Facebook} alt="Facebook Icon" loading="lazy" />
           </Link>
         </div>
       </div>

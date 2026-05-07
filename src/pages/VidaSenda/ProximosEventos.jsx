@@ -11,7 +11,9 @@ function ProximosEventos() {
   const EventCard = ({ date, title, description, image }) => (
     <div className="p-4 md:p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] justify-start items-start gap-6 md:gap-10 flex flex-col md:flex-row">
       <div className="w-full md:w-[260px] h-[187px] rounded-2xl flex-col justify-center items-center flex">
-        <img className="md:w-[255px] h-full md:h-52 rounded-xl" src={image} alt={title} />
+        <img className="md:w-[255px] h-full md:h-52 rounded-xl" src={image} alt={title}
+              loading="lazy"
+            />
       </div>
       <div className="w-full md:w-[405px] flex-col justify-start items-start gap-4 flex">
         <div className="text-[#b0cb4f] text-sm md:text-base font-semibold">{date}</div>
@@ -65,7 +67,9 @@ function ProximosEventos() {
                   Próximos
                 </span>
                 <span className="text-[#1e1e1e] text-[24px] md:text-[57px] font-semibold font-pangea leading-[30px] md:leading-[68px]">
-                  <img src={Group88} alt="image 1" className="inline-block mx-1 md:mx-2 h-8 md:h-14 " />
+                  <img src={Group88} alt="image 1" className="inline-block mx-1 md:mx-2 h-8 md:h-14 "
+              loading="lazy"
+            />
                 </span>
                 <span className="text-[#009bce] text-[24px] md:text-[57px] font-semibold font-pangea leading-[30px] md:leading-[68px]">
                   eventos

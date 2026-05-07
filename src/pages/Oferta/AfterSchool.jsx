@@ -28,7 +28,8 @@ function AfterSchool() {
             src={MainAfterSchool}
             alt="background image after school"
             className="absolute inset-0 w-full h-full object-cover z-0 md:block hidden"
-          />
+              loading="lazy"
+            />
 
           <div className="absolute inset-0">
             <div
@@ -59,7 +60,9 @@ function AfterSchool() {
 
             {/* Center IdeaSport Image */}
             <div className="pt-8">
-              <img src={IdeaSport} alt="Idea Sport" className="mx-auto" />
+              <img src={IdeaSport} alt="Idea Sport" className="mx-auto"
+              loading="lazy"
+            />
             </div>
           </div>
         </div>
@@ -120,7 +123,9 @@ function AfterSchool() {
           {/* Card 1 */}
           <div className=" px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img src={PatinetaIcon} alt="patineta" className="w-18 pb-2" />
+              <img src={PatinetaIcon} alt="patineta" className="w-18 pb-2"
+              loading="lazy"
+            />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Tareas
               </div>
@@ -133,7 +138,9 @@ function AfterSchool() {
           {/* Card 2 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img src={FutbolIcon} alt="futbol" className="w-18 pb-2" />
+              <img src={FutbolIcon} alt="futbol" className="w-18 pb-2"
+              loading="lazy"
+            />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Fútbol
               </div>
@@ -151,7 +158,8 @@ function AfterSchool() {
                 src={PickleballIcon}
                 alt="pickleball"
                 className="w-18 pb-2"
-              />
+              loading="lazy"
+            />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Pickleball
               </div>
@@ -169,7 +177,8 @@ function AfterSchool() {
                 src={HockeyIcon}
                 alt="hockey sobre pasto"
                 className="w-18 pb-2"
-              />
+              loading="lazy"
+            />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Hockey sobre pasto
               </div>
@@ -182,7 +191,9 @@ function AfterSchool() {
           {/* Card 5 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img src={PatinetaIcon2} alt="patineta" className="w-18 pb-2" />
+              <img src={PatinetaIcon2} alt="patineta" className="w-18 pb-2"
+              loading="lazy"
+            />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Patineta
               </div>
@@ -196,7 +207,9 @@ function AfterSchool() {
           {/* Card 6 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img src={EscalarIcon} alt="roca" className="w-18 pb-2" />
+              <img src={EscalarIcon} alt="roca" className="w-18 pb-2"
+              loading="lazy"
+            />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Muro de escalar
               </div>
@@ -210,7 +223,9 @@ function AfterSchool() {
           {/* Card 7 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img src={BabyIcon} alt="bebé" className="w-20 pb-2" />
+              <img src={BabyIcon} alt="bebé" className="w-20 pb-2"
+              loading="lazy"
+            />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Psicomotricidad
               </div>
@@ -224,7 +239,9 @@ function AfterSchool() {
           {/* Card 8 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img src={DancerIcon} alt="dancer" className="w-20 pb-2" />
+              <img src={DancerIcon} alt="dancer" className="w-20 pb-2"
+              loading="lazy"
+            />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Telas
               </div>
@@ -245,6 +262,7 @@ function AfterSchool() {
               className=" inset-0 w-full h-full object-cover rounded-[20px]"
               src={ImgAfterSchool01}
               alt="After School 1"
+              loading="lazy"
             />
           </div>
           <div className="relative w-full h-80">
@@ -252,6 +270,7 @@ function AfterSchool() {
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
               src={ImgAfterSchool02}
               alt="After School 2"
+              loading="lazy"
             />
           </div>
           <div className="relative w-full h-80">
@@ -259,6 +278,7 @@ function AfterSchool() {
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
               src={ImgAfterSchool03}
               alt="After School 3"
+              loading="lazy"
             />
           </div>
           <div className="relative w-full h-80">
@@ -266,6 +286,7 @@ function AfterSchool() {
               className="absolute inset-0 w-full h-full object- rounded-[20px]"
               src={ImgAfterSchool04}
               alt="After School 4"
+              loading="lazy"
             />
           </div>
           <div className="relative w-full h-80">
@@ -273,6 +294,7 @@ function AfterSchool() {
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
               src={ImgAfterSchool05}
               alt="After School 5"
+              loading="lazy"
             />
           </div>
           <div className="relative w-full h-80">
@@ -280,6 +302,7 @@ function AfterSchool() {
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
               src={ImgAfterSchool06}
               alt="After School 6"
+              loading="lazy"
             />
           </div>
         </div>
@@ -293,6 +316,7 @@ function AfterSchool() {
               src={CTA1}
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
+              loading="lazy"
             />
             <h3 className="absolute z-10 px-14 mt-12 font-semibold font-pangea md:text-2xl text-lg">
               ¿Tienes preguntas?
@@ -317,7 +341,8 @@ function AfterSchool() {
             src={CTAAfterSchool}
             alt="image cta after school"
             className="md:rounded-none rounded-lg"
-          />
+              loading="lazy"
+            />
         </div>
       </div>
     </div>

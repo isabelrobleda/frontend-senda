@@ -49,6 +49,7 @@ function NuestraHistoria() {
               src={NuestraHistoriaImg}
               alt="imagen nuestra historia"
               className="w-full h-full object-cover"
+              loading="lazy"
             />
           </div>
         </div>
@@ -64,12 +65,14 @@ function NuestraHistoria() {
                 src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
-              />
+              loading="lazy"
+            />
               <img
                 src={Line}
                 alt="line"
                 className="ml-2 w-1 h-36 pb-3 hidden sm:block"
-              />
+              loading="lazy"
+            />
             </div>
             <div className="w-full sm:w-[600px] flex flex-col justify-start items-start gap-4">
               <div className="flex justify-start items-center gap-2">
@@ -80,7 +83,8 @@ function NuestraHistoria() {
                   className="w-[29px] h-[29px]"
                   src={Chick}
                   alt="chick emoji"
-                />
+              loading="lazy"
+            />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug pb-10">
                 Fundación del colegio en agosto. Comenzaron las clases con un
@@ -97,13 +101,15 @@ function NuestraHistoria() {
                 src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
-              />
+              loading="lazy"
+            />
 
               <img
                 src={Line}
                 alt="line"
                 className="ml-2 w-1 h-32 pb-3 hidden sm:block"
-              />
+              loading="lazy"
+            />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
               <div className="flex justify-start items-center gap-2">
@@ -114,7 +120,8 @@ function NuestraHistoria() {
                   className="w-[29px] h-[29px] pl-1"
                   src={Truck}
                   alt="truck"
-                />
+              loading="lazy"
+            />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug pb-12">
                 El colegio se mudó a un nuevo edificio, el cual era una fábrica
@@ -130,20 +137,24 @@ function NuestraHistoria() {
                 src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
-              />
+              loading="lazy"
+            />
 
               <img
                 src={Line}
                 alt="line"
                 className="ml-2 w-1 h-32 pb-3 hidden sm:block"
-              />
+              loading="lazy"
+            />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
               <div className="flex justify-start items-center gap-2">
                 <div className="w-[59px] text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   2005
                 </div>
-                <img className="w-[29px] h-[29px]" src={House} alt="house" />
+                <img className="w-[29px] h-[29px]" src={House} alt="house"
+              loading="lazy"
+            />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug pb-12">
                 Remodelación completa del edificio de 4 pisos, que se
@@ -159,13 +170,15 @@ function NuestraHistoria() {
                 src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
-              />
+              loading="lazy"
+            />
 
               <img
                 src={Line}
                 alt="line"
                 className="ml-2 w-1 h-34   pb-3 hidden sm:block"
-              />
+              loading="lazy"
+            />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
               <div className="flex justify-start items-center gap-2">
@@ -176,7 +189,8 @@ function NuestraHistoria() {
                   className="w-[29px] h-[29px]"
                   src={Graduation}
                   alt="graduation icon"
-                />
+              loading="lazy"
+            />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug pb-12">
                 Primer contacto con la Universidad de Educación de Harvard para
@@ -193,20 +207,24 @@ function NuestraHistoria() {
                 src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
-              />
+              loading="lazy"
+            />
 
               <img
                 src={Line}
                 alt="line"
                 className="ml-2 w-1 h-48 pb-3 hidden sm:block"
-              />
+              loading="lazy"
+            />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
               <div className="flex justify-start items-center gap-2">
                 <div className="w-[59px] text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   2015
                 </div>
-                <img className="w-[29px] h-[29px]" src={Rocket} alt="rocket" />
+                <img className="w-[29px] h-[29px]" src={Rocket} alt="rocket"
+              loading="lazy"
+            />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
                 Inauguración de la secundaria. Se remodeló un área especial para
@@ -226,20 +244,24 @@ function NuestraHistoria() {
                 src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
-              />
+              loading="lazy"
+            />
 
               <img
                 src={Line}
                 alt="line"
                 className="ml-2 w-1 h-52 pb-3 hidden sm:block"
-              />
+              loading="lazy"
+            />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
               <div className="flex justify-start items-center gap-2">
                 <div className="w-[59px] text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   2019
                 </div>
-                <img className="w-[29px] h-[29px]" src={Robot} alt="robot" />
+                <img className="w-[29px] h-[29px]" src={Robot} alt="robot"
+              loading="lazy"
+            />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
                 Se establecieron los tres grados de secundaria, maternal,
@@ -260,14 +282,17 @@ function NuestraHistoria() {
                 src={Circle}
                 alt="circle"
                 className="h-full hidden sm:block"
-              />
+              loading="lazy"
+            />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
               <div className="flex justify-start items-center gap-2">
                 <div className="w-[59px] text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                   2024
                 </div>
-                <img className="w-[29px] h-[29px]" src={Raquet} alt="raquet" />
+                <img className="w-[29px] h-[29px]" src={Raquet} alt="raquet"
+              loading="lazy"
+            />
               </div>
               <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
                 Inauguración de canchas de pickleball, hockey sobre pasto,

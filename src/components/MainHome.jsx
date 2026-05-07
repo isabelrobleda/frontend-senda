@@ -54,13 +54,15 @@ function MainHome() {
           <img
             src={BullsEye}
             alt="bullseye image"
-            className="absolute md:left-[-20px] md:top-[-30px] md:w-auto w-32"
+            className="absolute md:left-[-20px] md:top-[-30px] md:w-auto w-20"
+            loading="lazy"
           />
-          <img src={Image01Home} alt="main image" className="w-full h-auto" />
+          <img src={Image01Home} alt="main image" className="w-full h-auto" fetchpriority="high" />
           <img
             src={StarEmoji}
             alt="star emoji"
-            className="absolute right-0 md:right-4 bottom-[-60px] md:bottom-[-120px] md:w-auto w-32 "
+            className="absolute right-0 md:right-4 bottom-[-60px] md:bottom-[-120px] md:w-auto w-20"
+            loading="lazy"
           />
         </div>
       </div>

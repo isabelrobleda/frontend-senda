@@ -7,7 +7,7 @@ import SecundariaNoBg from "../assets/secundaria_nobg.png";
 
 function OfertaHome() {
   return (
-    <div className="w-full md:h-[800px] px-6 md:px-16 md:py-2 py-20 bg-[#f9f9fe] flex flex-col justify-center items-center gap-10">
+    <div className="w-full px-6 md:px-16 py-12 md:py-16 bg-[#f9f9fe] flex flex-col justify-center items-center gap-10">
       <h3 className="w-full text-center  text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
         Oferta educativa
       </h3>
@@ -37,6 +37,7 @@ function OfertaHome() {
               src={MaternalNoBg}
               alt="imagen maternal"
               className=" md:self-stretch"
+              loading="lazy"
             />
           </div>
           <div className="w-full md:w-[700px] md:h-72 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] items-center">
@@ -62,6 +63,7 @@ function OfertaHome() {
               src={PreescolarNoBg}
               alt="imagen preescolar"
               className="md:self-stretch"
+              loading="lazy"
             />
           </div>
         </div>
@@ -89,6 +91,7 @@ function OfertaHome() {
               src={PrimariaNoBg}
               alt="imagen primaria"
               className="md:self-stretch"
+              loading="lazy"
             />
           </div>
           <div className="w-full md:w-[700px] md:h-72 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] items-center">
@@ -114,6 +117,7 @@ function OfertaHome() {
               src={SecundariaNoBg}
               alt="imagen secundaria"
               className="md:self-stretch"
+              loading="lazy"
             />
           </div>
         </div>

@@ -51,7 +51,8 @@ function PlaneaVisita() {
                   src={PlaneaTuVisita}
                   alt="Plan your visit"
                   className="w-full h-full"
-                />
+              loading="lazy"
+            />
               </div>
             </div>
           </div>
@@ -72,7 +73,8 @@ function PlaneaVisita() {
                     src={CitaConAdmisiones}
                     alt="Cita con admisiones"
                     className="w-[60px] h-[60px]"
-                  />
+              loading="lazy"
+            />
                   <div className="text-center text-[#1e1e1e] text-xl md:text-2xl font-semibold">
                     Cita con admisiones
                   </div>
@@ -96,7 +98,8 @@ function PlaneaVisita() {
                     src={OpenHouse}
                     alt="Open House"
                     className="w-[60px] h-[60px]"
-                  />
+              loading="lazy"
+            />
                   <div className="text-center text-[#1e1e1e] text-xl md:text-2xl font-semibold">
                     Vive la Experiencia Senda
                   </div>  
@@ -136,7 +139,8 @@ function PlaneaVisita() {
                         src={Phone}
                         alt=""
                         className="h-12 self-center mb-3"
-                      />
+              loading="lazy"
+            />
                       <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                         Teléfono
                       </div>
@@ -160,7 +164,8 @@ function PlaneaVisita() {
                         src={WhatsApp}
                         alt=""
                         className="h-12 self-center mb-3"
-                      />
+              loading="lazy"
+            />
                       <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                         WhatsApp
                       </div>
@@ -184,7 +189,8 @@ function PlaneaVisita() {
                         src={Email}
                         alt=""
                         className="h-12 self-center mb-3"
-                      />
+              loading="lazy"
+            />
                       <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                         Mail
                       </div>
@@ -493,7 +499,8 @@ function PlaneaVisita() {
                   src={CTA1}
                   alt="background green cta"
                   className="relative z-0 md:rounded-none rounded-lg"
-                />
+              loading="lazy"
+            />
                 <h3 className="absolute z-10 px-14 md:mt-20 mt-8 font-semibold font-pangea md:text-2xl text-lg">
                   ¿Tienes preguntas?
                 </h3>
@@ -512,7 +519,8 @@ function PlaneaVisita() {
                 src={CTAImgMaternal}
                 alt="image maternal"
                 className="md:rounded-none rounded-lg"
-              />
+              loading="lazy"
+            />
             </div>
           </div>
         </div>

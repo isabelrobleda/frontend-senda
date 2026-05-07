@@ -43,7 +43,9 @@ function Deportes() {
             </p>
             {/* Center IdeaSport Image */}
             <div className="pt-8">
-              <img src={IdeaSport} alt="Idea Sport" className="mx-auto" />
+              <img src={IdeaSport} alt="Idea Sport" className="mx-auto"
+              loading="lazy"
+            />
             </div>
           </div>
         </div>
@@ -115,7 +117,9 @@ function Deportes() {
           {/* Card 2 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img src={Futbol} alt="futbol" className="w-18 pb-2" />
+              <img src={Futbol} alt="futbol" className="w-18 pb-2"
+              loading="lazy"
+            />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Fútbol
               </div>
@@ -129,7 +133,9 @@ function Deportes() {
           {/* Card 4 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img src={Pickleball} alt="pickleball" className="w-18 pb-2" />
+              <img src={Pickleball} alt="pickleball" className="w-18 pb-2"
+              loading="lazy"
+            />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Pickleball
               </div>
@@ -147,7 +153,8 @@ function Deportes() {
                 src={Hockey}
                 alt="hockey sobre pasto"
                 className="w-18 pb-2"
-              />
+              loading="lazy"
+            />
               <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                 Hockey sobre pasto
               </div>
@@ -163,7 +170,9 @@ function Deportes() {
         {/* Card 6 */}
         <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
           <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-            <img src={Patineta} alt="patineta" className="w-18 pb-2" />
+            <img src={Patineta} alt="patineta" className="w-18 pb-2"
+              loading="lazy"
+            />
             <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
               Patineta
             </div>
@@ -176,7 +185,9 @@ function Deportes() {
         {/* Card 7 */}
         <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
           <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-            <img src={Roca} alt="roca" className="w-18 pb-2" />
+            <img src={Roca} alt="roca" className="w-18 pb-2"
+              loading="lazy"
+            />
             <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
               Muro de escalar
             </div>
@@ -197,6 +208,7 @@ function Deportes() {
               className=" inset-0 w-full h-full object-cover rounded-[20px]"
               src={Escalar}
               alt="deportes 1"
+              loading="lazy"
             />
           </div>
           <div className="relative w-full h-80">
@@ -204,6 +216,7 @@ function Deportes() {
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
               src={FutbolImage}
               alt="Deportes 2"
+              loading="lazy"
             />
           </div>
           <div className="relative w-full h-80">
@@ -211,6 +224,7 @@ function Deportes() {
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
               src={PatinetaImage}
               alt="Deportes 3"
+              loading="lazy"
             />
           </div>
           <div className="relative w-full h-80">
@@ -218,6 +232,7 @@ function Deportes() {
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
               src={Deportes4}
               alt="Deportes 4"
+              loading="lazy"
             />
           </div>
           <div className="relative w-full h-80">
@@ -225,6 +240,7 @@ function Deportes() {
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
               src={Deportes5}
               alt="Deportes 5"
+              loading="lazy"
             />
           </div>
           <div className="relative w-full h-80">
@@ -232,6 +248,7 @@ function Deportes() {
               className="absolute inset-0 w-full h-full object-cover rounded-[20px]"
               src={PickleballImage}
               alt="Deportes 6"
+              loading="lazy"
             />
           </div>
         </div>

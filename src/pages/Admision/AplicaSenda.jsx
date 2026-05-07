@@ -110,7 +110,8 @@ function AplicaSenda() {
                     src={Group87}
                     alt="image 2"
                     className="inline-block mx-1 md:mx-2 h-14"
-                  />
+              loading="lazy"
+            />
                 </span>
 
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
@@ -123,7 +124,8 @@ function AplicaSenda() {
                     src={Group86}
                     alt="image 2"
                     className="inline-block mx-1 md:mx-2 h-14"
-                  />
+              loading="lazy"
+            />
                 </span>
 
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
@@ -143,7 +145,8 @@ function AplicaSenda() {
                     src={Group88}
                     alt="image 2"
                     className="inline-block mx-1 md:mx-2 h-14"
-                  />
+              loading="lazy"
+            />
                 </span>
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
                   {" "}
@@ -414,7 +417,8 @@ function AplicaSenda() {
                     src={Phone}
                     alt="open phone"
                     className="h-12 self-center mb-3"
-                  />
+              loading="lazy"
+            />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                     Teléfono
                   </div>
@@ -438,7 +442,8 @@ function AplicaSenda() {
                     src={WhatsApp}
                     alt="whatsapp"
                     className="h-12 self-center mb-3"
-                  />
+              loading="lazy"
+            />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                     WhatsApp
                   </div>
@@ -462,7 +467,8 @@ function AplicaSenda() {
                     src={Email}
                     alt="email"
                     className="h-12 self-center mb-3"
-                  />
+              loading="lazy"
+            />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                     Mail
                   </div>
@@ -490,6 +496,7 @@ function AplicaSenda() {
               src={CTA1}
               alt="background green cta"
               className="relative z-0 md:rounded-none rounded-lg"
+              loading="lazy"
             />
             <h3 className="absolute z-10 px-14 md:mt-20 mt-8 font-semibold font-pangea md:text-2xl text-lg">
               ¿Tienes preguntas?
@@ -511,7 +518,8 @@ function AplicaSenda() {
             src={CTAImgMaternal}
             alt="image maternal"
             className="md:rounded-none rounded-lg"
-          />
+              loading="lazy"
+            />
         </div>
       </div>
     </div>

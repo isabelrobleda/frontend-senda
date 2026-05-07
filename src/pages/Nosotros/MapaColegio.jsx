@@ -52,6 +52,7 @@ const MapaColegio = () => {
               className="w-full  rounded-lg"
               src={CanchaFut}
               alt="Cancha fut"
+              loading="lazy"
             />
           </div>
           <div className="w-full md:w-[30%] relative">
@@ -59,6 +60,7 @@ const MapaColegio = () => {
               className="w-full  rounded-lg"
               src={PistaPatineta}
               alt="Pista patineta"
+              loading="lazy"
             />
           </div>
           <div className="w-full md:w-[30%] relative">
@@ -66,6 +68,7 @@ const MapaColegio = () => {
               className="w-full  rounded-lg"
               src={Psicomotricidad}
               alt="Psicomotricidad"
+              loading="lazy"
             />
           </div>
         </div>

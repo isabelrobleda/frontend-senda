@@ -19,7 +19,7 @@ import QuoteImg1 from "../../assets/maternal/quote-1.png";
 import QuoteImg2 from "../../assets/maternal/quote-2.png";
 import QuoteImg3 from "../../assets/maternal/quote-3.png";
 import HeaderBackground from "../../assets/Header-background.png";
-import banner30 from "../../components/banner30"
+import Banner30 from "../../components/banner30"
 
 
 function Primaria() {
@@ -61,13 +61,14 @@ function Primaria() {
                 src={HeaderPrimaria}
                 alt="Primaria header"
                 className="w-full h-auto object-cover"
-              />
+              loading="lazy"
+            />
             
           </div>
         </div>
 
         <div>
-          {banner30()}
+          <Banner30 />
         </div>
 
         {/* Second Section */}
@@ -124,6 +125,7 @@ function Primaria() {
               src={QuoteImg1}
               alt="image 1"
               className="md:inline-block mx-2 h-12 rounded-3xl hidden"
+              loading="lazy"
             />
             que transmitan
             <span style={{ display: "inline-block" }}></span>
@@ -131,6 +133,7 @@ function Primaria() {
               src={QuoteImg2}
               alt="image 2"
               className="md:inline-block h-12 mx-2 hidden"
+              loading="lazy"
             />
             esa energía y esa pasión que tienen por descubrir, por transformar y
             por trascender en su
@@ -139,6 +142,7 @@ function Primaria() {
               src={QuoteImg3}
               alt="image 3"
               className="hidden md:inline-block h-12 mx-2 my-2"
+              loading="lazy"
             />
             entorno.”
           </div>
@@ -182,7 +186,8 @@ function Primaria() {
                   src={Primary01}
                   alt="primaria foto 1"
                   className="rounded-lg absolute"
-                />
+              loading="lazy"
+            />
               </div>
             </div>
           </div>
@@ -225,7 +230,8 @@ function Primaria() {
                   src={Primary02}
                   alt="primaria foto 2"
                   className="rounded-lg absolute"
-                />
+              loading="lazy"
+            />
               </div>
             </div>
           </div>
@@ -235,7 +241,9 @@ function Primaria() {
         <div className="w-full px-4 md:px-32 py-16 md:py-44 flex justify-center items-center">
         <div className="w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3">
           <div className="p-6 h-[300px] bg-white rounded-tl-xl rounded-bl-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src={IconTeacher} alt="icon teacher" className="mb-10"/>
+            <img src={IconTeacher} alt="icon teacher" className="mb-10"
+              loading="lazy"
+            />
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Bicultural
             </h3>
@@ -244,14 +252,18 @@ function Primaria() {
             </p>
           </div>
           <div className="p-6  bg-white shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src={IconSchool} alt="icon school" className="mb-10"/>
+            <img src={IconSchool} alt="icon school" className="mb-10"
+              loading="lazy"
+            />
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Salones pequeños
             </h3>
             <p className="text-black/40 text-base">Máximo 25 niños por salón</p>
           </div>
           <div className="p-6  bg-white rounded-tr-xl rounded-br-xl shadow-sm border border-[#e4e4de] text-center flex flex-col justify-center items-center">
-            <img src={IconUsFlag} alt="icon us flag" className="mb-10"/>
+            <img src={IconUsFlag} alt="icon us flag" className="mb-10"
+              loading="lazy"
+            />
             <h3 className="text-[#1e1e1e] text-2xl font-semibold mb-4">
               Idioma inglés
             </h3>
@@ -272,49 +284,65 @@ function Primaria() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src={IconYoga} alt="meditation" />
+                <img src={IconYoga} alt="meditation"
+              loading="lazy"
+            />
                 <h3 className="text-xl font-base text-[#1e1e1e] mb-2">
                   Momento sagrado
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src={IconMath} alt="math" />
+                <img src={IconMath} alt="math"
+              loading="lazy"
+            />
                 <h3 className="text-xl font-base text-[#1e1e1e] mb-2">
                   Matemáticas
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src={IconSpanish} alt="spanish" />
+                <img src={IconSpanish} alt="spanish"
+              loading="lazy"
+            />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Español
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src={IconUsFlag} alt="us flag" className="w-10" />
+                <img src={IconUsFlag} alt="us flag" className="w-10"
+              loading="lazy"
+            />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Inglés (TOEFL JR - 6to Primaria)
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src={IconSoccer} alt="icon soccer" />
+                <img src={IconSoccer} alt="icon soccer"
+              loading="lazy"
+            />
                 <h3 className="text-xl font-noraml text-[#1e1e1e] mb-2">
                   Deportes
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
-                <img src={IconComputer} alt="computer" />
+                <img src={IconComputer} alt="computer"
+              loading="lazy"
+            />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Tecnología
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
-                <img src={IconTheater} alt="teatro icon" />
+                <img src={IconTheater} alt="teatro icon"
+              loading="lazy"
+            />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Teatro
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center">
-                <img src={IconArt} alt="art" />
+                <img src={IconArt} alt="art"
+              loading="lazy"
+            />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
                   Arte
                 </h3>
@@ -332,7 +360,8 @@ function Primaria() {
                 src={CTA01}
                 alt="background green cta"
                 className="relative z-0 md:rounded-none rounded-lg"
-              />
+              loading="lazy"
+            />
               <h3 className="absolute z-10 px-14 md:mt-20 mt-6 font-semibold font-pangea md:text-2xl text-lg">
                 ¿Tienes preguntas?
               </h3>
@@ -353,6 +382,7 @@ function Primaria() {
               src={PrimariaCTA}
               alt="image preescolar tienes preguntas"
               className="md:rounded-none rounded-lg object-cover h-[339px]"
+              loading="lazy"
             />
           </div>
         </div>

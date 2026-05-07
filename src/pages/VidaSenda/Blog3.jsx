@@ -13,6 +13,7 @@ function Blog3() {
               className="w-full max-w-[1312px] h-96 rounded-2xl object-cover "
               src={ImgBlog3}
               alt="Blog 2"
+              loading="lazy"
             />
           </div>
         </div>
@@ -31,7 +32,8 @@ function Blog3() {
                   className="w-full h-full rounded-full object-cover"
                   src={Ana}
                   alt="Ana Robleda"
-                />
+              loading="lazy"
+            />
               </div>
               <div className="flex flex-col items-start">
                 <div className="text-black/90 text-xl font-normal">

@@ -29,7 +29,8 @@ function NuestroEquipo() {
                 className="w-full h-full object-cover"
                 src={Img02NuestroEquipo}
                 alt="Mónica Sánchez Gavito"
-              />
+              loading="lazy"
+            />
             </div>
             <div className="text-center">
               <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e] pb-[8px]">Mónica Sánchez Gavito</h3>
@@ -42,7 +43,8 @@ function NuestroEquipo() {
                 className="w-full h-full object-cover"
                 src={Img03NuestroEquipo}
                 alt="Rosa Isabel García de Luca"
-              />
+              loading="lazy"
+            />
             </div>
             <div className="text-center">
               <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e] pb-[8px]">Rosa Isabel García de Luca</h3>
@@ -57,7 +59,8 @@ function NuestroEquipo() {
                   className="w-full h-full object-cover"
                   src={Img04NuestroEquipo}
                   alt="Roxana Fernández Landoni"
-                />
+              loading="lazy"
+            />
               </div>
               <div className="text-center">
                 <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e] pb-[8px]">Roxana Fernández Landoni</h3>
@@ -70,7 +73,8 @@ function NuestroEquipo() {
                   className="w-full h-full object-cover"
                   src={Img01NuestroEquipo}
                   alt="Karla Olivares Granja"
-                />
+              loading="lazy"
+            />
               </div>
               <div className="text-center">
                 <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e] pb-[8px]">Karla Olivares Granja</h3>
@@ -83,7 +87,8 @@ function NuestroEquipo() {
                   className="w-full h-full object-cover"
                   src={Img05NuestroEquipo}
                   alt="Viviana Colucci Trovato"
-                />
+              loading="lazy"
+            />
               </div>
               <div className="text-center">
                 <h3 className="text-xl md:text-2xl font-semibold text-[#1e1e1e] pb-[8px]">Viviana Colucci Trovato</h3>
@@ -106,7 +111,9 @@ function NuestroEquipo() {
           <div className="w-full flex flex-col md:flex-row  gap-12">
             {/* Feature 1 */}
             <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
-              <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest01}></img>
+              <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest01}
+              loading="lazy"
+            ></img>
               <h3 className="text-xl font-semibold text-[#1e1e1e]">Educadores que inspiran</h3>
               <p className="text-base text-[#49454f]">
                 Todos nuestros educadores están comprometidos con los alumnos y sus familias para trabajar juntos por un mundo mejor.
@@ -114,7 +121,9 @@ function NuestroEquipo() {
             </div>
             {/* Feature 2 */}
             <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
-              <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest05}></img>
+              <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest05}
+              loading="lazy"
+            ></img>
               <h3 className="text-xl font-semibold text-[#1e1e1e]">Colegio Bicultural</h3>
               <p className="text-base text-[#49454f]">
                 Los alumnos aprenden inglés desde pequeños lo que asegura que lo lleguen a dominar y puedan aprender de forma bilingüe.
@@ -122,7 +131,9 @@ function NuestroEquipo() {
             </div>
             {/* Feature 3 */}
             <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
-              <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest03}></img>
+              <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest03}
+              loading="lazy"
+            ></img>
               <h3 className="text-xl font-semibold text-[#1e1e1e]">Educación de Excelencia</h3>
               <p className="text-base text-[#49454f]">
                 Nuestro objetivo es lograr los más altos estándares de nivel académico, calidad humana y resultados de competencias y habilidades.
@@ -130,7 +141,9 @@ function NuestroEquipo() {
             </div>
             {/* Feature 4 */}
             <div className="p-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex flex-col items-start gap-4">
-            <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest04}></img>
+            <img className="w-12 h-12 mb-4" src={WhyWeAreTheBest04}
+              loading="lazy"
+            ></img>
               <h3 className="text-xl font-semibold text-[#1e1e1e]">Modelo Senda</h3>
               <p className="text-base text-[#49454f]">
                 Humanista. Constructivista. Basado en la Cultura del Pensamiento. Bilingüe. Incluyente. Personalizado. Promueve el pensamiento ético y crítico.
