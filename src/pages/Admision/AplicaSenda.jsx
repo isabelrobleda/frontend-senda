@@ -61,13 +61,17 @@ function AplicaSenda() {
       important_matters: formData.ImportantMatters || "—",
     };
 
+    console.log("EmailJS config:", { EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, EMAILJS_PUBLIC_KEY });
+    console.log("Template params:", templateParams);
+
     try {
-      await emailjs.send(
+      const result = await emailjs.send(
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
         templateParams,
         EMAILJS_PUBLIC_KEY
       );
+      console.log("EmailJS success:", result);
 
       // Non-blocking: also post to backend for record-keeping
       axios
@@ -100,7 +104,7 @@ function AplicaSenda() {
         ImportantMatters: "",
       });
     } catch (error) {
-      console.error("Error sending application:", error);
+      console.error("EmailJS error:", error.status, error.text, error);
       Swal.fire({
         icon: "error",
         title: "Error",
