@@ -1,19 +1,21 @@
 import React from "react";
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import axios from "axios";
 import Swal from "sweetalert2";
 import Group86 from "../../assets/aplica_senda/Group_86.png";
 import Group87 from "../../assets/aplica_senda/Group_87.png";
 import Group88 from "../../assets/aplica_senda/Group_88.png";
 import HeaderBackground from "../../assets/Header-background.png";
-import Image from "../../assets/aplica_senda/image.png";
-import Phone from "../../assets/aplica_senda/📞.png"
+import Phone from "../../assets/aplica_senda/📞.png";
 import Email from "../../assets/aplica_senda/📨.png";
 import WhatsApp from "../../assets/aplica_senda/image.png";
 import CTA1 from "../../assets/CTAs/CTA-01.png";
 import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
 
-
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 function AplicaSenda() {
   const [formData, setFormData] = useState({
@@ -32,54 +34,81 @@ function AplicaSenda() {
     ImportantMatters: "",
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
 
-    const structuredData = {
-      FullName: formData.FullName,
-      BirthDate: formData.BirthDate,
-      GradeRequested: formData.GradeRequested,
-      SchoolCycle: formData.SchoolCycle,
-      Grade: formData.Grade,
-      SchoolName: formData.SchoolName,
-      ReasonOfChange: formData.ReasonOfChange,
-      ParentsNames: formData.ParentsNames,
-      Phone: formData.Phone,
-      Email: formData.Email,
-      HowDidYouKnow: formData.HowDidYouKnow,
-      Expectations: formData.Expectations,
-      ImportantMatters: formData.ImportantMatters,
+    const templateParams = {
+      full_name: formData.FullName,
+      birth_date: formData.BirthDate,
+      grade_requested: formData.GradeRequested,
+      school_cycle: formData.SchoolCycle,
+      school_year: formData.SchoolYear,
+      school_name: formData.SchoolName,
+      reason_of_change: formData.ReasonOfChange || "—",
+      parents_names: formData.ParentsNames,
+      phone: formData.Phone,
+      email: formData.Email,
+      how_did_you_know: formData.HowDidYouKnow,
+      expectations: formData.Expectations,
+      important_matters: formData.ImportantMatters || "—",
     };
-    
 
     try {
-      const response = await axios.post(
-        `${import.meta.env.VITE_BACKEND_URL}/api/aplica-al-senda`,
-        structuredData
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        templateParams,
+        EMAILJS_PUBLIC_KEY
       );
+
+      // Non-blocking: also post to backend for record-keeping
+      axios
+        .post(
+          `${import.meta.env.VITE_BACKEND_URL}/api/aplica-al-senda`,
+          templateParams
+        )
+        .catch(() => {});
+
       Swal.fire({
         icon: "success",
         title: "Aplicación enviada",
-        text: "¡Tu aplicación ha sido enviada exitosamente!",
+        text: "¡Tu aplicación ha sido enviada exitosamente! Nos pondremos en contacto contigo pronto.",
         confirmButtonColor: "#009bce",
       });
 
+      setFormData({
+        FullName: "",
+        BirthDate: "",
+        GradeRequested: "",
+        SchoolCycle: "",
+        SchoolYear: "",
+        SchoolName: "",
+        ReasonOfChange: "",
+        ParentsNames: "",
+        Phone: "",
+        Email: "",
+        HowDidYouKnow: "",
+        Expectations: "",
+        ImportantMatters: "",
+      });
     } catch (error) {
-      console.error("There was an error submitting the application:", error);
+      console.error("Error sending application:", error);
       Swal.fire({
         icon: "error",
         title: "Error",
-        text: "Hubo un error con enviar tu aplicación, intenta nuevamente.",
+        text: "Hubo un error al enviar tu aplicación, por favor intenta nuevamente o contáctanos directamente.",
         confirmButtonColor: "#b0cb4f",
       });
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -87,7 +116,6 @@ function AplicaSenda() {
     <div>
       <div className="relative md:h-[750px] w-full flex justify-center items-center p-4 mt-20">
         <div>
-          {/* Background Image with Opacity */}
           <div className="absolute inset-0 z-0">
             <img
               className="w-screen object-cover opacity-10 z-0 md:h-[800px]"
@@ -110,8 +138,8 @@ function AplicaSenda() {
                     src={Group87}
                     alt="image 2"
                     className="inline-block mx-1 md:mx-2 h-14"
-              loading="lazy"
-            />
+                    loading="lazy"
+                  />
                 </span>
 
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
@@ -124,8 +152,8 @@ function AplicaSenda() {
                     src={Group86}
                     alt="image 2"
                     className="inline-block mx-1 md:mx-2 h-14"
-              loading="lazy"
-            />
+                    loading="lazy"
+                  />
                 </span>
 
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
@@ -145,8 +173,8 @@ function AplicaSenda() {
                     src={Group88}
                     alt="image 2"
                     className="inline-block mx-1 md:mx-2 h-14"
-              loading="lazy"
-            />
+                    loading="lazy"
+                  />
                 </span>
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-normal font-pangea leading-[38.40px] md:leading-[68.40px]">
                   {" "}
@@ -159,6 +187,7 @@ function AplicaSenda() {
           </div>
         </div>
       </div>
+
       <form onSubmit={handleSubmit}>
         <div className="min-h-screen max-w-screen-xl w-full mx-auto px-4 py-32 bg-white flex flex-col justify-center items-center gap-12">
           <div className="w-full px-4 md:px-20 flex-col justify-start items-start gap-12 flex">
@@ -178,48 +207,44 @@ function AplicaSenda() {
                     <div className="text-[#1e1e1e] text-base font-normal font-['Inter']">
                       Nombre del Alumno(s) *
                     </div>
-                    <div>
-                      <input
-                        type="text"
-                        name="FullName"
-                        value={formData.FullName}
-                        onChange={handleChange}
-                        className="h-12 w-full md:w-[1070px] px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
-                        placeholder="Juan Pérez"
-                      />
-                    </div>
+                    <input
+                      type="text"
+                      name="FullName"
+                      value={formData.FullName}
+                      onChange={handleChange}
+                      required
+                      className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
+                      placeholder="Juan Pérez"
+                    />
                   </div>
 
                   <div className="w-full flex-col justify-start items-start gap-2 flex">
                     <div className="text-[#1e1e1e] text-base font-normal font-['Inter']">
                       Fecha de Nacimiento *
                     </div>
-                    <div>
-                      <input
-                        type="date"
-                        name="BirthDate"
-                        value={formData.BirthDate}
-                        onChange={handleChange}
-                        className="h-12 w-full md:w-[1070px] px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
-                      />
-                    </div>
+                    <input
+                      type="date"
+                      name="BirthDate"
+                      value={formData.BirthDate}
+                      onChange={handleChange}
+                      required
+                      className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
+                    />
                   </div>
 
                   <div className="w-full flex flex-col md:flex-row justify-start items-start gap-6">
-                    <div className="w-full  flex-col justify-start items-start gap-2 inline-flex">
+                    <div className="w-full flex-col justify-start items-start gap-2 inline-flex">
                       <div className="text-[#1e1e1e] text-base font-normal font-['Inter']">
                         Grado Solicitado
                       </div>
-                      <div>
-                        <input
-                          type="text"
-                          name="GradeRequested"
-                          value={formData.GradeRequested}
-                          onChange={handleChange}
-                          className="h-12 w-full md:w-[520px] px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
-                          placeholder="6to Primaria"
-                        />
-                      </div>
+                      <input
+                        type="text"
+                        name="GradeRequested"
+                        value={formData.GradeRequested}
+                        onChange={handleChange}
+                        className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
+                        placeholder="6to Primaria"
+                      />
                     </div>
 
                     <div className="w-full flex-col justify-start items-start gap-2 inline-flex">
@@ -231,37 +256,37 @@ function AplicaSenda() {
                         name="SchoolCycle"
                         value={formData.SchoolCycle}
                         onChange={handleChange}
-                        className="h-12 w-full md:w-[520px] px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
+                        className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
                         placeholder="Ciclo 23/24"
                       />
                     </div>
                   </div>
 
                   <div className="w-full flex flex-col md:flex-row justify-start items-start gap-6">
-                    <div className="w-full  flex-col justify-start items-start gap-2 inline-flex">
+                    <div className="w-full flex-col justify-start items-start gap-2 inline-flex">
                       <div className="text-[#1e1e1e] text-base font-normal font-['Inter']">
                         Grado que cursa
                       </div>
                       <input
                         type="text"
-                        className="h-12 w-full md:w-[520px] px-4 py-2 bg-white rounded-lg border border-[#d9d9d9] justify-start items-center inline-flex"
                         name="SchoolYear"
                         value={formData.SchoolYear}
                         onChange={handleChange}
+                        className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
                         placeholder="1ro Secundaria"
                       />
                     </div>
 
-                    <div className="w-full  flex-col justify-start items-start gap-2 inline-flex">
+                    <div className="w-full flex-col justify-start items-start gap-2 inline-flex">
                       <div className="text-[#1e1e1e] text-base font-normal font-['Inter']">
                         Escuela de procedencia
                       </div>
                       <input
                         type="text"
-                        className="h-12 w-full md:w-[520px] px-4 py-2 bg-white rounded-lg border border-[#d9d9d9] justify-start items-center inline-flex"
                         name="SchoolName"
                         value={formData.SchoolName}
                         onChange={handleChange}
+                        className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
                         placeholder="Escuela Bonita"
                       />
                     </div>
@@ -273,10 +298,10 @@ function AplicaSenda() {
                     </div>
                     <input
                       type="text"
-                      className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9] justify-start items-center inline-flex"
                       name="ReasonOfChange"
                       value={formData.ReasonOfChange}
                       onChange={handleChange}
+                      className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
                       placeholder="Nuevas oportunidades"
                     />
                   </div>
@@ -287,26 +312,27 @@ function AplicaSenda() {
                     </div>
                     <input
                       type="text"
-                      className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9] justify-start items-center inline-flex"
                       name="ParentsNames"
                       value={formData.ParentsNames}
                       onChange={handleChange}
-                      placeholder="María Fernández y Juan Pérez "
+                      required
+                      className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
+                      placeholder="María Fernández y Juan Pérez"
                     />
                   </div>
 
                   <div className="w-full flex flex-col md:flex-row justify-start items-start gap-6">
-                    <div className="w-full  flex-col justify-start items-start gap-2 inline-flex">
+                    <div className="w-full flex-col justify-start items-start gap-2 inline-flex">
                       <div className="text-[#1e1e1e] text-base font-normal font-['Inter']">
                         Teléfono *
                       </div>
                       <input
                         type="text"
-                        className="h-12 w-full md:w-[520px] px-4 py-2 bg-white rounded-lg border border-[#d9d9d9] justify-start items-center inline-flex"
                         name="Phone"
                         value={formData.Phone}
                         onChange={handleChange}
-                        required={true}
+                        required
+                        className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
                         placeholder="55-123-4567-89"
                       />
                     </div>
@@ -317,11 +343,11 @@ function AplicaSenda() {
                       </div>
                       <input
                         type="email"
-                        className="h-12 w-full md:w-[520px] px-4 py-2 bg-white rounded-lg border border-[#d9d9d9] justify-start items-center inline-flex"
                         name="Email"
                         value={formData.Email}
                         onChange={handleChange}
-                        required={true}
+                        required
+                        className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
                         placeholder="juanperez@gmail.com"
                       />
                     </div>
@@ -333,22 +359,19 @@ function AplicaSenda() {
                     </div>
                     <select
                       name="HowDidYouKnow"
-                      id="HowDidYouKnow"
                       value={formData.HowDidYouKnow}
                       onChange={handleChange}
-                      required={true}
-                      className="h-12 w-full pl-4 py-2  bg-white rounded-lg border border-[#d9d9d9]  items-center inline-flex"
+                      required
+                      className="h-12 w-full pl-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
                     >
-                      <option value="Select" className="text-gray-500">
-                        Selecciona una opción
-                      </option>
-                      <option value="Website">Página Web</option>
-                      <option value="Location">Ubicación/Lona</option>
-                      <option value="Recommendation">
+                      <option value="">Selecciona una opción</option>
+                      <option value="Página Web">Página Web</option>
+                      <option value="Ubicación/Lona">Ubicación/Lona</option>
+                      <option value="Recomendación (amigos, familia, conocidos)">
                         Recomendación (amigos, familia, conocidos)
                       </option>
-                      <option value="Social Network">
-                        Redes Sociales(Facebook, Instagram, Influencers)
+                      <option value="Redes Sociales (Facebook, Instagram, Influencers)">
+                        Redes Sociales (Facebook, Instagram, Influencers)
                       </option>
                     </select>
                   </div>
@@ -359,10 +382,11 @@ function AplicaSenda() {
                     </div>
                     <input
                       type="text"
-                      className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9] justify-start items-center inline-flex"
                       name="Expectations"
                       value={formData.Expectations}
                       onChange={handleChange}
+                      required
+                      className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
                       placeholder="Que mi hijo haga más deporte"
                     />
                   </div>
@@ -374,20 +398,21 @@ function AplicaSenda() {
                     </div>
                     <input
                       type="text"
-                      className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9] justify-start items-center inline-flex"
                       name="ImportantMatters"
                       value={formData.ImportantMatters}
                       onChange={handleChange}
+                      className="h-12 w-full px-4 py-2 bg-white rounded-lg border border-[#d9d9d9]"
                       placeholder="Que mi hijo mejore su nivel de inglés"
                     />
                   </div>
 
                   <div className="w-full justify-start items-center gap-4 inline-flex">
                     <button
-                      className="w-full md:w-auto h-12 px-6 bg-[#009bce] hover:bg-[#007cae] rounded-lg border border-[#009bce] text-white justify-center items-center"
+                      className="w-full md:w-auto h-12 px-6 bg-[#009bce] hover:bg-[#007cae] disabled:bg-gray-400 disabled:cursor-not-allowed rounded-lg border border-[#009bce] text-white justify-center items-center transition-colors"
                       type="submit"
+                      disabled={isSubmitting}
                     >
-                      Mandar aplicación
+                      {isSubmitting ? "Enviando..." : "Mandar aplicación"}
                     </button>
                   </div>
                 </div>
@@ -417,8 +442,8 @@ function AplicaSenda() {
                     src={Phone}
                     alt="open phone"
                     className="h-12 self-center mb-3"
-              loading="lazy"
-            />
+                    loading="lazy"
+                  />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                     Teléfono
                   </div>
@@ -436,14 +461,14 @@ function AplicaSenda() {
               </a>
             </div>
             <div className="w-full md:w-[350px] px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 inline-flex">
-              <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
-                <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
+              <div className="self-stretch flex-col justify-start items-center gap-4 flex">
+                <div className="self-stretch flex-col justify-start items-start gap-2 flex">
                   <img
                     src={WhatsApp}
                     alt="whatsapp"
                     className="h-12 self-center mb-3"
-              loading="lazy"
-            />
+                    loading="lazy"
+                  />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                     WhatsApp
                   </div>
@@ -461,14 +486,14 @@ function AplicaSenda() {
               </a>
             </div>
             <div className="w-full md:w-[350px] px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 inline-flex">
-              <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
-                <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
+              <div className="self-stretch flex-col justify-start items-center gap-4 flex">
+                <div className="self-stretch flex-col justify-start items-start gap-2 flex">
                   <img
                     src={Email}
                     alt="email"
                     className="h-12 self-center mb-3"
-              loading="lazy"
-            />
+                    loading="lazy"
+                  />
                   <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
                     Mail
                   </div>
@@ -488,38 +513,41 @@ function AplicaSenda() {
           </div>
         </div>
       </div>
+
       {/* CTA Section */}
-      <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
-        <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
-          <div className="abolute flex flex-col justify-between">
+      <div className="w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col justify-center items-center">
+        <div className="flex flex-col md:flex-row justify-start items-stretch gap-0 rounded-lg md:rounded-none overflow-hidden shadow-md">
+          <div className="relative flex-shrink-0">
             <img
               src={CTA1}
               alt="background green cta"
-              className="relative z-0 md:rounded-none rounded-lg"
+              className="w-full md:w-auto h-full object-cover"
               loading="lazy"
             />
-            <h3 className="absolute z-10 px-14 md:mt-20 mt-8 font-semibold font-pangea md:text-2xl text-lg">
-              ¿Tienes preguntas?
-            </h3>
-            <p className="absolute z-10 md:mt-32 mt-16 px-14 font-light  md:w-1/2 text-sm md:text-base">
-              Si tienes alguna duda sobre admisiones, ¡no dudes en contactar a
-              nuestra directora de admisiones, Paty González! ¡Ella estará feliz
-              de ayudarte!
-            </p>
-            <a href="mailto:admisiones@colegiosenda.edu.mx">
-              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-6  py-2 bg-white rounded-2xl hover:bg-[#009bce] text-black/90 hover:text-white ">
-                <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
-                  Contactar
-                </span>
-              </div>
-            </a>
+            <div className="absolute inset-0 flex flex-col justify-between p-8 md:p-10">
+              <h3 className="font-semibold font-pangea text-lg md:text-2xl text-white">
+                ¿Tienes preguntas?
+              </h3>
+              <p className="font-light text-sm md:text-base text-white md:w-4/5">
+                Si tienes alguna duda sobre admisiones, ¡no dudes en contactar a
+                nuestra directora de admisiones, Paty González! ¡Ella estará feliz
+                de ayudarte!
+              </p>
+              <a href="mailto:admisiones@colegiosenda.edu.mx">
+                <div className="inline-flex px-8 py-2 bg-white rounded-2xl hover:bg-[#009bce] text-black/90 hover:text-white hover:cursor-pointer">
+                  <span className="text-sm md:text-base font-medium font-['Roboto'] leading-normal tracking-tight">
+                    Contactar
+                  </span>
+                </div>
+              </a>
+            </div>
           </div>
           <img
             src={CTAImgMaternal}
             alt="image maternal"
-            className="md:rounded-none rounded-lg"
-              loading="lazy"
-            />
+            className="w-full md:w-auto object-cover"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>
