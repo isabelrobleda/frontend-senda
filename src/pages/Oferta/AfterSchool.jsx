@@ -1,6 +1,5 @@
 import React from "react";
 import MainAfterSchool from "../../assets/after school/main-after-school.png";
-import IdeaSport from "../../assets/Idea-sport.png";
 import PatinetaIcon from "../../assets/after school/📓.png";
 import FutbolIcon from "../../assets/after school/⚽.png";
 import PickleballIcon from "../../assets/after school/🎾.png";
@@ -58,12 +57,6 @@ function AfterSchool() {
               descubre todo lo que tenemos para ofrecer!
             </p>
 
-            {/* Center IdeaSport Image */}
-            <div className="pt-8">
-              <img src={IdeaSport} alt="Idea Sport" className="mx-auto"
-              loading="lazy"
-            />
-            </div>
           </div>
         </div>
       </div>
@@ -89,9 +82,9 @@ function AfterSchool() {
             <div className="flex-1 flex-col justify-start items-start gap-4 flex">
               <div>
                 <span className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                  El servicio está a cargo de un personal altamente capacitado
-                  de la empresa IdeaSport, especialista en fair play y enseñanza
-                  del deporte individual y en equipo.{" "}
+                  El servicio está a cargo de un personal altamente capacitado,
+                  especialista en fair play y enseñanza del deporte individual
+                  y en equipo.{" "}
                 </span>
                 <br />
                 <br />

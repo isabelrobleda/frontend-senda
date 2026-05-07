@@ -1,6 +1,5 @@
 import React from "react";
 import MainBackground from "../../assets/deportes/main-background.png";
-import IdeaSport from "../../assets/Idea-sport.png";
 import Futbol from "../../assets/after school/⚽.png";
 import Pickleball from "../../assets/after school/🎾.png";
 import Hockey from "../../assets/after school/🏑.png";
@@ -38,15 +37,8 @@ function Deportes() {
               <span className="text-[#009BCE]">el desarrollo integral</span>
             </h1>
             <p className="text-[#757575] text-base sm:text-lg md:text-xl font-semibold font-['Inter'] leading-[1.4] mt-4">
-              En el Senda y junto con IdeaSport, ofrecemos una diversidad en
-              deportes para todos los gustos.
+              En el Senda ofrecemos una diversidad de deportes para todos los gustos.
             </p>
-            {/* Center IdeaSport Image */}
-            <div className="pt-8">
-              <img src={IdeaSport} alt="Idea Sport" className="mx-auto"
-              loading="lazy"
-            />
-            </div>
           </div>
         </div>
       </div>
@@ -82,24 +74,10 @@ function Deportes() {
                   Estamos comprometidos en proporcionar a nuestros alumnos las
                   mejores oportunidades para sobresalir en sus deportes
                   favoritos. Contamos con instalaciones de primer nivel y
-                  nuestra alianza con IdeaSport, nos brinda la oportunidad de
-                  competir en torneos nacionales, en promover diferentes
-                  deportes y contar entrenadores especializados que guían a los
-                  estudiantes en su desarrollo deportivo. Creemos que a través
-                  de la práctica deportiva, los alumnos aprenden valores
-                  esenciales como la perseverancia, la cooperación y el respeto.
-                  <br />
-                  <br />
-                  Grabamos un podcast con el Director y Fundador de IdeaSport,
-                  ve a este{" "}
-                  <a
-                    href="https://open.spotify.com/episode/4XK2EJBKnmuGeIItCDaBSz?si=860ea0af41d74ae2"
-                    className="underline"
-                  >
-                    link
-                  </a>{" "}
-                  si quieres saber más sobre la compañía y nuestra alianza con
-                  ellos.
+                  entrenadores especializados que guían a los estudiantes en su
+                  desarrollo deportivo. Creemos que a través de la práctica
+                  deportiva, los alumnos aprenden valores esenciales como la
+                  perseverancia, la cooperación y el respeto.
                 </span>
               </div>
             </div>

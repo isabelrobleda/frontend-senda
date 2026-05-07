@@ -3,8 +3,6 @@ import Apple from "../assets/Apple.svg";
 import MARSA from "../assets/MARSA.svg";
 import Knotion from "../assets/Knotion.svg";
 import LARSA from "../assets/LARSA.svg";
-import IdeaSport from "../assets/Idea-sport.svg";
-
 function Partners() {
   return (
     <div>
@@ -17,8 +15,6 @@ function Partners() {
           <img src={MARSA} className="w-[120px] h-auto" alt="MARSA" loading="lazy" />
           <img src={Knotion} className="w-[120px] h-auto" alt="Knotion" loading="lazy" />
           <img src={LARSA} className="w-[120px] h-auto" alt="LARSA" loading="lazy" />
-          <img src={IdeaSport} className="w-[114px] h-auto" alt="Idea Sport" loading="lazy" />
-          
         </div>
       </div>
     </div>
