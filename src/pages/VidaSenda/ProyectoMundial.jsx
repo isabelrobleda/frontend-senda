@@ -1,11 +1,6 @@
 import React, { useState } from "react";
-import HeaderBackground from "../../assets/Header-background.png";
-import FutbolImg from "../../assets/deportes/futbol.jpeg";
 import MainBackground from "../../assets/deportes/main-background.png";
 import MexicoImg from "../../assets/proximos_eventos/mexico.png";
-import CanchaImg from "../../assets/cancha-fut.jpeg";
-import EscalarImg from "../../assets/deportes/deportes_escalar_02.png";
-import Futbol2Img from "../../assets/deportes/Deportes_Futbol 2.png";
 
 const weeks = [
   {
@@ -169,12 +164,6 @@ function ProyectoMundial() {
         </div>
       </div>
 
-      {/* Photo strip */}
-      <div className="w-full grid grid-cols-3 h-48 md:h-64">
-        <img src={FutbolImg} alt="Fútbol" className="w-full h-full object-cover" loading="lazy" />
-        <img src={CanchaImg} alt="Cancha" className="w-full h-full object-cover" loading="lazy" />
-        <img src={Futbol2Img} alt="Fútbol 2" className="w-full h-full object-cover" loading="lazy" />
-      </div>
 
       {/* Skills approach */}
       <div className="w-full px-4 md:px-16 py-16 md:py-24 bg-white flex flex-col items-center gap-12">
