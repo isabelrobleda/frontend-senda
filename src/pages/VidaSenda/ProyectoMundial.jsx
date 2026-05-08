@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MainBackground from "../../assets/deportes/main-background.png";
 import MexicoImg from "../../assets/proximos_eventos/mexico.png";
+import MascotsImg from "../../assets/mascots-mundial.jpg";
 
 const weeks = [
   {
@@ -195,6 +196,17 @@ function ProyectoMundial() {
             ))}
           </div>
         </div>
+      </div>
+
+      {/* Mascots */}
+      <div className="w-full bg-white flex justify-center items-center py-4">
+        <img
+          src={MascotsImg}
+          alt="Mascotas Mundial 2026"
+          className="w-full max-w-2xl h-auto"
+          style={{ mixBlendMode: "multiply" }}
+          loading="lazy"
+        />
       </div>
 
       {/* Weekly plan */}
