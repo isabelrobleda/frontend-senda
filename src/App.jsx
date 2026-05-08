@@ -24,6 +24,7 @@ import PlaneaVisita from "./pages/Admision/PlaneaVisita";
 import ProcesoAdmision from "./pages/Admision/ProcesoAdmision";
 import Blog from "./pages/VidaSenda/Blog";
 import ProximosEventos from "./pages/VidaSenda/ProximosEventos";
+import ProyectoMundial from "./pages/VidaSenda/ProyectoMundial";
 import AvisoPrivacidad from "./pages/AvisoPrivacidad";
 import Contacto from "./pages/Contacto";
 import Blog1 from "./pages/VidaSenda/Blog1";
@@ -72,6 +73,7 @@ function App() {
           <Route path="/blog-4" element={<Blog4 />} />
           <Route path="/blog-5" element={<Blog5 />} />
           <Route path="/proximos-eventos" element={<ProximosEventos />} />
+          <Route path="/proyecto-mundial-2026" element={<ProyectoMundial />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/aviso-de-privacidad" element={<AvisoPrivacidad />} />
         </Routes>

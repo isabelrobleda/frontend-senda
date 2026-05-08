@@ -140,6 +140,9 @@ function Footer() {
             <div className="text-[#f2f2f2] text-base font-light font-['Inter'] leading-snug hover:underline">
               <Link to="/proximos-eventos">Próximos Eventos</Link>
             </div>
+            <div className="text-[#f2f2f2] text-base font-light font-['Inter'] leading-snug hover:underline">
+              <Link to="/proyecto-mundial-2026">Proyecto Mundial 2026</Link>
+            </div>
           </div>
         </div>
       </div>

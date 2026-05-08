@@ -178,6 +178,9 @@ function Header() {
                 <Link to="/proximos-eventos">
                   <li className="p-2 hover:bg-neutral-100">Próximos Eventos</li>
                 </Link>
+                <Link to="/proyecto-mundial-2026">
+                  <li className="p-2 hover:bg-neutral-100">Proyecto Mundial 2026</li>
+                </Link>
               </ul>
             </div>
           </div>
@@ -429,15 +432,14 @@ function Header() {
               <div className="mt-2 w-full bg-white shadow-lg rounded-lg">
                 <ul>
                 <Link to="/blog" onClick={closeMenu}>
-                  <li className="p-2 hover:bg-neutral-100">
-                    Blog
-                  </li>
-                  </Link>
-                  <Link to="/proximos-eventos" onClick={closeMenu}>
-                  <li className="p-2 hover:bg-neutral-100">
-                   Próximos Eventos
-                  </li>
-                  </Link>
+                  <li className="p-2 hover:bg-neutral-100">Blog</li>
+                </Link>
+                <Link to="/proximos-eventos" onClick={closeMenu}>
+                  <li className="p-2 hover:bg-neutral-100">Próximos Eventos</li>
+                </Link>
+                <Link to="/proyecto-mundial-2026" onClick={closeMenu}>
+                  <li className="p-2 hover:bg-neutral-100">Proyecto Mundial 2026</li>
+                </Link>
                 </ul>
               </div>
             )}
