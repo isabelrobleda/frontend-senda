@@ -80,6 +80,11 @@ function Header() {
                   Modelo Senda
                 </li>
                 </Link>
+                <Link to="/competencias-unesco">
+                <li className="p-2 hover:bg-neutral-100">
+                  Competencias UNESCO
+                </li>
+                </Link>
                 <Link to="/cefr-framework">
                 <li className="p-2 hover:bg-neutral-100">
                   CEFR Framework
@@ -294,6 +299,9 @@ function Header() {
                   </Link>
                   <Link to="/modelo-senda" onClick={closeMenu}>
                     <li className="p-2 hover:bg-neutral-100">Modelo Senda</li>
+                  </Link>
+                  <Link to="/competencias-unesco" onClick={closeMenu}>
+                    <li className="p-2 hover:bg-neutral-100">Competencias UNESCO</li>
                   </Link>
                   <Link to="/mapa-del-colegio" onClick={closeMenu}>
                     <li className="p-2 hover:bg-neutral-100">

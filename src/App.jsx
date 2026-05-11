@@ -34,6 +34,7 @@ import Blog3 from "./pages/VidaSenda/Blog3";
 import Blog4 from "./pages/VidaSenda/Blog4";
 import Blog5 from "./pages/VidaSenda/Blog5";
 import CEFRFramework from "./pages/Nosotros/CEFRFramework"
+import CompetenciasUNESCO from "./pages/Nosotros/CompetenciasUNESCO"
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
           />
           <Route path="/casos-de-exito" element={<CasosExito />} />
           <Route path="/modelo-senda" element={<ModeloSenda />} />
+          <Route path="/competencias-unesco" element={<CompetenciasUNESCO />} />
           <Route path="/cefr-framework" element={<CEFRFramework />} />
           <Route path="/mapa-del-colegio" element={<MapaColegio />} />
           <Route path="/nuestro-equipo" element={<Equipo />} />
