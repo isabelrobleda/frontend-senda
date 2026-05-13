@@ -11,7 +11,7 @@ function CursoDeVerano() {
         <img
           src={CursoDeVeranoImg}
           alt="Curso de Verano"
-          className="w-full md:w-auto md:max-h-[700px] object-contain"
+          className="w-full md:w-auto md:max-h-[800px] object-contain"
           loading="lazy"
         />
       </div>
