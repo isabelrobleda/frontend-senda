@@ -13,12 +13,11 @@ function DataHome() {
       key={index}
       className="w-full md:w-80 grow shrink basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]"
     >
-      <div className="relative w-20 h-20 flex justify-center items-center">
+      <div className="h-20 flex justify-center items-center">
         <img
-          className="absolute pt-8 w-20 h-20 object-contain"
+          className={`object-contain ${card.iconSize || 'w-16 h-16'}`}
           src={card.image}
           alt={card.alt}
-          style={{ top: '-40px' }}
           loading="lazy"
         />
       </div>
@@ -86,6 +85,7 @@ const cardsData = [
   {
     image: StarIcon,
     alt: "tecnología con propósito",
+    iconSize: "w-12 h-12",
     title: "Tecnología con propósito",
     description: "La tecnología la usamos como herramienta, como un recurso pedagógico. Entendemos la diferencia crítica entre simplemente digitalizar una escuela y transformar realmente el aprendizaje."
   }
