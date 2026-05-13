@@ -1,7 +1,7 @@
 import React from "react";
 import MisionImg from "../../assets/mision/Mision.jpeg";
-import Mision01 from "../../assets/mision/mision01.jpeg";
-import Mision02 from "../../assets/mision/mision02.png";
+import Mision01 from "../../assets/30años4.JPG";
+import Mision02 from "../../assets/30años2.JPG";
 
 function Mision() {
   return (
