@@ -186,6 +186,9 @@ function Header() {
                 <Link to="/proyecto-mundial-2026">
                   <li className="p-2 hover:bg-neutral-100">Proyecto Mundial 2026</li>
                 </Link>
+                <Link to="/curso-de-verano">
+                  <li className="p-2 hover:bg-neutral-100">Curso de Verano</li>
+                </Link>
               </ul>
             </div>
           </div>
@@ -447,6 +450,9 @@ function Header() {
                 </Link>
                 <Link to="/proyecto-mundial-2026" onClick={closeMenu}>
                   <li className="p-2 hover:bg-neutral-100">Proyecto Mundial 2026</li>
+                </Link>
+                <Link to="/curso-de-verano" onClick={closeMenu}>
+                  <li className="p-2 hover:bg-neutral-100">Curso de Verano</li>
                 </Link>
                 </ul>
               </div>

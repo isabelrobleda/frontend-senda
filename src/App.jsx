@@ -23,6 +23,7 @@ import Colegiaturas from "./pages/Admision/Colegiaturas";
 import PlaneaVisita from "./pages/Admision/PlaneaVisita";
 import ProcesoAdmision from "./pages/Admision/ProcesoAdmision";
 import Blog from "./pages/VidaSenda/Blog";
+import CursoDeVerano from "./pages/VidaSenda/CursoDeVerano";
 import ProximosEventos from "./pages/VidaSenda/ProximosEventos";
 import ProyectoMundial from "./pages/VidaSenda/ProyectoMundial";
 import AvisoPrivacidad from "./pages/AvisoPrivacidad";
@@ -68,6 +69,7 @@ function App() {
           <Route path="/colegiaturas" element={<Colegiaturas />} />
           <Route path="/planea-tu-visita" element={<PlaneaVisita />} />
           <Route path="/proceso-de-admision" element={<ProcesoAdmision />} />
+          <Route path="/curso-de-verano" element={<CursoDeVerano />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog-1" element={<Blog1 />} />
           <Route path="/blog-2" element={<Blog2 />} />
