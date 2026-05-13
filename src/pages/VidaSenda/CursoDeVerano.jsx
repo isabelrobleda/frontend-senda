@@ -7,11 +7,11 @@ function CursoDeVerano() {
   return (
     <div>
       {/* Main Image */}
-      <div className="w-full flex justify-center items-center px-8 md:px-16 pt-20">
+      <div className="w-full flex justify-center items-center px-8 md:px-16 pt-5">
         <img
           src={CursoDeVeranoImg}
           alt="Curso de Verano"
-          className="w-full md:w-auto md:max-h-[800px] object-contain"
+          className="w-full md:w-auto md:max-h-[900px] object-contain rounded-[10px]"
           loading="lazy"
         />
       </div>
