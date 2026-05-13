@@ -11,7 +11,7 @@ function DataHome() {
   const renderCard = (card, index) => (
     <div
       key={index}
-      className="w-full md:w-80 grow shrink basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]"
+      className="flex-shrink-0 w-[80vw] md:w-80 md:grow md:shrink md:basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]"
     >
       <div className="h-20 flex justify-center items-center">
         <img
@@ -40,10 +40,10 @@ function DataHome() {
         Sobre el Colegio Senda
       </h3>
       <div className="max-w-[1440px] md:px-[64px] self-center flex flex-col gap-8">
-        <div className="flex flex-col md:flex-row justify-start items-center md:items-start gap-8">
+        <div className="flex overflow-x-auto md:overflow-visible md:flex-row md:justify-start md:items-start gap-8 pb-4 md:pb-0">
           {cardsData.slice(0, 3).map((card, index) => renderCard(card, index))}
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-8">
+        <div className="flex overflow-x-auto md:overflow-visible md:flex-row md:justify-center md:items-start gap-8 pb-4 md:pb-0">
           {cardsData.slice(3).map((card, index) => renderCard(card, index + 3))}
         </div>
       </div>

@@ -93,12 +93,12 @@ function CardsNosotros() {
         </button>
       </div>
 
-      {/* Small screens: Column layout */}
-      <div className="block lg:hidden w-full">
+      {/* Small screens: Horizontal scroll */}
+      <div className="lg:hidden w-full overflow-x-auto flex flex-row gap-4 pb-4">
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="flex flex-col items-start mb-8 rounded-2xl shadow-lg overflow-hidden"
+            className="flex-shrink-0 w-[80vw] flex flex-col items-start rounded-2xl shadow-lg overflow-hidden"
           >
             <img
               className="w-full h-64 object-cover"

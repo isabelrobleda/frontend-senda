@@ -14,7 +14,7 @@ function CTAApply() {
             className="w-full md:w-auto h-full object-cover"
             loading="lazy"
           />
-          <div className="absolute inset-0 flex flex-col justify-between p-8 md:p-10">
+          <div className="absolute inset-0 flex flex-col justify-between gap-4 md:gap-0 p-8 md:p-10">
             <h3 className="font-medium font-pangea text-xl md:text-[32px] md:leading-9 text-white">
               Promoviendo una cultura <br /> de pensamiento
             </h3>

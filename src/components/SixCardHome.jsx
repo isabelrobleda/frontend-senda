@@ -10,8 +10,8 @@ function SixCardHome() {
   return (
     <div className="bg-white py-16 px-6 md:px-16 flex justify-center items-center">
       <div className="w-full max-w-[1440px] flex flex-col justify-center items-center gap-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-          <div className="text-left">
+        <div className="flex overflow-x-auto flex-row gap-8 pb-4 md:grid md:grid-cols-2 md:gap-12 lg:grid-cols-3 md:overflow-visible md:pb-0">
+          <div className="flex-shrink-0 w-[80vw] md:w-full text-left">
             <h3 className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
               ¿Qué hace al Colegio Senda
               <br />
@@ -29,7 +29,7 @@ function SixCardHome() {
               </Link>
             </div>
           </div>
-          <div className="w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
+          <div className="flex-shrink-0 w-[80vw] md:w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
               className="w-14 h-14  relative"
               src={WhyWeAreTheBest01}
@@ -45,7 +45,7 @@ function SixCardHome() {
               familias para trabajar juntos por un mundo mejor.
             </div>
           </div>
-          <div className="w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
+          <div className="flex-shrink-0 w-[80vw] md:w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
               className="w-14 h-14  relative"
               src={WhyWeAreTheBest02}
@@ -61,7 +61,7 @@ function SixCardHome() {
               proporcionamos  las herramientas digitales dándoles siempre un sentido pedagógico.
             </div>
           </div>
-          <div className="w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
+          <div className="flex-shrink-0 w-[80vw] md:w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
               className="w-14 h-14  relative"
               src={WhyWeAreTheBest05}
@@ -77,7 +77,7 @@ function SixCardHome() {
               lleguen a dominar y puedan aprender de forma bilingüe y bicultural.
             </div>
           </div>
-          <div className="w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
+          <div className="flex-shrink-0 w-[80vw] md:w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img
               className="w-14 h-14  relative"
               src={WhyWeAreTheBest03}
@@ -93,7 +93,7 @@ function SixCardHome() {
               académico, calidad humana y resultados de competencias y hablidades.
             </div>
           </div>
-          <div className="w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
+          <div className="flex-shrink-0 w-[80vw] md:w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img className="w-14 h-14 relative" src={WhyWeAreTheBest04} loading="lazy" />
             <div className="w-full">
               <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">

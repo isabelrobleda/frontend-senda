@@ -12,8 +12,8 @@ function OfertaHome() {
         Oferta educativa
       </h3>
       <div className="w-full flex flex-col gap-10">
-        <div className="w-full flex flex-col md:flex-row justify-center items-center gap-10">
-          <div className="w-full md:h-72 md:w-[700px] flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] items-center">
+        <div className="w-full flex overflow-x-auto md:overflow-visible md:flex-row justify-center items-center gap-6 md:gap-10 pb-4 md:pb-0">
+          <div className="flex-shrink-0 w-[85vw] md:flex-shrink md:h-72 md:w-[700px] flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] items-center">
             <div className="w-full md:w-[357px] flex flex-col justify-between">
               <div className="flex flex-col gap-4">
                 <h4 className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -40,7 +40,7 @@ function OfertaHome() {
               loading="lazy"
             />
           </div>
-          <div className="w-full md:w-[700px] md:h-72 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] items-center">
+          <div className="flex-shrink-0 w-[85vw] md:flex-shrink md:w-[700px] md:h-72 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] items-center">
             <div className="w-full md:w-[357px] flex flex-col justify-between">
               <div className="flex flex-col gap-4">
                 <h4 className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -67,8 +67,8 @@ function OfertaHome() {
             />
           </div>
         </div>
-        <div className="w-full flex flex-col md:flex-row justify-center items-center gap-10">
-          <div className="w-full md:w-[700px] md:h-72 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] items-center">
+        <div className="w-full flex overflow-x-auto md:overflow-visible md:flex-row justify-center items-center gap-6 md:gap-10 pb-4 md:pb-0">
+          <div className="flex-shrink-0 w-[85vw] md:flex-shrink md:w-[700px] md:h-72 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] items-center">
             <div className="w-full md:w-[357px] flex flex-col justify-between">
               <div className="flex flex-col gap-4">
                 <h4 className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
@@ -94,7 +94,7 @@ function OfertaHome() {
               loading="lazy"
             />
           </div>
-          <div className="w-full md:w-[700px] md:h-72 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] items-center">
+          <div className="flex-shrink-0 w-[85vw] md:flex-shrink md:w-[700px] md:h-72 flex flex-col md:flex-row md:items-start gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF] items-center">
             <div className="w-full md:w-[357px] flex flex-col justify-between">
               <div className="flex flex-col gap-4">
                 <h4 className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">

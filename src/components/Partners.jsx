@@ -10,11 +10,11 @@ function Partners() {
         <h3 className="w-full text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
          Nuestros aliados
         </h3>
-        <div className="w-full flex flex-col md:flex-row flex-wrap justify-center items-center gap-12 md:gap-20 ">
-          <img src={Apple} className="w-[120px] h-auto" alt="Apple" loading="lazy" />
-          <img src={MARSA} className="w-[120px] h-auto" alt="MARSA" loading="lazy" />
-          <img src={Knotion} className="w-[120px] h-auto" alt="Knotion" loading="lazy" />
-          <img src={LARSA} className="w-[120px] h-auto" alt="LARSA" loading="lazy" />
+        <div className="w-full flex flex-row overflow-x-auto md:flex-wrap md:justify-center md:items-center gap-12 md:gap-20 pb-2 md:pb-0">
+          <img src={Apple} className="flex-shrink-0 w-[120px] h-auto" alt="Apple" loading="lazy" />
+          <img src={MARSA} className="flex-shrink-0 w-[120px] h-auto" alt="MARSA" loading="lazy" />
+          <img src={Knotion} className="flex-shrink-0 w-[120px] h-auto" alt="Knotion" loading="lazy" />
+          <img src={LARSA} className="flex-shrink-0 w-[120px] h-auto" alt="LARSA" loading="lazy" />
         </div>
       </div>
     </div>
