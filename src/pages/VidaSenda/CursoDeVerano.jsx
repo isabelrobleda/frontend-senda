@@ -19,11 +19,11 @@ function CursoDeVerano() {
       {/* CTA Section */}
       <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
         <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
-          <div className="abolute flex flex-col justify-between">
+          <div className="relative flex flex-col justify-between">
             <img
               src={CTA1}
               alt="background green cta"
-              className="relative z-0 md:rounded-none rounded-lg"
+              className="relative z-0 md:rounded-none rounded-lg w-full md:w-auto min-h-[400px] md:min-h-0 object-cover"
               loading="lazy"
             />
             <h3 className="absolute z-10 px-14 mt-12 font-semibold font-pangea md:text-2xl text-lg">
