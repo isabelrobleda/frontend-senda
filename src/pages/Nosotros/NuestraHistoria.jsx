@@ -48,7 +48,7 @@ function NuestraHistoria() {
             <img
               src={NuestraHistoriaImg}
               alt="imagen nuestra historia"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-[10px]"
               loading="lazy"
             />
           </div>
