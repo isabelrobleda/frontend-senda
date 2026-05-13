@@ -18,16 +18,26 @@ function TestimonialsHome() {
               acontece a su alrededor.
             </div>
             <Link to="/inspiracion-conviccion">
-            <div className="mt-[32px] px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl flex justify-center items-center gap-2">
-              
+              <div className="mt-[32px] px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl flex justify-center items-center gap-2">
                 <button className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
                   Descubre más
                 </button>
-              
-            </div>
+              </div>
             </Link>
           </div>
-          <div className="w-full lg:w-1/2 flex justify-center items-center">
+          {/* Mobile: image as scrollable card */}
+          <div className="lg:hidden w-full overflow-x-auto flex flex-row [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
+            <div className="flex-shrink-0 w-[85vw]">
+              <img
+                src={TestimonialImage}
+                alt="testimonials-home"
+                className="w-full h-auto object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          {/* Desktop: full width image */}
+          <div className="hidden lg:flex w-full lg:w-1/2 justify-center items-center">
             <img
               src={TestimonialImage}
               alt="testimonials-home"

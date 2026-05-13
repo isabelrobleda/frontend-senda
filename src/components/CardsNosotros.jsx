@@ -94,7 +94,7 @@ function CardsNosotros() {
       </div>
 
       {/* Small screens: Horizontal scroll */}
-      <div className="lg:hidden w-full overflow-x-auto flex flex-row gap-4 pb-4">
+      <div className="lg:hidden w-full overflow-x-auto flex flex-row gap-4 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
         {cardsData.map((card, index) => (
           <div
             key={index}

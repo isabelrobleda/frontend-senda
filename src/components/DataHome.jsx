@@ -39,12 +39,9 @@ function DataHome() {
       <h3 className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
         Sobre el Colegio Senda
       </h3>
-      <div className="max-w-[1440px] md:px-[64px] self-center flex flex-col gap-8">
-        <div className="flex overflow-x-auto md:overflow-visible md:flex-row md:justify-start md:items-start gap-8 pb-4 md:pb-0">
-          {cardsData.slice(0, 3).map((card, index) => renderCard(card, index))}
-        </div>
-        <div className="flex overflow-x-auto md:overflow-visible md:flex-row md:justify-center md:items-start gap-8 pb-4 md:pb-0">
-          {cardsData.slice(3).map((card, index) => renderCard(card, index + 3))}
+      <div className="max-w-[1440px] md:px-[64px] self-center w-full">
+        <div className="flex overflow-x-auto md:flex-wrap md:overflow-visible md:justify-start md:items-start gap-8 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
+          {cardsData.map((card, index) => renderCard(card, index))}
         </div>
       </div>
     </div>

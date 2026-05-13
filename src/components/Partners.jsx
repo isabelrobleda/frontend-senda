@@ -10,7 +10,7 @@ function Partners() {
         <h3 className="w-full text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
          Nuestros aliados
         </h3>
-        <div className="w-full flex flex-row overflow-x-auto md:flex-wrap md:justify-center md:items-center gap-12 md:gap-20 pb-2 md:pb-0">
+        <div className="w-full flex flex-row overflow-x-auto md:flex-wrap md:justify-center md:items-center gap-12 md:gap-20 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
           <img src={Apple} className="flex-shrink-0 w-[120px] h-auto" alt="Apple" loading="lazy" />
           <img src={MARSA} className="flex-shrink-0 w-[120px] h-auto" alt="MARSA" loading="lazy" />
           <img src={Knotion} className="flex-shrink-0 w-[120px] h-auto" alt="Knotion" loading="lazy" />
