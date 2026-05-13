@@ -102,7 +102,7 @@ function OfertaHome() {
                 </h4>
                 <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
                   Cultura del Pensamiento. Investigación activa. Knotion.
-                  Inglés. Bilingüismo digital. Ética y valores
+                  Inglés. Bilingüismo digital. Tecnología con sentido. Ética y valores
                 </div>
               </div>
               <Link to="/secundaria">

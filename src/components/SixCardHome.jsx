@@ -58,7 +58,7 @@ function SixCardHome() {
             </div>
             <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
               Somos una de las 15 escuelas más innovadoras de México y
-              proporcionamos  las herramientas digitales del siglo XXI.
+              proporcionamos  las herramientas digitales dándoles siempre un sentido pedagógico.
             </div>
           </div>
           <div className="w-full py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
