@@ -94,7 +94,7 @@ function CardsNosotros() {
       </div>
 
       {/* Small screens: Horizontal scroll */}
-      <div className="lg:hidden w-full overflow-x-auto flex flex-row gap-4 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
+      <div className="lg:hidden w-full overflow-x-auto flex flex-row gap-4 pb-3 [&::-webkit-scrollbar]:h-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-[#009bce] [&::-webkit-scrollbar-thumb]:rounded-full [scrollbar-width:thin] [scrollbar-color:#009bce_transparent]">
         {cardsData.map((card, index) => (
           <div
             key={index}

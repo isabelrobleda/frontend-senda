@@ -40,7 +40,7 @@ function DataHome() {
         Sobre el Colegio Senda
       </h3>
       <div className="max-w-[1440px] md:px-[64px] self-center w-full">
-        <div className="flex overflow-x-auto md:flex-wrap md:overflow-visible md:justify-start md:items-start gap-8 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
+        <div className="flex overflow-x-auto md:flex-wrap md:overflow-visible md:justify-start md:items-start gap-8 pb-3 md:pb-0 [&::-webkit-scrollbar]:h-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-[#009bce] [&::-webkit-scrollbar-thumb]:rounded-full [scrollbar-width:thin] [scrollbar-color:#009bce_transparent] md:[scrollbar-width:none]">
           {cardsData.map((card, index) => renderCard(card, index))}
         </div>
       </div>
