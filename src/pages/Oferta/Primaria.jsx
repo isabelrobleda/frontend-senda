@@ -328,7 +328,7 @@ function Primaria() {
               loading="lazy"
             />
                 <h3 className="text-xl font-normal text-[#1e1e1e] mb-2">
-                  Tecnología
+                  Tecnología con sentido pedagógico 
                 </h3>
               </div>
               <div className="p-6 bg-white rounded-lg shadow-sm border border-[#e4e4de] flex gap-6 items-center ">
