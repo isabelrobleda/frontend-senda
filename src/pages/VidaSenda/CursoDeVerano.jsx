@@ -1,5 +1,5 @@
 import React from "react";
-import CursoDeVeranoImg from "../../assets/curso-de-verano.png";
+import CursoDeVeranoImg from "../../assets/curso-de-verano2.png";
 import CTA1 from "../../assets/CTAs/CTA-01.png";
 import CTAAfterSchool from "../../assets/after school/CTA-After-School.png";
 
