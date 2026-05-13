@@ -15,10 +15,10 @@ function DataHome() {
     >
       <div className="relative w-20 h-20 flex justify-center items-center">
         <img
-          className="absolute w-16 h-16 object-contain"
+          className="absolute pt-8 w-20 h-20 object-contain"
           src={card.image}
           alt={card.alt}
-          style={{ top: '-32px' }}
+          style={{ top: '-40px' }}
           loading="lazy"
         />
       </div>
