@@ -44,7 +44,7 @@ function NuestraHistoria() {
               inteligencias y maneras de aprender.
             </div>
           </div>
-          <div className="w-full self-center md:w-auto h-auto relative">
+          <div className="w-full self-center md:w-[502px] h-auto relative">
             <img
               src={NuestraHistoriaImg}
               alt="imagen nuestra historia"
