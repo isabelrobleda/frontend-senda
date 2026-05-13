@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollableRow from "./ScrollableRow";
 import { Link } from "react-router-dom";
 import WhyWeAreTheBest01 from "../assets/icons/Why_we_are_the_best-01.png";
 import WhyWeAreTheBest02 from "../assets/icons/Why_we_are_the_best-02.png";
@@ -32,7 +33,8 @@ function SixCardHome() {
         </div>
 
         {/* Mobile: header + cards all in one scrollable row — hidden on md+ */}
-        <div className="md:hidden w-full overflow-x-auto flex flex-row gap-8 pb-3 [&::-webkit-scrollbar]:h-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-[#009bce] [&::-webkit-scrollbar-thumb]:rounded-full [scrollbar-width:thin] [scrollbar-color:#009bce_transparent]">
+        <div className="md:hidden w-full">
+          <ScrollableRow gap="gap-8">
           <div className="flex-shrink-0 w-[80vw] py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img className="w-14 h-14 relative" src={WhyWeAreTheBest01} loading="lazy" />
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">Educadores que inspiran</div>
@@ -68,6 +70,7 @@ function SixCardHome() {
               Humanista. Constructivista. Cultura del Pensamiento. Bicultural. Personalizado. Promueve el pensamiento ético y crítico.
             </div>
           </div>
+          </ScrollableRow>
         </div>
 
         {/* Desktop: original grid layout — hidden on mobile */}

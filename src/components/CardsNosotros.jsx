@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ScrollableRow from "./ScrollableRow";
 import { Link } from "react-router-dom";
 import Blog3 from "../assets/secundaria_01.jpg";
 import Blog2 from "../assets/elecciones.png";
@@ -94,7 +95,8 @@ function CardsNosotros() {
       </div>
 
       {/* Small screens: Horizontal scroll */}
-      <div className="lg:hidden w-full overflow-x-auto flex flex-row gap-4 pb-3 [&::-webkit-scrollbar]:h-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-[#009bce] [&::-webkit-scrollbar-thumb]:rounded-full [scrollbar-width:thin] [scrollbar-color:#009bce_transparent]">
+      <div className="lg:hidden w-full">
+        <ScrollableRow gap="gap-4">
         {cardsData.map((card, index) => (
           <div
             key={index}
@@ -124,6 +126,7 @@ function CardsNosotros() {
             </div>
           </div>
         ))}
+        </ScrollableRow>
       </div>
     </div>
   );
