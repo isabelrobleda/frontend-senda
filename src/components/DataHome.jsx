@@ -8,10 +8,10 @@ import BrainIcon from '../assets/brain.png';
 
 
 function DataHome() {
-  const renderCard = (card, index) => (
+  const renderCard = (card, index, grow = true) => (
     <div
       key={index}
-      className="w-full md:w-80 grow shrink basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]"
+      className={`w-full md:w-80 ${grow ? 'grow shrink basis-0' : ''} p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]`}
     >
       <div className="relative w-20 h-20 flex justify-center items-center">
         <img
@@ -45,7 +45,7 @@ function DataHome() {
           {cardsData.slice(0, 4).map((card, index) => renderCard(card, index))}
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-8">
-          {cardsData.slice(4).map((card, index) => renderCard(card, index + 4))}
+          {cardsData.slice(4).map((card, index) => renderCard(card, index + 4, false))}
         </div>
       </div>
     </div>
