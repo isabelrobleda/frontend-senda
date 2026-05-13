@@ -4,21 +4,21 @@ import GraduateIcon from '../assets/icons/graduate-icon.png';
 import AppleIcon from '../assets/icons/apple-icon.png';
 import WorldIcon from '../assets/icons/world-icon.png';
 import Logo30Anos from '../assets/logo_30_anos.png';
-import BrainIcon from '../assets/brain.png';
+import StarIcon from '../assets/star.png';
 
 
 function DataHome() {
-  const renderCard = (card, index, grow = true) => (
+  const renderCard = (card, index) => (
     <div
       key={index}
-      className={`w-full md:w-80 ${grow ? 'grow shrink basis-0' : ''} p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]`}
+      className="w-full md:w-80 grow shrink basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]"
     >
       <div className="relative w-20 h-20 flex justify-center items-center">
         <img
-          className="absolute pt-8"
+          className="absolute w-16 h-16 object-contain"
           src={card.image}
           alt={card.alt}
-          style={{ top: '-40px' }}
+          style={{ top: '-32px' }}
           loading="lazy"
         />
       </div>
@@ -42,10 +42,10 @@ function DataHome() {
       </h3>
       <div className="max-w-[1440px] md:px-[64px] self-center flex flex-col gap-8">
         <div className="flex flex-col md:flex-row justify-start items-center md:items-start gap-8">
-          {cardsData.slice(0, 4).map((card, index) => renderCard(card, index))}
+          {cardsData.slice(0, 3).map((card, index) => renderCard(card, index))}
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-8">
-          {cardsData.slice(4).map((card, index) => renderCard(card, index + 4, false))}
+          {cardsData.slice(3).map((card, index) => renderCard(card, index + 3))}
         </div>
       </div>
     </div>
@@ -84,7 +84,7 @@ const cardsData = [
     description: "Tres décadas de experiencia nos avalan. Un equipo comprometido con la educación de calidad y el desarrollo integral de cada alumno."
   },
   {
-    image: BrainIcon,
+    image: StarIcon,
     alt: "tecnología con propósito",
     title: "Tecnología con propósito",
     description: "La tecnología la usamos como herramienta, como un recurso pedagógico. Entendemos la diferencia crítica entre simplemente digitalizar una escuela y transformar realmente el aprendizaje."
