@@ -36,7 +36,7 @@ function CTAApply() {
         <img
           src={ImgMaternal}
           alt="image maternal"
-          className="w-full md:w-auto object-cover"
+          className="w-full md:w-auto object-cover rounded-b-lg md:rounded-none"
           loading="lazy"
         />
       </div>
