@@ -164,23 +164,7 @@ function AfterSchool() {
           </div>
 
           {/* Card 4 */}
-          <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
-            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={HockeyIcon}
-                alt="hockey sobre pasto"
-                className="w-18 pb-2"
-              loading="lazy"
-            />
-              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                Hockey sobre pasto
-              </div>
-              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                Promueve el trabajo en equipo, la coordinación, resistencia
-                física y disciplina.
-              </div>
-            </div>
-          </div>
+          
           {/* Card 5 */}
           <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
             <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">

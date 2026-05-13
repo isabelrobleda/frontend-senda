@@ -125,25 +125,7 @@ function Deportes() {
           </div>
 
           {/* Card 5 */}
-          <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
-            <div className="h-56 w-64 flex-col justify-start items-center gap-4 flex">
-              <img
-                src={Hockey}
-                alt="hockey sobre pasto"
-                className="w-18 pb-2"
-              loading="lazy"
-            />
-              <div className="text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                Hockey sobre pasto
-              </div>
-              <div className="text-center text-[#757575] text-base font-normal font-['Inter'] leading-snug">
-                Este deporte mejora resistencia, velocidad y coordinación,
-                además de fomentar el trabajo en equipo y la estrategia.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col md:grid md:grid-cols-2 md:gap-10 gap-8 ">
+         
 
         {/* Card 6 */}
         <div className="px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 flex">
