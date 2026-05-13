@@ -1,5 +1,5 @@
 import React from "react";
-import NuestraHistoriaImg from "../../assets/nuestrahistoria.png";
+import NuestraHistoriaImg from "../../assets/30años3.JPG";
 import Circle from "../../assets/nuestra_historia/circle.png";
 import Line from "../../assets/nuestra_historia/line.png";
 import Chick from "../../assets/nuestra_historia/chick.png";
@@ -284,6 +284,12 @@ function NuestraHistoria() {
                 className="h-full hidden sm:block"
               loading="lazy"
             />
+              <img
+                src={Line}
+                alt="line"
+                className="ml-2 w-1 h-32 pb-3 hidden sm:block"
+              loading="lazy"
+            />
             </div>
             <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
               <div className="flex justify-start items-center gap-2">
@@ -299,6 +305,29 @@ function NuestraHistoria() {
                 cancha de futbol, patineta, muro de escalar, telas, salón de
                 psicomotricidad para niños pequeños. Participación en torneos de
                 Coding y Robótica, y Teatro.
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col md:flex-row justify-start items-start gap-10">
+            <div className="flex-shrink-0 flex flex-col justify-start items-center md:items-start gap-4">
+              <img
+                src={Circle}
+                alt="circle"
+                className="h-full hidden sm:block"
+              loading="lazy"
+            />
+            </div>
+            <div className="w-full md:w-[600px] flex flex-col justify-start items-start gap-4">
+              <div className="flex justify-start items-center gap-2">
+                <div className="w-[59px] text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                  2026
+                </div>
+                <span className="text-[29px] leading-none">🎉</span>
+              </div>
+              <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+                ¡Celebramos tres décadas! Un equipo comprometido con la
+                educación de calidad y el desarrollo integral de cada alumno.
               </div>
             </div>
           </div>
