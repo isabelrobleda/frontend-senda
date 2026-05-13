@@ -7,7 +7,7 @@ function CursoDeVerano() {
   return (
     <div>
       {/* Main Image */}
-      <div className="w-full flex justify-center items-center pt-20">
+      <div className="w-full flex justify-center items-center px-8 md:px-16 pt-20">
         <img
           src={CursoDeVeranoImg}
           alt="Curso de Verano"
