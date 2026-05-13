@@ -21,7 +21,7 @@ function CTAApply() {
             <p className="font-light text-sm md:text-base text-white md:w-4/5">
               Fomentamos dignidad, ética y creatividad. Alumnos responsables,
               saludables y conscientes del medio ambiente, con habilidades digitales
-              del siglo XXI.
+              del siglo XXI dándoles siempre un sentido.
             </p>
             <Link to={"/aplica-al-senda"}>
               <div className="inline-flex px-8 py-2 bg-white rounded-2xl hover:cursor-pointer hover:bg-[#009bce] text-black/90 hover:text-white">
