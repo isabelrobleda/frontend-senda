@@ -7,14 +7,15 @@ function CTAApply() {
   return (
     <div className="w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col justify-center items-center">
       <div className="flex flex-col md:flex-row justify-start items-stretch gap-0 rounded-lg md:rounded-none overflow-hidden shadow-md">
+        {/* Green section: CTA image as background, content drives height */}
         <div className="relative flex-shrink-0">
           <img
             src={CTA}
             alt="background green cta"
-            className="w-full md:w-auto h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
             loading="lazy"
           />
-          <div className="absolute inset-0 flex flex-col justify-between gap-4 md:gap-0 p-8 md:p-10">
+          <div className="relative z-10 flex flex-col gap-4 md:gap-6 p-8 md:p-10 pb-10 md:pb-10">
             <h3 className="font-medium font-pangea text-xl md:text-[32px] md:leading-9 text-white">
               Promoviendo una cultura <br /> de pensamiento
             </h3>
