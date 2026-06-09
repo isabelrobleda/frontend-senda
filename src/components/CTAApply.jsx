@@ -8,7 +8,7 @@ function CTAApply() {
     <div className="w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col justify-center items-center">
       <div className="flex flex-col md:flex-row justify-start items-stretch gap-0 rounded-lg md:rounded-none overflow-hidden shadow-md">
         {/* Green section: CTA image as background, content drives height */}
-        <div className="relative flex-shrink-0">
+        <div className="relative md:w-1/2">
           <img
             src={CTA}
             alt="background green cta"
@@ -33,7 +33,7 @@ function CTAApply() {
             </Link>
           </div>
         </div>
-        <div className="relative flex-1 min-h-[260px] md:min-h-0 overflow-hidden rounded-b-lg md:rounded-none">
+        <div className="relative md:w-1/2 min-h-[260px] overflow-hidden rounded-b-lg md:rounded-none">
           <img
             src={ImgMaternal}
             alt="image maternal"
