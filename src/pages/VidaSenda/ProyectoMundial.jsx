@@ -298,7 +298,7 @@ function ProyectoMundial() {
         </div>
       </div>
 
-      
+
 
       {/* Photo + Adaptations */}
       <div className="w-full bg-[#f9f9fe]">
@@ -382,14 +382,31 @@ function ProyectoMundial() {
             </div>
           </div>
         </div>
-        
+
         <div>
-          {Image1WordCup}
-          {Image2WordCup}
-          
+          <div className="w-full bg-white flex justify-center items-center py-4">
+            <img
+              src={Image1WordCup}
+              alt="Mascotas Mundial 2026"
+              className="w-full max-w-2xl h-auto"
+              style={{ mixBlendMode: "multiply" }}
+              loading="lazy"
+            />
+          </div>
+          <div className="w-full bg-white flex justify-center items-center py-4">
+            <img
+              src={Image2WordCup}
+              alt="Mascotas Mundial 2026"
+              className="w-full max-w-2xl h-auto"
+              style={{ mixBlendMode: "multiply" }}
+              loading="lazy"
+            />
+          </div>
+
+
         </div>
       </div>
-    
+
 
     </div>
   );
