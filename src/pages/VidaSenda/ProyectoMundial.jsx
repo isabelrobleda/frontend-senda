@@ -3,6 +3,7 @@ import MainBackground from "../../assets/deportes/main-background.png";
 import MexicoImg from "../../assets/proximos_eventos/mexico.png";
 import MascotsImg from "../../assets/mascots-mundial.jpg";
 
+
 const weeks = [
   {
     number: "01",
@@ -295,51 +296,7 @@ function ProyectoMundial() {
         </div>
       </div>
 
-      {/* Countries / Groups */}
-      <div className="w-full px-4 md:px-16 py-16 md:py-24 bg-white flex flex-col items-center gap-12">
-        <div className="w-full max-w-[1440px] flex flex-col items-center gap-6">
-          <h2 className="text-[#1e1e1e] text-2xl md:text-4xl font-semibold font-pangea text-center">
-            Los 48 países clasificados
-          </h2>
-          <p className="text-[#757575] text-base font-['Inter'] text-center max-w-2xl leading-relaxed">
-            El campeonato se jugará en <span className="font-semibold text-[#1e1e1e]">Estados Unidos, México y Canadá</span> entre el
-            11 de junio y el 19 de julio de 2026. Primer Mundial con 48 selecciones,
-            distribuidas en 12 grupos de 4 equipos.
-          </p>
-
-          <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {groups.map((g, idx) => (
-              <div
-                key={idx}
-                className="bg-[#f9f9fe] rounded-2xl p-5 border border-[#e4e4de] flex flex-col gap-3"
-              >
-                <div className="flex items-center gap-3">
-                  <span
-                    className="w-9 h-9 rounded-full flex items-center justify-center text-white text-sm font-bold font-['Inter'] flex-shrink-0"
-                    style={{ backgroundColor: idx % 2 === 0 ? "#009bce" : "#b0cb4f" }}
-                  >
-                    {g.group}
-                  </span>
-                  <span className="text-[#1e1e1e] text-base font-semibold font-['Inter']">
-                    Grupo {g.group}
-                  </span>
-                </div>
-                <ul className="flex flex-col gap-1.5">
-                  {g.countries.map((country, i) => (
-                    <li key={i} className="flex items-center gap-2 text-[#49454f] text-sm font-['Inter']">
-                      <span
-                        className="w-1.5 h-1.5 rounded-full flex-shrink-0"
-                        style={{ backgroundColor: idx % 2 === 0 ? "#009bce" : "#b0cb4f" }}
-                      />
-                      {country}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+      
 
       {/* Photo + Adaptations */}
       <div className="w-full bg-[#f9f9fe]">
@@ -371,6 +328,7 @@ function ProyectoMundial() {
           </div>
         </div>
       </div>
+
 
       {/* Evaluation */}
       <div className="w-full px-4 md:px-16 py-16 md:py-24 bg-white flex flex-col items-center gap-12">
@@ -422,7 +380,9 @@ function ProyectoMundial() {
             </div>
           </div>
         </div>
+        
       </div>
+    
 
     </div>
   );
