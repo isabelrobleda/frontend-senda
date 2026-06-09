@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollableRow from './ScrollableRow';
 import TechIcon from '../assets/icons/tech-icon.png';
 import GraduateIcon from '../assets/icons/graduate-icon.png';
 import AppleIcon from '../assets/icons/apple-icon.png';
@@ -43,9 +42,9 @@ function DataHome() {
       <div className="max-w-[1440px] md:px-[64px] self-center w-full">
         {/* Mobile: single scrollable row */}
         <div className="md:hidden">
-          <ScrollableRow gap="gap-8">
+          <div className="overflow-x-auto flex flex-row gap-8 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
             {cardsData.map((card, index) => renderCard(card, index))}
-          </ScrollableRow>
+          </div>
         </div>
         {/* Desktop: 2 rows × 3 columns grid */}
         <div className="hidden md:grid md:grid-cols-3 gap-8">

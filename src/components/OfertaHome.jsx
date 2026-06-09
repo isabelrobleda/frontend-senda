@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollableRow from "./ScrollableRow";
 import { Link } from "react-router-dom";
 import MaternalNoBg from "../assets/maternal_nobg.png";
 import PreescolarNoBg from "../assets/preescolar_nobg.png";
@@ -46,7 +45,7 @@ function OfertaHome() {
 
       {/* Mobile: single scrollable row of all 4 cards */}
       <div className="md:hidden w-full">
-        <ScrollableRow gap="gap-4">
+        <div className="overflow-x-auto flex flex-row gap-4 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
         {ofertaData.map((item, i) => (
           <div
             key={i}
@@ -70,7 +69,7 @@ function OfertaHome() {
             <img src={item.img} alt={item.alt} loading="lazy" />
           </div>
         ))}
-        </ScrollableRow>
+        </div>
       </div>
 
       {/* Desktop: 2×2 grid */}

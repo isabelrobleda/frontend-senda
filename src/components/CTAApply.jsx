@@ -37,7 +37,7 @@ function CTAApply() {
           <img
             src={ImgMaternal}
             alt="image maternal"
-            className="absolute inset-0 w-full h-full object-cover object-[center_30%] scale-90"
+            className="absolute inset-0 w-full h-full object-cover object-[center_30%]"
             loading="lazy"
           />
         </div>
