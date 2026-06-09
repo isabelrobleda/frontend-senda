@@ -12,7 +12,7 @@ function DataHome() {
   const renderCard = (card, index) => (
     <div
       key={index}
-      className="flex-shrink-0 w-[80vw] md:w-80 md:grow md:shrink md:basis-0 p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]"
+      className="flex-shrink-0 w-[80vw] md:w-full p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]"
     >
       <div className="h-20 flex justify-center items-center">
         <img
@@ -47,8 +47,8 @@ function DataHome() {
             {cardsData.map((card, index) => renderCard(card, index))}
           </ScrollableRow>
         </div>
-        {/* Desktop: wrapped rows */}
-        <div className="hidden md:flex flex-wrap justify-start items-start gap-8">
+        {/* Desktop: 2 rows × 3 columns grid */}
+        <div className="hidden md:grid md:grid-cols-3 gap-8">
           {cardsData.map((card, index) => renderCard(card, index))}
         </div>
       </div>

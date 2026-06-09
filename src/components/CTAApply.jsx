@@ -33,12 +33,14 @@ function CTAApply() {
             </Link>
           </div>
         </div>
-        <img
-          src={ImgMaternal}
-          alt="image maternal"
-          className="w-full md:w-auto object-cover rounded-b-lg md:rounded-none"
-          loading="lazy"
-        />
+        <div className="relative flex-1 min-h-[260px] md:min-h-0 overflow-hidden rounded-b-lg md:rounded-none">
+          <img
+            src={ImgMaternal}
+            alt="image maternal"
+            className="absolute inset-0 w-full h-full object-cover"
+            loading="lazy"
+          />
+        </div>
       </div>
     </div>
   );
