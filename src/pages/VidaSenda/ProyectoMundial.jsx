@@ -3,7 +3,7 @@ import MainBackground from "../../assets/deportes/main-background.png";
 import MexicoImg from "../../assets/proximos_eventos/mexico.png";
 import MascotsImg from "../../assets/mascots-mundial.jpg";
 import Image1WordCup from "../../assets/mundial/image-proyecto-mundial.jpg"
-import Image2WordCup from "../../assets/mundial/image-proyecto-mundial-2.jpg"
+import Image2WordCup from "../../assets/mundial/image-proyecto.mundial-2.jpg"
 
 
 const weeks = [
