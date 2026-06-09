@@ -32,37 +32,37 @@ function SixCardHome() {
         </div>
 
         {/* Mobile: header + cards all in one scrollable row — hidden on md+ */}
-        <div className="md:hidden w-full">
-          <div className="overflow-x-auto flex flex-row gap-8 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
-          <div className="flex-shrink-0 w-[80vw] py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
+        <div className="md:hidden -mx-6 w-screen">
+          <div className="overflow-x-auto flex flex-row gap-4 pl-6 pr-6 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
+          <div className="flex-shrink-0 w-[72vw] py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img className="w-14 h-14 relative" src={WhyWeAreTheBest01} loading="lazy" />
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">Educadores que inspiran</div>
             <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
               Todos nuestros educadores están comprometidos con los alumnos y sus familias para trabajar juntos por un mundo mejor.
             </div>
           </div>
-          <div className="flex-shrink-0 w-[80vw] py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
+          <div className="flex-shrink-0 w-[72vw] py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img className="w-14 h-14 relative" src={WhyWeAreTheBest02} loading="lazy" />
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">Colegio Innovador</div>
             <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
               Somos una de las 15 escuelas más innovadoras de México y proporcionamos las herramientas digitales dándoles siempre un sentido pedagógico.
             </div>
           </div>
-          <div className="flex-shrink-0 w-[80vw] py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
+          <div className="flex-shrink-0 w-[72vw] py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img className="w-14 h-14 relative" src={WhyWeAreTheBest05} loading="lazy" />
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">Colegio Bicultural</div>
             <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
               Los alumnos aprenden inglés desde pequeños lo que asegura que lo lleguen a dominar y puedan aprender de forma bilingüe y bicultural.
             </div>
           </div>
-          <div className="flex-shrink-0 w-[80vw] py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
+          <div className="flex-shrink-0 w-[72vw] py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img className="w-14 h-14 relative" src={WhyWeAreTheBest03} loading="lazy" />
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">Educación de Excelencia</div>
             <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">
               Nuestro objetivo es lograr los más altos estándares de nivel académico, calidad humana y resultados de competencias y habilidades.
             </div>
           </div>
-          <div className="flex-shrink-0 w-[80vw] py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
+          <div className="flex-shrink-0 w-[72vw] py-[48px] px-[24px] bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-start items-start gap-4">
             <img className="w-14 h-14 relative" src={WhyWeAreTheBest04} loading="lazy" />
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">Modelo Senda</div>
             <div className="text-[#49454f] text-base font-normal font-['Inter'] leading-normal tracking-tight">

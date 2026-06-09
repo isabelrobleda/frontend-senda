@@ -94,12 +94,12 @@ function CardsNosotros() {
       </div>
 
       {/* Small screens: Horizontal scroll */}
-      <div className="lg:hidden w-full">
-        <div className="overflow-x-auto flex flex-row gap-4 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
+      <div className="lg:hidden -mx-8 w-screen">
+        <div className="overflow-x-auto flex flex-row gap-4 pl-8 pr-8 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-[80vw] flex flex-col items-start rounded-2xl shadow-lg overflow-hidden"
+            className="flex-shrink-0 w-[72vw] flex flex-col items-start rounded-2xl shadow-lg overflow-hidden"
           >
             <img
               className="w-full h-64 object-cover"

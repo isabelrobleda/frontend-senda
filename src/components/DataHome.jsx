@@ -11,7 +11,7 @@ function DataHome() {
   const renderCard = (card, index) => (
     <div
       key={index}
-      className="flex-shrink-0 w-[80vw] md:w-full p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]"
+      className="flex-shrink-0 w-[72vw] md:w-full p-8 bg-white rounded-2xl flex flex-col justify-start items-center gap-6 shadow-md min-h-[300px] md:h-[360px]"
     >
       <div className="h-20 flex justify-center items-center">
         <img
@@ -41,8 +41,8 @@ function DataHome() {
       </h3>
       <div className="max-w-[1440px] md:px-[64px] self-center w-full">
         {/* Mobile: single scrollable row */}
-        <div className="md:hidden">
-          <div className="overflow-x-auto flex flex-row gap-8 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
+        <div className="md:hidden -mx-8 w-screen">
+          <div className="overflow-x-auto flex flex-row gap-4 pl-8 pr-8 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
             {cardsData.map((card, index) => renderCard(card, index))}
           </div>
         </div>

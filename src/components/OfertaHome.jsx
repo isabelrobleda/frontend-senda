@@ -44,12 +44,12 @@ function OfertaHome() {
       </h3>
 
       {/* Mobile: single scrollable row of all 4 cards */}
-      <div className="md:hidden w-full">
-        <div className="overflow-x-auto flex flex-row gap-4 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
+      <div className="md:hidden -mx-6 w-screen">
+        <div className="overflow-x-auto flex flex-row gap-4 pl-6 pr-6 [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
         {ofertaData.map((item, i) => (
           <div
             key={i}
-            className="flex-shrink-0 w-[85vw] flex flex-col items-center gap-4 px-8 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF]"
+            className="flex-shrink-0 w-[72vw] flex flex-col items-center gap-4 px-6 pt-8 rounded-[10px] shadow-sm bg-[#E9EBEF]"
           >
             <div className="w-full flex flex-col gap-4">
               <h4 className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
