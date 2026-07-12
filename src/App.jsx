@@ -38,6 +38,7 @@ import Blog4 from "./pages/VidaSenda/Blog4";
 import Blog5 from "./pages/VidaSenda/Blog5";
 import CEFRFramework from "./pages/Nosotros/CEFRFramework"
 import CompetenciasUNESCO from "./pages/Nosotros/CompetenciasUNESCO"
+import NotFound from "./pages/NotFound";
 
 
 function App() {
@@ -84,6 +85,7 @@ function App() {
           <Route path="/proyecto-mundial-2026" element={<ProyectoMundial />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/aviso-de-privacidad" element={<AvisoPrivacidad />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
