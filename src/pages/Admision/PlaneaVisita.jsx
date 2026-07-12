@@ -2,13 +2,27 @@ import React from "react";
 import Phone from "../../assets/aplica_senda/📞.png"
 import Email from "../../assets/aplica_senda/📨.png";
 import WhatsApp from "../../assets/aplica_senda/image.png";
-import CTA1 from "../../assets/CTAs/CTA-01.png";
 import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
 import PlaneaTuVisita from "../../assets/planea-tu-visita.png";
 import OpenHouse from "../../assets/icons/🏫.png";
 import CitaConAdmisiones from "../../assets/icons/👩🏻‍🏫.png";
 import HeaderBackground from "../../assets/Header-background.png";
+import WhatsAppButton from "../../components/WhatsAppButton";
+import QuestionsCTA from "../../components/QuestionsCTA";
 
+const EXPERIENCIA_SENDA_FECHAS = [
+  "18 de septiembre",
+  "23 de octubre",
+  "13 de noviembre",
+  "22 de enero",
+  "12 de febrero",
+  "19 de marzo",
+  "23 de abril",
+  "21 de mayo",
+  "18 de junio",
+];
+
+const EXPERIENCIA_SENDA_HORARIO = "8:45 - 10:30";
 
 function PlaneaVisita() {
   const scrollToSection = (id) => {
@@ -44,6 +58,13 @@ function PlaneaVisita() {
                     Conoce nuestras instalaciones y descubre cómo aprenden
                     nuestros alumnos
                   </div>
+                  <WhatsAppButton
+                    message="Hola, me gustaría agendar una visita al Colegio Senda."
+                    source="planea_visita_hero"
+                    className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl text-[#f2f2f2] text-base font-medium text-center w-full sm:w-auto self-center lg:self-start"
+                  >
+                    Agenda tu visita por WhatsApp
+                  </WhatsAppButton>
                 </div>
               </div>
               <div className=" w-full md:w-[870px]  relative">
@@ -65,9 +86,9 @@ function PlaneaVisita() {
             </div>
 
             {/* Two Visit Types Cards */}
-            <div className="w-full flex flex-col md:flex-row justify-center items-center ">
+            <div className="w-full flex flex-col md:flex-row justify-center items-stretch ">
               {/* Cita con Admisiones Card */}
-              <div className="w-full md:w-[500px] p-6 bg-white rounded-tl-lg rounded-bl-lg shadow-sm border border-[#e4e4de] flex flex-col justify-start items-center gap-10">
+              <div className="w-full md:w-[500px] p-6 bg-white rounded-t-lg md:rounded-tr-none md:rounded-l-lg shadow-sm border border-[#e4e4de] flex flex-col justify-start items-center gap-10">
                 <div className="flex flex-col justify-start items-center gap-4">
                   <img
                     src={CitaConAdmisiones}
@@ -92,7 +113,7 @@ function PlaneaVisita() {
               </div>
 
               {/* Open House Card */}
-              <div className="w-full md:w-[500px] p-6 bg-white rounded-tr-lg rounded-br-lg shadow-sm border border-[#e4e4de] flex flex-col justify-start items-center gap-10">
+              <div className="w-full md:w-[500px] p-6 bg-white rounded-b-lg md:rounded-bl-none md:rounded-r-lg shadow-sm border border-[#e4e4de] flex flex-col justify-start items-center gap-10">
                 <div className="flex flex-col justify-start items-center gap-4">
                   <img
                     src={OpenHouse}
@@ -102,7 +123,7 @@ function PlaneaVisita() {
             />
                   <div className="text-center text-[#1e1e1e] text-xl md:text-2xl font-semibold">
                     Vive la Experiencia Senda
-                  </div>  
+                  </div>
                   <div className="text-center text-black/40 text-base font-normal mx-3">
                     Haz un recorrido por el Colegio y acompáñanos a una
                     presentación sobre la escuela con la dirección.
@@ -136,6 +157,34 @@ function PlaneaVisita() {
                   <div className="self-stretch flex-col justify-start items-center gap-4 flex">
                     <div className="self-stretch flex-col justify-start items-start gap-2 flex">
                       <img
+                        src={WhatsApp}
+                        alt=""
+                        className="h-12 self-center mb-3"
+              loading="lazy"
+            />
+                      <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
+                        WhatsApp
+                      </div>
+                      <div className="self-stretch text-center text-[#757575] text-base font-medium font-['Inter'] leading-snug">
+                        (+52) 5556832060
+                      </div>
+                    </div>
+                  </div>
+                  <WhatsAppButton
+                    message="Hola, me gustaría agendar una cita con admisiones del Colegio Senda."
+                    source="planea_visita_cita"
+                  >
+                    <div className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae]  rounded-2xl justify-center items-center gap-2 inline-flex">
+                      <div className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight">
+                        Chatear en Whatsapp
+                      </div>
+                    </div>
+                  </WhatsAppButton>
+                </div>
+                <div className="w-full md:w-[350px] px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 inline-flex">
+                  <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
+                    <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
+                      <img
                         src={Phone}
                         alt=""
                         className="h-12 self-center mb-3"
@@ -153,31 +202,6 @@ function PlaneaVisita() {
                     <div className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae]  rounded-2xl justify-center items-center gap-2 inline-flex">
                       <div className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight">
                         Marcar al teléfono
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="w-full md:w-[350px] px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 inline-flex">
-                  <div className="self-stretch  flex-col justify-start items-center gap-4 flex">
-                    <div className="self-stretch  flex-col justify-start items-start gap-2 flex">
-                      <img
-                        src={WhatsApp}
-                        alt=""
-                        className="h-12 self-center mb-3"
-              loading="lazy"
-            />
-                      <div className="self-stretch text-center text-[#1e1e1e] text-2xl font-semibold font-['Inter'] leading-[28.80px]">
-                        WhatsApp
-                      </div>
-                      <div className="self-stretch text-center text-[#757575] text-base font-medium font-['Inter'] leading-snug">
-                        (+52) 5556832060
-                      </div>
-                    </div>
-                  </div>
-                  <a href="https://wa.me/525556832060">
-                    <div className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae]  rounded-2xl justify-center items-center gap-2 inline-flex">
-                      <div className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight">
-                        Chatear en Whatsapp
                       </div>
                     </div>
                   </a>
@@ -214,11 +238,10 @@ function PlaneaVisita() {
           {/* Open House Section */}
           <div
             id="open-house"
-            className="w-full md:w-[1440px] h-auto md:h-[1490px] px-4 sm:px-8 md:px-40 py-12 sm:py-16 md:py-24 bg-white flex-col justify-start items-center gap-8  inline-flex"
+            className="w-full max-w-screen-xl px-4 sm:px-8 py-12 sm:py-16 md:py-24 bg-white flex flex-col justify-start items-center gap-8"
           >
-            
-            <div className="self-stretch h-auto md:h-[111px] flex-col justify-start items-center gap-4 flex">
-              <div className="self-stretch text-center text-[#1e1e1e] text-xl sm:text-2xl font-semibold font-['Inter'] leading-[24px] sm:leading-[28.80px]">
+            <div className="self-stretch flex flex-col justify-start items-center gap-4">
+              <div className="self-stretch text-center text-[#1e1e1e] text-xl sm:text-2xl font-semibold font-['Inter'] leading-snug">
                 Vive la Experiencia Senda
               </div>
               <div className="self-stretch text-center text-[#757575] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
@@ -228,301 +251,49 @@ function PlaneaVisita() {
                 psicomotricidad, la tecnología de punta en los salones y muchas
                 cosas más...
               </div>
+              <div className="text-center text-[#757575] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
+                Todas las fechas son de {EXPERIENCIA_SENDA_HORARIO} en nuestras
+                instalaciones: Av. Toluca 541, Col. Olivar de los Padres, C.P.
+                01780, CDMX.
+              </div>
             </div>
-            <div className="self-stretch h-auto md:h-[1123px] flex-col justify-start items-start gap-4 flex">
-              <div className="self-stretch px-4 sm:px-8 md:px-16 py-4 sm:py-6 bg-white rounded-[10px] shadow border border-[#e4e4de] justify-start items-start gap-[50px] sm:gap-[100px] md:gap-[222px] inline-flex">
-                <div className="justify-center items-start flex">
-                  <div className="text-[#1e1e1e] text-lg sm:text-xl font-bold font-['Inter'] leading-normal">
-                    Fecha
+
+            {/* Fechas */}
+            <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {EXPERIENCIA_SENDA_FECHAS.map((fecha) => (
+                <div
+                  key={fecha}
+                  className="p-6 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex flex-col justify-between items-center gap-4 text-center"
+                >
+                  <div className="flex flex-col gap-1">
+                    <div className="text-[#1e1e1e] text-lg font-bold font-['Inter'] leading-snug">
+                      {fecha}
+                    </div>
+                    <div className="text-[#757575] text-sm font-normal font-['Inter'] leading-snug">
+                      {EXPERIENCIA_SENDA_HORARIO} hrs
+                    </div>
                   </div>
+                  <WhatsAppButton
+                    message={`Hola, quiero reservar lugar para la Experiencia Senda del ${fecha}.`}
+                    source="experiencia_senda_fecha"
+                    className="w-full px-6 py-2 bg-[#b0cb4f] hover:bg-[#859c36] rounded-2xl text-[#f2f2f2] text-sm font-medium"
+                  >
+                    Reservar lugar
+                  </WhatsAppButton>
                 </div>
-                <div className="w-full sm:w-[468px] h-[29px] justify-between items-center flex">
-                  <div className="justify-center items-start flex">
-                    <div className="text-[#1e1e1e] text-lg sm:text-xl md:ml-8 font-bold font-['Inter'] leading-normal">
-                      Horario
-                    </div>
-                  </div>
-                  <div className="justify-center items-start flex">
-                    <div className="text-[#1e1e1e] md:pl-[340px] text-lg  sm:text-xl font-bold font-['Inter'] leading-normal">
-                      Lugar
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="self-stretch h-auto  px-4 sm:px-8 md:px-16 py-4 sm:py-6 bg-white rounded-[10px] shadow border border-[#e4e4de] flex-col justify-start items-start gap-2 flex">
-                {/* Date entries */}
-                <div className="self-stretch justify-between items-center inline-flex">
-                  <div className="justify-center items-start flex">
-                    <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                    18 de septiembre 
-                    </div>
-                  </div>
-                  <div className="h-auto sm:h-[66px] justify-between items-center flex">
-                    <div className="justify-center items-start flex ml-6 md:ml-0 md:mr-80">
-                      <div className="text-[#1e1e1e] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
-                        8:45 - 10:30
-                      </div>
-                    </div>
-                    <div className="justify-center items-center flex">
-                      <div className="text-[#1e1e1e] text-xs md:text-sm sm:text-base font-normal font-['Inter'] leading-snug">
-                        En nuestras instalaciones:
-                        <br />
-                        Av.Toluca 541, Col. Olivar de los Padres,
-                        <br />
-                        C.P. 01780, CDMX
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <hr className="text-black w-full my-2"/>
-
-                <div className="self-stretch justify-between items-center inline-flex">
-                  <div className="justify-center items-start flex w-24 md:w-auto">
-                    <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                    23 de octubre 
-                    </div>
-                  </div>
-                  <div className="h-auto sm:h-[66px] justify-between items-center flex">
-                    <div className="justify-center items-start flex ml-6 md:ml-0 md:mr-80">
-                      <div className="text-[#1e1e1e] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
-                        8:45 - 10:30
-                      </div>
-                    </div>
-                    <div className="justify-center items-start flex ">
-                      <div className="text-[#1e1e1e] md:text-sm text-xs font-normal font-['Inter'] leading-snug">
-                        En nuestras instalaciones:
-                        <br />
-                        Av.Toluca 541, Col. Olivar de los Padres,
-                        <br />
-                        C.P. 01780, CDMX
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <hr className="text-black w-full my-2"/>
-
-                <div className="self-stretch justify-between items-center inline-flex">
-                  <div className="justify-center items-start flex  w-24 md:w-auto">
-                    <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      13 de noviembre
-                    </div>
-                  </div>
-                  <div className="h-auto sm:h-[66px] justify-between items-center flex">
-                    <div className="justify-center items-start flex ml-6 md:ml-0  md:mr-80">
-                      <div className="text-[#1e1e1e] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
-                        8:45 - 10:30
-                      </div>
-                    </div>
-                    <div className="justify-center items-start flex">
-                      <div className="text-[#1e1e1e] md:text-sm text-xs font-normal font-['Inter'] leading-snug">
-                        En nuestras instalaciones:
-                        <br />
-                        Av.Toluca 541, Col. Olivar de los Padres,
-                        <br />
-                        C.P. 01780, CDMX
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <hr className="text-black w-full my-2"/>
-
-
-                <hr className="text-black w-full my-2"/>
-
-                <div className="self-stretch justify-between items-center inline-flex">
-                  <div className="justify-center items-start flex w-24 md:w-auto">
-                    <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      22 de enero
-                    </div>
-                  </div>
-                  <div className="h-auto sm:h-[66px] justify-between items-center flex">
-                    <div className="justify-center items-start flex ml-6 md:ml-0 md:mr-80">
-                      <div className="text-[#1e1e1e] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
-                        8:45 - 10:30
-                      </div>
-                    </div>
-                    <div className="justify-center items-start flex">
-                      <div className="text-[#1e1e1e] md:text-sm text-xs s font-normal font-['Inter'] leading-snug">
-                        En nuestras instalaciones:
-                        <br />
-                        Av.Toluca 541, Col. Olivar de los Padres,
-                        <br />
-                        C.P. 01780, CDMX
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <hr className="text-black w-full my-2"/>
-
-                <div className="self-stretch justify-between items-center inline-flex">
-                  <div className="justify-center items-start flex  w-24 md:w-auto">
-                    <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      12 de febrero 
-                    </div>
-                  </div>
-                  <div className="h-auto sm:h-[66px] justify-between items-center flex">
-                    <div className="justify-center items-start flex ml-6 md:ml-0 md:mr-80">
-                      <div className="text-[#1e1e1e] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
-                        8:45 - 10:30
-                      </div>
-                    </div>
-                    <div className="justify-center items-start flex">
-                      <div className="text-[#1e1e1e] md:text-sm text-xs font-normal font-['Inter'] leading-snug">
-                        En nuestras instalaciones:
-                        <br />
-                        Av.Toluca 541, Col. Olivar de los Padres,
-                        <br />
-                        C.P. 01780, CDMX
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <hr className="text-black w-full my-2"/>
-
-                <div className="self-stretch justify-between items-center inline-flex">
-                  <div className="justify-center items-start flex w-24 md:w-auto">
-                    <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      19 de marzo
-                    </div>
-                  </div>
-                  <div className="h-auto sm:h-[66px] justify-between items-center flex">
-                    <div className="justify-center items-start flex ml-6 md:ml-0 md:mr-80">
-                      <div className="text-[#1e1e1e] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
-                        8:45 - 10:30
-                      </div>
-                    </div>
-                    <div className="justify-center items-start flex">
-                      <div className="text-[#1e1e1e] md:text-sm text-xs font-normal font-['Inter'] leading-snug">
-                        En nuestras instalaciones:
-                        <br />
-                        Av.Toluca 541, Col. Olivar de los Padres,
-                        <br />
-                        C.P. 01780, CDMX
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <hr className="text-black w-full my-2"/>
-
-                <div className="self-stretch justify-between items-center inline-flex">
-                  <div className="justify-center items-start flex w-24 md:w-auto">
-                    <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      23 de abril
-                    </div>
-                  </div>
-                  <div className="h-auto sm:h-[66px] justify-between items-center flex">
-                    <div className="justify-center items-start flex ml-6 md:ml-0 md:mr-80">
-                      <div className="text-[#1e1e1e] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
-                        8:45 - 10:30
-                      </div>
-                    </div>
-                    <div className="justify-center items-start flex">
-                      <div className="text-[#1e1e1e] md:text-sm text-xs font-normal font-['Inter'] leading-snug">
-                        En nuestras instalaciones:
-                        <br />
-                        Av.Toluca 541, Col. Olivar de los Padres,
-                        <br />
-                        C.P. 01780, CDMX
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <hr className="text-black w-full my-2"/>
-
-                <div className="self-stretch justify-between items-center inline-flex">
-                  <div className="justify-center items-start flex w-24 md:w-auto">
-                    <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      21 de mayo
-                    </div>
-                  </div>
-                  <div className="h-auto sm:h-[66px] justify-between items-center flex">
-                    <div className="justify-center items-start flex ml-6 md:ml-0 md:mr-80">
-                      <div className="text-[#1e1e1e] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
-                        8:45 - 10:30
-                      </div>
-                    </div>
-                    <div className="justify-center items-start flex">
-                      <div className="text-[#1e1e1e] md:text-sm text-xs font-normal font-['Inter'] leading-snug">
-                        En nuestras instalaciones:
-                        <br />
-                        Av.Toluca 541, Col. Olivar de los Padres,
-                        <br />
-                        C.P. 01780, CDMX
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <hr className="text-black w-full my-2"/>
-
-                <div className="self-stretch justify-between items-center inline-flex">
-                  <div className="justify-center items-start flex w-24 md:w-auto">
-                    <div className="text-[#1e1e1e] text-sm sm:text-base font-bold font-['Inter'] leading-snug">
-                      18 de junio
-                    </div>
-                  </div>
-                  <div className="h-auto sm:h-[66px] justify-between items-center flex">
-                    <div className="justify-center items-start flex ml-6 md:ml-0 md:mr-80">
-                      <div className="text-[#1e1e1e] text-sm sm:text-base font-normal font-['Inter'] leading-snug">
-                        8:45 - 10:30
-                      </div>
-                    </div>
-                    <div className="justify-center items-start flex">
-                      <div className="text-[#1e1e1e] md:text-sm text-xs font-normal font-['Inter'] leading-snug">
-                        En nuestras instalaciones:
-                        <br />
-                        Av.Toluca 541, Col. Olivar de los Padres,
-                        <br />
-                        C.P. 01780, CDMX
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
+              ))}
             </div>
           </div>
 
-          
+
           {/* CTA Section */}
-          <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
-            <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
-              <div className="abolute flex flex-col justify-between">
-                <img
-                  src={CTA1}
-                  alt="background green cta"
-                  className="relative z-0 md:rounded-none rounded-lg"
-              loading="lazy"
-            />
-                <h3 className="absolute z-10 px-14 md:mt-20 mt-8 font-semibold font-pangea md:text-2xl text-lg">
-                  ¿Tienes preguntas?
-                </h3>
-                <p className="absolute z-10 md:mt-32 mt-16 px-14 font-light md:w-1/2 text-sm md:text-base">
-                Si tienes alguna duda, ¡no dudes en contactar a nuestra directora de admisiones, Paty González! ¡Ella estará feliz de ayudarte!
-                </p>
-                <a href="mailto:admisiones@colegiosenda.edu.mx">
-                  <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl hover:bg-[#009bce] text-black/90 hover:text-white">
-                    <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
-                      Contactar
-                    </span>
-                  </div>
-                </a>
-              </div>
-              <img
-                src={CTAImgMaternal}
-                alt="image maternal"
-                className="md:rounded-none rounded-lg"
-              loading="lazy"
-            />
-            </div>
-          </div>
+          <QuestionsCTA
+            text="Si tienes alguna duda, ¡no dudes en contactar a nuestra directora de admisiones, Paty González! ¡Ella estará feliz de ayudarte!"
+            email="admisiones@colegiosenda.edu.mx"
+            image={CTAImgMaternal}
+            imageAlt="Alumnos del Colegio Senda"
+            bgClass="bg-white"
+          />
         </div>
       </div>
     </div>

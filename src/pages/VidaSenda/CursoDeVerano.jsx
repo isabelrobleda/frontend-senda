@@ -1,57 +1,56 @@
 import React from "react";
 import CursoDeVeranoImg from "../../assets/curso-de-verano2.png";
-import CTA1 from "../../assets/CTAs/CTA-01.png";
 import CTAAfterSchool from "../../assets/after school/CTA-After-School.png";
+import WhatsAppButton from "../../components/WhatsAppButton";
+import QuestionsCTA from "../../components/QuestionsCTA";
 
 function CursoDeVerano() {
   return (
     <div>
+      {/* Hero */}
+      <div className="w-full pt-32 md:pt-40 px-4 md:px-16 flex flex-col justify-center items-center gap-6 text-center">
+        <h1 className="text-[#1e1e1e] text-[2.5rem] md:text-[3.5rem] font-semibold font-pangea leading-tight">
+          Curso de Verano
+        </h1>
+        <p className="text-[#757575] text-lg md:text-2xl font-semibold leading-snug max-w-3xl">
+          Un verano de juego, deporte y aprendizaje en el Colegio Senda: la
+          mejor manera de que tu hijo conozca la escuela por dentro.
+        </p>
+        <WhatsAppButton
+          message="Hola, quiero información del Curso de Verano del Colegio Senda."
+          source="curso_verano_hero"
+          className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl text-[#f2f2f2] text-base font-medium text-center w-full sm:w-auto"
+        >
+          Pide informes por WhatsApp
+        </WhatsAppButton>
+      </div>
+
       {/* Main Image */}
-      <div className="w-full flex justify-center items-center px-8 md:px-[200px] py-[6rem] md:py-[200px]">
+      <div className="w-full flex justify-center items-center px-4 md:px-[200px] py-12 md:py-20">
         <img
           src={CursoDeVeranoImg}
-          alt="Curso de Verano"
+          alt="Cartel del Curso de Verano del Colegio Senda"
           className="w-full md:w-auto md:max-h-[900px] object-contain rounded-[10px]"
           loading="lazy"
         />
       </div>
 
       {/* CTA Section */}
-      <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-white flex flex-col justify-center items-center gap-12">
-        <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
-          <div className="relative md:static flex flex-col justify-between">
-            <img
-              src={CTA1}
-              alt="background green cta"
-              className="relative z-0 md:rounded-none rounded-lg w-full md:w-auto min-h-[400px] md:min-h-0 object-cover"
-              loading="lazy"
-            />
-            <h3 className="absolute z-10 px-14 mt-12 font-semibold font-pangea md:text-2xl text-lg">
-              ¿Tienes preguntas?
-            </h3>
-            <p className="absolute z-10 md:mt-24 mt-20 px-14 font-light md:w-1/2 text-sm md:text-base">
-              Si tienes alguna duda sobre nuestro Curso de Verano, ¡no dudes en
-              contactarnos! ¡Estaremos felices de ayudarte!
-              <br />
-              <p className="font-semibold my-2">Teléfono: (55) 7454 4052</p>
-            </p>
-
-            <a href="mailto:afterschoolcolegiosenda@gmail.com">
-              <div className="absolute h-10 ml-14 hover:bg-[#009bce] text-black/90 hover:text-white px-8 z-10 md:bottom-12 bottom-10 py-2 bg-white rounded-2xl">
-                <span className="md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
-                  Contactar
-                </span>
-              </div>
-            </a>
-          </div>
-          <img
-            src={CTAAfterSchool}
-            alt="image cta curso de verano"
-            className="md:rounded-none rounded-lg"
-            loading="lazy"
-          />
-        </div>
-      </div>
+      <QuestionsCTA
+        text={
+          <>
+            Si tienes alguna duda sobre nuestro Curso de Verano, ¡no dudes en
+            contactarnos! ¡Estaremos felices de ayudarte!
+            <span className="block font-semibold my-2">
+              Teléfono: (55) 7454 4052
+            </span>
+          </>
+        }
+        email="afterschoolcolegiosenda@gmail.com"
+        image={CTAAfterSchool}
+        imageAlt="Actividades del Curso de Verano del Colegio Senda"
+        bgClass="bg-white"
+      />
     </div>
   );
 }

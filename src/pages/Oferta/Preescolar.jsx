@@ -15,10 +15,12 @@ import IconBaby from "../../assets/icons/👶🏻.png";
 import IconComputer from "../../assets/icons/🖥️.png";
 import IconMusic from "../../assets/icons/🎶.png";
 import IconArt from "../../assets/icons/🎨.png";
-import CTA01 from "../../assets/CTAs/CTA-01.png";
+
 import CTAImgPreescolar from "../../assets/preescolar/preescolar-tienes_preguntas.png";
 import HeaderBackground from "../../assets/Header-background.png";
 import Banner30 from "../../components/banner30"
+import WhatsAppButton from "../../components/WhatsAppButton";
+import QuestionsCTA from "../../components/QuestionsCTA";
 
 function Preescolar() {
   return (
@@ -47,12 +49,21 @@ function Preescolar() {
                 críticas, creativas y socioemocionales. Montessori
                 constructivista.
               </div>
-              <Link
-                to="/aplica-al-senda"
-                className="px-6 py-3 bg-[#009bce] rounded-2xl text-[#f2f2f2] text-base md:self-start  self-center font-medium hover:bg-[#007cae]"
-              >
-                Únete al Colegio Senda
-              </Link>
+              <div className="w-full md:w-auto flex flex-col sm:flex-row gap-3 md:self-start self-center">
+                <WhatsAppButton
+                  message="Hola, me gustaría agendar una visita para conocer el Preescolar del Colegio Senda."
+                  source="preescolar_hero"
+                  className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl text-[#f2f2f2] text-base font-medium text-center"
+                >
+                  Agenda tu visita por WhatsApp
+                </WhatsAppButton>
+                <Link
+                  to="/aplica-al-senda"
+                  className="px-6 py-3 border border-[#009bce] text-[#009bce] hover:bg-[#009bce] hover:text-white rounded-2xl text-base font-medium text-center"
+                >
+                  Aplica al Senda
+                </Link>
+              </div>
             </div>
             
               <img
@@ -309,39 +320,12 @@ function Preescolar() {
         </div>
 
         {/* CTA Section */}
-        <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
-          <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
-            <div className="abolute flex flex-col justify-between">
-              <img
-                src={CTA01}
-                alt="background green cta"
-                className="relative z-0 md:rounded-none rounded-lg"
-              loading="lazy"
-            />
-              <h3 className="absolute z-10 px-14 md:mt-20 mt-8 font-semibold font-pangea md:text-2xl text-lg">
-                ¿Tienes preguntas?
-              </h3>
-              <p className="absolute z-10 md:mt-32 mt-16  px-14 font-light md:w-1/2 text-sm md:text-base">
-                Si tienes preguntas sobre el preescolar, no dudes en enviarle un
-                correo electrónico a Roxana Fernández, nuestra Directora de
-                Preescolar
-              </p>
-              <a href="mailto:roxana.fernandez@colegiosenda.edu.mx">
-                <div className="absolute hover:bg-[#009bce] text-black/90 hover:text-white h-10 ml-14 px-8 z-10 md:bottom-14 bottom-6  py-2 bg-white rounded-2xl  ">
-                  <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
-                    Contactar
-                  </span>
-                </div>
-              </a>
-            </div>
-            <img
-              src={CTAImgPreescolar}
-              alt="image preescolar tienes preguntas"
-              className="md:rounded-none rounded-lg"
-              loading="lazy"
-            />
-          </div>
-        </div>
+        <QuestionsCTA
+          text="Si tienes preguntas sobre el preescolar, no dudes en enviarle un correo electrónico a Roxana Fernández, nuestra Directora de Preescolar"
+          email="roxana.fernandez@colegiosenda.edu.mx"
+          image={CTAImgPreescolar}
+          imageAlt="Alumnos de preescolar del Colegio Senda"
+        />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import CTA1 from "../../assets/CTAs/CTA-01.png";
 import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
+import QuestionsCTA from "../../components/QuestionsCTA";
 import ChevronLeft from "../../assets/proceso_admision/Chevron left.png";
 import ChevronRight from "../../assets/proceso_admision/Chevron right.png";
 import LaboratorioSecundaria from "../../assets/proceso_admision/Laboratorio_Secundaria.png";
@@ -199,38 +199,12 @@ function ProcesoAdmision() {
       </div>
 
       {/* CTA Section */}
-      <div className="relative md:h-[650px] w-full px-8 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col justify-center items-center gap-12">
-        <div className="relative flex flex-col-reverse md:flex-row justify-start items-start">
-          <div className="abolute flex flex-col justify-between">
-            <img
-              src={CTA1}
-              alt="background green cta"
-              className="relative z-0 md:rounded-none rounded-lg"
-              loading="lazy"
-            />
-            <h3 className="absolute z-10 px-14 mt-20 font-semibold font-pangea md:text-2xl text-lg">
-              ¿Tienes preguntas?
-            </h3>
-            <p className="absolute z-10 md:mt-32 mt-28 px-14 font-light md:w-1/2 text-sm md:text-base">
-              Si tienes alguna duda, ¡no dudes en contactar a nuestra directora
-              de admisiones, Paty González! ¡Ella estará feliz de ayudarte!
-            </p>
-            <a href="mailto:admisiones@colegiosenda.edu.mx">
-              <div className="absolute h-10 ml-14 px-8 z-10 md:bottom-14 bottom-10  py-2 bg-white rounded-2xl  hover:bg-[#009bce] text-black/90 hover:text-white">
-                <span className=" md:text-base text-sm font-medium font-['Roboto'] leading-normal tracking-tight hover:cursor-pointer">
-                  Contactar
-                </span>
-              </div>
-            </a>
-          </div>
-          <img
-            src={CTAImgMaternal}
-            alt="image maternal"
-            className="md:rounded-none rounded-lg"
-              loading="lazy"
-            />
-        </div>
-      </div>
+      <QuestionsCTA
+        text="Si tienes alguna duda, ¡no dudes en contactar a nuestra directora de admisiones, Paty González! ¡Ella estará feliz de ayudarte!"
+        email="admisiones@colegiosenda.edu.mx"
+        image={CTAImgMaternal}
+        imageAlt="Alumnos del Colegio Senda"
+      />
     </div>
   );
 }

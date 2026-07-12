@@ -30,6 +30,8 @@ import AvisoPrivacidad from "./pages/AvisoPrivacidad";
 import Contacto from "./pages/Contacto";
 import Blog1 from "./pages/VidaSenda/Blog1";
 import ScrollToTop from "./components/ScrollToTop";
+import WhatsAppFloat from "./components/WhatsAppFloat";
+import PageMeta from "./components/PageMeta";
 import Blog2 from "./pages/VidaSenda/Blog2";
 import Blog3 from "./pages/VidaSenda/Blog3";
 import Blog4 from "./pages/VidaSenda/Blog4";
@@ -44,6 +46,8 @@ function App() {
       <div>
         <Header />
         <ScrollToTop />
+        <PageMeta />
+        <WhatsAppFloat />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/misionyvision" element={<Mision />} />

@@ -12,6 +12,7 @@ import Email from "../../assets/aplica_senda/📨.png";
 import WhatsApp from "../../assets/aplica_senda/image.png";
 import CTA1 from "../../assets/CTAs/CTA-01.png";
 import CTAImgMaternal from "../../assets/CTAs/img-maternal.png";
+import WhatsAppButton from "../../components/WhatsAppButton";
 
 const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
@@ -189,6 +190,27 @@ function AplicaSenda() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* WhatsApp fast track */}
+      <div className="w-full px-4 pt-8 flex justify-center">
+        <div className="w-full max-w-screen-md p-6 bg-[#f9f9fe] rounded-[10px] border border-[#e4e4de] flex flex-col sm:flex-row justify-between items-center gap-4">
+          <div className="text-center sm:text-left">
+            <div className="text-[#1e1e1e] text-lg font-semibold font-['Inter']">
+              ¿Prefieres una respuesta inmediata?
+            </div>
+            <div className="text-[#757575] text-base font-normal font-['Inter'] leading-snug">
+              Agenda tu visita por WhatsApp en menos de un minuto.
+            </div>
+          </div>
+          <WhatsAppButton
+            message="Hola, me gustaría agendar una visita al Colegio Senda."
+            source="aplica_fast_track"
+            className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl text-[#f2f2f2] text-base font-medium text-center w-full sm:w-auto shrink-0"
+          >
+            Agenda tu visita por WhatsApp
+          </WhatsAppButton>
         </div>
       </div>
 
