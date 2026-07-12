@@ -121,6 +121,11 @@ const META = {
     description:
       "Artículos sobre crianza, educación bilingüe y cultura de pensamiento del equipo del Colegio Senda.",
   },
+  "/blog-6": {
+    title: "¿A qué edad debe empezar el inglés? | Colegio Senda",
+    description:
+      "Los primeros seis años son la ventana ideal para adquirir el inglés de forma natural. Mónica Sánchez Gavito, Directora del Colegio Senda, explica por qué y qué puedes hacer en casa.",
+  },
   "/proximos-eventos": {
     title: "Próximos Eventos | Colegio Senda",
     description:

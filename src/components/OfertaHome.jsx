@@ -66,7 +66,12 @@ function OfertaHome() {
                 </div>
               </div>
             </Link>
-            <img src={item.img} alt={item.alt} loading="lazy" />
+            <img
+              src={item.img}
+              alt={item.alt}
+              className="mt-auto w-full object-contain object-bottom"
+              loading="lazy"
+            />
           </div>
         ))}
         </div>

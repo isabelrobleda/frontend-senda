@@ -5,6 +5,7 @@ import Blog2 from "../assets/elecciones.png";
 import Blog1 from "../assets/blog01.png";
 import Blog4 from "../assets/blog/blog-4-min.jpeg";
 import Blog5 from "../assets/blog/logo-paz-senda.png";
+import Blog6 from "../assets/blog/blog-6-ingles.jpg";
 
 function CardsNosotros() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -132,6 +133,15 @@ function CardsNosotros() {
 }
 
 const cardsData = [
+  {
+    image: Blog6,
+    alt: "Alumno del Colegio Senda programando un robot con un iPad",
+    author: "Mónica Sánchez Gavito",
+    title: "¿A qué edad debe empezar el inglés?",
+    description:
+      "Es la pregunta que más escuchamos de las familias que nos visitan. La respuesta corta: antes de lo que crees. Los primeros seis años son la ventana que no vuelve a abrirse igual.",
+    link: "/blog-6",
+  },
   {
     image: Blog5,
     alt: "peace-logo-picture",

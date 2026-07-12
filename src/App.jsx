@@ -36,6 +36,7 @@ import Blog2 from "./pages/VidaSenda/Blog2";
 import Blog3 from "./pages/VidaSenda/Blog3";
 import Blog4 from "./pages/VidaSenda/Blog4";
 import Blog5 from "./pages/VidaSenda/Blog5";
+import Blog6 from "./pages/VidaSenda/Blog6";
 import CEFRFramework from "./pages/Nosotros/CEFRFramework"
 import CompetenciasUNESCO from "./pages/Nosotros/CompetenciasUNESCO"
 import NotFound from "./pages/NotFound";
@@ -81,6 +82,7 @@ function App() {
           <Route path="/blog-3" element={<Blog3 />} />
           <Route path="/blog-4" element={<Blog4 />} />
           <Route path="/blog-5" element={<Blog5 />} />
+          <Route path="/blog-6" element={<Blog6 />} />
           <Route path="/proximos-eventos" element={<ProximosEventos />} />
           <Route path="/proyecto-mundial-2026" element={<ProyectoMundial />} />
           <Route path="/contacto" element={<Contacto />} />
