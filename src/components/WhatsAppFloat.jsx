@@ -1,15 +1,7 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
 import { waLink, trackWhatsAppClick } from "./WhatsAppButton";
 
-// Colegiaturas queda sin botón hasta tener la aprobación de dirección
-const HIDDEN_ROUTES = ["/colegiaturas"];
-
 function WhatsAppFloat() {
-  const { pathname } = useLocation();
-
-  if (HIDDEN_ROUTES.includes(pathname)) return null;
-
   return (
     <a
       href={waLink("Hola, me gustaría agendar una visita al Colegio Senda.")}
