@@ -11,6 +11,9 @@ export function trackWhatsAppClick(source) {
   if (typeof window !== "undefined" && typeof window.gtag === "function") {
     window.gtag("event", "whatsapp_click", { source });
   }
+  if (typeof window !== "undefined" && typeof window.fbq === "function") {
+    window.fbq("track", "Contact", { source });
+  }
 }
 
 function WhatsAppButton({ message, source, className = "", children }) {

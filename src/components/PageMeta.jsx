@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 
 const SITE_URL = "https://colegiosenda.edu.mx";
@@ -154,6 +154,7 @@ function setTag(selector, attribute, value) {
 
 function PageMeta() {
   const { pathname } = useLocation();
+  const isFirstRoute = useRef(true);
 
   useEffect(() => {
     const meta = META[pathname] || DEFAULT_META;
@@ -165,6 +166,13 @@ function PageMeta() {
     setTag('meta[property="og:title"]', "content", meta.title);
     setTag('meta[property="og:description"]', "content", meta.description);
     setTag('meta[property="og:url"]', "content", url);
+
+    // Meta Pixel: PageView en cada cambio de ruta de la SPA (el inicial lo
+    // dispara index.html). No hace nada mientras el píxel no esté activo.
+    if (typeof window.fbq === "function" && !isFirstRoute.current) {
+      window.fbq("track", "PageView");
+    }
+    isFirstRoute.current = false;
   }, [pathname]);
 
   return null;
