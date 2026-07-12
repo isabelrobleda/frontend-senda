@@ -67,7 +67,7 @@ function ProximosEventos() {
                   Próximos
                 </span>
                 <span className="text-[#1e1e1e] text-[24px] md:text-[57px] font-semibold font-pangea leading-[30px] md:leading-[68px]">
-                  <img src={Group88} alt="image 1" className="inline-block mx-1 md:mx-2 h-8 md:h-14 "
+                  <img src={Group88} alt="" className="inline-block mx-1 md:mx-2 h-8 md:h-14 "
               loading="lazy"
             />
                 </span>

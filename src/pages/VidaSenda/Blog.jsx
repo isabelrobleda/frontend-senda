@@ -33,7 +33,7 @@ function Blog() {
                   <span style={{ display: "inline-block" }}></span>
                   <img
                     src={Group86}
-                    alt="image 1"
+                    alt=""
                     className="inline-block mx-1 md:mx-2 h-10 md:h-16"
               loading="lazy"
             />

@@ -30,7 +30,7 @@ function Colegiaturas() {
                   Una <span style={{ display: "inline-block" }}></span>
                   <img
                     src={Group87}
-                    alt="image 2"
+                    alt=""
                     className="inline-block mx-1 md:mx-2 md:h-14 h-10"
               loading="lazy"
             />

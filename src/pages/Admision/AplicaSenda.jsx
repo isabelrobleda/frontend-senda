@@ -132,7 +132,7 @@ function AplicaSenda() {
         <div className="self-center justify-center items-start gap-8 flex flex-col md:flex-row">
           <div className=" justify-start items-center flex">
             <div className="grow shrink basis-0 p-6 rounded-[20px]  flex-col justify-start items-center gap-6 md:gap-14 inline-flex">
-              <div className="w-full md:w-[904px] text-center">
+              <h1 className="w-full md:w-[904px] text-center">
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   Somos una{" "}
                 </span>
@@ -141,7 +141,7 @@ function AplicaSenda() {
                   <span style={{ display: "inline-block" }}></span>
                   <img
                     src={Group87}
-                    alt="image 2"
+                    alt=""
                     className="inline-block mx-1 md:mx-2 h-14"
                     loading="lazy"
                   />
@@ -155,7 +155,7 @@ function AplicaSenda() {
                   <span style={{ display: "inline-block" }}></span>
                   <img
                     src={Group86}
-                    alt="image 2"
+                    alt=""
                     className="inline-block mx-1 md:mx-2 h-14"
                     loading="lazy"
                   />
@@ -176,7 +176,7 @@ function AplicaSenda() {
                   <span style={{ display: "inline-block" }}></span>
                   <img
                     src={Group88}
-                    alt="image 2"
+                    alt=""
                     className="inline-block mx-1 md:mx-2 h-14"
                     loading="lazy"
                   />
@@ -187,7 +187,7 @@ function AplicaSenda() {
                 <span className="text-[#1e1e1e] text-[32px] md:text-[57px] font-semibold font-pangea leading-[38.40px] md:leading-[68.40px]">
                   alumno.
                 </span>
-              </div>
+              </h1>
             </div>
           </div>
         </div>

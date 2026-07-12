@@ -51,9 +51,9 @@ function PlaneaVisita() {
             <div className="h-auto w-full max-w-screen-xl flex flex-col lg:flex-row md:justify-start items-center gap-8 mt-20">
               <div className="flex-grow flex flex-col justify-start items-center gap-8 text-center lg:text-left">
                 <div className="flex flex-col justify-start items-start gap-6">
-                  <div className="text-[#1e1e1e] text-[40px] md:text-[57px] font-semibold font-pangea leading-tight">
+                  <h1 className="text-[#1e1e1e] text-[40px] md:text-[57px] font-semibold font-pangea leading-tight">
                     Planea tu visita
-                  </div>
+                  </h1>
                   <div className="text-[#757575] text-left   text-lg md:text-2xl font-semibold font-['Inter'] leading-tight">
                     Conoce nuestras instalaciones y descubre cómo aprenden
                     nuestros alumnos

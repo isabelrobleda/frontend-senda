@@ -40,9 +40,9 @@ function Preescolar() {
 
           <div className="relative max-w-screen-xl flex flex-col md:flex-row justify-between items-center gap-8 z-10">
             <div className="flex flex-col justify-start items-start gap-8 text-left">
-              <div className="text-[#1e1e1e] md:pt-0 pt-8 text-[2.5rem] md:text-[3.5rem] font-semibold leading-tight">
+              <h1 className="text-[#1e1e1e] md:pt-0 pt-8 text-[2.5rem] md:text-[3.5rem] font-semibold leading-tight">
                 Preescolar
-              </div>
+              </h1>
               <div className="  text-[#757575] text-lg md:text-2xl font-semibold leading-snug">
                 Ofrecemos un entorno bilingüe y estimulante que integra
                 tecnología y cultura del pensamiento, promoviendo habilidades
@@ -133,7 +133,7 @@ function Preescolar() {
             <span style={{ display: "inline-block" }}></span>
             <img
               src={QuoteImg1}
-              alt="image 1"
+              alt=""
               className="md:inline-block mx-2 h-12 rounded-3xl hidden"
               loading="lazy"
             />
@@ -141,7 +141,7 @@ function Preescolar() {
             <span style={{ display: "inline-block" }}></span>
             <img
               src={QuoteImg2}
-              alt="image 2"
+              alt=""
               className="md:inline-block h-12 mx-2 hidden"
               loading="lazy"
             />
@@ -150,7 +150,7 @@ function Preescolar() {
             <span style={{ display: "inline-block" }}></span>
             <img
               src={QuoteImg3}
-              alt="image 3"
+              alt=""
               className="hidden md:inline-block h-12 mx-2 my-2"
               loading="lazy"
             />

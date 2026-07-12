@@ -2,8 +2,8 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import { waLink, trackWhatsAppClick } from "./WhatsAppButton";
 
-// Inicio y Colegiaturas quedan sin botón hasta tener la aprobación de dirección
-const HIDDEN_ROUTES = ["/", "/colegiaturas"];
+// Colegiaturas queda sin botón hasta tener la aprobación de dirección
+const HIDDEN_ROUTES = ["/colegiaturas"];
 
 function WhatsAppFloat() {
   const { pathname } = useLocation();
