@@ -503,13 +503,13 @@ function AplicaSenda() {
                   </div>
                 </div>
               </div>
-              <a href="https://wa.me/525556832060">
+              <WhatsAppButton source="aplica_contact">
                 <div className="px-6 py-3 bg-[#009bce] hover:bg-[#007cae] rounded-2xl justify-center items-center gap-2 inline-flex">
                   <div className="text-[#f2f2f2] text-base font-medium font-['Roboto'] leading-normal tracking-tight">
                     Chatear en Whatsapp
                   </div>
                 </div>
-              </a>
+              </WhatsAppButton>
             </div>
             <div className="w-full md:w-[350px] px-6 py-12 bg-white rounded-[10px] shadow-sm border border-[#e4e4de] flex-col justify-start items-center gap-6 inline-flex">
               <div className="self-stretch flex-col justify-start items-center gap-4 flex">
