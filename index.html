@@ -55,33 +55,6 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
-  <!-- Meta Pixel: pega el ID del píxel (solo números) entre las comillas
-         de META_PIXEL_ID para activarlo. Mientras esté vacío no hace nada. -->
-  <script>
-    window.META_PIXEL_ID = "";
-    if (window.META_PIXEL_ID) {
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod
-            ? n.callMethod.apply(n, arguments)
-            : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
-      fbq("init", window.META_PIXEL_ID);
-      fbq("track", "PageView");
-    }
-  </script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-75E2WVQQ39"></script>
   <script>
