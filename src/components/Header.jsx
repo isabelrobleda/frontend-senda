@@ -180,6 +180,7 @@ function Header() {
                 <Link to="/blog">
                   <li className="p-2 hover:bg-neutral-100">Blog</li>
                 </Link>
+                {/* Ocultado temporalmente: Próximos Eventos, Proyecto Mundial 2026 y Curso de Verano
                 <Link to="/proximos-eventos">
                   <li className="p-2 hover:bg-neutral-100">Próximos Eventos</li>
                 </Link>
@@ -189,6 +190,7 @@ function Header() {
                 <Link to="/curso-de-verano">
                   <li className="p-2 hover:bg-neutral-100">Curso de Verano</li>
                 </Link>
+                */}
               </ul>
             </div>
           </div>
@@ -445,6 +447,7 @@ function Header() {
                 <Link to="/blog" onClick={closeMenu}>
                   <li className="p-2 hover:bg-neutral-100">Blog</li>
                 </Link>
+                {/* Ocultado temporalmente: Próximos Eventos, Proyecto Mundial 2026 y Curso de Verano
                 <Link to="/proximos-eventos" onClick={closeMenu}>
                   <li className="p-2 hover:bg-neutral-100">Próximos Eventos</li>
                 </Link>
@@ -454,6 +457,7 @@ function Header() {
                 <Link to="/curso-de-verano" onClick={closeMenu}>
                   <li className="p-2 hover:bg-neutral-100">Curso de Verano</li>
                 </Link>
+                */}
                 </ul>
               </div>
             )}

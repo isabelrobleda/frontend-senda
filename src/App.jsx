@@ -23,9 +23,9 @@ import Colegiaturas from "./pages/Admision/Colegiaturas";
 import PlaneaVisita from "./pages/Admision/PlaneaVisita";
 import ProcesoAdmision from "./pages/Admision/ProcesoAdmision";
 import Blog from "./pages/VidaSenda/Blog";
-import CursoDeVerano from "./pages/VidaSenda/CursoDeVerano";
-import ProximosEventos from "./pages/VidaSenda/ProximosEventos";
-import ProyectoMundial from "./pages/VidaSenda/ProyectoMundial";
+// import CursoDeVerano from "./pages/VidaSenda/CursoDeVerano"; // ocultado temporalmente
+// import ProximosEventos from "./pages/VidaSenda/ProximosEventos"; // ocultado temporalmente
+// import ProyectoMundial from "./pages/VidaSenda/ProyectoMundial"; // ocultado temporalmente
 import AvisoPrivacidad from "./pages/AvisoPrivacidad";
 import Contacto from "./pages/Contacto";
 import Blog1 from "./pages/VidaSenda/Blog1";
@@ -75,7 +75,7 @@ function App() {
           <Route path="/colegiaturas" element={<Colegiaturas />} />
           <Route path="/planea-tu-visita" element={<PlaneaVisita />} />
           <Route path="/proceso-de-admision" element={<ProcesoAdmision />} />
-          <Route path="/curso-de-verano" element={<CursoDeVerano />} />
+          {/* <Route path="/curso-de-verano" element={<CursoDeVerano />} /> */}
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog-1" element={<Blog1 />} />
           <Route path="/blog-2" element={<Blog2 />} />
@@ -83,8 +83,8 @@ function App() {
           <Route path="/blog-4" element={<Blog4 />} />
           <Route path="/blog-5" element={<Blog5 />} />
           <Route path="/blog-6" element={<Blog6 />} />
-          <Route path="/proximos-eventos" element={<ProximosEventos />} />
-          <Route path="/proyecto-mundial-2026" element={<ProyectoMundial />} />
+          {/* <Route path="/proximos-eventos" element={<ProximosEventos />} /> */}
+          {/* <Route path="/proyecto-mundial-2026" element={<ProyectoMundial />} /> */}
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/aviso-de-privacidad" element={<AvisoPrivacidad />} />
           <Route path="*" element={<NotFound />} />
