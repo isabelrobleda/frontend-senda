@@ -11,15 +11,16 @@ import WhatsAppButton from "../../components/WhatsAppButton";
 import QuestionsCTA from "../../components/QuestionsCTA";
 
 const EXPERIENCIA_SENDA_FECHAS = [
-  "18 de septiembre",
-  "23 de octubre",
-  "13 de noviembre",
-  "22 de enero",
-  "12 de febrero",
-  "19 de marzo",
-  "23 de abril",
-  "21 de mayo",
-  "18 de junio",
+  "24 de septiembre",
+  "22 de octubre",
+  "12 de noviembre",
+  "3 de diciembre",
+  "14 de enero",
+  "11 de febrero",
+  "11 de marzo",
+  "15 de abril",
+  "13 de mayo",
+  "10 de junio",
 ];
 
 const EXPERIENCIA_SENDA_HORARIO = "8:45 - 10:30";
