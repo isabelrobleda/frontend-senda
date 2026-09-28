@@ -131,6 +131,11 @@ const META = {
     description:
       "Calendario de eventos del Colegio Senda: Experiencia Senda, festivales y actividades para familias en Olivar de los Padres.",
   },
+  "/proyecto-cerebro-y-aprendizaje": {
+    title: "Proyecto Cerebro y Aprendizaje | Colegio Senda",
+    description:
+      "¿Cómo funciona mi cerebro cuando aprendo? Proyecto interdisciplinario 2026-2027 del Colegio Senda: neurociencia, movimiento, alimentación, bienestar y sueño, con una guía práctica para las familias.",
+  },
   "/proyecto-mundial-2026": {
     title: "Proyecto Mundial 2026 | Colegio Senda",
     description:

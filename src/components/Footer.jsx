@@ -137,6 +137,9 @@ function Footer() {
             <div className="text-[#f2f2f2] text-base font-light font-['Inter'] leading-snug hover:underline">
               <Link to="/blog">Blog</Link>
             </div>
+            <div className="text-[#f2f2f2] text-base font-light font-['Inter'] leading-snug hover:underline">
+              <Link to="/proyecto-cerebro-y-aprendizaje">Proyecto Cerebro y Aprendizaje</Link>
+            </div>
             {/* Ocultado temporalmente: Próximos Eventos y Proyecto Mundial 2026
             <div className="text-[#f2f2f2] text-base font-light font-['Inter'] leading-snug hover:underline">
               <Link to="/proximos-eventos">Próximos Eventos</Link>

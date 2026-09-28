@@ -26,6 +26,7 @@ import Blog from "./pages/VidaSenda/Blog";
 // import CursoDeVerano from "./pages/VidaSenda/CursoDeVerano"; // ocultado temporalmente
 // import ProximosEventos from "./pages/VidaSenda/ProximosEventos"; // ocultado temporalmente
 // import ProyectoMundial from "./pages/VidaSenda/ProyectoMundial"; // ocultado temporalmente
+import ProyectoCerebro from "./pages/VidaSenda/ProyectoCerebro";
 import AvisoPrivacidad from "./pages/AvisoPrivacidad";
 import Contacto from "./pages/Contacto";
 import Blog1 from "./pages/VidaSenda/Blog1";
@@ -85,6 +86,7 @@ function App() {
           <Route path="/blog-6" element={<Blog6 />} />
           {/* <Route path="/proximos-eventos" element={<ProximosEventos />} /> */}
           {/* <Route path="/proyecto-mundial-2026" element={<ProyectoMundial />} /> */}
+          <Route path="/proyecto-cerebro-y-aprendizaje" element={<ProyectoCerebro />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/aviso-de-privacidad" element={<AvisoPrivacidad />} />
           <Route path="*" element={<NotFound />} />

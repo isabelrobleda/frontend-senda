@@ -180,6 +180,9 @@ function Header() {
                 <Link to="/blog">
                   <li className="p-2 hover:bg-neutral-100">Blog</li>
                 </Link>
+                <Link to="/proyecto-cerebro-y-aprendizaje">
+                  <li className="p-2 hover:bg-neutral-100">Proyecto Cerebro y Aprendizaje</li>
+                </Link>
                 {/* Ocultado temporalmente: Próximos Eventos, Proyecto Mundial 2026 y Curso de Verano
                 <Link to="/proximos-eventos">
                   <li className="p-2 hover:bg-neutral-100">Próximos Eventos</li>
@@ -446,6 +449,9 @@ function Header() {
                 <ul>
                 <Link to="/blog" onClick={closeMenu}>
                   <li className="p-2 hover:bg-neutral-100">Blog</li>
+                </Link>
+                <Link to="/proyecto-cerebro-y-aprendizaje" onClick={closeMenu}>
+                  <li className="p-2 hover:bg-neutral-100">Proyecto Cerebro y Aprendizaje</li>
                 </Link>
                 {/* Ocultado temporalmente: Próximos Eventos, Proyecto Mundial 2026 y Curso de Verano
                 <Link to="/proximos-eventos" onClick={closeMenu}>
