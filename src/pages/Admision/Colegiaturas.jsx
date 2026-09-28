@@ -74,7 +74,7 @@ function Colegiaturas() {
         <div className="max-w-screen-xl w-full mx-auto p-8 md:p-16 flex flex-col justify-start items-center gap-16">
           <div className="w-full text-center flex-col justify-start items-center gap-2">
             <div className="text-[#1e1e1e] text-2xl font-semibold font-['Inter'] mb-3">
-              Colegiaturas 2025/2026
+              Colegiaturas 2026/2027
             </div>
             <div className="text-[#757575] text-base font-normal font-['Inter']">
               Transferencia Bancaria, Cheque, Tarjeta de crédito o débito
@@ -88,20 +88,20 @@ function Colegiaturas() {
                 Maternal
               </div>
               <p className="text-[#b3b3b3] text-base font-semibold pb-[8px]">
-                Cuota ciclo escolar 2025-2026
+                Cuota ciclo escolar 2026-2027
               </p>
               <ul className="ml-5">
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Inscripción: $7,150
+                  Inscripción: $7,750
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Reinscripción: $7,150
+                  Reinscripción: $7,750
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Cuota Familiar: $2,000
+                  Cuota Familiar: $2,150
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1 font-semibold">
-                  Colegiatura 10 meses: $7,150
+                  Colegiatura 10 meses: $7,750
                 </li>
               </ul>
             </div>
@@ -111,20 +111,20 @@ function Colegiaturas() {
                 Preescolar
               </div>
               <p className="text-[#b3b3b3] text-base font-semibold pb-[8px]">
-                Cuota ciclo escolar 2025-2026
+                Cuota ciclo escolar 2026-2027
               </p>
               <ul className="ml-5">
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Inscripción: $17,950
+                  Inscripción: $18,950
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Reinscripción: $17,500
+                  Reinscripción: $18,450
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Cuota Familiar: $2,000
+                  Cuota Familiar: $2,150
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1 font-semibold">
-                  Colegiatura 10 meses: $9,100
+                  Colegiatura 10 meses: $9,750
                 </li>
               </ul>
             </div>
@@ -134,20 +134,20 @@ function Colegiaturas() {
                 Preprimaria
               </div>
               <p className="text-[#b3b3b3] text-base font-semibold pb-[8px]">
-                Cuota ciclo escolar 2025-2026
+                Cuota ciclo escolar 2026-2027
               </p>
               <ul className="ml-5">
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Inscripción: $19,950
+                  Inscripción: $21,250
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Reinscripción: $19,950
+                  Reinscripción: $20,250
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1">
-                  Cuota Familiar: $2,000
+                  Cuota Familiar: $2,150
                 </li>
                 <li className="text-[#757575] text-base list-disc py-1 font-semibold">
-                  Colegiatura 10 meses: $11,200
+                  Colegiatura 10 meses: $11,950
                 </li>
               </ul>
             </div>
@@ -161,20 +161,20 @@ function Colegiaturas() {
                   Primaria
                 </div>
                 <p className="text-[#b3b3b3] text-base font-semibold pb-[8px]">
-                  Cuota ciclo escolar 2025-2026
+                  Cuota ciclo escolar 2026-2027
                 </p>
                 <ul className="ml-5">
                   <li className="text-[#757575] text-base list-disc py-1">
                     Inscripción: $27,200
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1">
-                    Reinscripción: $23,100
+                    Reinscripción: $23,950
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1">
-                    Cuota Familiar: $2,000
+                    Cuota Familiar: $2,150
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1 font-semibold">
-                    Colegiatura 10 meses: $14,350
+                    Colegiatura 10 meses: $15,450
                   </li>
                 </ul>
               </div>
@@ -184,20 +184,20 @@ function Colegiaturas() {
                   Secundaria
                 </div>
                 <p className="text-[#b3b3b3] text-base font-semibold pb-[8px]">
-                  Cuota ciclo escolar 2025-2026
+                  Cuota ciclo escolar 2026-2027
                 </p>
                 <ul className="ml-5">
                   <li className="text-[#757575] text-base list-disc py-1">
                     Inscripción: $17,800
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1">
-                    Reinscripción: $16,650
+                    Reinscripción: $17,800
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1">
-                    Cuota Familiar: $2,000
+                    Cuota Familiar: $2,150
                   </li>
                   <li className="text-[#757575] text-base list-disc py-1 font-semibold">
-                    Colegiatura 11 meses: $14,850
+                    Colegiatura 11 meses: $15,950
                   </li>
                 </ul>
               </div>
