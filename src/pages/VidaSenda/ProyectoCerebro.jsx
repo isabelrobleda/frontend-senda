@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import HeroBackground from "../../assets/deportes/main-background.png";
+import HeartBrainImg from "../../assets/cerebro/heart-brain.png";
 import PhotoAula from "../../assets/primaria/Primary-02.png";
 import PhotoMovimiento from "../../assets/psicomotricidad.jpeg";
 import WhatsAppButton from "../../components/WhatsAppButton";
@@ -556,32 +556,37 @@ function ProyectoCerebro() {
     <div className="w-full">
 
       {/* Hero */}
-      <div className="relative w-full min-h-[70vh] flex justify-center items-center px-4 md:px-16 py-32 overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img src={HeroBackground} className="w-full h-full object-cover" alt="alumnos del Colegio Senda" />
-          <div className="absolute inset-0 bg-[#1e1e1e]/60" />
-        </div>
-        <div className="relative z-10 flex flex-col items-center text-center gap-6 max-w-4xl">
-          <span className="px-4 py-1 rounded-full bg-[#b0cb4f]/20 text-[#b0cb4f] text-sm font-semibold font-['Inter'] tracking-widest uppercase">
-            Proyecto interdisciplinario · Ciclo escolar 2026–2027
-          </span>
-          <h1 className="text-white text-[36px] md:text-[64px] font-semibold font-pangea leading-tight">
-            ¿Cómo funciona mi cerebro cuando aprendo?
-          </h1>
-          <p className="text-2xl md:text-3xl font-semibold font-pangea text-[#b0cb4f]">
-            Heart &amp; Brain
-          </p>
-          <p className="text-white/80 text-base md:text-lg font-['Inter'] max-w-2xl leading-relaxed">
-            Una invitación a las familias: cinco pilares para cuidar el cerebro que aprende.
-            Sentimos · Pensamos · Aprendemos · Crecemos juntos.
-          </p>
-          <div className="flex flex-wrap justify-center gap-3 mt-2">
-            {pillars.map((p) => (
-              <div key={p.key} className="flex items-center gap-2 px-4 py-2 bg-white/10 rounded-full text-white text-sm font-['Inter']">
-                <span>{p.icon}</span>
-                <span>{p.title}</span>
-              </div>
-            ))}
+      <div className="w-full pt-32 md:pt-40 pb-16 md:pb-24 px-4 md:px-16 bg-white flex justify-center">
+        <div className="w-full max-w-[1440px] grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+          <div className="flex flex-col items-start text-left gap-6 order-2 md:order-1">
+            <span className="px-4 py-1 rounded-full bg-[#b0cb4f]/20 text-[#7a9a1f] text-sm font-semibold font-['Inter'] tracking-widest uppercase">
+              Proyecto interdisciplinario · Ciclo escolar 2026–2027
+            </span>
+            <h1 className="text-[#1e1e1e] text-[2.5rem] md:text-[3.5rem] font-semibold font-pangea leading-tight">
+              ¿Cómo funciona mi cerebro cuando aprendo?
+            </h1>
+            <p className="text-2xl md:text-3xl font-semibold font-pangea text-[#009bce]">
+              Heart &amp; Brain
+            </p>
+            <p className="text-[#757575] text-base md:text-lg font-['Inter'] max-w-xl leading-relaxed">
+              Una invitación a las familias: cinco pilares para cuidar el cerebro que aprende.
+              Sentimos · Pensamos · Aprendemos · Crecemos juntos.
+            </p>
+            <div className="flex flex-wrap gap-3 mt-2">
+              {pillars.map((p) => (
+                <div key={p.key} className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold font-['Inter']" style={{ backgroundColor: p.light, color: p.color }}>
+                  <span>{p.icon}</span>
+                  <span>{p.title}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="flex justify-center order-1 md:order-2">
+            <img
+              src={HeartBrainImg}
+              alt="Heart & Brain: corazón y mente trabajando juntos"
+              className="w-full max-w-md md:max-w-xl h-auto"
+            />
           </div>
         </div>
       </div>
