@@ -211,12 +211,6 @@ const pillars = [
   },
 ];
 
-const stats = [
-  { value: "18%", desc: "del tiempo despierto de un niño transcurre en el colegio. El otro 82% ocurre con ustedes.", color: "#009bce" },
-  { value: "86 mil M", desc: "de neuronas que se conectan —o se podan— según lo que el niño repite todos los días.", color: "#b0cb4f" },
-  { value: "20%", desc: "de toda la energía del cuerpo la consume el cerebro. Lo que desayuna, lo alimenta.", color: "#009bce" },
-];
-
 const journey = [
   { title: "Investigo", desc: "Muro de preguntas, documentales y su primer experimento de atención." },
   { title: "Mapeo", desc: "Miden su rendimiento antes y después de moverse. Registran lo que desayunan." },
@@ -610,24 +604,6 @@ function ProyectoCerebro() {
         </div>
       </div>
 
-      {/* Stats */}
-      <div className="w-full px-4 md:px-16 py-16 md:py-24 bg-[#f9f9fe] flex flex-col items-center gap-12">
-        <div className="w-full max-w-[1440px] flex flex-col items-center gap-10">
-          <SectionTitle eyebrow="Por qué convocamos a las familias" title="El colegio enseña. La casa consolida." />
-          <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6">
-            {stats.map((s) => (
-              <div key={s.value} className="p-8 bg-white rounded-2xl border border-[#e4e4de] flex flex-col gap-3">
-                <p className="text-4xl md:text-5xl font-bold font-pangea" style={{ color: s.color }}>{s.value}</p>
-                <p className="text-[#757575] text-base font-['Inter'] leading-relaxed">{s.desc}</p>
-              </div>
-            ))}
-          </div>
-          <p className="text-[#1e1e1e] text-base md:text-lg font-['Inter'] italic text-center max-w-3xl">
-            Ningún proyecto escolar cambia un hábito por sí solo. Lo que se practica en el aula y se repite en casa es lo único que el cerebro guarda.
-          </p>
-        </div>
-      </div>
-
       {/* Five pillars */}
       <div className="w-full px-4 md:px-16 py-16 md:py-24 bg-white flex flex-col items-center gap-12">
         <div className="w-full max-w-[1440px] flex flex-col items-center gap-10">
@@ -697,7 +673,7 @@ function ProyectoCerebro() {
             <div>
               <span className="text-[#009bce] text-xs font-semibold font-['Inter'] tracking-widest uppercase">Cómo trabajamos juntos</span>
               <h2 className="text-[#1e1e1e] text-2xl md:text-3xl font-semibold font-pangea mt-2">
-                Lo que hace el colegio, lo que hace la casa
+                El colegio enseña. La casa consolida.
               </h2>
             </div>
             <div className="flex flex-col gap-6">
@@ -734,17 +710,6 @@ function ProyectoCerebro() {
                 <p className="text-[#757575] text-sm font-['Inter'] leading-snug">{j.desc}</p>
               </div>
             ))}
-          </div>
-          <div className="w-full p-6 md:p-8 rounded-2xl text-white flex flex-col md:flex-row gap-6 items-start" style={{ backgroundColor: "#009bce" }}>
-            <span className="text-4xl">📖</span>
-            <div className="flex flex-col gap-2">
-              <p className="text-lg md:text-xl font-semibold font-pangea">
-                El producto final: “Manual para Aprender, Crecer y Trascender”
-              </p>
-              <p className="text-sm md:text-base font-['Inter'] text-white/90 leading-relaxed">
-                Escrito e ilustrado por los propios alumnos, con evidencia científica. Incluye una guía de desayunos, un protocolo de bienestar para el aula, hábitos del buen aprendiz y una sección dedicada a las familias: cómo apoyar el aprendizaje desde casa.
-              </p>
-            </div>
           </div>
         </div>
       </div>
